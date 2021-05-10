@@ -1,17 +1,11 @@
 {
     "adform": {
-        "SA": 0.9
-    },
-    "adform": {
+        "SA": 0.9,
         "AS": 0.9
     },
     "conversant": {
-        "AF": 0.9
-    },
-    "conversant": {
-        "SA": 0.9
-    },
-    "conversant": {
+        "AF": 0.9,
+        "SA": 0.9,
         "AS": 0.9
     }
 }
