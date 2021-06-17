@@ -2,71 +2,63 @@
     "adform": {
         "AF": {
             "default": 0.05,
-            "AA": 1.0,
-            "GP": 1.0,
-            "KZN": 1.0,
-            "LA": 1.0,
-            "WC": 1.0
+            "GH": {
+                "default": 1,
+                "null": 1.0
+            },
+            "NG": {
+                "default": 1,
+                "null": 1.0
+            }
         },
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "AN": {
-                "default": 0.05,
-                "ES": 1.0
-            },
-            "ARA": {
-                "default": 0.05,
-                "FR": 1.0
-            },
-            "B": 0.05,
-            "BRU": {
-                "default": 0.05,
-                "BE": 1.0
-            },
-            "GE": {
+            "BE": {
                 "default": 1,
-                "NL": 0.05
+                "null": 0.05,
+                "BRU": 1.0,
+                "VLG": 1.0
             },
-            "HDF": {
-                "default": 0.05,
-                "FR": 1.0
+            "ES": {
+                "default": 1,
+                "null": 0.05,
+                "AN": 1.0,
+                "CT": 1.0,
+                "MD": 1.0,
+                "VC": 1.0
             },
-            "IDF": {
-                "default": 0.05,
-                "FR": 1.0
+            "FR": {
+                "default": 1,
+                "null": 0.05,
+                "ARA": 1.0,
+                "HDF": 1.0,
+                "IDF": 1.0
             },
-            "MD": {
-                "default": 0.05,
-                "ES": 1.0
+            "GR": {
+                "default": 1,
+                "null": 0.05
             },
-            "NH": {
-                "default": 0.05,
-                "NL": 1.0
+            "NL": {
+                "default": 1,
+                "null": 0.05,
+                "GE": 1.0,
+                "NB": 1.0,
+                "NH": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
             },
-            "UT": {
-                "default": 0.05,
-                "NL": 1.0
-            },
-            "VC": {
-                "default": 0.05,
-                "ES": 1.0
-            },
-            "VLG": {
-                "default": 0.05,
-                "BE": 1.0
+            "RO": {
+                "default": 1,
+                "null": 0.05
             }
         },
         "NA": {
             "default": 0.05,
-            "CA": 1.0,
-            "FL": 1.0,
-            "IL": 1.0,
-            "NY": 1.0,
-            "ON": 1.0,
-            "PA": 1.0,
-            "TX": 1.0,
-            "VA": 1.0
+            "CA": {
+                "default": 1,
+                "null": 1.0
+            }
         },
         "OC": 0.05
     },
@@ -74,138 +66,60 @@
         "SA": 0.05,
         "AF": 0.05,
         "AS": 0.05,
-        "EU": {
-            "default": 0.05,
-            "ZH": 1.0
-        }
+        "EU": 0.05
     },
     "appnexus": {
         "NA": {
             "default": 1,
-            "AB": {
-                "default": 0.05,
-                "CA": 1.0
+            "CA": {
+                "default": 1,
+                "null": 0.05,
+                "AB": 1.0,
+                "BC": 1.0,
+                "MB": 1.0,
+                "NS": 1.0,
+                "ON": 1.0,
+                "QC": 1.0,
+                "SK": 1.0
             },
-            "AL": {
-                "default": 0.05,
-                "US": 1.0
+            "CR": {
+                "default": 1,
+                "null": 0.05
             },
-            "BC": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "CMX": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "HI": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "ID": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "IN": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "JAL": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "LA": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "MB": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "ME": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "MEX": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "MN": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "MS": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "NC": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "NE": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "NH": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "NLE": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "NS": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "OH": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "ON": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "OR": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "QC": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "SK": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "TN": 0.05
+            "MX": {
+                "default": 1,
+                "null": 0.05,
+                "CMX": 1.0,
+                "JAL": 1.0,
+                "MEX": 1.0,
+                "NLE": 1.0
+            }
         },
         "AF": {
             "default": 1,
-            "30": {
-                "default": 0.05,
-                "KE": 1.0
+            "GH": {
+                "default": 1,
+                "null": 0.05,
+                "AA": 1.0
             },
-            "AA": {
-                "default": 0.05,
-                "GH": 1.0
-            },
-            "LA": 0.05
+            "KE": {
+                "default": 1,
+                "null": 0.05,
+                "30": 1.0
+            }
         },
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "11": {
-                "default": 0.05,
-                "PT": 1.0
-            },
-            "13": {
-                "default": 0.05,
-                "PT": 1.0
-            },
-            "AB": {
+            "GR": {
                 "default": 1,
-                "SE": 1.0
+                "null": 0.05
+            },
+            "PT": {
+                "default": 1,
+                "null": 0.05,
+                "11": 1.0,
+                "13": 1.0
             }
         }
     },
@@ -214,14 +128,16 @@
         "AS": 0.05,
         "EU": {
             "default": 0.05,
-            "BE": 1.0,
-            "ENG": 1.0,
-            "SCT": 1.0
+            "CH": {
+                "default": 1,
+                "null": 1.0
+            },
+            "GB": {
+                "default": 1,
+                "null": 1.0
+            }
         },
-        "NA": {
-            "default": 0.05,
-            "CA": 1.0
-        },
+        "NA": 0.05,
         "OC": 0.05
     },
     "grid": {
@@ -229,20 +145,37 @@
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "11": 0.05,
-            "13": 0.05,
-            "B": 0.05
+            "CZ": {
+                "default": 1,
+                "null": 0.05
+            },
+            "GR": {
+                "default": 1,
+                "null": 0.05
+            },
+            "HU": {
+                "default": 1,
+                "null": 0.05
+            },
+            "PL": {
+                "default": 1,
+                "null": 0.05
+            },
+            "PT": {
+                "default": 1,
+                "null": 0.05
+            },
+            "RO": {
+                "default": 1,
+                "null": 0.05
+            }
         },
         "NA": {
             "default": 0.05,
-            "CA": 1.0,
-            "FL": 1.0,
-            "IL": 1.0,
-            "NY": 1.0,
-            "ON": 1.0,
-            "PA": 1.0,
-            "TX": 1.0,
-            "VA": 1.0
+            "CA": {
+                "default": 1,
+                "null": 1.0
+            }
         },
         "OC": 0.05
     },
@@ -250,100 +183,76 @@
         "SA": 0.05,
         "AF": {
             "default": 0.05,
-            "GP": 1.0,
-            "LA": 1.0,
-            "WC": 1.0
+            "NG": {
+                "default": 1,
+                "null": 1.0
+            }
         },
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "11": {
-                "default": 0.05,
-                "PT": 1.0
+            "DK": {
+                "default": 1,
+                "null": 0.05
             },
-            "18": 0.05,
-            "AN": {
-                "default": 0.05,
-                "ES": 1.0
+            "ES": {
+                "default": 1,
+                "null": 0.05,
+                "AN": 1.0,
+                "CT": 1.0,
+                "MD": 1.0,
+                "VC": 1.0
             },
-            "CT": {
-                "default": 0.05,
-                "ES": 1.0
+            "FI": {
+                "default": 1,
+                "null": 0.05
             },
-            "L": {
-                "default": 0.05,
-                "IE": 1.0
+            "IE": {
+                "default": 1,
+                "null": 0.05,
+                "L": 1.0
             },
-            "NB": {
-                "default": 0.05,
-                "NL": 1.0
+            "IT": {
+                "default": 1,
+                "null": 0.05
             },
-            "UT": {
-                "default": 0.05,
-                "NL": 1.0
+            "NL": {
+                "default": 1,
+                "NB": 0.05,
+                "UT": 0.05,
+                "ZH": 0.05
             },
-            "VC": {
-                "default": 0.05,
-                "ES": 1.0
+            "NO": {
+                "default": 1,
+                "null": 0.05
+            },
+            "PL": {
+                "default": 1,
+                "null": 0.05
+            },
+            "PT": {
+                "default": 1,
+                "null": 0.05,
+                "11": 1.0
+            },
+            "RO": {
+                "default": 1,
+                "null": 0.05
             }
         },
         "NA": {
             "default": 0.05,
-            "AB": 1.0,
-            "AL": 1.0,
-            "AZ": 1.0,
-            "BC": 1.0,
-            "CA": 1.0,
-            "CMX": 1.0,
-            "CO": 1.0,
-            "CT": {
-                "default": 1.0,
-                "US": 1.0
-            },
-            "FL": 1.0,
-            "GA": 1.0,
-            "IA": 1.0,
-            "IL": 1.0,
-            "IN": 1.0,
-            "KS": 1.0,
-            "KY": 1.0,
-            "LA": 1.0,
-            "MA": 1.0,
-            "MD": 1.0,
-            "MI": 1.0,
-            "MN": 1.0,
-            "MO": 1.0,
-            "NC": 1.0,
-            "NE": 1.0,
-            "NJ": 1.0,
-            "NM": 1.0,
-            "NV": 1.0,
-            "NY": 1.0,
-            "OH": 1.0,
-            "OK": 1.0,
-            "ON": 1.0,
-            "OR": 1.0,
-            "PA": 1.0,
-            "QC": 1.0,
-            "SC": 1.0,
-            "TN": 1.0,
-            "TX": 1.0,
-            "UT": {
-                "default": 1.0,
-                "US": 1.0
-            },
-            "VA": 1.0,
-            "WA": 1.0,
-            "WI": 1.0
+            "CA": {
+                "default": 1,
+                "null": 1.0
+            }
         },
         "OC": {
             "default": 0.05,
-            "AUK": 1.0,
-            "NSW": 1.0,
-            "QLD": 1.0,
-            "SA": 1.0,
-            "VIC": 1.0,
-            "WA": 1.0
+            "AU": {
+                "default": 1,
+                "null": 1.0
+            }
         }
     },
     "pubmatic": {
@@ -351,27 +260,21 @@
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "B": 0.05
+            "GR": {
+                "default": 1,
+                "null": 0.05
+            }
         },
         "NA": {
             "default": 1,
-            "CMX": {
-                "default": 0.05,
-                "MX": 1.0
+            "CA": {
+                "default": 1,
+                "MB": 0.05
             },
-            "JAL": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "MB": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "MEX": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "NLE": 0.05
+            "CR": {
+                "default": 1,
+                "null": 0.05
+            }
         },
         "OC": 0.05
     },
@@ -381,105 +284,88 @@
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "VC": 0.05
+            "ES": {
+                "default": 1,
+                "VC": 0.05
+            }
         },
-        "NA": {
-            "default": 1,
-            "FL": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "IL": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "NY": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "TX": 0.05
-        },
-        "OC": {
-            "default": 1,
-            "AUK": 0.05
-        }
+        "NA": 1,
+        "OC": 1
     },
     "sharethrough": {
         "SA": 0.05,
         "EU": {
             "default": 0.05,
-            "ENG": 1.0
-        }
+            "DE": {
+                "default": 1,
+                "null": 1.0
+            },
+            "ES": {
+                "default": 1,
+                "null": 1.0
+            },
+            "GB": {
+                "default": 1,
+                "null": 1.0
+            }
+        },
+        "NA": 1
     },
     "smartadserver": {
         "OC": 0.05,
-        "AF": {
-            "default": 0.05,
-            "GP": 1.0
-        },
+        "AF": 0.05,
         "AS": 0.05,
-        "NA": {
-            "default": 1,
-            "ON": 0.05
-        }
+        "NA": 1
     },
     "sovrn": {
         "OC": 0.05,
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "NB": {
-                "default": 0.05,
-                "NL": 1.0
-            },
-            "NH": {
-                "default": 0.05,
-                "NL": 1.0
+            "GR": {
+                "default": 1,
+                "null": 0.05
             }
         },
         "NA": {
             "default": 1,
-            "CMX": 0.05,
-            "DE": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "JAL": {
-                "default": 0.05,
-                "MX": 1.0
-            },
-            "LA": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "MB": {
-                "default": 0.05,
-                "CA": 1.0
-            },
-            "ME": {
-                "default": 0.05,
-                "US": 1.0
-            },
-            "MEX": 0.05,
-            "NH": {
+            "CA": {
                 "default": 1,
-                "US": 1.0
+                "MB": 0.05,
+                "NS": 0.05,
+                "SK": 0.05
             },
-            "NLE": 0.05,
-            "NS": {
-                "default": 0.05,
-                "CA": 1.0
+            "CR": {
+                "default": 1,
+                "null": 0.05
             },
-            "SK": 0.05
+            "MX": {
+                "default": 1,
+                "null": 0.05,
+                "JAL": 1.0
+            }
         }
     },
     "tappx": {
-        "SA": 0.05,
+        "SA": {
+            "default": 0.05,
+            "BR": {
+                "default": 1,
+                "null": 1.0
+            }
+        },
         "AF": 0.05,
         "AS": 0.05,
         "NA": {
             "default": 1,
-            "FL": 0.05
+            "CA": {
+                "default": 1,
+                "null": 0.05
+            },
+            "MX": {
+                "default": 1,
+                "null": 0.05
+            }
         },
         "OC": 0.05
     }
