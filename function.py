@@ -262,7 +262,7 @@ ORDER BY Bidder, Continent, Country, Region
         jsn[current_bidder] = filter_list.copy()
         
         
-        g = Github("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")
+        g = Github("{Github access token goes here}")
         repo = g.get_repo("t13s2s/config")
         contents = repo.get_contents("dynamic-filter-list.json", ref="main")
         git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(jsn, indent = 4), contents.sha, branch="main")
