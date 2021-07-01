@@ -58,7 +58,7 @@ def dynamic_filter_config_generate(event, context):
     target_time = dateutil.parser.parse(context.timestamp)
 
     query_request = """
-{SQL goes here, from ./dynamic-filter-query.sql}
+SQL goes here
     """
 
     #Run query
@@ -76,9 +76,11 @@ def dynamic_filter_config_generate(event, context):
         current_bidder = ''
         current_continent = ''
         current_country = ''
+        current_region = ''
         filter_list = {}
         continent_entry = {}
         country_entry = {}
+        region_entry = {}
 
         for row in results:
             if (row.Bidder != current_bidder):
@@ -100,8 +102,10 @@ def dynamic_filter_config_generate(event, context):
                 continent_entry = {}
                 current_continent = row.Continent
                 country_entry = {}
+                region_entry = {}
                 current_country = ''
-                if (row.Country == None):
+                current_region = ''
+                if (row.Country == None and row.Host == None):
                     continent_entry["default"] = float(row.Filter)
                 else:
                     continent_entry["default"] = 1
@@ -114,12 +118,36 @@ def dynamic_filter_config_generate(event, context):
                             continent_entry[current_country] = country_entry.copy()
                     country_entry = {}
                     current_country = row.Country
-                    if (row.Region == None):
+                    region_entry = {}
+                    current_region = ''
+                    if (row.Region == None and row.Host == None):
                         country_entry["default"] = float(row.Filter)
                     else:
                         country_entry["default"] = 1
                 if (row.Region != None):
-                    country_entry[row.Region] = float(row.Filter)
+                    if (current_region != row.Region):
+                        if (current_region != ''):
+                            if (len(region_entry) == 1):
+                                country_entry[row.Region] = region_entry["default"]
+                            else:
+                                country_entry[row.Region] = region_entry.copy()
+                        region_entry = {}
+                        current_region = row.Region
+                        if (row.Host == None):
+                            region_entry["default"] = float(row.Filter)
+                        else:
+                            region_entry["default"] = 1
+                    if (row.Host != None):
+                        region_entry[row.Host] = float(row.Filter)
+                elif (row.Host != None):
+                    country_entry[row.Host] = float(row.Filter)
+            elif (row.Host != None):
+                continent_entry[row.Host] = float(row.Filter)
+        if (current_region != ''):        
+            if (len(region_entry) == 1):
+                country_entry[current_region] = region_entry["default"]
+            else:
+                country_entry[current_region] = region_entry.copy()
         if (current_country != ''):        
             if (len(country_entry) == 1):
                 continent_entry[current_country] = country_entry["default"]
@@ -131,10 +159,14 @@ def dynamic_filter_config_generate(event, context):
             filter_list[current_continent] = continent_entry.copy()
         jsn[current_bidder] = filter_list.copy()
         
+        query_request = json.loads(base64.b64decode(event['data']).decode('utf-8'))
+        filename = "qa-dynamic-filter-list.json"
+        if ("filename" in query_request):
+            filename = query_request['filename']
         
-        g = Github("{Github access token goes here}")
+        g = Github(query_request['githubKey'])
         repo = g.get_repo("t13s2s/config")
-        contents = repo.get_contents("dynamic-filter-list.json", ref="main")
+        contents = repo.get_contents(filename, ref="main")
         git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(jsn, indent = 4), contents.sha, branch="main")
 
         log(INFO, "Commit to Github: {}".format(str(git_response)), uuidstr)
