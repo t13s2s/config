@@ -296,6 +296,10 @@ ORDER BY Bidder, Continent, Country, Region, Host
 
         log(INFO, "Job {0} is currently in state {1}".format(query_job.job_id, query_job.state), uuidstr)
 
+        override = {}
+        if ("override" in query_request):
+            override = query_request["override"]
+
         jsn = {}
         current_bidder = ''
         current_continent = ''
@@ -313,6 +317,9 @@ ORDER BY Bidder, Continent, Country, Region, Host
                 filter_list = {}
                 current_bidder = row.Bidder
             if (current_continent != row.Continent):
+                #add override data
+                for key in override:
+                    continent_entry[key] = override[key]
                 if (current_country != ''):        
                     if (len(country_entry) == 1):
                         continent_entry[current_country] = country_entry["default"]
