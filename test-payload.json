@@ -1,0 +1,9 @@
+{
+    "githubKey":"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",
+    "filename":"qa-dynamic-filter-list.json",
+    "minBidRate":"0.25",
+    "minAverageBid":"0.2",
+    "minCombinedBidRate":"0.4",
+    "minCombinedAverageBid":"0.3",
+    "override":{"nst.com.my":1.0}
+}
