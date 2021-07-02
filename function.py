@@ -384,6 +384,9 @@ ORDER BY Bidder, Continent, Country, Region, Host
                 continent_entry[current_country] = country_entry["default"]
             else:
                 continent_entry[current_country] = country_entry.copy()
+        #add override data
+        for key in override:
+            continent_entry[key] = override[key]
         if (len(continent_entry) == 1):
             filter_list[current_continent] = continent_entry["default"]
         else:
