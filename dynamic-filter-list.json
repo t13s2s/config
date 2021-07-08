@@ -175,7 +175,8 @@
             "road.cc": 1.0,
             "AU": 1.0
         },
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     },
     "conversant": {
         "SA": 0.05,
@@ -210,7 +211,8 @@
             "road.cc": 1.0,
             "AU": 1.0
         },
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     },
     "grid": {
         "SA": 0.05,
@@ -257,7 +259,8 @@
             "default": 0.05,
             "f1i.com": 1.0
         },
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     },
     "onetag": {
         "SA": 0.05,
@@ -319,7 +322,8 @@
             "venturebeat.com": 1.0
         },
         "OC": 0.05,
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     },
     "pubmatic": {
         "SA": 0.05,
@@ -386,7 +390,8 @@
             "AU": 1.0,
             "NZ": 1.0
         },
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     },
     "rubicon": {
         "SA": 0.05,
@@ -438,7 +443,8 @@
             "US": 1.0
         },
         "OC": 0.05,
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     },
     "sharethrough": {
         "SA": 0.05,
@@ -659,6 +665,7 @@
             "pocket-lint.com": 1.0,
             "AU": 1.0
         },
-        "nst.com.my": 1.0
+        "nst.com.my": 1.0,
+        "usermatch": 1.0
     }
 }
