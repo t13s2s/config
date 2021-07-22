@@ -86,8 +86,7 @@
             "road.cc": 1.0,
             "AU": 1.0,
             "NZ": 1.0
-        },
-        "nst.com.my": 1.0
+        }
     },
     "amx": {
         "SA": {
@@ -120,8 +119,7 @@
             "venturebeat.com": 1.0,
             "AU": 1.0,
             "NZ": 1.0
-        },
-        "nst.com.my": 1.0
+        }
     },
     "appnexus": {
         "SA": 0.05,
@@ -277,7 +275,6 @@
             "AU": 1.0,
             "NZ": 1.0
         },
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "conversant": {
@@ -320,7 +317,6 @@
             "venturebeat.com": 1.0,
             "AU": 1.0
         },
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "grid": {
@@ -370,7 +366,6 @@
             "road.cc": 1.0,
             "AU": 1.0
         },
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "onetag": {
@@ -401,7 +396,6 @@
             "US": 1.0
         },
         "OC": 0.05,
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "openx": {
@@ -450,7 +444,6 @@
             "pocket-lint.com": 1.0,
             "road.cc": 1.0
         },
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "pubmatic": {
@@ -569,7 +562,6 @@
             "venturebeat.com": 1.0,
             "AU": 1.0
         },
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "rubicon": {
@@ -641,7 +633,6 @@
             "venturebeat.com": 1.0,
             "NZ": 1.0
         },
-        "nst.com.my": 1.0,
         "usermatch": 1.0
     },
     "sharethrough": {
@@ -729,8 +720,7 @@
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "NZ": 1.0
-        },
-        "nst.com.my": 1.0
+        }
     },
     "smartadserver": {
         "SA": {
@@ -745,8 +735,7 @@
             "nst.com.my": 1.0,
             "CA": 1.0,
             "US": 1.0
-        },
-        "nst.com.my": 1.0
+        }
     },
     "sovrn": {
         "OC": {
@@ -797,8 +786,7 @@
             "venturebeat.com": 1.0,
             "PR": 1.0,
             "US": 1.0
-        },
-        "nst.com.my": 1.0
+        }
     },
     "tappx": {
         "SA": {
@@ -848,7 +836,6 @@
             "default": 0.05,
             "pocket-lint.com": 1.0,
             "AU": 1.0
-        },
-        "nst.com.my": 1.0
+        }
     }
 }
