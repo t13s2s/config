@@ -2,32 +2,46 @@
     "adform": {
         "AF": {
             "default": 0.05,
-            "gpblog.com": 1.0,
+            "f1i.com": 1.0,
             "pocket-lint.com": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
             "9to5google.com": 1.0,
+            "aceh.tribunnews.com": 1.0,
             "bali.tribunnews.com": 1.0,
+            "bangka.tribunnews.com": 1.0,
             "banjarmasin.tribunnews.com": 1.0,
-            "boingboing.net": 1.0,
+            "batam.tribunnews.com": 1.0,
+            "belitung.tribunnews.com": 1.0,
+            "electrek.co": 1.0,
             "gottabemobile.com": 1.0,
             "gpblog.com": 1.0,
             "jabar.tribunnews.com": 1.0,
+            "jakarta.tribunnews.com": 1.0,
             "jateng.tribunnews.com": 1.0,
+            "jogja.tribunnews.com": 1.0,
             "kaltim.tribunnews.com": 1.0,
             "makassar.tribunnews.com": 1.0,
             "maketecheasier.com": 1.0,
             "manilatimes.net": 1.0,
+            "medan.tribunnews.com": 1.0,
             "newsmaker.tribunnews.com": 1.0,
+            "palembang.tribunnews.com": 1.0,
+            "pekanbaru.tribunnews.com": 1.0,
             "pocket-lint.com": 1.0,
+            "pontianak.tribunnews.com": 1.0,
             "road.cc": 1.0,
             "surabaya.tribunnews.com": 1.0,
+            "suryamalang.tribunnews.com": 1.0,
             "tribunnews.com": 1.0,
-            "HK": 1.0,
+            "tribunnewswiki.com": 1.0,
+            "venturebeat.com": 1.0,
+            "video.tribunnews.com": 1.0,
+            "wartakota.tribunnews.com": 1.0,
+            "wow.tribunnews.com": 1.0,
             "ID": 1.0,
-            "IN": 1.0,
             "JP": 1.0,
             "MY": 1.0,
             "PH": 1.0,
@@ -42,7 +56,6 @@
             "blog.cheapism.com": 1.0,
             "boingboing.net": 1.0,
             "electrek.co": 1.0,
-            "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
             "maketecheasier.com": 1.0,
             "off.road.cc": 1.0,
@@ -57,31 +70,34 @@
             "FI": 1.0,
             "GR": 1.0,
             "IE": 1.0,
+            "IT": 1.0,
             "NL": 1.0,
             "NO": 1.0,
             "PL": 1.0,
             "PT": 1.0,
             "RO": 1.0,
-            "RU": 1.0,
             "SE": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5google.com": 1.0,
+            "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
             "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
             "boingboing.net": 1.0,
+            "doyouremember.com": 1.0,
             "dyrdev.wpengine.com": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
             "gpblog.com": 1.0,
             "maketecheasier.com": 1.0,
+            "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "sohh.com": 1.0,
-            "tribunnews.com": 1.0,
             "venturebeat.com": 1.0,
             "CA": 1.0,
             "MX": 1.0,
@@ -91,8 +107,10 @@
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "electrek.co": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
+            "boingboing.net": 1.0,
             "f1i.com": 1.0,
+            "gottabemobile.com": 1.0,
             "gpblog.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
@@ -104,26 +122,26 @@
     "amx": {
         "SA": {
             "default": 0.05,
+            "9to5google.com": 1.0,
             "pocket-lint.com": 1.0,
             "BR": 1.0,
-            "CL": 1.0
+            "CL": 1.0,
+            "PE": 1.0
         },
         "AF": 0.05,
         "AS": 0.05,
-        "EU": {
-            "default": 0.05,
-            "CH": 1.0
-        },
+        "EU": 0.05,
         "NA": {
             "default": 1,
-            "US": 1
+            "MX": 0.05
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "pocket-lint.com": 1.0,
-            "AU": 1.0
+            "AU": 1.0,
+            "NZ": 1.0
         }
     },
     "appnexus": {
@@ -131,101 +149,39 @@
             "default": 0.05,
             "CL": 1.0
         },
-        "AF": {
-            "default": 0.05,
-            "pocket-lint.com": 1.0,
-            "ZA": 1.0
-        },
+        "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "JP": 1.0
+            "bali.tribunnews.com": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
+            "batam.tribunnews.com": 1.0,
+            "jabar.tribunnews.com": 1.0,
+            "jakarta.tribunnews.com": 1.0,
+            "jogja.tribunnews.com": 1.0,
+            "kaltim.tribunnews.com": 1.0,
+            "m.tribunnews.com": 1.0,
+            "road.cc": 1.0,
+            "solo.tribunnews.com": 1.0,
+            "suryamalang.tribunnews.com": 1.0,
+            "tribunnews.com": 1.0,
+            "wartakota.tribunnews.com": 1.0,
+            "BN": 1.0,
+            "HK": 1.0,
+            "TW": 1.0
         },
         "EU": {
             "default": 0.05,
+            "9to5google.com": 1.0,
             "amateurphotographer.co.uk": 1.0,
-            "f1i.com": 1.0,
-            "off.road.cc": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "singletrackworld.com": 1.0,
-            "AT": 1.0,
-            "BE": 1.0,
-            "CH": 1.0,
-            "DE": 1.0,
-            "NL": 1.0
-        },
-        "NA": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
             "bleepingcomputer.com": 1.0,
-            "blog.cheapism.com": 1.0,
-            "gpblog.com": 1.0,
-            "jpost.com": 1.0,
-            "m.jpost.com": 1.0,
-            "maketecheasier.com": 1.0,
-            "newser.com": 1.0,
-            "off.road.cc": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "venturebeat.com": 1.0
-        },
-        "OC": {
-            "default": 0.05,
-            "f1i.com": 1.0,
-            "gpblog.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "stayathomemum.com.au": 1.0,
-            "AU": 1.0
-        },
-        "usermatch": 1.0
-    },
-    "conversant": {
-        "SA": {
-            "default": 0.05,
-            "pocket-lint.com": 1.0,
-            "BR": 1.0,
-            "CL": 1.0
-        },
-        "AF": 0.05,
-        "AS": 0.05,
-        "EU": {
-            "default": 0.05,
-            "f1i.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "GB": 1.0
-        },
-        "NA": {
-            "default": 0.05,
-            "blog.cheapism.com": 1.0,
-            "doyouremember.com": 1.0,
-            "maketecheasier.com": 1.0,
-            "off.road.cc": 1.0,
-            "pocket-lint.com": 1.0,
-            "readersdigest.co.uk": 1.0,
-            "road.cc": 1.0,
-            "venturebeat.com": 1.0,
-            "US": 1.0
-        },
-        "OC": 0.05,
-        "usermatch": 1.0
-    },
-    "grid": {
-        "SA": 0.05,
-        "AF": 0.05,
-        "AS": {
-            "default": 0.05,
-            "PH": 1.0
-        },
-        "EU": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
+            "boingboing.net": 1.0,
+            "ebiketips.road.cc": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
             "singletrackworld.com": 1.0,
             "AT": 1.0,
             "BE": 1.0,
@@ -239,8 +195,95 @@
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
+            "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
+            "boingboing.net": 1.0,
+            "doyouremember.com": 1.0,
+            "dyrdev.wpengine.com": 1.0,
             "electrek.co": 1.0,
+            "f1i.com": 1.0,
+            "gottabemobile.com": 1.0,
+            "gpblog.com": 1.0,
+            "jpost.com": 1.0,
+            "m.jpost.com": 1.0,
+            "maketecheasier.com": 1.0,
+            "newser.com": 1.0,
+            "off.road.cc": 1.0,
+            "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
+            "sohh.com": 1.0,
+            "stayathomemum.com.au": 1.0,
+            "tribunnews.com": 1.0,
+            "venturebeat.com": 1.0,
+            "US": 1.0
+        },
+        "OC": {
+            "default": 0.05,
+            "banjarmasin.tribunnews.com": 1.0,
+            "f1i.com": 1.0,
+            "stayathomemum.com.au": 1.0
+        },
+        "usermatch": 1.0
+    },
+    "conversant": {
+        "SA": {
+            "default": 0.05,
+            "pocket-lint.com": 1.0,
+            "AR": 1.0,
+            "BR": 1.0,
+            "CL": 1.0
+        },
+        "AF": 0.05,
+        "AS": 0.05,
+        "EU": 0.05,
+        "NA": {
+            "default": 0.05,
+            "blog.cheapism.com": 1.0,
+            "doyouremember.com": 1.0,
+            "maketecheasier.com": 1.0,
+            "off.road.cc": 1.0,
+            "pocket-lint.com": 1.0,
+            "readersdigest.co.uk": 1.0,
+            "road.cc": 1.0,
+            "venturebeat.com": 1.0,
+            "US": 1.0
+        },
+        "OC": {
+            "default": 0.05,
+            "pocket-lint.com": 1.0,
+            "AU": 1.0
+        },
+        "usermatch": 1.0
+    },
+    "grid": {
+        "SA": 0.05,
+        "AF": 0.05,
+        "AS": 0.05,
+        "EU": {
+            "default": 0.05,
+            "9to5google.com": 1.0,
+            "ebiketips.road.cc": 1.0,
+            "electrek.co": 1.0,
+            "gottabemobile.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
+            "AT": 1.0,
+            "CH": 1.0,
+            "DE": 1.0,
+            "GB": 1.0,
+            "IE": 1.0,
+            "NO": 1.0
+        },
+        "NA": {
+            "default": 0.05,
+            "9to5google.com": 1.0,
+            "9to5mac.com": 1.0,
+            "9to5toys.com": 1.0,
+            "blog.cheapism.com": 1.0,
+            "doyouremember.com": 1.0,
+            "electrek.co": 1.0,
+            "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
             "maketecheasier.com": 1.0,
             "newser.com": 1.0,
@@ -250,12 +293,13 @@
             "road.cc": 1.0,
             "sohh.com": 1.0,
             "venturebeat.com": 1.0,
+            "CA": 1.0,
             "US": 1.0
         },
         "OC": {
             "default": 0.05,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0
+            "f1i.com": 1.0,
+            "AU": 1.0
         },
         "usermatch": 1.0
     },
@@ -267,23 +311,21 @@
         "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "pocket-lint.com": 1.0
+            "road.cc": 1.0
         },
         "EU": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "pocket-lint.com": 1.0,
             "AT": 1.0,
-            "BE": 1.0,
             "CH": 1.0,
-            "DE": 1.0
+            "DE": 1.0,
+            "IE": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
-            "bleepingcomputer.com": 1.0,
+            "amateurphotographer.co.uk": 1.0,
             "blog.cheapism.com": 1.0,
             "doyouremember.com": 1.0,
             "f1i.com": 1.0,
@@ -291,8 +333,9 @@
             "maketecheasier.com": 1.0,
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
-            "readersdigest.co.uk": 1.0,
+            "road.cc": 1.0,
             "venturebeat.com": 1.0,
+            "CA": 1.0,
             "US": 1.0
         },
         "OC": 0.05,
@@ -303,49 +346,49 @@
         "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "bali.tribunnews.com": 1.0,
-            "banjarmasin.tribunnews.com": 1.0,
-            "batam.tribunnews.com": 1.0,
-            "jateng.tribunnews.com": 1.0,
+            "banten.tribunnews.com": 1.0,
             "jatim.tribunnews.com": 1.0,
             "jogja.tribunnews.com": 1.0,
-            "kaltim.tribunnews.com": 1.0,
+            "padang.tribunnews.com": 1.0,
             "solo.tribunnews.com": 1.0,
-            "style.tribunnews.com": 1.0,
-            "surabaya.tribunnews.com": 1.0,
-            "tribunnews.com": 1.0,
-            "wartakota.tribunnews.com": 1.0,
-            "ID": 1.0
+            "BN": 1.0,
+            "HK": 1.0,
+            "TW": 1.0
         },
         "EU": {
             "default": 0.05,
-            "bleepingcomputer.com": 1.0,
+            "comedy.co.uk": 1.0,
+            "ebiketips.road.cc": 1.0,
             "off.road.cc": 1.0,
             "singletrackworld.com": 1.0,
+            "AT": 1.0,
             "CH": 1.0,
-            "DE": 1.0,
             "GB": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5toys.com": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
             "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
+            "boingboing.net": 1.0,
+            "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
+            "gpblog.com": 1.0,
+            "m.jpost.com": 1.0,
             "maketecheasier.com": 1.0,
             "newser.com": 1.0,
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
+            "tribunnews.com": 1.0,
             "venturebeat.com": 1.0,
+            "CA": 1.0,
             "US": 1.0
         },
-        "OC": {
-            "default": 0.05,
-            "pocket-lint.com": 1.0
-        },
+        "OC": 0.05,
         "usermatch": 1.0
     },
     "pubmatic": {
@@ -354,22 +397,24 @@
             "BR": 1.0,
             "CL": 1.0
         },
-        "AF": 0.05,
+        "AF": {
+            "default": 0.05,
+            "ZA": 1.0
+        },
         "AS": {
             "default": 0.05,
-            "bali.tribunnews.com": 1.0,
-            "jatim.tribunnews.com": 1.0,
-            "road.cc": 1.0,
-            "venturebeat.com": 1.0,
-            "IL": 1.0
+            "banten.tribunnews.com": 1.0,
+            "padang.tribunnews.com": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "amateurphotographer.co.uk": 1.0,
-            "boingboing.net": 1.0,
+            "blog.cheapism.com": 1.0,
             "comedy.co.uk": 1.0,
+            "ebiketips.road.cc": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
@@ -384,30 +429,99 @@
             "DE": 1.0,
             "FI": 1.0,
             "GB": 1.0,
+            "IE": 1.0,
             "SE": 1.0
         },
         "NA": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
-            "9to5mac.com": 1.0,
-            "9to5toys.com": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "blog.cheapism.com": 1.0,
-            "dyrdev.wpengine.com": 1.0,
-            "electrek.co": 1.0,
-            "f1i.com": 1.0,
-            "newser.com": 1.0,
-            "off.road.cc": 1.0,
-            "pocket-lint.com": 1.0,
-            "readersdigest.co.uk": 1.0,
-            "road.cc": 1.0,
-            "stayathomemum.com.au": 1.0,
-            "venturebeat.com": 1.0
+            "default": 1,
+            "CA": {
+                "default": 0.05,
+                "9to5google.com": 1.0,
+                "9to5mac.com": 1.0,
+                "blog.cheapism.com": 1.0,
+                "boingboing.net": 1.0,
+                "pocket-lint.com": 1.0,
+                "road.cc": 1.0
+            },
+            "MX": 0.05,
+            "US": {
+                "default": 1,
+                "AR": 0.05,
+                "CT": 0.05,
+                "HI": 0.05,
+                "IA": 0.05,
+                "ID": 0.05,
+                "KS": 0.05,
+                "KY": 0.05,
+                "LA": 0.05,
+                "MD": 0.05,
+                "ME": {
+                    "default": 0.05,
+                    "9to5mac.com": 1.0,
+                    "electrek.co": 1.0
+                },
+                "MO": 0.05,
+                "NC": {
+                    "default": 0.05,
+                    "9to5mac.com": 1.0
+                },
+                "NH": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "boingboing.net": 1.0,
+                    "electrek.co": 1.0,
+                    "pocket-lint.com": 1.0
+                },
+                "NJ": 0.05,
+                "OH": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "electrek.co": 1.0,
+                    "pocket-lint.com": 1.0
+                },
+                "OK": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "boingboing.net": 1.0,
+                    "electrek.co": 1.0,
+                    "pocket-lint.com": 1.0
+                },
+                "PA": 0.05,
+                "SC": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "9to5toys.com": 1.0,
+                    "boingboing.net": 1.0,
+                    "pocket-lint.com": 1.0
+                },
+                "TN": 0.05,
+                "UT": {
+                    "default": 0.05,
+                    "9to5mac.com": 1.0
+                },
+                "VA": 0.05,
+                "WI": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "9to5toys.com": 1.0,
+                    "boingboing.net": 1.0,
+                    "electrek.co": 1.0,
+                    "pocket-lint.com": 1.0
+                }
+            }
         },
         "OC": {
             "default": 0.05,
+            "9to5google.com": 1.0,
+            "f1i.com": 1.0,
             "pocket-lint.com": 1.0,
-            "road.cc": 1.0
+            "road.cc": 1.0,
+            "AU": 1.0
         },
         "usermatch": 1.0
     },
@@ -415,38 +529,37 @@
         "SA": 0.05,
         "AF": {
             "default": 0.05,
-            "ZA": 1.0
+            "pocket-lint.com": 1.0
         },
         "AS": {
             "default": 0.05,
-            "road.cc": 1.0,
+            "MY": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 0.05,
-            "9to5google.com": 1.0,
             "amateurphotographer.co.uk": 1.0,
             "blog.cheapism.com": 1.0,
-            "comedy.co.uk": 1.0,
-            "f1i.com": 1.0,
+            "ebiketips.road.cc": 1.0,
+            "electrek.co": 1.0,
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "singletrackworld.com": 1.0,
-            "venturebeat.com": 1.0,
             "AT": 1.0,
             "CH": 1.0,
             "DE": 1.0,
             "DK": 1.0,
             "FI": 1.0,
             "GB": 1.0,
+            "IE": 1.0,
             "NO": 1.0,
-            "PL": 1.0,
             "SE": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5google.com": 1.0,
+            "amateurphotographer.co.uk": 1.0,
             "blog.cheapism.com": 1.0,
             "dyrdev.wpengine.com": 1.0,
             "electrek.co": 1.0,
@@ -462,17 +575,28 @@
         },
         "OC": {
             "default": 0.05,
-            "road.cc": 1.0
+            "f1i.com": 1.0,
+            "gpblog.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
+            "AU": 1.0,
+            "NZ": 1.0
         },
         "usermatch": 1.0
     },
     "sharethrough": {
         "SA": 0.05,
+        "AF": {
+            "default": 0.05,
+            "maketecheasier.com": 1.0,
+            "NG": 1.0,
+            "ZA": 1.0
+        },
         "AS": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "boingboing.net": 1.0,
+            "bleepingcomputer.com": 1.0,
             "electrek.co": 1.0,
             "gottabemobile.com": 1.0,
             "maketecheasier.com": 1.0,
@@ -480,11 +604,8 @@
             "road.cc": 1.0,
             "venturebeat.com": 1.0,
             "HK": 1.0,
-            "ID": 1.0,
             "IL": 1.0,
             "IN": 1.0,
-            "JP": 1.0,
-            "PK": 1.0,
             "SG": 1.0,
             "TR": 1.0
         },
@@ -493,7 +614,9 @@
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "bleepingcomputer.com": 1.0,
+            "blog.cheapism.com": 1.0,
             "boingboing.net": 1.0,
+            "ebiketips.road.cc": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
@@ -504,15 +627,8 @@
             "singletrackworld.com": 1.0,
             "venturebeat.com": 1.0,
             "CH": 1.0,
-            "DE": 1.0,
-            "DK": 1.0,
-            "ES": 1.0,
-            "FI": 1.0,
             "GB": 1.0,
-            "IT": 1.0,
-            "NL": 1.0,
             "NO": 1.0,
-            "PT": 1.0,
             "RU": 1.0,
             "SE": 1.0
         },
@@ -521,6 +637,7 @@
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
+            "amateurphotographer.co.uk": 1.0,
             "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
             "boingboing.net": 1.0,
@@ -543,9 +660,11 @@
         },
         "OC": {
             "default": 0.05,
+            "boingboing.net": 1.0,
             "f1i.com": 1.0,
+            "pocket-lint.com": 1.0,
             "road.cc": 1.0,
-            "AU": 1.0,
+            "venturebeat.com": 1.0,
             "NZ": 1.0
         }
     },
@@ -557,13 +676,13 @@
         "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "manilatimes.net": 1.0,
-            "tribunnews.com": 1.0,
-            "ID": 1.0,
-            "SG": 1.0
+            "kupang.tribunnews.com": 1.0,
+            "newsmaker.tribunnews.com": 1.0,
+            "JP": 1.0
         },
         "NA": {
             "default": 0.05,
+            "banjarmasin.tribunnews.com": 1.0,
             "gpblog.com": 1.0,
             "CA": 1.0,
             "US": 1.0
@@ -572,9 +691,11 @@
     "sovrn": {
         "OC": {
             "default": 0.05,
+            "9to5google.com": 1.0,
+            "9to5mac.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
-            "NZ": 1.0
+            "AU": 1.0
         },
         "AF": 0.05,
         "AS": 0.05,
@@ -582,12 +703,15 @@
             "default": 0.05,
             "9to5google.com": 1.0,
             "amateurphotographer.co.uk": 1.0,
+            "comedy.co.uk": 1.0,
+            "ebiketips.road.cc": 1.0,
             "electrek.co": 1.0,
-            "f1i.com": 1.0,
             "maketecheasier.com": 1.0,
             "off.road.cc": 1.0,
+            "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "singletrackworld.com": 1.0,
+            "venturebeat.com": 1.0,
             "CH": 1.0,
             "DE": 1.0,
             "FI": 1.0,
@@ -600,10 +724,10 @@
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
+            "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
-            "gottabemobile.com": 1.0,
             "maketecheasier.com": 1.0,
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
@@ -615,19 +739,13 @@
     "tappx": {
         "SA": {
             "default": 0.05,
-            "pocket-lint.com": 1.0,
-            "BR": 1.0,
-            "CL": 1.0
-        },
-        "AF": {
-            "default": 0.05,
             "pocket-lint.com": 1.0
         },
+        "AF": 0.05,
         "AS": {
             "default": 0.05,
             "pocket-lint.com": 1.0,
-            "MY": 1.0,
-            "SG": 1.0
+            "PH": 1.0
         },
         "EU": {
             "default": 0.05,
@@ -638,24 +756,23 @@
             "DE": 1.0,
             "ES": 1.0,
             "FR": 1.0,
-            "GB": 1.0,
             "IE": 1.0,
             "NL": 1.0,
+            "PT": 1.0,
             "SE": 1.0
         },
         "NA": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "9to5mac.com": 1.0,
             "blog.cheapism.com": 1.0,
             "gottabemobile.com": 1.0,
             "pocket-lint.com": 1.0,
             "venturebeat.com": 1.0,
-            "CA": 1.0
+            "US": 1.0
         },
         "OC": {
             "default": 0.05,
             "pocket-lint.com": 1.0,
+            "AU": 1.0,
             "NZ": 1.0
         }
     }
