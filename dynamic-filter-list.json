@@ -2,9 +2,7 @@
     "adform": {
         "AF": {
             "default": 0.05,
-            "9to5google.com": 1.0,
             "cbr.com": 1.0,
-            "electrek.co": 1.0,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
             "screenrant.com": 1.0,
@@ -14,10 +12,14 @@
             "default": 0.05,
             "9to5google.com": 1.0,
             "cbr.com": 1.0,
+            "collider.com": 1.0,
             "electrek.co": 1.0,
             "gpblog.com": 1.0,
+            "jpost.com": 1.0,
             "manilatimes.net": 1.0,
             "pocket-lint.com": 1.0,
+            "screenrant.com": 1.0,
+            "IN": 1.0,
             "JP": 1.0,
             "MY": 1.0,
             "PH": 1.0,
@@ -44,16 +46,20 @@
             "GR": 1.0,
             "HU": 1.0,
             "IE": 1.0,
+            "IT": 1.0,
             "NL": 1.0,
             "NO": 1.0,
             "PL": 1.0,
+            "PT": 1.0,
+            "RO": 1.0,
+            "RS": 1.0,
             "SE": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
-            "benzinga.com": 1.0,
+            "cbr.com": 1.0,
             "dronedj.com": 1.0,
             "electrek.co": 1.0,
             "gpblog.com": 1.0,
@@ -63,6 +69,7 @@
             "road.cc": 1.0,
             "screenrant.com": 1.0,
             "sohh.com": 1.0,
+            "spaceexplored.com": 1.0,
             "CA": 1.0,
             "MX": 1.0,
             "US": 1.0
@@ -71,157 +78,151 @@
             "default": 0.05,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
-            "screenrant.com": 1.0,
             "NZ": 1.0
         }
     },
     "amx": {
         "SA": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "electrek.co": 1.0,
+            "cbr.com": 1.0,
             "pocket-lint.com": 1.0,
             "screenrant.com": 1.0,
             "BR": 1.0,
-            "CL": 1.0
+            "CL": 1.0,
+            "CO": 1.0
         },
         "AF": 0.05,
         "AS": 0.05,
         "EU": 0.05,
         "NA": {
             "default": 1,
-            "CA": {
-                "default": 1,
-                "NB": 0.05,
-                "NL": 0.05,
-                "SK": 0.05
-            },
-            "JM": 0.05,
+            "BB": 0.05,
+            "CA": 1,
+            "CR": 0.05,
             "MX": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
-            "TT": 0.05
+            "PR": 0.05
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
+            "collider.com": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "jpost.com": 1.0,
+            "maketecheasier.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "venturebeat.com": 1.0,
             "xda-developers.com": 1.0,
-            "AU": 1.0,
-            "NZ": 1.0
+            "AU": 1.0
         }
     },
     "appnexus": {
         "SA": {
             "default": 0.05,
-            "9to5google.com": 1.0,
             "cbr.com": 1.0,
             "xda-developers.com": 1.0,
-            "PE": 1.0
+            "BR": 1.0
         },
         "AF": {
             "default": 0.05,
+            "cbr.com": 1.0,
+            "f1i.com": 1.0,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
             "bali.tribunnews.com": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "collider.com": 1.0,
-            "f1i.com": 1.0,
-            "gottabemobile.com": 1.0,
-            "gpblog.com": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
+            "electrek.co": 1.0,
+            "jpost.com": 1.0,
             "kaltara.tribunnews.com": 1.0,
-            "manilatimes.net": 1.0,
+            "kaltim.tribunnews.com": 1.0,
+            "medan.tribunnews.com": 1.0,
+            "pocket-lint.com": 1.0,
             "pontianak.tribunnews.com": 1.0,
             "road.cc": 1.0,
             "tribunnews.com": 1.0,
+            "video.tribunnews.com": 1.0,
             "BN": 1.0,
             "HK": 1.0,
             "ID": 1.0,
+            "IL": 1.0,
+            "JP": 1.0,
             "MY": 1.0,
-            "PH": 1.0,
             "SG": 1.0,
+            "TR": 1.0,
             "TW": 1.0
         },
         "EU": {
             "default": 1,
-            "CZ": 0.05,
-            "DK": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "screenrant.com": 1.0
-            },
             "ES": {
                 "default": 0.05,
-                "electrek.co": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "CT": 1.0,
                 "MD": 1.0,
                 "VC": 1.0
             },
+            "FI": 0.05,
             "GR": 0.05,
-            "HR": 0.05,
-            "IE": {
-                "default": 0.05,
-                "screenrant.com": 1.0,
-                "M": 1.0
-            },
-            "IT": 1,
+            "HU": 0.05,
+            "IE": 1,
             "NL": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "gpblog.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "NB": 1.0,
-                "NH": 1.0,
-                "OV": 1.0,
-                "UT": 1.0,
-                "ZH": 1.0
+                "default": 1,
+                "NH": 0.05,
+                "ZH": {
+                    "default": 0.05,
+                    "gpblog.com": 1.0,
+                    "pocket-lint.com": 1.0
+                }
             },
-            "NO": 1,
             "PL": 0.05,
             "PT": {
                 "default": 0.05,
-                "13": 1.0
+                "pocket-lint.com": 1.0
             },
             "RO": 0.05,
-            "RS": 0.05,
             "RU": 0.05,
-            "SE": 1
+            "SE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "M": 1.0
+            },
+            "UA": 0.05
         },
         "NA": {
             "default": 1,
-            "CR": 0.05,
+            "BB": 0.05,
+            "CA": 1,
+            "JM": 0.05,
             "MX": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
                 "JAL": 1.0,
                 "MEX": 1.0,
                 "NLE": 1.0
             },
-            "PR": 0.05
+            "US": 1
         },
         "OC": {
             "default": 1,
             "NZ": {
                 "default": 0.05,
-                "9to5mac.com": 1.0,
-                "electrek.co": 1.0,
                 "pocket-lint.com": 1.0,
                 "CAN": 1.0,
                 "WGN": 1.0
-            }
+            },
+            "TL": 0.05
         },
         "usermatch": 1.0
     },
@@ -244,12 +245,8 @@
             "f1i.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
-            "venturebeat.com": 1.0,
-            "CH": 1.0,
             "DE": 1.0,
-            "FR": 1.0,
-            "GB": 1.0,
-            "IT": 1.0
+            "FR": 1.0
         },
         "NA": {
             "default": 0.05,
@@ -272,75 +269,47 @@
         "AF": {
             "default": 0.05,
             "cbr.com": 1.0,
-            "pocket-lint.com": 1.0,
+            "f1i.com": 1.0,
             "screenrant.com": 1.0,
-            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "f1i.com": 1.0,
             "HK": 1.0,
-            "ID": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "AT": {
+            "ES": 1,
+            "FI": {
                 "default": 0.05,
-                "electrek.co": 1.0,
-                "pocket-lint.com": 1.0
-            },
-            "CH": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "pocket-lint.com": 1.0
-            },
-            "CZ": 0.05,
-            "DK": 0.05,
-            "ES": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "screenrant.com": 1.0,
-                "MD": 1.0
+                "screenrant.com": 1.0
             },
             "FR": {
                 "default": 0.05,
-                "electrek.co": 1.0,
                 "pocket-lint.com": 1.0,
-                "GES": 1.0,
+                "screenrant.com": 1.0,
+                "HDF": 1.0,
                 "IDF": 1.0,
-                "OCC": 1.0,
                 "PAC": 1.0
             },
-            "GR": 0.05,
-            "HU": 0.05,
-            "IE": {
+            "HR": 0.05,
+            "IT": {
                 "default": 0.05,
-                "pocket-lint.com": 1.0
+                "cbr.com": 1.0,
+                "screenrant.com": 1.0
             },
             "NL": {
                 "default": 0.05,
-                "electrek.co": 1.0,
-                "NB": 1.0,
-                "NH": 1.0,
-                "UT": 1.0
-            },
-            "NO": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "30": 1.0
+                "pocket-lint.com": 1.0,
+                "ZH": 1.0
             },
             "PL": 0.05,
-            "PT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
+            "PT": 0.05,
             "RO": 0.05,
-            "RU": 0.05,
+            "RS": 0.05,
             "SE": {
                 "default": 0.05,
-                "electrek.co": 1.0,
                 "pocket-lint.com": 1.0,
                 "M": 1.0,
                 "O": 1.0
@@ -348,16 +317,15 @@
         },
         "NA": {
             "default": 1,
-            "CR": 0.05,
-            "DO": 0.05,
             "MX": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "JAL": 1.0,
+                "MEX": 1.0,
                 "NLE": 1.0
             },
-            "PR": 0.05
+            "US": 1
         },
         "OC": {
             "default": 1,
@@ -383,7 +351,10 @@
             "GB": 1.0,
             "SE": 1.0
         },
-        "NA": 0.05,
+        "NA": {
+            "default": 0.05,
+            "US": 1.0
+        },
         "OC": 0.05,
         "usermatch": 1.0
     },
@@ -391,6 +362,7 @@
         "SA": 0.05,
         "AF": {
             "default": 0.05,
+            "cbr.com": 1.0,
             "gpblog.com": 1.0,
             "screenrant.com": 1.0,
             "NG": 1.0,
@@ -398,46 +370,18 @@
         },
         "AS": {
             "default": 0.05,
-            "bali.tribunnews.com": 1.0,
-            "bangka.tribunnews.com": 1.0,
-            "banten.tribunnews.com": 1.0,
-            "f1i.com": 1.0,
-            "jabar.tribunnews.com": 1.0,
-            "jogja.tribunnews.com": 1.0,
-            "kaltim.tribunnews.com": 1.0,
-            "padang.tribunnews.com": 1.0,
-            "pontianak.tribunnews.com": 1.0,
-            "ternate.tribunnews.com": 1.0,
-            "travel.tribunnews.com": 1.0,
-            "tribunnews.com": 1.0,
-            "wartakota.tribunnews.com": 1.0,
-            "BN": 1.0,
-            "HK": 1.0,
-            "ID": 1.0,
-            "SG": 1.0
+            "gpblog.com": 1.0,
+            "BN": 1.0
         },
         "EU": {
             "default": 1,
             "AT": {
                 "default": 0.05,
-                "electrek.co": 1.0,
                 "pocket-lint.com": 1.0
             },
-            "BE": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "WAL": 1.0
-            },
-            "BG": 0.05,
-            "CH": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "pocket-lint.com": 1.0
-            },
-            "CZ": 0.05,
+            "BE": 1,
             "DE": {
                 "default": 0.05,
-                "9to5google.com": 1.0,
                 "cbr.com": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
@@ -450,60 +394,51 @@
                 "RP": 1.0,
                 "SN": 1.0
             },
-            "DK": {
-                "default": 0.05,
-                "electrek.co": 1.0
-            },
             "ES": {
                 "default": 0.05,
-                "screenrant.com": 1.0
+                "pocket-lint.com": 1.0,
+                "MD": 1.0
             },
-            "FI": {
+            "FR": {
                 "default": 0.05,
-                "electrek.co": 1.0
+                "pocket-lint.com": 1.0
             },
-            "FR": 0.05,
             "GR": 0.05,
-            "HR": 0.05,
-            "HU": 0.05,
-            "IE": 0.05,
             "IT": {
                 "default": 0.05,
-                "electrek.co": 1.0,
                 "screenrant.com": 1.0
             },
             "NL": {
                 "default": 0.05,
-                "gpblog.com": 1.0
+                "gpblog.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "NH": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
             },
-            "NO": {
-                "default": 0.05,
-                "electrek.co": 1.0
-            },
+            "NO": 0.05,
             "PL": 0.05,
             "PT": 0.05,
             "RO": 0.05,
+            "RS": 0.05,
             "RU": 0.05,
-            "SE": {
-                "default": 0.05,
-                "screenrant.com": 1.0,
-                "O": 1.0
-            },
-            "SK": 0.05
+            "SE": 0.05,
+            "UA": 0.05
         },
         "NA": {
             "default": 1,
-            "CR": 0.05,
-            "DO": 0.05,
-            "MX": 0.05,
+            "BB": 0.05,
+            "JM": 0.05,
+            "MX": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
             "PR": 0.05
         },
         "OC": {
             "default": 1,
-            "NZ": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            },
+            "NZ": 0.05,
             "TL": 0.05
         },
         "usermatch": 1.0
@@ -511,97 +446,125 @@
     "pubmatic": {
         "SA": {
             "default": 0.05,
-            "cbr.com": 1.0
+            "cbr.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "screenrant.com": 1.0,
+            "AR": 1.0,
+            "BR": 1.0,
+            "CL": 1.0,
+            "CO": 1.0
         },
         "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "f1i.com": 1.0,
+            "9to5google.com": 1.0,
+            "banjarmasin.tribunnews.com": 1.0,
+            "electrek.co": 1.0,
+            "gpblog.com": 1.0,
+            "jateng.tribunnews.com": 1.0,
+            "jogja.tribunnews.com": 1.0,
+            "kaltara.tribunnews.com": 1.0,
             "kaltim.tribunnews.com": 1.0,
+            "medan.tribunnews.com": 1.0,
+            "pocket-lint.com": 1.0,
             "pontianak.tribunnews.com": 1.0,
-            "road.cc": 1.0,
-            "ternate.tribunnews.com": 1.0,
+            "travel.tribunnews.com": 1.0,
+            "trends.tribunnews.com": 1.0,
             "tribunnews.com": 1.0,
             "venturebeat.com": 1.0,
-            "ID": 1.0
+            "ID": 1.0,
+            "KR": 1.0,
+            "SG": 1.0
         },
         "EU": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
-            "amateurphotographer.co.uk": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "blog.cheapism.com": 1.0,
-            "boingboing.net": 1.0,
-            "comedy.co.uk": 1.0,
-            "dronedj.com": 1.0,
-            "electrek.co": 1.0,
-            "f1i.com": 1.0,
-            "gottabemobile.com": 1.0,
-            "gpblog.com": 1.0,
-            "off.road.cc": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "venturebeat.com": 1.0,
-            "AT": 1.0,
-            "BE": 1.0,
-            "CH": 1.0,
-            "CZ": 1.0,
-            "DE": 1.0,
-            "DK": 1.0,
-            "ES": 1.0,
-            "FI": 1.0,
-            "FR": 1.0,
-            "GB": 1.0,
-            "HR": 1.0,
-            "IE": 1.0,
-            "IT": 1.0,
-            "NL": 1.0,
-            "NO": 1.0,
-            "PL": 1.0,
-            "RU": 1.0,
-            "SE": 1.0
+            "default": 1,
+            "AT": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
+            "BE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "VLG": 1.0,
+                "WAL": 1.0
+            },
+            "CH": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
+            "CZ": 0.05,
+            "DE": 1,
+            "DK": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
+            "ES": 0.05,
+            "FI": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
+            "FR": {
+                "default": 0.05,
+                "screenrant.com": 1.0,
+                "HDF": 1.0
+            },
+            "GR": 0.05,
+            "HR": 0.05,
+            "HU": 0.05,
+            "IE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
+            "IT": 0.05,
+            "NL": {
+                "default": 0.05,
+                "gpblog.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "NB": 1.0,
+                "NH": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
+            },
+            "NO": 0.05,
+            "PL": 0.05,
+            "PT": 0.05,
+            "RO": 0.05,
+            "RS": 0.05,
+            "RU": 0.05,
+            "SE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "M": 1.0,
+                "O": 1.0
+            }
         },
         "NA": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
-            "9to5mac.com": 1.0,
-            "9to5toys.com": 1.0,
-            "amateurphotographer.co.uk": 1.0,
-            "babygaga.com": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "blog.cheapism.com": 1.0,
-            "boingboing.net": 1.0,
-            "doyouremember.com": 1.0,
-            "dronedj.com": 1.0,
-            "dyrdev.wpengine.com": 1.0,
-            "electrek.co": 1.0,
-            "f1i.com": 1.0,
-            "gottabemobile.com": 1.0,
-            "gpblog.com": 1.0,
-            "jpost.com": 1.0,
-            "m.jpost.com": 1.0,
-            "newser.com": 1.0,
-            "off.road.cc": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "sohh.com": 1.0,
-            "stayathomemum.com.au": 1.0,
-            "tribunnews.com": 1.0,
-            "venturebeat.com": 1.0,
-            "CA": 1.0,
-            "MX": 1.0,
-            "US": 1.0
+            "default": 1,
+            "BB": 0.05,
+            "CR": 0.05,
+            "MX": 0.05,
+            "PR": 0.05,
+            "US": {
+                "default": 1,
+                "MS": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                }
+            }
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
+            "collider.com": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
             "gpblog.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
+            "screenrant.com": 1.0,
             "stayathomemum.com.au": 1.0,
             "venturebeat.com": 1.0,
             "AU": 1.0
@@ -612,6 +575,8 @@
         "SA": {
             "default": 0.05,
             "pocket-lint.com": 1.0,
+            "screenrant.com": 1.0,
+            "AR": 1.0,
             "BR": 1.0,
             "CL": 1.0
         },
@@ -619,131 +584,116 @@
             "default": 0.05,
             "cbr.com": 1.0,
             "gpblog.com": 1.0,
-            "jpost.com": 1.0,
-            "KE": 1.0,
-            "NG": 1.0
+            "screenrant.com": 1.0,
+            "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "f1i.com": 1.0,
+            "9to5google.com": 1.0,
             "gpblog.com": 1.0,
-            "road.cc": 1.0,
+            "pocket-lint.com": 1.0,
+            "venturebeat.com": 1.0,
             "HK": 1.0,
-            "ID": 1.0,
-            "MY": 1.0
+            "JP": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "BE": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "VLG": 1.0
-            },
-            "CH": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "pocket-lint.com": 1.0,
-                "ZH": 1.0
-            },
-            "CZ": 0.05,
-            "DE": {
-                "default": 1,
-                "HH": {
-                    "default": 0.05,
-                    "electrek.co": 1.0,
-                    "pocket-lint.com": 1.0
-                },
-                "NI": 0.05,
-                "NW": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                }
-            },
-            "DK": {
-                "default": 0.05,
-                "electrek.co": 1.0,
-                "screenrant.com": 1.0
-            },
-            "ES": {
-                "default": 0.05,
-                "screenrant.com": 1.0,
-                "VC": 1.0
-            },
-            "FR": {
+            "AT": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
-            "GR": 0.05,
-            "HR": 0.05,
-            "HU": 0.05,
-            "IT": {
+            "BE": {
                 "default": 0.05,
-                "screenrant.com": 1.0
+                "pocket-lint.com": 1.0
             },
+            "CH": 1,
+            "DE": {
+                "default": 1,
+                "HE": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "RP": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0
+                }
+            },
+            "DK": 0.05,
+            "ES": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "CT": 1.0,
+                "MD": 1.0
+            },
+            "FR": 0.05,
+            "GR": 0.05,
+            "IE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "M": 1.0
+            },
+            "IT": 0.05,
             "NL": {
                 "default": 0.05,
-                "electrek.co": 1.0,
-                "gpblog.com": 1.0
+                "gpblog.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "NH": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
             },
             "PL": 0.05,
             "PT": {
                 "default": 0.05,
-                "13": 1.0
+                "pocket-lint.com": 1.0
             },
             "RO": 0.05,
-            "RS": 0.05,
-            "SK": 0.05
+            "RU": 0.05
         },
         "NA": {
             "default": 1,
+            "BB": 0.05,
             "CA": {
-                "default": 0.05,
-                "blog.cheapism.com": 1.0,
-                "collider.com": 1.0,
-                "f1i.com": 1.0,
-                "gpblog.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "road.cc": 1.0,
-                "screenrant.com": 1.0,
-                "venturebeat.com": 1.0,
-                "BC": 1.0,
-                "MB": 1.0,
-                "NB": 1.0,
-                "NL": 1.0,
-                "NS": 1.0,
-                "ON": 1.0,
-                "QC": 1.0,
-                "SK": 1.0
+                "default": 1,
+                "NL": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                },
+                "NS": 0.05,
+                "QC": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                }
             },
-            "CR": 0.05,
-            "MX": 0.05,
-            "PR": 0.05
+            "MX": 0.05
         },
         "OC": {
             "default": 1,
-            "NZ": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            }
+            "NZ": 0.05
         },
         "usermatch": 1.0
     },
     "sharethrough": {
         "SA": 0.05,
-        "AF": 0.05,
         "AS": {
             "default": 0.05,
             "cbr.com": 1.0,
             "collider.com": 1.0,
             "screenrant.com": 1.0,
-            "HK": 1.0,
-            "ID": 1.0,
             "IN": 1.0,
             "JP": 1.0,
             "MY": 1.0,
+            "PH": 1.0,
             "SG": 1.0
         },
-        "EU": 0.05,
+        "EU": {
+            "default": 0.05,
+            "cbr.com": 1.0,
+            "screenrant.com": 1.0,
+            "GB": 1.0
+        },
         "NA": {
             "default": 0.05,
             "babygaga.com": 1.0,
@@ -753,22 +703,42 @@
             "screenrant.com": 1.0,
             "CA": 1.0,
             "MX": 1.0,
+            "PR": 1.0,
             "US": 1.0
         }
     },
     "smartadserver": {
         "OC": {
             "default": 0.05,
-            "gpblog.com": 1.0
+            "gpblog.com": 1.0,
+            "AU": 1.0
+        },
+        "AF": {
+            "default": 0.05,
+            "gpblog.com": 1.0,
+            "ZA": 1.0
         },
         "AS": 0.05,
         "NA": {
             "default": 1,
             "US": {
                 "default": 1,
-                "OH": 0.05,
+                "GA": 0.05,
+                "MD": {
+                    "default": 0.05,
+                    "jpost.com": 1.0
+                },
+                "NC": {
+                    "default": 0.05,
+                    "jpost.com": 1.0
+                },
+                "NY": {
+                    "default": 0.05,
+                    "jpost.com": 1.0
+                },
                 "VA": {
                     "default": 0.05,
+                    "gpblog.com": 1.0,
                     "jpost.com": 1.0
                 }
             }
@@ -780,38 +750,44 @@
         "AS": 0.05,
         "EU": {
             "default": 1,
+            "AT": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
             "BE": 0.05,
-            "CH": {
-                "default": 0.05,
-                "electrek.co": 1.0
+            "DE": {
+                "default": 1,
+                "HH": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0
+                }
             },
-            "CZ": 0.05,
-            "DK": {
+            "DK": 0.05,
+            "ES": {
                 "default": 0.05,
-                "electrek.co": 1.0,
-                "84": 1.0
+                "pocket-lint.com": 1.0
             },
-            "ES": 0.05,
-            "FR": 0.05,
-            "GR": 0.05,
-            "HU": 0.05,
+            "FR": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
+            "HR": 0.05,
             "IE": 0.05,
-            "IT": {
+            "PT": 0.05,
+            "RS": 0.05,
+            "SE": {
                 "default": 0.05,
-                "electrek.co": 1.0
-            },
-            "NL": 0.05,
-            "NO": 1,
-            "PL": 0.05,
-            "RO": 0.05,
-            "RU": 0.05,
-            "SE": 1
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "M": 1.0,
+                "O": 1.0
+            }
         },
         "NA": {
             "default": 1,
-            "CA": 1,
-            "MX": 0.05,
-            "PR": 0.05
+            "CR": 0.05,
+            "MX": 0.05
         },
         "OC": {
             "default": 1,
