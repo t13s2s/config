@@ -7,14 +7,12 @@
             "jpost.com": 1.0,
             "xda-developers.com": 1.0,
             "KE": 1.0,
-            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "electrek.co": 1.0,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
             "manilatimes.net": 1.0,
@@ -26,15 +24,12 @@
             "JP": 1.0,
             "KR": 1.0,
             "MY": 1.0,
-            "PH": 1.0,
-            "SG": 1.0,
-            "VN": 1.0
+            "SG": 1.0
         },
         "EU": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "9to5toys.com": 1.0,
             "dronedj.com": 1.0,
             "electrek.co": 1.0,
             "gpblog.com": 1.0,
@@ -55,19 +50,17 @@
             "NO": 1.0,
             "PL": 1.0,
             "PT": 1.0,
-            "RO": 1.0,
-            "RS": 1.0,
-            "SE": 1.0,
-            "UA": 1.0
+            "SE": 1.0
         },
         "NA": {
             "default": 0.05,
+            "9to5mac.com": 1.0,
             "9to5toys.com": 1.0,
-            "benzinga.com": 1.0,
             "dronedj.com": 1.0,
             "electrek.co": 1.0,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
+            "m.jpost.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "sohh.com": 1.0,
@@ -78,8 +71,6 @@
         },
         "OC": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "dronedj.com": 1.0,
             "electrek.co": 1.0,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
@@ -92,9 +83,10 @@
     "amx": {
         "SA": {
             "default": 0.05,
-            "9to5mac.com": 1.0,
+            "jpost.com": 1.0,
             "pocket-lint.com": 1.0,
             "xda-developers.com": 1.0,
+            "AR": 1.0,
             "BR": 1.0,
             "CL": 1.0,
             "CO": 1.0
@@ -102,25 +94,23 @@
         "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "bleepingcomputer.com": 1.0,
-            "maketecheasier.com": 1.0,
-            "tennistonic.com": 1.0,
-            "venturebeat.com": 1.0,
-            "xda-developers.com": 1.0,
-            "HK": 1.0,
-            "IN": 1.0,
-            "JP": 1.0,
-            "MY": 1.0,
-            "SG": 1.0
+            "dronedj.com": 1.0,
+            "f1i.com": 1.0,
+            "road.cc": 1.0,
+            "tennistonic.com": 1.0
         },
         "EU": 0.05,
         "NA": {
             "default": 1,
-            "BB": 0.05,
-            "MX": {
-                "default": 0.05,
-                "xda-developers.com": 1.0
-            }
+            "CR": 0.05,
+            "MX": 0.05,
+            "PR": 0.05,
+            "US": 1
+        },
+        "OC": {
+            "default": 1,
+            "AU": 1,
+            "NZ": 0.05
         }
     },
     "appnexus": {
@@ -129,44 +119,42 @@
             "pocket-lint.com": 1.0,
             "xda-developers.com": 1.0,
             "BR": 1.0,
-            "CL": 1.0
+            "CL": 1.0,
+            "PE": 1.0
         },
         "AF": {
             "default": 0.05,
             "f1i.com": 1.0,
             "gpblog.com": 1.0,
             "jpost.com": 1.0,
-            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
             "bleepingcomputer.com": 1.0,
-            "blog.cheapism.com": 1.0,
             "electrek.co": 1.0,
+            "f1i.com": 1.0,
             "gpblog.com": 1.0,
-            "jpost.com": 1.0,
-            "m.tribunnews.com": 1.0,
-            "newsmaker.tribunnews.com": 1.0,
             "nst.com.my": 1.0,
-            "pontianak.tribunnews.com": 1.0,
             "road.cc": 1.0,
-            "surabaya.tribunnews.com": 1.0,
-            "travel.tribunnews.com": 1.0,
             "tribunnews.com": 1.0,
-            "venturebeat.com": 1.0,
             "BN": 1.0,
+            "HK": 1.0,
             "ID": 1.0,
             "IL": 1.0,
             "JP": 1.0,
-            "KR": 1.0,
             "MY": 1.0,
             "SG": 1.0,
             "TW": 1.0
         },
         "EU": {
             "default": 1,
-            "DK": 0.05,
+            "BE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "VLG": 1.0
+            },
+            "CZ": 0.05,
             "ES": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
@@ -174,40 +162,61 @@
                 "MD": 1.0,
                 "VC": 1.0
             },
-            "FI": 0.05,
-            "FR": 1,
-            "GR": 0.05,
-            "HR": 0.05,
-            "IT": 0.05,
-            "NL": 1,
-            "PL": 0.05,
-            "PT": {
+            "FR": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "HDF": 1.0,
+                "IDF": 1.0,
+                "PAC": 1.0
+            },
+            "HU": 0.05,
+            "IE": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
-            "RO": 0.05,
-            "RS": 0.05,
-            "RU": 0.05
+            "NL": {
+                "default": 0.05,
+                "gpblog.com": 1.0,
+                "NB": 1.0,
+                "NH": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
+            },
+            "NO": 0.05,
+            "PL": 0.05,
+            "PT": 0.05,
+            "SE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "O": 1.0
+            },
+            "UA": 0.05
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
             "MX": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
                 "JAL": 1.0
-            }
+            },
+            "PR": 0.05
         },
         "OC": {
-            "default": 1,
-            "AU": {
-                "default": 1,
-                "QLD": 0.05
-            },
-            "NZ": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            }
+            "default": 0.05,
+            "9to5google.com": 1.0,
+            "9to5mac.com": 1.0,
+            "dronedj.com": 1.0,
+            "electrek.co": 1.0,
+            "f1i.com": 1.0,
+            "gottabemobile.com": 1.0,
+            "gpblog.com": 1.0,
+            "jpost.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
+            "stayathomemum.com.au": 1.0,
+            "tribunnews.com": 1.0,
+            "AU": 1.0,
+            "NZ": 1.0
         },
         "usermatch": 1.0
     },
@@ -225,11 +234,13 @@
         "AS": 0.05,
         "EU": {
             "default": 0.05,
-            "f1i.com": 1.0,
+            "maketecheasier.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "venturebeat.com": 1.0,
+            "DE": 1.0,
             "FR": 1.0,
+            "GB": 1.0,
             "IT": 1.0
         },
         "NA": {
@@ -242,9 +253,7 @@
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
             "readersdigest.co.uk": 1.0,
-            "road.cc": 1.0,
             "venturebeat.com": 1.0,
-            "CA": 1.0,
             "US": 1.0
         },
         "OC": 0.05,
@@ -255,76 +264,56 @@
         "AF": {
             "default": 0.05,
             "f1i.com": 1.0,
-            "pocket-lint.com": 1.0,
+            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "venturebeat.com": 1.0,
             "HK": 1.0,
-            "ID": 1.0,
-            "IL": 1.0,
-            "IN": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "AT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
-            "CH": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
-            "DE": {
-                "default": 1,
-                "BY": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "NI": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "NW": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "SN": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                }
-            },
+            "CZ": 0.05,
+            "DE": 1,
             "ES": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
                 "CT": 1.0,
-                "MD": 1.0
+                "MD": 1.0,
+                "VC": 1.0
             },
-            "FI": 0.05,
-            "GR": 0.05,
-            "HU": 0.05,
-            "IE": 0.05,
-            "IT": 0.05,
-            "NL": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0,
-                "NH": 1.0,
-                "UT": 1.0,
-                "ZH": {
-                    "default": 1.0,
+            "FR": {
+                "default": 1,
+                "HDF": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                },
+                "IDF": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                },
+                "PAC": {
+                    "default": 0.05,
                     "pocket-lint.com": 1.0
                 }
             },
-            "NO": 0.05,
-            "PT": 0.05,
-            "RO": 0.05,
+            "NL": {
+                "default": 0.05,
+                "NB": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
+            },
+            "PL": 0.05,
+            "PT": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
+            "RU": 0.05,
             "SE": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
-                "M": 1.0,
-                "O": 1.0
+                "M": 1.0
             }
         },
         "NA": {
@@ -334,23 +323,19 @@
                 "pocket-lint.com": 1.0,
                 "JAL": 1.0
             },
-            "US": {
-                "default": 1,
-                "KY": 0.05,
-                "LA": 0.05,
-                "MS": 0.05,
-                "SC": 0.05,
-                "UT": 0.05,
-                "VA": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0
-                }
-            }
+            "US": 1
         },
         "OC": {
-            "default": 1,
-            "AU": 1,
-            "NZ": 0.05
+            "default": 0.05,
+            "9to5google.com": 1.0,
+            "9to5mac.com": 1.0,
+            "electrek.co": 1.0,
+            "f1i.com": 1.0,
+            "gottabemobile.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
+            "AU": 1.0,
+            "NZ": 1.0
         },
         "usermatch": 1.0
     },
@@ -367,85 +352,81 @@
             "default": 0.05,
             "f1i.com": 1.0,
             "gpblog.com": 1.0,
-            "jpost.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "xda-developers.com": 1.0,
             "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "tribunnews.com": 1.0,
+            "bleepingcomputer.com": 1.0,
+            "gpblog.com": 1.0,
+            "xda-developers.com": 1.0,
             "BN": 1.0,
-            "HK": 1.0,
-            "ID": 1.0,
+            "IL": 1.0,
+            "IN": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "BE": {
+            "AT": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
-            "CZ": 0.05,
+            "CH": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
             "DE": {
                 "default": 1,
+                "BW": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                },
                 "BY": {
                     "default": 0.05,
                     "pocket-lint.com": 1.0
                 },
-                "HH": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "SN": {
+                "HE": {
                     "default": 0.05,
                     "pocket-lint.com": 1.0
                 }
             },
-            "DK": 0.05,
-            "ES": 0.05,
-            "FI": 0.05,
-            "FR": 1,
-            "GR": 0.05,
-            "HR": 0.05,
-            "IE": 1,
+            "ES": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "MD": 1.0
+            },
+            "FR": 0.05,
+            "HU": 0.05,
+            "IE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
             "IT": {
                 "default": 0.05,
                 "xda-developers.com": 1.0
             },
             "NL": {
                 "default": 0.05,
-                "gpblog.com": 1.0,
-                "NH": 1.0,
-                "UT": 1.0,
-                "ZH": 1.0
+                "gpblog.com": 1.0
             },
+            "NO": 0.05,
             "PL": 0.05,
-            "PT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
+            "PT": 0.05,
             "RO": 0.05,
-            "RS": 0.05,
             "RU": 0.05,
-            "SE": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0,
-                "M": 1.0,
-                "O": 1.0
-            },
-            "SK": 0.05,
-            "UA": 0.05
+            "SE": 0.05
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
-            "MX": 0.05,
-            "PR": 0.05
+            "CR": 0.05,
+            "MX": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            }
         },
         "OC": {
             "default": 1,
+            "AU": 1,
             "NZ": 0.05
         },
         "usermatch": 1.0
@@ -457,69 +438,50 @@
         },
         "AF": {
             "default": 0.05,
-            "f1i.com": 1.0
+            "f1i.com": 1.0,
+            "gpblog.com": 1.0,
+            "NG": 1.0,
+            "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "m.tribunnews.com": 1.0,
-            "newsmaker.tribunnews.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "style.tribunnews.com": 1.0,
-            "travel.tribunnews.com": 1.0,
-            "tribunnews.com": 1.0,
-            "venturebeat.com": 1.0,
-            "video.tribunnews.com": 1.0,
-            "HK": 1.0,
-            "ID": {
-                "default": 1.0,
-                "SN": {
-                    "default": 1,
-                    "tribunnews.com": 1.0
-                }
-            },
-            "SG": 1.0,
-            "TW": 1.0
+            "9to5google.com": 1.0,
+            "gpblog.com": 1.0,
+            "xda-developers.com": 1.0,
+            "IN": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "AT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
             "BE": {
                 "default": 0.05,
-                "pocket-lint.com": 1.0,
-                "VLG": 1.0
+                "pocket-lint.com": 1.0
             },
             "CH": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
+            "CZ": 0.05,
             "DE": {
-                "default": 1,
-                "BY": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "HE": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "HH": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                },
-                "SN": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                }
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "xda-developers.com": 1.0,
+                "BW": 1.0,
+                "BY": 1.0,
+                "HE": 1.0,
+                "HH": 1.0,
+                "NI": 1.0,
+                "NW": 1.0,
+                "RP": 1.0
             },
-            "ES": 0.05,
-            "FR": 0.05,
-            "GR": 0.05,
-            "IE": 0.05,
-            "IT": 0.05,
+            "DK": 1,
+            "ES": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "MD": 1.0
+            },
+            "HR": 0.05,
+            "HU": 0.05,
             "NL": {
                 "default": 0.05,
                 "gpblog.com": 1.0,
@@ -529,25 +491,25 @@
                 "UT": 1.0,
                 "ZH": 1.0
             },
+            "NO": 0.05,
             "PL": 0.05,
-            "PT": 0.05,
-            "RO": 0.05,
-            "SE": {
-                "default": 1,
-                "M": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0
-                }
+            "PT": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
             },
-            "SK": 0.05,
-            "UA": 0.05
+            "RO": 0.05,
+            "RS": 0.05,
+            "RU": 0.05,
+            "SE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0,
+                "O": 1.0
+            }
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
-            "CA": 1,
-            "MX": 0.05,
-            "PR": 0.05
+            "CR": 0.05,
+            "MX": 0.05
         },
         "OC": {
             "default": 1,
@@ -559,270 +521,254 @@
         "usermatch": 1.0
     },
     "rubicon": {
-        "SA": 0.05,
+        "SA": {
+            "default": 0.05,
+            "BR": 1.0
+        },
         "AF": {
             "default": 0.05,
             "f1i.com": 1.0,
             "gpblog.com": 1.0,
-            "jpost.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "KE": 1.0,
+            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "electrek.co": 1.0,
             "gpblog.com": 1.0,
-            "road.cc": 1.0,
             "tennistonic.com": 1.0,
-            "HK": 1.0,
-            "MY": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "CZ": 0.05,
-            "DE": {
+            "BE": {
                 "default": 0.05,
-                "9to5mac.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "xda-developers.com": 1.0,
-                "BW": 1.0,
-                "BY": 1.0,
-                "HE": 1.0,
-                "HH": 1.0,
-                "NI": 1.0,
-                "NW": 1.0,
-                "SN": 1.0
+                "VLG": 1.0
             },
-            "DK": 1,
+            "DE": {
+                "default": 1,
+                "BY": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                },
+                "HH": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                }
+            },
+            "DK": 0.05,
             "ES": 0.05,
-            "GR": 0.05,
-            "HR": 0.05,
+            "FR": {
+                "default": 0.05,
+                "HDF": 1.0
+            },
+            "HU": 0.05,
+            "IE": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
             "IT": 0.05,
-            "NL": 1,
+            "NL": {
+                "default": 1,
+                "NB": 0.05,
+                "NH": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                }
+            },
             "PL": 0.05,
-            "PT": 0.05,
+            "PT": {
+                "default": 0.05,
+                "pocket-lint.com": 1.0
+            },
             "RO": 0.05,
-            "SK": 0.05,
-            "UA": 0.05
+            "RS": 0.05,
+            "RU": 0.05
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
             "MX": 0.05,
-            "US": 1
+            "PR": 0.05,
+            "US": {
+                "default": 1,
+                "WA": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "blog.cheapism.com": 1.0,
+                    "boingboing.net": 1.0,
+                    "doyouremember.com": 1.0,
+                    "electrek.co": 1.0,
+                    "f1i.com": 1.0,
+                    "gpblog.com": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "road.cc": 1.0,
+                    "venturebeat.com": 1.0,
+                    "xda-developers.com": 1.0
+                }
+            }
         },
         "OC": {
             "default": 1,
-            "NZ": 1
+            "AU": {
+                "default": 1,
+                "WA": 0.05
+            },
+            "NZ": 0.05
         },
         "usermatch": 1.0
     },
     "smartadserver": {
         "SA": {
             "default": 0.05,
+            "pocket-lint.com": 1.0,
             "AR": 1.0,
-            "CL": 1.0
+            "BR": 1.0
         },
         "AS": {
             "default": 0.05,
             "nst.com.my": 1.0,
-            "MY": 1.0
-        },
-        "OC": {
-            "default": 0.05,
-            "gpblog.com": 1.0,
-            "jpost.com": 1.0
+            "MY": 1.0,
+            "SG": 1.0
         }
     },
     "sovrn": {
-        "SA": 0.05,
+        "OC": {
+            "default": 1,
+            "NZ": 0.05
+        },
         "AF": 0.05,
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "AT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
+            "AT": 1,
             "BE": 0.05,
             "CH": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
-            "DK": 0.05,
-            "ES": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
+            "CZ": 0.05,
+            "ES": 0.05,
             "FR": 0.05,
-            "HR": 0.05,
-            "IE": 0.05,
-            "NL": {
+            "GR": 0.05,
+            "HU": 0.05,
+            "IT": 0.05,
+            "NL": 0.05,
+            "PT": {
                 "default": 0.05,
-                "ZH": 1.0
+                "pocket-lint.com": 1.0,
+                "13": 1.0
             },
-            "PL": 0.05,
-            "RS": 0.05,
-            "RU": 0.05,
-            "SE": 1
+            "RO": 0.05,
+            "UA": 0.05
         },
         "NA": {
             "default": 1,
             "CA": {
-                "default": 1,
-                "BC": {
-                    "default": 0.05,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                }
+                "default": 0.05,
+                "9to5google.com": 1.0,
+                "blog.cheapism.com": 1.0,
+                "boingboing.net": 1.0,
+                "f1i.com": 1.0,
+                "gottabemobile.com": 1.0,
+                "maketecheasier.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "road.cc": 1.0,
+                "venturebeat.com": 1.0,
+                "xda-developers.com": 1.0,
+                "BC": 1.0,
+                "MB": 1.0,
+                "NB": 1.0,
+                "NS": 1.0,
+                "ON": 1.0,
+                "QC": 1.0
             },
-            "MX": 0.05,
+            "CR": 0.05,
             "US": {
                 "default": 1,
                 "AR": 0.05,
                 "AZ": 0.05,
-                "CA": {
+                "CT": 0.05,
+                "DC": 0.05,
+                "DE": 0.05,
+                "FL": 0.05,
+                "GA": {
                     "default": 0.05,
                     "9to5mac.com": 1.0,
-                    "boingboing.net": 1.0,
                     "electrek.co": 1.0,
+                    "pocket-lint.com": 1.0,
                     "xda-developers.com": 1.0
                 },
-                "CO": {
+                "HI": {
                     "default": 0.05,
                     "9to5google.com": 1.0,
-                    "9to5mac.com": 1.0,
-                    "9to5toys.com": 1.0,
-                    "benzinga.com": 1.0,
-                    "bleepingcomputer.com": 1.0,
                     "blog.cheapism.com": 1.0,
-                    "dronedj.com": 1.0,
-                    "electrek.co": 1.0,
-                    "gottabemobile.com": 1.0,
-                    "maketecheasier.com": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "road.cc": 1.0,
-                    "venturebeat.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
-                "CT": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0,
                     "boingboing.net": 1.0,
                     "electrek.co": 1.0,
                     "pocket-lint.com": 1.0,
                     "xda-developers.com": 1.0
                 },
-                "FL": {
-                    "default": 0.05,
-                    "xda-developers.com": 1.0
-                },
+                "IA": 0.05,
+                "ID": 0.05,
+                "IL": 0.05,
                 "IN": {
                     "default": 0.05,
                     "9to5google.com": 1.0,
-                    "9to5mac.com": 1.0,
-                    "9to5toys.com": 1.0,
                     "blog.cheapism.com": 1.0,
-                    "boingboing.net": 1.0,
-                    "doyouremember.com": 1.0,
                     "electrek.co": 1.0,
-                    "gottabemobile.com": 1.0,
                     "pocket-lint.com": 1.0,
                     "xda-developers.com": 1.0
                 },
                 "KS": {
                     "default": 0.05,
                     "9to5mac.com": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
+                    "pocket-lint.com": 1.0
                 },
+                "KY": 0.05,
                 "LA": 0.05,
-                "MD": 0.05,
-                "MN": {
+                "MA": 0.05,
+                "MD": {
                     "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "electrek.co": 1.0,
-                    "xda-developers.com": 1.0
+                    "pocket-lint.com": 1.0
                 },
-                "MS": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "electrek.co": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
-                "NC": 0.05,
-                "ND": 0.05,
+                "ME": 0.05,
+                "MN": 0.05,
+                "MS": 0.05,
+                "MT": 0.05,
+                "NE": 0.05,
+                "NH": 0.05,
                 "NJ": 0.05,
-                "NM": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "electrek.co": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
+                "NM": 0.05,
                 "NV": 0.05,
                 "NY": 0.05,
-                "OH": {
+                "OR": {
                     "default": 0.05,
-                    "9to5google.com": 1.0,
                     "9to5mac.com": 1.0,
-                    "9to5toys.com": 1.0,
-                    "blog.cheapism.com": 1.0,
                     "electrek.co": 1.0,
                     "pocket-lint.com": 1.0,
                     "xda-developers.com": 1.0
                 },
-                "OK": {
+                "RI": 0.05,
+                "SC": 0.05,
+                "TN": 0.05,
+                "UT": {
                     "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "blog.cheapism.com": 1.0,
-                    "boingboing.net": 1.0,
-                    "electrek.co": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
-                "OR": 0.05,
-                "PA": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "electrek.co": 1.0,
-                    "xda-developers.com": 1.0
+                    "9to5mac.com": 1.0
                 },
                 "VA": {
                     "default": 0.05,
+                    "9to5mac.com": 1.0
+                },
+                "WA": {
+                    "default": 0.05,
                     "9to5google.com": 1.0,
                     "9to5mac.com": 1.0,
                     "blog.cheapism.com": 1.0,
                     "electrek.co": 1.0,
-                    "gottabemobile.com": 1.0,
                     "pocket-lint.com": 1.0,
                     "xda-developers.com": 1.0
-                },
-                "WA": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "electrek.co": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
-                "WI": {
-                    "default": 0.05,
-                    "9to5mac.com": 1.0,
-                    "blog.cheapism.com": 1.0,
-                    "electrek.co": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
-                "WV": 0.05
+                }
             }
         },
-        "OC": {
-            "default": 1,
-            "AU": 1,
-            "NZ": 0.05
-        }
+        "SA": 0.05
     }
 }
