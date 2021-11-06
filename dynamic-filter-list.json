@@ -15,6 +15,7 @@
             "thetalko.com": 1.0,
             "thethings.com": 1.0,
             "GH": 1.0,
+            "MU": 1.0,
             "NG": 1.0,
             "ZA": 1.0
         },
@@ -36,26 +37,23 @@
             "manilatimes.net": 1.0,
             "pocket-lint.com": 1.0,
             "screenrant.com": 1.0,
-            "stuff.tv": 1.0,
             "thegamer.com": 1.0,
             "thesportster.com": 1.0,
             "thetalko.com": 1.0,
             "thethings.com": 1.0,
             "thetravel.com": 1.0,
+            "HK": 1.0,
             "ID": 1.0,
             "IN": 1.0,
             "JP": 1.0,
-            "KH": 1.0,
             "KR": 1.0,
             "MY": 1.0,
-            "PK": 1.0,
             "SG": 1.0,
             "TR": 1.0,
             "VN": 1.0
         },
         "EU": {
             "default": 1,
-            "AL": 0.05,
             "AT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
@@ -63,16 +61,12 @@
                 "screenrant.com": 1.0,
                 "thegamer.com": 1.0
             },
-            "BA": 0.05,
             "BE": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "thegamer.com": 1.0
             },
-            "CY": 0.05,
-            "CZ": 0.05,
-            "EE": 0.05,
-            "ES": 0.05,
+            "BG": 0.05,
             "FR": 0.05,
             "GR": {
                 "default": 0.05,
@@ -93,41 +87,31 @@
                 "thegamer.com": 1.0,
                 "M": 1.0
             },
-            "IS": 0.05,
             "IT": 0.05,
-            "LU": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
             "NL": {
                 "default": 0.05,
-                "cbr.com": 1.0,
-                "collider.com": 1.0,
-                "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
                 "pocket-lint.com": 1.0,
                 "thegamer.com": 1.0,
-                "LI": 1.0,
                 "NB": 1.0,
                 "NH": 1.0,
                 "OV": 1.0,
-                "UT": 1.0,
                 "ZH": 1.0
             },
             "NO": {
-                "default": 1,
-                "50": 0.05
-            },
-            "PL": {
                 "default": 0.05,
-                "thegamer.com": 1.0
+                "collider.com": 1.0,
+                "gamerant.com": 1.0,
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0,
+                "11": 1.0,
+                "30": 1.0,
+                "46": 1.0
             },
-            "RO": 0.05,
-            "RS": 0.05,
-            "RU": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            },
-            "SI": 0.05
+            "PL": 0.05,
+            "PT": 0.05,
+            "RU": 0.05,
+            "UA": 0.05
         },
         "NA": {
             "default": 0.05,
@@ -146,6 +130,7 @@
             "gpblog.com": 1.0,
             "hotcars.com": 1.0,
             "jpost.com": 1.0,
+            "m.jpost.com": 1.0,
             "makeuseof.com": 1.0,
             "moms.com": 1.0,
             "pocket-lint.com": 1.0,
@@ -153,7 +138,6 @@
             "screenrant.com": 1.0,
             "sohh.com": 1.0,
             "spaceexplored.com": 1.0,
-            "stuff.tv": 1.0,
             "thegamer.com": 1.0,
             "therichest.com": 1.0,
             "thesportster.com": 1.0,
@@ -161,7 +145,6 @@
             "thethings.com": 1.0,
             "thetravel.com": 1.0,
             "CA": 1.0,
-            "DO": 1.0,
             "MX": 1.0,
             "PR": 1.0,
             "US": 1.0
@@ -183,7 +166,6 @@
             "pocket-lint.com": 1.0,
             "screenrant.com": 1.0,
             "thegamer.com": 1.0,
-            "thesportster.com": 1.0,
             "thethings.com": 1.0,
             "AU": 1.0,
             "NZ": 1.0
@@ -202,48 +184,53 @@
             "BR": 1.0,
             "CL": 1.0,
             "CO": 1.0,
-            "PE": 1.0
+            "PE": 1.0,
+            "VE": 1.0
         },
         "AF": {
             "default": 0.05,
-            "cbr.com": 1.0,
             "collider.com": 1.0,
             "gamerant.com": 1.0,
             "hotcars.com": 1.0,
-            "screenrant.com": 1.0,
+            "jpost.com": 1.0,
+            "makeuseof.com": 1.0,
+            "pocket-lint.com": 1.0,
             "thethings.com": 1.0,
             "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "hotcars.com": 1.0,
-            "thethings.com": 1.0,
+            "9to5mac.com": 1.0,
+            "androidpolice.com": 1.0,
+            "electrek.co": 1.0,
+            "gamerant.com": 1.0,
+            "road.cc": 1.0,
+            "screenrant.com": 1.0,
             "HK": 1.0,
-            "KR": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 0.05,
-            "dronedj.com": 1.0,
-            "CH": 1.0
+            "gottabemobile.com": 1.0
         },
         "NA": {
             "default": 1,
+            "BB": 0.05,
             "CR": 0.05,
-            "GT": 0.05,
+            "DO": 0.05,
+            "HN": 0.05,
             "JM": 0.05,
             "MX": {
                 "default": 0.05,
                 "screenrant.com": 1.0
             },
-            "PA": 0.05,
+            "PR": 0.05,
+            "SV": 0.05,
             "TT": 0.05
         },
         "OC": {
             "default": 1,
-            "GU": 0.05,
             "NZ": 0.05
         }
     },
@@ -252,81 +239,102 @@
             "default": 0.05,
             "collider.com": 1.0,
             "gamerant.com": 1.0,
+            "makeuseof.com": 1.0,
             "screenrant.com": 1.0,
-            "AR": 1.0,
             "BR": 1.0,
             "CL": 1.0
         },
         "AF": {
             "default": 0.05,
-            "collider.com": 1.0,
+            "cbr.com": 1.0,
             "gpblog.com": 1.0,
+            "hotcars.com": 1.0,
             "jpost.com": 1.0,
-            "ZA": 1.0
+            "NG": 1.0
         },
         "AS": {
             "default": 0.05,
             "bleepingcomputer.com": 1.0,
-            "collider.com": 1.0,
+            "boingboing.net": 1.0,
+            "cbr.com": 1.0,
+            "electrek.co": 1.0,
+            "gamerant.com": 1.0,
+            "gottabemobile.com": 1.0,
             "gpblog.com": 1.0,
+            "grid.id": 1.0,
             "jpost.com": 1.0,
             "kompasiana.com": 1.0,
             "m.tribunnews.com": 1.0,
             "nst.com.my": 1.0,
             "road.cc": 1.0,
-            "thethings.com": 1.0,
             "tribunnews.com": 1.0,
             "AE": 1.0,
+            "BD": 1.0,
+            "HK": 1.0,
             "ID": 1.0,
-            "JP": 1.0,
-            "KR": 1.0,
+            "IL": 1.0,
+            "LK": 1.0,
+            "MM": 1.0,
             "MY": 1.0,
             "SG": 1.0,
-            "TW": 1.0,
-            "VN": 1.0
+            "TW": 1.0
         },
         "EU": {
             "default": 1,
-            "AL": 0.05,
-            "AT": {
-                "default": 0.05,
-                "cbr.com": 1.0,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0
-            },
             "BA": 0.05,
             "BE": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
-                "VLG": 1.0,
-                "WAL": 1.0
+                "screenrant.com": 1.0
             },
             "BG": 0.05,
-            "CH": 1,
-            "CY": 0.05,
-            "CZ": 0.05,
-            "DK": {
+            "CZ": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
+            "EE": 0.05,
+            "ES": {
+                "default": 0.05,
+                "blog.cheapism.com": 1.0,
+                "cbr.com": 1.0,
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0,
+                "CT": 1.0,
+                "GA": 1.0,
+                "MD": 1.0,
+                "PV": 1.0,
+                "VC": 1.0
+            },
+            "FI": {
                 "default": 0.05,
                 "gamerant.com": 1.0
             },
-            "ES": 1,
-            "FI": 0.05,
+            "FR": {
+                "default": 1,
+                "NAQ": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "gamerant.com": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "OCC": 0.05
+            },
             "GR": 0.05,
             "HR": 0.05,
             "HU": 0.05,
             "IE": {
                 "default": 0.05,
-                "collider.com": 1.0,
-                "gamerant.com": 1.0,
                 "screenrant.com": 1.0,
                 "M": 1.0
             },
-            "IS": 0.05,
             "IT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
+                "collider.com": 1.0,
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
                 "screenrant.com": 1.0,
@@ -336,42 +344,26 @@
                 "52": 1.0,
                 "62": 1.0,
                 "72": 1.0,
-                "75": 1.0,
                 "82": 1.0
             },
             "LT": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
-            "MT": 0.05,
             "NL": {
                 "default": 1,
-                "NH": 0.05,
-                "ZH": {
-                    "default": 0.05,
-                    "gamerant.com": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "screenrant.com": 1.0,
-                    "thegamer.com": 1.0
-                }
+                "NB": 0.05
             },
-            "NO": {
-                "default": 0.05,
-                "gamerant.com": 1.0,
-                "30": 1.0
-            },
+            "NO": 1,
             "PL": {
                 "default": 0.05,
-                "cbr.com": 1.0
+                "gamerant.com": 1.0,
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0
             },
             "PT": {
                 "default": 0.05,
-                "gamerant.com": 1.0
-            },
-            "RO": {
-                "default": 0.05,
                 "cbr.com": 1.0,
-                "gamerant.com": 1.0
+                "screenrant.com": 1.0
             },
+            "RO": 0.05,
             "RS": 0.05,
             "RU": 0.05,
             "SE": {
@@ -379,46 +371,49 @@
                 "cbr.com": 1.0,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0,
+                "M": 1.0,
+                "O": 1.0
             },
-            "SI": 0.05,
             "SK": 0.05,
             "UA": 0.05
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
             "CA": 1,
             "CR": 0.05,
-            "DO": 0.05,
-            "HN": 0.05,
+            "GT": 0.05,
             "JM": 0.05,
             "MX": {
                 "default": 0.05,
                 "cbr.com": 1.0,
-                "collider.com": 1.0,
-                "MEX": 1.0
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0,
+                "CMX": 1.0,
+                "JAL": 1.0,
+                "MEX": 1.0,
+                "NLE": 1.0
             },
-            "PA": 0.05,
-            "TT": 0.05,
-            "US": 1
+            "SV": 0.05,
+            "TT": 0.05
         },
         "OC": {
             "default": 1,
-            "AU": 1,
-            "GU": 0.05,
             "NZ": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "collider.com": 1.0,
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
+                "screenrant.com": 1.0,
                 "thegamer.com": 1.0,
                 "CAN": 1.0,
                 "WGN": 1.0,
                 "WKO": 1.0
-            },
-            "TL": 0.05
+            }
         },
         "usermatch": 1.0
     },
@@ -426,30 +421,26 @@
         "SA": {
             "default": 0.05,
             "cbr.com": 1.0,
+            "collider.com": 1.0,
             "gamerant.com": 1.0,
             "screenrant.com": 1.0,
-            "BR": 1.0
+            "AR": 1.0,
+            "BR": 1.0,
+            "CL": 1.0,
+            "CO": 1.0,
+            "PE": 1.0
         },
-        "AF": {
-            "default": 0.05,
-            "pocket-lint.com": 1.0
-        },
-        "AS": {
-            "default": 0.05,
-            "pocket-lint.com": 1.0
-        },
+        "AF": 0.05,
+        "AS": 0.05,
         "EU": {
             "default": 0.05,
             "maketecheasier.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "thethings.com": 1.0,
+            "venturebeat.com": 1.0,
             "CH": 1.0,
-            "DE": 1.0,
-            "FI": 1.0,
-            "FR": 1.0,
-            "GB": 1.0,
-            "IT": 1.0
+            "GB": 1.0
         },
         "NA": {
             "default": 0.05,
@@ -480,74 +471,78 @@
         "SA": 0.05,
         "AF": {
             "default": 0.05,
+            "cbr.com": 1.0,
             "hotcars.com": 1.0,
             "makeuseof.com": 1.0,
+            "screenrant.com": 1.0,
             "GH": 1.0,
+            "KE": 1.0,
             "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
             "benzinga.com": 1.0,
-            "gamerant.com": 1.0,
-            "gottabemobile.com": 1.0,
-            "maketecheasier.com": 1.0,
-            "road.cc": 1.0,
-            "thegamer.com": 1.0,
-            "thethings.com": 1.0,
+            "hotcars.com": 1.0,
             "venturebeat.com": 1.0,
             "AE": 1.0,
             "BH": 1.0,
-            "GE": 1.0,
             "HK": 1.0,
-            "ID": 1.0,
-            "IL": 1.0,
-            "KR": 1.0,
-            "KW": 1.0,
-            "PH": 1.0,
-            "SG": 1.0,
-            "TR": 1.0,
-            "VN": 1.0
+            "MY": 1.0,
+            "QA": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "AL": 0.05,
             "BA": 0.05,
-            "BE": 1,
+            "BE": {
+                "default": 1,
+                "VLG": 0.05,
+                "WAL": {
+                    "default": 0.05,
+                    "gamerant.com": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0
+                }
+            },
             "BG": 0.05,
-            "CY": 0.05,
+            "CH": {
+                "default": 0.05,
+                "cbr.com": 1.0,
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "ZH": 1.0
+            },
             "CZ": 0.05,
             "DK": {
                 "default": 0.05,
+                "collider.com": 1.0,
                 "gamerant.com": 1.0,
                 "screenrant.com": 1.0,
                 "thegamer.com": 1.0,
                 "83": 1.0,
                 "84": 1.0
             },
-            "EE": 0.05,
             "ES": {
                 "default": 1,
-                "PV": 0.05,
-                "VC": 0.05
+                "CT": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0
+                },
+                "MD": {
+                    "default": 0.05,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0
+                }
             },
             "FR": {
                 "default": 0.05,
-                "cbr.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
+                "makeuseof.com": 1.0,
                 "thegamer.com": 1.0,
-                "HDF": 1.0,
-                "IDF": 1.0,
-                "NAQ": 1.0,
-                "OCC": 1.0
+                "GES": 1.0
             },
-            "GR": {
-                "default": 0.05,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0,
-                "I": 1.0
-            },
+            "GR": 0.05,
             "HR": 0.05,
             "HU": {
                 "default": 0.05,
@@ -559,9 +554,9 @@
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
                 "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
                 "M": 1.0
             },
-            "IS": 0.05,
             "IT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
@@ -572,52 +567,28 @@
                 "25": 1.0,
                 "34": 1.0,
                 "45": 1.0,
-                "52": 1.0,
                 "62": 1.0,
                 "72": 1.0,
-                "75": 1.0,
                 "82": 1.0
             },
             "LT": 0.05,
-            "LU": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
-            "MT": 0.05,
             "NL": {
                 "default": 1,
-                "NB": 0.05,
-                "OV": {
-                    "default": 0.05,
-                    "screenrant.com": 1.0
-                }
+                "LI": 0.05,
+                "NH": 0.05
             },
-            "NO": {
-                "default": 0.05,
-                "cbr.com": 1.0,
-                "gamerant.com": 1.0,
-                "makeuseof.com": 1.0,
-                "thegamer.com": 1.0,
-                "50": 1.0
-            },
-            "PL": {
-                "default": 0.05,
-                "cbr.com": 1.0,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0,
-                "thegamer.com": 1.0,
-                "14": 1.0
-            },
+            "NO": 1,
+            "PL": 0.05,
             "PT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "gamerant.com": 1.0,
-                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "13": 1.0
             },
             "RO": {
                 "default": 0.05,
-                "gamerant.com": 1.0
+                "screenrant.com": 1.0
             },
             "RS": 0.05,
             "RU": {
@@ -631,11 +602,10 @@
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "collider.com": 1.0,
-                "makeuseof.com": 1.0,
+                "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
                 "thegamer.com": 1.0,
-                "O": 1.0
+                "M": 1.0
             },
             "SI": 0.05,
             "SK": 0.05,
@@ -643,9 +613,10 @@
         },
         "NA": {
             "default": 1,
-            "CA": 1,
+            "BB": 0.05,
             "CR": 0.05,
-            "DO": 0.05,
+            "GT": 0.05,
+            "HN": 0.05,
             "JM": 0.05,
             "MX": {
                 "default": 0.05,
@@ -661,12 +632,41 @@
                 "NLE": 1.0
             },
             "PA": 0.05,
+            "PR": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
+            "SV": 0.05,
             "TT": 0.05,
-            "US": 1
-        },
-        "OC": {
-            "default": 1,
-            "GU": 0.05
+            "US": {
+                "default": 1,
+                "MD": {
+                    "default": 1,
+                    "cbr.com": 1.0,
+                    "collider.com": 1.0,
+                    "electrek.co": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "screenrant.com": 1.0,
+                    "thegamer.com": 1.0,
+                    "thethings.com": 1.0
+                },
+                "NH": {
+                    "default": 1,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "cbr.com": 1.0,
+                    "collider.com": 1.0,
+                    "electrek.co": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "screenrant.com": 1.0,
+                    "thegamer.com": 1.0,
+                    "thethings.com": 1.0
+                }
+            }
         },
         "usermatch": 1.0
     },
@@ -686,55 +686,11 @@
             "CO": 1.0,
             "PE": 1.0
         },
-        "EU": 0.05,
         "usermatch": 1.0
     },
     "openx": {
-        "NA": {
-            "default": 1,
-            "BB": 0.05,
-            "CR": 0.05,
-            "DO": 0.05,
-            "HN": 0.05,
-            "JM": 0.05,
-            "MX": {
-                "default": 0.05,
-                "cbr.com": 1.0,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0,
-                "JAL": 1.0,
-                "MEX": 1.0,
-                "NLE": 1.0
-            },
-            "PA": 0.05,
-            "PR": 0.05,
-            "TT": 0.05
-        },
-        "AF": {
-            "default": 0.05,
-            "cbr.com": 1.0,
-            "collider.com": 1.0,
-            "gpblog.com": 1.0,
-            "hotcars.com": 1.0,
-            "makeuseof.com": 1.0,
-            "screenrant.com": 1.0,
-            "thegamer.com": 1.0,
-            "GH": 1.0,
-            "NG": 1.0,
-            "ZA": 1.0
-        },
-        "AS": {
-            "default": 0.05,
-            "grid.id": 1.0,
-            "hotcars.com": 1.0,
-            "nst.com.my": 1.0,
-            "GE": 1.0,
-            "SG": 1.0,
-            "VN": 1.0
-        },
         "EU": {
             "default": 1,
-            "AL": 0.05,
             "AT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
@@ -746,18 +702,21 @@
             "BA": 0.05,
             "BE": {
                 "default": 0.05,
-                "WAL": 1.0
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "VLG": 1.0
             },
             "BG": 0.05,
-            "CY": 0.05,
             "CZ": 0.05,
             "DE": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "collider.com": 1.0,
+                "gamerant.com": 1.0,
                 "hotcars.com": 1.0,
+                "makeuseof.com": 1.0,
+                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "BE": 1.0,
                 "BW": 1.0,
                 "BY": 1.0,
                 "HB": 1.0,
@@ -774,30 +733,18 @@
             "DK": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
-                "screenrant.com": 1.0
+                "84": 1.0
             },
-            "EE": 0.05,
             "ES": {
                 "default": 0.05,
                 "blog.cheapism.com": 1.0,
-                "cbr.com": 1.0,
-                "gamerant.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
-                "thegamer.com": 1.0,
-                "CT": 1.0,
-                "GA": 1.0,
-                "MD": 1.0,
-                "PV": 1.0,
-                "VC": 1.0
+                "gamerant.com": 1.0
             },
-            "FI": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            },
+            "FI": 0.05,
             "FR": {
                 "default": 0.05,
-                "screenrant.com": 1.0
+                "gamerant.com": 1.0,
+                "thegamer.com": 1.0
             },
             "GR": 0.05,
             "HR": 0.05,
@@ -808,60 +755,107 @@
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
-                "M": 1.0
+                "screenrant.com": 1.0
             },
-            "IS": 0.05,
             "IT": {
                 "default": 0.05,
-                "gamerant.com": 1.0
+                "screenrant.com": 1.0
             },
             "LT": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
-            "MT": 0.05,
             "NL": {
                 "default": 0.05,
-                "screenrant.com": 1.0
+                "makeuseof.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "LI": 1.0,
+                "NB": 1.0,
+                "NH": 1.0,
+                "OV": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
             },
-            "NO": {
-                "default": 0.05,
-                "gamerant.com": 1.0
-            },
+            "NO": 0.05,
             "PL": {
                 "default": 0.05,
-                "cbr.com": 1.0,
-                "screenrant.com": 1.0
+                "gamerant.com": 1.0
             },
             "PT": {
                 "default": 0.05,
-                "pocket-lint.com": 1.0
+                "screenrant.com": 1.0
             },
             "RO": 0.05,
             "RS": 0.05,
-            "RU": 0.05,
-            "SE": {
+            "RU": {
                 "default": 0.05,
-                "cbr.com": 1.0,
-                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0
             },
+            "SE": 0.05,
             "SI": 0.05,
             "SK": 0.05,
             "UA": 0.05
         },
+        "AF": {
+            "default": 0.05,
+            "cbr.com": 1.0,
+            "gpblog.com": 1.0,
+            "hotcars.com": 1.0,
+            "screenrant.com": 1.0,
+            "thethings.com": 1.0,
+            "NG": 1.0,
+            "ZA": 1.0
+        },
+        "AS": {
+            "default": 0.05,
+            "bleepingcomputer.com": 1.0,
+            "gpblog.com": 1.0,
+            "grid.id": 1.0,
+            "jpost.com": 1.0,
+            "nst.com.my": 1.0,
+            "tribunnews.com": 1.0,
+            "AE": 1.0,
+            "GE": 1.0,
+            "HK": 1.0,
+            "ID": 1.0,
+            "IL": 1.0,
+            "JP": 1.0,
+            "KR": 1.0,
+            "KW": 1.0,
+            "MM": 1.0,
+            "MY": 1.0,
+            "QA": 1.0,
+            "SG": 1.0,
+            "TW": 1.0
+        },
+        "NA": {
+            "default": 1,
+            "BB": 0.05,
+            "CR": 0.05,
+            "GT": 0.05,
+            "JM": 0.05,
+            "MX": {
+                "default": 0.05,
+                "cbr.com": 1.0,
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "CMX": 1.0,
+                "JAL": 1.0,
+                "MEX": 1.0
+            },
+            "PR": 0.05,
+            "SV": 0.05,
+            "TT": 0.05
+        },
         "OC": {
             "default": 1,
-            "GU": 0.05,
             "NZ": {
                 "default": 0.05,
                 "cbr.com": 1.0,
+                "collider.com": 1.0,
                 "makeuseof.com": 1.0,
                 "screenrant.com": 1.0,
-                "WGN": 1.0,
                 "WKO": 1.0
-            },
-            "TL": 0.05
+            }
         },
         "usermatch": 1.0
     },
@@ -872,37 +866,28 @@
         },
         "AF": {
             "default": 0.05,
-            "cbr.com": 1.0,
-            "collider.com": 1.0,
-            "gamerant.com": 1.0,
-            "gpblog.com": 1.0,
             "hotcars.com": 1.0,
             "screenrant.com": 1.0,
-            "GH": 1.0,
-            "NG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "gpblog.com": 1.0,
-            "hotcars.com": 1.0,
-            "pocket-lint.com": 1.0,
+            "bleepingcomputer.com": 1.0,
+            "boingboing.net": 1.0,
             "road.cc": 1.0,
             "venturebeat.com": 1.0,
-            "IL": 1.0,
+            "AE": 1.0,
+            "HK": 1.0,
             "IQ": 1.0,
-            "JP": 1.0,
-            "KR": 1.0,
-            "KW": 1.0,
-            "SG": 1.0,
-            "TW": 1.0
+            "QA": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "AL": 0.05,
             "BA": 0.05,
             "BE": {
                 "default": 0.05,
+                "collider.com": 1.0,
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
                 "pocket-lint.com": 1.0,
@@ -911,31 +896,25 @@
                 "WAL": 1.0
             },
             "BG": 0.05,
-            "CH": {
-                "default": 1,
-                "ZH": 0.05
-            },
-            "CY": 0.05,
-            "CZ": {
-                "default": 0.05,
-                "gamerant.com": 1.0
-            },
+            "CH": 1,
+            "CZ": 0.05,
+            "DE": 1,
             "DK": {
                 "default": 0.05,
+                "collider.com": 1.0,
                 "gamerant.com": 1.0,
                 "screenrant.com": 1.0,
                 "83": 1.0,
                 "84": 1.0
             },
-            "EE": 0.05,
             "ES": {
                 "default": 0.05,
                 "blog.cheapism.com": 1.0,
                 "cbr.com": 1.0,
+                "collider.com": 1.0,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "CT": 1.0,
                 "GA": 1.0,
                 "MD": 1.0,
                 "PV": 1.0,
@@ -943,19 +922,14 @@
             },
             "FI": {
                 "default": 0.05,
-                "gamerant.com": 1.0,
-                "makeuseof.com": 1.0,
                 "screenrant.com": 1.0,
                 "18": 1.0,
                 "19": 1.0
             },
             "FR": {
                 "default": 0.05,
-                "cbr.com": 1.0,
                 "gamerant.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
-                "HDF": 1.0,
+                "makeuseof.com": 1.0,
                 "IDF": 1.0,
                 "PAC": 1.0
             },
@@ -971,17 +945,11 @@
                 "screenrant.com": 1.0,
                 "M": 1.0
             },
-            "IS": 0.05,
             "IT": {
                 "default": 0.05,
-                "cbr.com": 1.0,
-                "screenrant.com": 1.0,
-                "62": 1.0
+                "gamerant.com": 1.0
             },
             "LT": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
-            "MT": 0.05,
             "NL": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
@@ -989,72 +957,66 @@
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "LI": 1.0,
-                "NB": 1.0,
                 "NH": 1.0,
                 "OV": 1.0,
                 "UT": 1.0,
                 "ZH": 1.0
             },
-            "NO": 1,
-            "PL": {
+            "NO": {
                 "default": 0.05,
-                "screenrant.com": 1.0
-            },
-            "PT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
-            "RO": 0.05,
-            "RS": 0.05,
-            "RU": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            },
-            "SE": {
-                "default": 0.05,
-                "cbr.com": 1.0,
                 "collider.com": 1.0,
                 "gamerant.com": 1.0,
+                "screenrant.com": 1.0,
+                "46": 1.0
+            },
+            "PL": 0.05,
+            "PT": {
+                "default": 0.05,
+                "gamerant.com": 1.0,
+                "screenrant.com": 1.0
+            },
+            "RO": {
+                "default": 0.05,
+                "gamerant.com": 1.0,
+                "screenrant.com": 1.0
+            },
+            "RS": 0.05,
+            "RU": 0.05,
+            "SE": {
+                "default": 0.05,
+                "collider.com": 1.0,
                 "makeuseof.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "C": 1.0,
-                "E": 1.0,
+                "screenrant.com": 1.0,
                 "M": 1.0,
                 "O": 1.0
             },
-            "SI": 0.05,
             "SK": 0.05,
             "UA": 0.05
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
             "CR": 0.05,
-            "DO": 0.05,
-            "HN": 0.05,
+            "GT": 0.05,
             "JM": 0.05,
             "MX": {
                 "default": 0.05,
                 "cbr.com": 1.0,
-                "screenrant.com": 1.0,
-                "CMX": 1.0,
-                "JAL": 1.0,
-                "MEX": 1.0
+                "gamerant.com": 1.0,
+                "screenrant.com": 1.0
             },
             "PA": 0.05,
             "PR": 0.05,
+            "SV": 0.05,
             "TT": 0.05
         },
         "OC": {
             "default": 1,
-            "GU": 0.05,
             "NZ": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
-                "screenrant.com": 1.0,
-                "CAN": 1.0,
                 "WGN": 1.0,
                 "WKO": 1.0
             }
@@ -1064,7 +1026,6 @@
     "rubicon": {
         "SA": {
             "default": 0.05,
-            "cbr.com": 1.0,
             "collider.com": 1.0,
             "makeuseof.com": 1.0,
             "pocket-lint.com": 1.0,
@@ -1077,118 +1038,121 @@
         },
         "AF": {
             "default": 0.05,
-            "gamerant.com": 1.0,
+            "collider.com": 1.0,
             "gpblog.com": 1.0,
-            "hotcars.com": 1.0,
             "jpost.com": 1.0,
-            "screenrant.com": 1.0,
+            "pocket-lint.com": 1.0,
             "thethings.com": 1.0,
-            "GH": 1.0,
+            "KE": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
+            "9to5google.com": 1.0,
             "gpblog.com": 1.0,
-            "hotcars.com": 1.0,
-            "thethings.com": 1.0,
+            "makeuseof.com": 1.0,
+            "road.cc": 1.0,
+            "AE": 1.0,
             "HK": 1.0,
-            "KR": 1.0,
-            "MM": 1.0,
-            "SG": 1.0
+            "MY": 1.0,
+            "SG": 1.0,
+            "TW": 1.0
         },
         "EU": {
             "default": 1,
-            "AL": 0.05,
             "BA": 0.05,
             "BE": {
                 "default": 0.05,
-                "WAL": 1.0
+                "screenrant.com": 1.0,
+                "VLG": 1.0
             },
             "BG": 0.05,
-            "CH": 1,
-            "CY": 0.05,
             "CZ": 0.05,
             "DE": {
-                "default": 1,
-                "SH": {
-                    "default": 0.05,
-                    "cbr.com": 1.0,
-                    "gamerant.com": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "screenrant.com": 1.0,
-                    "thegamer.com": 1.0
-                }
-            },
-            "DK": {
                 "default": 0.05,
+                "cbr.com": 1.0,
+                "collider.com": 1.0,
                 "gamerant.com": 1.0,
+                "hotcars.com": 1.0,
+                "makeuseof.com": 1.0,
+                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "83": 1.0,
-                "84": 1.0
+                "thegamer.com": 1.0,
+                "BE": 1.0,
+                "BW": 1.0,
+                "BY": 1.0,
+                "HB": 1.0,
+                "HE": 1.0,
+                "HH": 1.0,
+                "NI": 1.0,
+                "NW": 1.0,
+                "RP": 1.0,
+                "SH": 1.0,
+                "SN": 1.0,
+                "ST": 1.0,
+                "TH": 1.0
             },
+            "EE": 0.05,
             "ES": {
                 "default": 0.05,
                 "blog.cheapism.com": 1.0,
-                "cbr.com": 1.0,
-                "collider.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0,
-                "CL": 1.0,
-                "CT": 1.0,
-                "GA": 1.0,
-                "MD": 1.0,
-                "PV": 1.0,
-                "VC": 1.0
+                "cbr.com": 1.0
             },
             "FR": {
                 "default": 0.05,
-                "collider.com": 1.0,
                 "pocket-lint.com": 1.0,
+                "GES": 1.0,
                 "HDF": 1.0,
-                "NAQ": 1.0,
-                "OCC": 1.0,
-                "PAC": 1.0
+                "IDF": 1.0
             },
             "GR": 0.05,
             "HR": 0.05,
             "HU": 0.05,
-            "IS": 0.05,
+            "IE": {
+                "default": 0.05,
+                "collider.com": 1.0,
+                "gamerant.com": 1.0,
+                "makeuseof.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0
+            },
             "IT": {
                 "default": 0.05,
-                "cbr.com": 1.0
+                "cbr.com": 1.0,
+                "gamerant.com": 1.0,
+                "34": 1.0,
+                "45": 1.0
             },
             "LT": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
-            "MT": 0.05,
+            "LU": 0.05,
             "NL": {
                 "default": 1,
-                "LI": 0.05,
-                "NB": 0.05,
-                "NH": {
-                    "default": 0.05,
-                    "screenrant.com": 1.0
-                },
-                "OV": {
-                    "default": 0.05,
-                    "gamerant.com": 1.0,
-                    "makeuseof.com": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "screenrant.com": 1.0
-                },
-                "ZH": 0.05
+                "GR": 0.05
+            },
+            "NO": {
+                "default": 0.05,
+                "collider.com": 1.0,
+                "gamerant.com": 1.0,
+                "makeuseof.com": 1.0,
+                "screenrant.com": 1.0,
+                "thegamer.com": 1.0,
+                "11": 1.0,
+                "30": 1.0,
+                "46": 1.0,
+                "50": 1.0
             },
             "PL": {
                 "default": 0.05,
                 "cbr.com": 1.0
             },
-            "PT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
+            "PT": 0.05,
             "RO": 0.05,
             "RS": 0.05,
-            "RU": 0.05,
+            "RU": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
             "SI": 0.05,
             "SK": 0.05,
             "UA": 0.05
@@ -1200,6 +1164,7 @@
             "benzinga.com": 1.0,
             "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
+            "boingboing.net": 1.0,
             "cbr.com": 1.0,
             "collider.com": 1.0,
             "dyrdev.wpengine.com": 1.0,
@@ -1209,27 +1174,22 @@
             "gottabemobile.com": 1.0,
             "gpblog.com": 1.0,
             "hotcars.com": 1.0,
+            "m.jpost.com": 1.0,
             "makeuseof.com": 1.0,
             "moms.com": 1.0,
-            "newser.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
-            "sohh.com": 1.0,
-            "stuff.tv": 1.0,
             "thegamer.com": 1.0,
             "therichest.com": 1.0,
-            "thesportster.com": 1.0,
             "thetalko.com": 1.0,
             "thetravel.com": 1.0,
             "venturebeat.com": 1.0,
             "CA": 1.0,
-            "MX": 1.0,
             "US": 1.0
         },
         "OC": {
             "default": 1,
-            "GU": 0.05,
             "NZ": {
                 "default": 0.05,
                 "cbr.com": 1.0,
@@ -1237,41 +1197,30 @@
                 "gamerant.com": 1.0,
                 "makeuseof.com": 1.0,
                 "screenrant.com": 1.0,
-                "WKO": 1.0
+                "CAN": 1.0,
+                "WGN": 1.0
             }
         },
         "usermatch": 1.0
     },
     "sharethrough": {
-        "SA": {
-            "default": 0.05,
-            "cbr.com": 1.0,
-            "gamerant.com": 1.0,
-            "thegamer.com": 1.0,
-            "BR": 1.0
-        },
+        "SA": 0.05
+    },
+    "smartadserver": {
         "EU": {
             "default": 0.05,
             "stuff.tv": 1.0,
             "GB": 1.0
-        }
-    },
-    "smartadserver": {
-        "NA": {
-            "default": 1,
-            "US": 1
         },
         "AF": {
             "default": 0.05,
             "gpblog.com": 1.0,
             "ZA": 1.0
-        },
-        "AS": 0.05
+        }
     },
     "sovrn": {
         "OC": {
             "default": 1,
-            "GU": 0.05,
             "NZ": {
                 "default": 0.05,
                 "makeuseof.com": 1.0
@@ -1279,23 +1228,20 @@
         },
         "AF": {
             "default": 0.05,
-            "cbr.com": 1.0,
+            "gamerant.com": 1.0,
             "hotcars.com": 1.0,
-            "screenrant.com": 1.0,
+            "makeuseof.com": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "gamerant.com": 1.0,
-            "hotcars.com": 1.0,
-            "makeuseof.com": 1.0,
-            "road.cc": 1.0,
+            "9to5mac.com": 1.0,
             "AE": 1.0,
-            "HK": 1.0,
             "SG": 1.0
         },
         "EU": {
             "default": 1,
+            "AL": 0.05,
             "AT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
@@ -1303,13 +1249,13 @@
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0
             },
-            "BE": 0.05,
+            "BA": 0.05,
+            "BG": 0.05,
             "CH": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
                 "screenrant.com": 1.0
             },
-            "CY": 0.05,
             "CZ": {
                 "default": 0.05,
                 "gamerant.com": 1.0
@@ -1317,50 +1263,32 @@
             "DK": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
-                "thegamer.com": 1.0,
-                "84": 1.0
+                "thegamer.com": 1.0
             },
-            "EE": 0.05,
             "ES": {
                 "default": 0.05,
-                "blog.cheapism.com": 1.0,
                 "cbr.com": 1.0,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "thegamer.com": 1.0,
-                "CT": 1.0,
-                "MD": 1.0,
-                "VC": 1.0
+                "thegamer.com": 1.0
             },
             "FR": {
                 "default": 0.05,
                 "gamerant.com": 1.0
             },
+            "GR": 0.05,
             "HR": 0.05,
-            "HU": 0.05,
             "IE": 0.05,
-            "IS": 0.05,
             "IT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "gamerant.com": 1.0,
                 "screenrant.com": 1.0,
-                "25": 1.0,
-                "34": 1.0,
-                "45": 1.0,
-                "52": 1.0,
-                "62": 1.0,
-                "72": 1.0,
-                "75": 1.0,
                 "82": 1.0
             },
-            "LT": 0.05,
-            "LU": 0.05,
-            "LV": 0.05,
-            "MK": 0.05,
             "NL": 0.05,
-            "PL": 0.05,
+            "NO": 1,
             "PT": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
@@ -1371,31 +1299,35 @@
                 "default": 0.05,
                 "gamerant.com": 1.0
             },
-            "RU": 0.05,
+            "RS": 0.05,
             "SE": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "thegamer.com": 1.0,
+                "M": 1.0,
                 "O": 1.0
             },
-            "SK": 0.05
+            "SI": 0.05,
+            "UA": 0.05
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
-            "CA": 1,
             "CR": 0.05,
-            "GT": 0.05,
+            "DO": 0.05,
+            "HN": 0.05,
             "JM": 0.05,
             "MX": 0.05,
-            "PA": 0.05,
-            "PR": 0.05,
+            "SV": 0.05,
             "TT": 0.05
         },
         "SA": {
             "default": 0.05,
+            "collider.com": 1.0,
+            "gamerant.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "screenrant.com": 1.0,
             "BR": 1.0
         }
     }
