@@ -2,8 +2,6 @@
     "adform": {
         "AF": {
             "default": 0.05,
-            "amp.dw.com": 1.0,
-            "birminghammail.co.uk": 1.0,
             "cbr.com": 1.0,
             "collider.com": 1.0,
             "dailyrecord.co.uk": 1.0,
@@ -23,14 +21,13 @@
             "thesportster.com": 1.0,
             "thisisanfield.com": 1.0,
             "xda-developers.com": 1.0,
+            "AO": 1.0,
             "CM": 1.0,
             "DZ": 1.0,
             "GH": 1.0,
             "KE": 1.0,
             "MA": 1.0,
             "MU": 1.0,
-            "MZ": 1.0,
-            "NA": 1.0,
             "NG": 1.0,
             "SO": 1.0,
             "SZ": 1.0,
@@ -38,11 +35,12 @@
             "TZ": 1.0,
             "UG": 1.0,
             "ZA": 1.0,
-            "ZW": 1.0
+            "ZM": 1.0
         },
         "AS": {
             "default": 0.05,
             "9to5google.com": 1.0,
+            "9to5mac.com": 1.0,
             "amp.dw.com": 1.0,
             "androidpolice.com": 1.0,
             "benzinga.com": 1.0,
@@ -52,8 +50,11 @@
             "collider.com": 1.0,
             "dailyrecord.co.uk": 1.0,
             "dailystar.co.uk": 1.0,
+            "dronedj.com": 1.0,
             "dw.com": 1.0,
+            "electrek.co": 1.0,
             "express.co.uk": 1.0,
+            "f1i.com": 1.0,
             "gamerant.com": 1.0,
             "gpblog.com": 1.0,
             "hotcars.com": 1.0,
@@ -62,6 +63,7 @@
             "liverpoolecho.co.uk": 1.0,
             "makeuseof.com": 1.0,
             "manchestereveningnews.co.uk": 1.0,
+            "manilatimes.net": 1.0,
             "mirror.co.uk": 1.0,
             "news.itsfoss.com": 1.0,
             "pocket-lint.com": 1.0,
@@ -73,13 +75,16 @@
             "thethings.com": 1.0,
             "thetravel.com": 1.0,
             "thisisanfield.com": 1.0,
+            "topspeed.com": 1.0,
             "walesonline.co.uk": 1.0,
             "xda-developers.com": 1.0,
             "AE": 1.0,
+            "AM": 1.0,
             "AZ": 1.0,
             "BD": 1.0,
             "BH": 1.0,
             "BN": 1.0,
+            "GE": 1.0,
             "HK": 1.0,
             "ID": 1.0,
             "IL": 1.0,
@@ -90,8 +95,12 @@
             "KG": 1.0,
             "KR": 1.0,
             "KW": 1.0,
+            "KZ": 1.0,
             "LB": 1.0,
+            "LK": 1.0,
+            "MM": 1.0,
             "MY": 1.0,
+            "NP": 1.0,
             "OM": 1.0,
             "PH": 1.0,
             "PK": 1.0,
@@ -107,6 +116,7 @@
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
+            "9to5toys.com": 1.0,
             "amp.dw.com": 1.0,
             "androidpolice.com": 1.0,
             "birminghammail.co.uk": 1.0,
@@ -114,6 +124,7 @@
             "chroniclelive.co.uk": 1.0,
             "collider.com": 1.0,
             "comedy.co.uk": 1.0,
+            "dailymirror.org": 1.0,
             "dailyrecord.co.uk": 1.0,
             "dronedj.com": 1.0,
             "dw.com": 1.0,
@@ -149,6 +160,7 @@
             "AT": 1.0,
             "BA": 1.0,
             "BE": 1.0,
+            "BG": 1.0,
             "BY": 1.0,
             "CH": 1.0,
             "CY": 1.0,
@@ -167,6 +179,7 @@
             "IS": 1.0,
             "IT": 1.0,
             "LT": 1.0,
+            "LU": 1.0,
             "LV": 1.0,
             "MD": 1.0,
             "ME": 1.0,
@@ -180,14 +193,14 @@
             "RS": 1.0,
             "RU": 1.0,
             "SE": 1.0,
-            "SI": 1.0,
-            "UA": 1.0,
-            "XK": 1.0
+            "SK": 1.0,
+            "UA": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
+            "9to5toys.com": 1.0,
             "amp.dw.com": 1.0,
             "androidpolice.com": 1.0,
             "babygaga.com": 1.0,
@@ -196,8 +209,10 @@
             "cbr.com": 1.0,
             "chroniclelive.co.uk": 1.0,
             "collider.com": 1.0,
+            "connectthewatts.com": 1.0,
             "dailyrecord.co.uk": 1.0,
             "dailystar.co.uk": 1.0,
+            "dronedj.com": 1.0,
             "dw.com": 1.0,
             "electrek.co": 1.0,
             "express.co.uk": 1.0,
@@ -218,7 +233,6 @@
             "reason.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
-            "slantmagazine.com": 1.0,
             "tennistonic.com": 1.0,
             "thegamehaus.com": 1.0,
             "thegamer.com": 1.0,
@@ -233,32 +247,25 @@
             "walesonline.co.uk": 1.0,
             "xda-developers.com": 1.0,
             "CA": 1.0,
-            "LC": 1.0,
+            "GT": 1.0,
             "MX": 1.0,
-            "SV": 1.0,
             "US": 1.0
         },
         "OC": {
             "default": 0.05,
-            "benzinga.com": 1.0,
             "cbr.com": 1.0,
-            "chroniclelive.co.uk": 1.0,
             "collider.com": 1.0,
             "dailyrecord.co.uk": 1.0,
-            "dw.com": 1.0,
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
             "gamerant.com": 1.0,
             "gpblog.com": 1.0,
             "hotcars.com": 1.0,
-            "irishmirror.ie": 1.0,
             "jpost.com": 1.0,
-            "liverpoolecho.co.uk": 1.0,
             "makeuseof.com": 1.0,
+            "manchestereveningnews.co.uk": 1.0,
+            "mirror.co.uk": 1.0,
             "screenrant.com": 1.0,
-            "tennistonic.com": 1.0,
-            "thegamer.com": 1.0,
-            "thethings.com": 1.0,
             "thisisanfield.com": 1.0,
             "xda-developers.com": 1.0,
             "AU": 1.0
@@ -282,6 +289,7 @@
             "screenrant.com": 1.0,
             "thegamer.com": 1.0,
             "xda-developers.com": 1.0,
+            "AR": 1.0,
             "BR": 1.0,
             "CL": 1.0,
             "CO": 1.0,
@@ -289,133 +297,150 @@
         },
         "AF": {
             "default": 0.05,
-            "gpblog.com": 1.0
+            "gpblog.com": 1.0,
+            "hotcars.com": 1.0
         },
-        "AS": 0.05,
+        "AS": {
+            "default": 0.05,
+            "gamerant.com": 1.0
+        },
         "EU": {
             "default": 0.05,
             "9to5google.com": 1.0,
+            "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
+            "cbr.com": 1.0,
             "electrek.co": 1.0,
             "gamerant.com": 1.0,
+            "pocket-lint.com": 1.0,
             "simpleflying.com": 1.0,
             "topspeed.com": 1.0,
             "venturebeat.com": 1.0,
+            "BG": 1.0,
+            "CH": 1.0,
             "CZ": 1.0,
-            "DK": 1.0,
-            "FI": 1.0,
-            "IS": 1.0
+            "DE": 1.0,
+            "GB": 1.0,
+            "GR": 1.0
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
-            "BM": 0.05,
+            "BS": 0.05,
             "CA": {
-                "default": 0.05,
-                "9to5google.com": 1.0,
-                "9to5mac.com": 1.0,
-                "androidpolice.com": 1.0,
-                "benzinga.com": 1.0,
-                "bleepingcomputer.com": 1.0,
-                "blog.cheapism.com": 1.0,
-                "boingboing.net": 1.0,
-                "cbr.com": 1.0,
-                "collider.com": 1.0,
-                "dw.com": 1.0,
-                "electrek.co": 1.0,
-                "f1i.com": 1.0,
-                "gamerant.com": 1.0,
-                "hotcars.com": 1.0,
-                "maketecheasier.com": 1.0,
-                "makeuseof.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "road.cc": 1.0,
-                "screenrant.com": 1.0,
-                "simpleflying.com": 1.0,
-                "tennistonic.com": 1.0,
-                "thesportster.com": 1.0,
-                "thetalko.com": 1.0,
-                "thetravel.com": 1.0,
-                "thisisanfield.com": 1.0,
-                "topspeed.com": 1.0,
-                "venturebeat.com": 1.0,
-                "xda-developers.com": 1.0,
-                "BC": 1.0,
-                "MB": 1.0,
-                "NB": 1.0,
-                "NL": 1.0,
-                "NS": 1.0,
-                "ON": 1.0,
-                "PE": 1.0,
-                "QC": 1.0,
-                "SK": 1.0
+                "default": 1,
+                "NL": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "gamerant.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "NS": {
+                    "default": 0.05,
+                    "gamerant.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "ON": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "gamerant.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "PE": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5mac.com": 1.0,
+                    "androidpolice.com": 1.0,
+                    "bleepingcomputer.com": 1.0,
+                    "boingboing.net": 1.0,
+                    "cbr.com": 1.0,
+                    "collider.com": 1.0,
+                    "dw.com": 1.0,
+                    "electrek.co": 1.0,
+                    "gamerant.com": 1.0,
+                    "gpblog.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "movieweb.com": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "road.cc": 1.0,
+                    "screenrant.com": 1.0,
+                    "simpleflying.com": 1.0,
+                    "thesportster.com": 1.0,
+                    "thethings.com": 1.0,
+                    "thetravel.com": 1.0,
+                    "thisisanfield.com": 1.0,
+                    "topspeed.com": 1.0,
+                    "xda-developers.com": 1.0
+                },
+                "SK": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                }
             },
             "CR": 0.05,
             "DO": 0.05,
-            "GT": 0.05,
-            "JM": 0.05,
+            "HN": 0.05,
+            "LC": 0.05,
             "MX": 0.05,
-            "PA": 0.05,
-            "PR": 0.05,
-            "SV": 0.05
+            "NI": 0.05,
+            "SV": 0.05,
+            "TT": 0.05
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
-            "androidpolice.com": 1.0,
-            "benzinga.com": 1.0,
             "bleepingcomputer.com": 1.0,
+            "cbr.com": 1.0,
             "collider.com": 1.0,
+            "comedy.co.uk": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gamerant.com": 1.0,
-            "gottabemobile.com": 1.0,
-            "gpblog.com": 1.0,
-            "maketecheasier.com": 1.0,
+            "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
             "simpleflying.com": 1.0,
-            "tennistonic.com": 1.0,
             "thesportster.com": 1.0,
-            "thetalko.com": 1.0,
-            "thisisanfield.com": 1.0,
             "xda-developers.com": 1.0,
             "AU": 1.0
         }
     },
     "appnexus": {
-        "SA": {
-            "default": 0.05,
-            "hotcars.com": 1.0
-        },
+        "SA": 0.05,
         "AF": {
             "default": 0.05,
             "express.co.uk": 1.0,
             "football.london": 1.0,
-            "gpblog.com": 1.0,
             "liverpool.com": 1.0,
-            "mylondon.news": 1.0,
-            "GH": 1.0,
-            "KE": 1.0,
-            "ZA": 1.0
+            "thisisanfield.com": 1.0,
+            "NG": 1.0
         },
         "AS": {
             "default": 0.05,
             "bleepingcomputer.com": 1.0,
+            "boingboing.net": 1.0,
             "express.co.uk": 1.0,
             "football.london": 1.0,
             "gottabemobile.com": 1.0,
             "grid.id": 1.0,
+            "irishmirror.ie": 1.0,
             "liverpool.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "mylondon.news": 1.0,
+            "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "thisisanfield.com": 1.0,
+            "venturebeat.com": 1.0,
+            "xda-developers.com": 1.0,
+            "AE": 1.0,
             "HK": 1.0,
+            "ID": 1.0,
+            "JP": 1.0,
             "KR": 1.0,
+            "MY": 1.0,
             "SG": 1.0,
-            "TH": 1.0,
-            "TW": 1.0
+            "TH": 1.0
         },
         "EU": {
             "default": 1,
@@ -423,53 +448,48 @@
             "AT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
-                "express.co.uk": 1.0,
-                "9": 1.0
+                "express.co.uk": 1.0
             },
             "BA": 0.05,
             "BE": {
                 "default": 0.05,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0
+                "thegamer.com": 1.0
             },
             "BG": 0.05,
             "BY": 0.05,
             "CH": {
                 "default": 0.05,
                 "cbr.com": 1.0,
+                "dw.com": 1.0,
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
-                "pocket-lint.com": 1.0,
+                "mirror.co.uk": 1.0,
                 "screenrant.com": 1.0,
-                "BE": 1.0
+                "GE": 1.0,
+                "VD": 1.0,
+                "ZH": 1.0
             },
             "CY": 0.05,
-            "CZ": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            },
-            "DE": 1,
+            "CZ": 0.05,
             "DK": {
                 "default": 1,
-                "82": 0.05,
+                "83": 0.05,
                 "84": 0.05
             },
             "EE": 0.05,
             "ES": {
                 "default": 0.05,
-                "cbr.com": 1.0,
+                "chroniclelive.co.uk": 1.0,
                 "dailyrecord.co.uk": 1.0,
                 "dailystar.co.uk": 1.0,
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
                 "liverpoolecho.co.uk": 1.0,
-                "makeuseof.com": 1.0,
                 "manchestereveningnews.co.uk": 1.0,
                 "mirror.co.uk": 1.0,
                 "mylondon.news": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "thegamer.com": 1.0,
                 "CL": 1.0,
                 "CN": 1.0,
                 "CT": 1.0,
@@ -480,31 +500,24 @@
                 "PV": 1.0,
                 "VC": 1.0
             },
-            "FI": {
-                "default": 0.05,
-                "gamerant.com": 1.0
-            },
+            "FI": 0.05,
             "FR": {
                 "default": 0.05,
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
-                "manchestereveningnews.co.uk": 1.0,
-                "mirror.co.uk": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
                 "BRE": 1.0,
-                "OCC": 1.0
+                "GES": 1.0,
+                "NAQ": 1.0
             },
-            "GR": {
-                "default": 0.05,
-                "gamerant.com": 1.0
-            },
+            "GG": 0.05,
+            "GR": 0.05,
             "HR": 0.05,
-            "HU": {
-                "default": 0.05,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0
-            },
+            "HU": 0.05,
             "IE": {
                 "default": 0.05,
+                "dailyrecord.co.uk": 1.0,
                 "dublinlive.ie": 1.0,
                 "express.co.uk": 1.0,
                 "football.london": 1.0,
@@ -513,99 +526,70 @@
                 "leeds-live.co.uk": 1.0,
                 "liverpool.com": 1.0,
                 "liverpoolecho.co.uk": 1.0,
-                "manchestereveningnews.co.uk": 1.0,
                 "mylondon.news": 1.0,
                 "ok.co.uk": 1.0,
-                "pocket-lint.com": 1.0,
                 "rsvplive.ie": 1.0,
                 "thisisanfield.com": 1.0,
                 "L": 1.0,
+                "M": 1.0,
                 "U": 1.0
             },
             "IM": 0.05,
             "IS": 0.05,
             "IT": {
                 "default": 0.05,
-                "boingboing.net": 1.0,
+                "cbr.com": 1.0,
                 "express.co.uk": 1.0,
-                "gamerant.com": 1.0,
-                "mirror.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
                 "xda-developers.com": 1.0,
-                "52": 1.0,
-                "62": 1.0,
-                "72": 1.0,
-                "75": 1.0
+                "25": 1.0,
+                "34": 1.0,
+                "45": 1.0,
+                "82": 1.0
             },
             "JE": 0.05,
             "LT": 0.05,
             "LU": 0.05,
             "LV": 0.05,
             "MD": 0.05,
-            "ME": 0.05,
             "MK": 0.05,
             "MT": 0.05,
             "NL": {
                 "default": 0.05,
-                "collider.com": 1.0,
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
                 "xda-developers.com": 1.0,
                 "FR": 1.0,
+                "GE": 1.0,
+                "GR": 1.0,
                 "LI": 1.0,
                 "NB": 1.0,
                 "NH": 1.0,
-                "OV": 1.0,
+                "UT": 1.0,
                 "ZH": 1.0
             },
             "NO": {
                 "default": 0.05,
-                "gamerant.com": 1.0,
-                "11": 1.0,
-                "30": 1.0,
-                "34": 1.0,
-                "46": 1.0,
-                "50": 1.0
+                "gamerant.com": 1.0
             },
-            "PL": 0.05,
+            "PL": {
+                "default": 0.05,
+                "cbr.com": 1.0
+            },
             "PT": {
                 "default": 0.05,
-                "boingboing.net": 1.0,
-                "cbr.com": 1.0,
                 "express.co.uk": 1.0,
-                "mirror.co.uk": 1.0,
-                "pocket-lint.com": 1.0,
-                "thegamer.com": 1.0,
-                "xda-developers.com": 1.0,
-                "08": 1.0,
-                "11": 1.0,
-                "13": 1.0,
-                "15": 1.0
+                "xda-developers.com": 1.0
             },
-            "RO": {
-                "default": 0.05,
-                "cbr.com": 1.0,
-                "screenrant.com": 1.0,
-                "CJ": 1.0
-            },
+            "RO": 0.05,
             "RS": 0.05,
             "RU": 0.05,
             "SE": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "express.co.uk": 1.0,
-                "gamerant.com": 1.0,
-                "pocket-lint.com": 1.0,
-                "thegamer.com": 1.0,
-                "xda-developers.com": 1.0,
-                "M": {
-                    "default": 1.0,
-                    "gamerant.com": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
-                "O": 1.0
+                "gamerant.com": 1.0
             },
             "SI": 0.05,
             "SK": 0.05,
@@ -615,76 +599,99 @@
             "default": 1,
             "BB": {
                 "default": 0.05,
-                "express.co.uk": 1.0,
                 "mirror.co.uk": 1.0
             },
             "BM": 0.05,
             "CA": {
                 "default": 1,
-                "BC": {
-                    "default": 0.05,
-                    "bleepingcomputer.com": 1.0,
-                    "boingboing.net": 1.0,
-                    "dw.com": 1.0,
-                    "express.co.uk": 1.0,
-                    "gamerant.com": 1.0,
-                    "gpblog.com": 1.0,
-                    "hotcars.com": 1.0,
-                    "manchestereveningnews.co.uk": 1.0,
-                    "mylondon.news": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "xda-developers.com": 1.0
-                },
                 "MB": {
                     "default": 0.05,
-                    "bleepingcomputer.com": 1.0,
                     "boingboing.net": 1.0,
-                    "dailyrecord.co.uk": 1.0,
+                    "cbr.com": 1.0,
                     "dw.com": 1.0,
                     "express.co.uk": 1.0,
                     "gamerant.com": 1.0,
-                    "gpblog.com": 1.0,
                     "hotcars.com": 1.0,
-                    "liverpoolecho.co.uk": 1.0,
+                    "jpost.com": 1.0,
                     "makeuseof.com": 1.0,
-                    "mylondon.news": 1.0,
                     "pocket-lint.com": 1.0,
                     "xda-developers.com": 1.0
                 },
-                "NL": {
+                "NS": {
                     "default": 0.05,
+                    "cbr.com": 1.0,
                     "express.co.uk": 1.0,
                     "gamerant.com": 1.0,
                     "screenrant.com": 1.0
+                },
+                "QC": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "SK": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "dw.com": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "xda-developers.com": 1.0
                 }
             },
             "CR": 0.05,
             "DO": 0.05,
             "GT": 0.05,
-            "JM": 0.05,
+            "HN": 0.05,
+            "JM": {
+                "default": 0.05,
+                "mirror.co.uk": 1.0
+            },
             "LC": 0.05,
             "MX": {
                 "default": 0.05,
-                "boingboing.net": 1.0,
                 "express.co.uk": 1.0,
                 "xda-developers.com": 1.0
             },
+            "NI": 0.05,
             "PA": 0.05,
             "PR": 0.05,
+            "SV": 0.05,
             "TT": 0.05
         },
         "OC": {
             "default": 1,
-            "AU": 1,
+            "AU": {
+                "default": 1,
+                "NSW": 0.05,
+                "QLD": {
+                    "default": 0.05,
+                    "bleepingcomputer.com": 1.0,
+                    "cbr.com": 1.0,
+                    "dailyrecord.co.uk": 1.0,
+                    "express.co.uk": 1.0,
+                    "football.london": 1.0,
+                    "gamerant.com": 1.0,
+                    "gpblog.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "liverpool.com": 1.0,
+                    "liverpoolecho.co.uk": 1.0,
+                    "manchestereveningnews.co.uk": 1.0,
+                    "xda-developers.com": 1.0
+                }
+            },
+            "GU": 0.05,
             "NZ": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "dw.com": 1.0,
-                "express.co.uk": 1.0,
-                "gamerant.com": 1.0,
-                "CAN": 1.0,
-                "WGN": 1.0
-            }
+                "express.co.uk": 1.0
+            },
+            "PG": 0.05
         },
         "usermatch": 1.0
     },
@@ -698,13 +705,10 @@
             "xda-developers.com": 1.0,
             "CL": 1.0
         },
-        "AF": {
-            "default": 0.05,
-            "pocket-lint.com": 1.0,
-            "ZA": 1.0
-        },
+        "AF": 0.05,
         "AS": {
             "default": 0.05,
+            "maketecheasier.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "thethings.com": 1.0,
@@ -720,9 +724,12 @@
             "road.cc": 1.0,
             "thethings.com": 1.0,
             "venturebeat.com": 1.0,
-            "CH": 1.0,
+            "DE": 1.0,
+            "DK": 1.0,
             "FR": 1.0,
-            "GB": 1.0
+            "GB": 1.0,
+            "IE": 1.0,
+            "IT": 1.0
         },
         "NA": {
             "default": 0.05,
@@ -736,7 +743,6 @@
             "road.cc": 1.0,
             "thethings.com": 1.0,
             "venturebeat.com": 1.0,
-            "CA": 1.0,
             "US": 1.0
         },
         "OC": {
@@ -754,69 +760,66 @@
         "SA": 0.05,
         "AF": {
             "default": 0.05,
-            "liverpoolecho.co.uk": 1.0
+            "pocket-lint.com": 1.0
         },
         "AS": {
             "default": 0.05,
-            "AE": 1.0,
+            "liverpoolecho.co.uk": 1.0,
+            "news.itsfoss.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "road.cc": 1.0,
             "HK": 1.0,
-            "JP": 1.0
+            "JP": 1.0,
+            "QA": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 1,
-            "AL": 0.05,
-            "AT": {
+            "AT": 0.05,
+            "BA": 0.05,
+            "BE": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0
             },
-            "BA": 0.05,
-            "BE": 0.05,
             "BG": 0.05,
             "BY": 0.05,
             "CH": {
                 "default": 0.05,
-                "pocket-lint.com": 1.0,
-                "ZH": 1.0
+                "pocket-lint.com": 1.0
             },
+            "CY": 0.05,
             "CZ": 0.05,
             "DE": {
                 "default": 0.05,
                 "cbr.com": 1.0,
+                "gamerant.com": 1.0,
                 "hotcars.com": 1.0,
                 "liverpoolecho.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
+                "thegamer.com": 1.0,
                 "BW": 1.0,
-                "BY": 1.0,
                 "HE": 1.0,
                 "HH": 1.0,
                 "NI": 1.0,
                 "NW": 1.0,
                 "RP": 1.0,
-                "SH": 1.0,
                 "SN": 1.0,
                 "ST": 1.0,
                 "TH": 1.0
             },
             "DK": {
                 "default": 0.05,
-                "screenrant.com": 1.0
+                "84": 1.0
             },
-            "EE": 0.05,
             "ES": {
                 "default": 0.05,
+                "liverpoolecho.co.uk": 1.0,
                 "pocket-lint.com": 1.0
             },
             "FI": 0.05,
-            "FR": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0
-            },
-            "GR": {
-                "default": 0.05,
-                "gamerant.com": 1.0,
-                "screenrant.com": 1.0
-            },
+            "FR": 0.05,
+            "GR": 0.05,
             "HR": 0.05,
             "HU": {
                 "default": 0.05,
@@ -826,40 +829,33 @@
                 "default": 0.05,
                 "liverpoolecho.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
-                "thisisanfield.com": 1.0,
-                "walesonline.co.uk": 1.0
+                "walesonline.co.uk": 1.0,
+                "L": 1.0,
+                "U": 1.0
             },
-            "IS": 0.05,
-            "IT": {
-                "default": 0.05,
-                "pocket-lint.com": 1.0,
-                "screenrant.com": 1.0
-            },
+            "IT": 0.05,
             "LT": 0.05,
+            "LV": 0.05,
             "MD": 0.05,
-            "ME": 0.05,
             "MK": 0.05,
-            "MT": 0.05,
             "NL": {
                 "default": 0.05,
-                "screenrant.com": 1.0
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0
             },
             "NO": {
                 "default": 0.05,
-                "thegamer.com": 1.0
+                "screenrant.com": 1.0
             },
-            "PL": {
-                "default": 0.05,
-                "cbr.com": 1.0
-            },
+            "PL": 0.05,
             "PT": 0.05,
             "RO": 0.05,
             "RS": 0.05,
             "RU": 0.05,
             "SE": {
                 "default": 0.05,
-                "screenrant.com": 1.0,
-                "O": 1.0
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0
             },
             "SI": 0.05,
             "SK": 0.05,
@@ -871,6 +867,7 @@
             "CA": {
                 "default": 0.05,
                 "9to5google.com": 1.0,
+                "9to5mac.com": 1.0,
                 "benzinga.com": 1.0,
                 "electrek.co": 1.0,
                 "f1i.com": 1.0,
@@ -881,27 +878,24 @@
                 "road.cc": 1.0,
                 "topspeed.com": 1.0,
                 "venturebeat.com": 1.0,
-                "QC": 1.0,
-                "SK": 1.0
+                "PE": 1.0,
+                "QC": 1.0
             },
             "CR": 0.05,
             "DO": 0.05,
             "GT": 0.05,
-            "HN": 0.05,
             "JM": 0.05,
             "MX": 0.05,
-            "NI": 0.05,
             "PA": 0.05,
             "PR": 0.05,
+            "SV": 0.05,
             "TT": 0.05,
             "US": 1
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
-            "benzinga.com": 1.0,
             "cbr.com": 1.0,
-            "collider.com": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
             "gamerant.com": 1.0,
@@ -909,7 +903,6 @@
             "hotcars.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
-            "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
             "xda-developers.com": 1.0,
@@ -927,81 +920,243 @@
     "openx": {
         "EU": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "electrek.co": 1.0,
-            "express.co.uk": 1.0,
             "gpblog.com": 1.0,
-            "CH": 1.0
+            "JE": 1.0
         },
         "AF": {
             "default": 0.05,
+            "express.co.uk": 1.0,
             "gpblog.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "NG": 1.0
+            "NG": 1
         },
         "AS": {
             "default": 0.05,
-            "road.cc": 1.0,
+            "grid.id": 1.0,
             "BN": 1.0
         },
         "NA": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
-            "9to5toys.com": 1.0,
-            "benzinga.com": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "blog.cheapism.com": 1.0,
-            "boingboing.net": 1.0,
-            "cbr.com": 1.0,
-            "collider.com": 1.0,
-            "connectthewatts.com": 1.0,
-            "express.co.uk": 1.0,
-            "f1i.com": 1.0,
-            "gamerant.com": 1.0,
-            "gottabemobile.com": 1.0,
-            "gpblog.com": 1.0,
-            "hotcars.com": 1.0,
-            "liverpoolecho.co.uk": 1.0,
-            "m.jpost.com": 1.0,
-            "maketecheasier.com": 1.0,
-            "makeuseof.com": 1.0,
-            "manchestereveningnews.co.uk": 1.0,
-            "mirror.co.uk": 1.0,
-            "moms.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "readersdigest.co.uk": 1.0,
-            "road.cc": 1.0,
-            "screenrant.com": 1.0,
-            "tennistonic.com": 1.0,
-            "thegamer.com": 1.0,
-            "thetravel.com": 1.0,
-            "venturebeat.com": 1.0,
-            "xda-developers.com": 1.0,
-            "US": 1.0
+            "default": 1,
+            "BB": 0.05,
+            "CA": {
+                "default": 0.05,
+                "9to5google.com": 1.0,
+                "benzinga.com": 1.0,
+                "bleepingcomputer.com": 1.0,
+                "f1i.com": 1.0,
+                "gpblog.com": 1.0,
+                "jpost.com": 1.0,
+                "mirror.co.uk": 1.0,
+                "road.cc": 1.0
+            },
+            "CR": 0.05,
+            "DO": 0.05,
+            "GT": 0.05,
+            "HN": 0.05,
+            "JM": 0.05,
+            "LC": 0.05,
+            "MX": 0.05,
+            "NI": 0.05,
+            "PA": 0.05,
+            "PR": 0.05,
+            "SV": 0.05,
+            "TT": 0.05,
+            "US": {
+                "default": 1,
+                "AR": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                },
+                "AZ": {
+                    "default": 0.05,
+                    "express.co.uk": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "CA": {
+                    "default": 0.05,
+                    "collider.com": 1.0,
+                    "electrek.co": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "DC": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "9to5toys.com": 1.0,
+                    "benzinga.com": 1.0,
+                    "bleepingcomputer.com": 1.0,
+                    "blog.cheapism.com": 1.0,
+                    "collider.com": 1.0,
+                    "dailyrecord.co.uk": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "gottabemobile.com": 1.0,
+                    "gpblog.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "maketecheasier.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "manchestereveningnews.co.uk": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "road.cc": 1.0,
+                    "screenrant.com": 1.0,
+                    "thetravel.com": 1.0,
+                    "venturebeat.com": 1.0,
+                    "xda-developers.com": 1.0
+                },
+                "HI": {
+                    "default": 0.05,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "ID": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                },
+                "LA": {
+                    "default": 0.05,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "MA": {
+                    "default": 0.05,
+                    "express.co.uk": 1.0,
+                    "hotcars.com": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "MS": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "bleepingcomputer.com": 1.0,
+                    "cbr.com": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0,
+                    "xda-developers.com": 1.0
+                },
+                "MT": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "NH": {
+                    "default": 0.05,
+                    "gamerant.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "NV": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "NY": {
+                    "default": 0.05,
+                    "collider.com": 1.0,
+                    "electrek.co": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "screenrant.com": 1.0
+                },
+                "OR": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "benzinga.com": 1.0,
+                    "bleepingcomputer.com": 1.0,
+                    "blog.cheapism.com": 1.0,
+                    "cbr.com": 1.0,
+                    "dailyrecord.co.uk": 1.0,
+                    "electrek.co": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "liverpoolecho.co.uk": 1.0,
+                    "manchestereveningnews.co.uk": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "road.cc": 1.0,
+                    "screenrant.com": 1.0,
+                    "tennistonic.com": 1.0,
+                    "thesportster.com": 1.0,
+                    "thetravel.com": 1.0,
+                    "xda-developers.com": 1.0
+                },
+                "RI": {
+                    "default": 0.05,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "screenrant.com": 1.0,
+                    "thegamer.com": 1.0
+                },
+                "WA": {
+                    "default": 0.05,
+                    "screenrant.com": 1.0
+                },
+                "WV": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "bleepingcomputer.com": 1.0,
+                    "collider.com": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "jpost.com": 1.0,
+                    "makeuseof.com": 1.0,
+                    "mirror.co.uk": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0,
+                    "xda-developers.com": 1.0
+                },
+                "WY": {
+                    "default": 0.05,
+                    "cbr.com": 1.0,
+                    "screenrant.com": 1.0
+                }
+            }
         },
         "OC": {
             "default": 0.05,
-            "9to5google.com": 1.0,
-            "express.co.uk": 1.0,
             "f1i.com": 1.0,
             "gpblog.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0
+            "AU": 1
         },
         "usermatch": 1.0
     },
     "pubmatic": {
         "SA": 0.05,
-        "AF": {
-            "default": 0.05,
-            "express.co.uk": 1.0,
-            "ZA": 1.0
-        },
+        "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "liverpoolecho.co.uk": 1.0,
-            "road.cc": 1.0,
+            "express.co.uk": 1.0,
+            "gottabemobile.com": 1.0,
+            "pocket-lint.com": 1.0,
             "tennistonic.com": 1.0,
+            "thisisanfield.com": 1.0,
+            "BH": 1.0,
             "SG": 1.0
         },
         "EU": {
@@ -1017,81 +1172,67 @@
             "BA": 0.05,
             "BE": {
                 "default": 0.05,
-                "express.co.uk": 1.0
+                "express.co.uk": 1.0,
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "VLG": 1.0,
+                "WAL": 1.0
             },
             "BG": 0.05,
             "BY": 0.05,
             "CH": {
                 "default": 1,
-                "GE": 0.05
+                "VD": 0.05
             },
             "CY": 0.05,
             "CZ": 0.05,
             "DE": {
                 "default": 1,
-                "BY": {
+                "SH": {
                     "default": 1,
                     "cbr.com": 1.0,
                     "gamerant.com": 1.0,
-                    "mirror.co.uk": 1.0,
                     "pocket-lint.com": 1.0,
                     "screenrant.com": 1.0
                 },
-                "HE": {
-                    "default": 0.05,
-                    "cbr.com": 1.0,
-                    "express.co.uk": 1.0,
-                    "gamerant.com": 1.0,
-                    "mirror.co.uk": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "screenrant.com": 1.0
-                },
-                "SL": {
-                    "default": 0.05,
-                    "cbr.com": 1.0,
-                    "mirror.co.uk": 1.0,
-                    "pocket-lint.com": 1.0,
-                    "screenrant.com": 1.0
-                }
+                "ST": 0.05
             },
             "DK": {
                 "default": 1,
+                "82": 0.05,
+                "83": 0.05,
                 "84": 0.05
             },
             "EE": 0.05,
             "ES": {
                 "default": 0.05,
                 "birminghammail.co.uk": 1.0,
-                "cbr.com": 1.0,
+                "chroniclelive.co.uk": 1.0,
                 "dailyrecord.co.uk": 1.0,
                 "express.co.uk": 1.0,
+                "gamerant.com": 1.0,
                 "liverpoolecho.co.uk": 1.0,
                 "manchestereveningnews.co.uk": 1.0,
                 "mirror.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
-                "CL": 1.0,
+                "screenrant.com": 1.0,
                 "CN": 1.0,
+                "CT": 1.0,
+                "GA": 1.0,
                 "IB": 1.0,
                 "MC": 1.0,
-                "PV": 1.0,
+                "MD": 1.0,
                 "VC": 1.0
-            },
-            "FI": {
-                "default": 0.05,
-                "express.co.uk": 1.0,
-                "gamerant.com": 1.0
             },
             "FR": {
                 "default": 0.05,
-                "cbr.com": 1.0,
                 "express.co.uk": 1.0,
-                "gamerant.com": 1.0,
-                "mirror.co.uk": 1.0,
-                "screenrant.com": 1.0,
-                "BRE": 1.0,
-                "OCC": 1.0,
-                "PAC": 1.0
+                "pocket-lint.com": 1.0,
+                "GES": 1.0,
+                "NAQ": 1.0
             },
+            "GG": 0.05,
             "GR": 0.05,
             "HR": 0.05,
             "HU": 0.05,
@@ -1100,28 +1241,27 @@
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
                 "liverpoolecho.co.uk": 1.0,
+                "screenrant.com": 1.0,
                 "walesonline.co.uk": 1.0
             },
             "IM": 0.05,
+            "IS": 0.05,
             "IT": {
                 "default": 0.05,
                 "cbr.com": 1.0,
                 "express.co.uk": 1.0,
-                "gamerant.com": 1.0,
-                "mirror.co.uk": 1.0,
-                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "25": 1.0,
+                "xda-developers.com": 1.0,
                 "34": 1.0,
-                "45": 1.0,
-                "52": 1.0,
-                "62": 1.0
+                "62": 1.0,
+                "72": 1.0,
+                "75": 1.0,
+                "82": 1.0
             },
             "JE": 0.05,
             "LT": 0.05,
-            "LV": 0.05,
+            "LU": 0.05,
             "MD": 0.05,
-            "ME": 0.05,
             "MK": 0.05,
             "MT": 0.05,
             "NL": {
@@ -1129,28 +1269,27 @@
                 "cbr.com": 1.0,
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
-                "mirror.co.uk": 1.0,
+                "makeuseof.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "LI": 1.0,
-                "NB": 1.0,
-                "OV": 1.0
+                "screenrant.com": 1.0,
+                "GE": 1.0,
+                "GR": 1.0,
+                "NH": 1.0,
+                "OV": 1.0,
+                "UT": 1.0,
+                "ZH": 1.0
             },
             "NO": {
                 "default": 0.05,
+                "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
-                "screenrant.com": 1.0,
-                "11": 1.0,
-                "30": 1.0,
-                "34": 1.0,
-                "46": 1.0
+                "mirror.co.uk": 1.0,
+                "50": 1.0
             },
             "PL": {
                 "default": 0.05,
-                "cbr.com": 1.0,
-                "screenrant.com": 1.0,
-                "12": 1.0,
-                "14": 1.0,
-                "24": 1.0
+                "gamerant.com": 1.0,
+                "screenrant.com": 1.0
             },
             "PT": {
                 "default": 0.05,
@@ -1158,10 +1297,8 @@
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
                 "mirror.co.uk": 1.0,
-                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "xda-developers.com": 1.0,
-                "08": 1.0,
                 "11": 1.0,
                 "13": 1.0,
                 "15": 1.0
@@ -1182,9 +1319,9 @@
                 "cbr.com": 1.0,
                 "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
+                "mirror.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
-                "xda-developers.com": 1.0,
                 "E": 1.0,
                 "M": 1.0,
                 "O": 1.0
@@ -1195,11 +1332,28 @@
         },
         "NA": {
             "default": 1,
-            "BB": 0.05,
-            "BM": 0.05,
+            "BB": {
+                "default": 0.05,
+                "mirror.co.uk": 1.0
+            },
             "CA": {
                 "default": 1,
-                "NL": {
+                "MB": {
+                    "default": 0.05,
+                    "9to5google.com": 1.0,
+                    "bleepingcomputer.com": 1.0,
+                    "cbr.com": 1.0,
+                    "electrek.co": 1.0,
+                    "express.co.uk": 1.0,
+                    "gamerant.com": 1.0,
+                    "hotcars.com": 1.0,
+                    "liverpoolecho.co.uk": 1.0,
+                    "makeuseof.com": 1.0,
+                    "pocket-lint.com": 1.0,
+                    "screenrant.com": 1.0,
+                    "xda-developers.com": 1.0
+                },
+                "QC": {
                     "default": 0.05,
                     "cbr.com": 1.0,
                     "express.co.uk": 1.0,
@@ -1207,54 +1361,49 @@
                     "mirror.co.uk": 1.0,
                     "screenrant.com": 1.0
                 },
-                "PE": {
-                    "default": 0.05,
-                    "screenrant.com": 1.0
-                },
-                "QC": 0.05,
                 "SK": {
                     "default": 0.05,
-                    "bleepingcomputer.com": 1.0,
-                    "boingboing.net": 1.0,
                     "cbr.com": 1.0,
+                    "collider.com": 1.0,
+                    "dw.com": 1.0,
                     "express.co.uk": 1.0,
                     "gamerant.com": 1.0,
                     "hotcars.com": 1.0,
                     "makeuseof.com": 1.0,
-                    "manchestereveningnews.co.uk": 1.0,
                     "mirror.co.uk": 1.0,
                     "pocket-lint.com": 1.0,
-                    "screenrant.com": 1.0,
-                    "xda-developers.com": 1.0
+                    "screenrant.com": 1.0
                 }
             },
             "CR": 0.05,
             "DO": 0.05,
             "GT": 0.05,
-            "HN": 0.05,
             "JM": 0.05,
-            "LC": 0.05,
             "MX": {
                 "default": 0.05,
-                "cbr.com": 1.0
+                "cbr.com": 1.0,
+                "gamerant.com": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "CMX": 1.0,
+                "JAL": 1.0,
+                "MEX": 1.0,
+                "NLE": 1.0
             },
+            "NI": 0.05,
             "PA": 0.05,
             "PR": 0.05,
+            "SV": 0.05,
             "TT": 0.05
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
-            "9to5mac.com": 1.0,
-            "benzinga.com": 1.0,
             "boingboing.net": 1.0,
-            "cbr.com": 1.0,
-            "collider.com": 1.0,
-            "comedy.co.uk": 1.0,
+            "dailyrecord.co.uk": 1.0,
             "electrek.co": 1.0,
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
-            "gamerant.com": 1.0,
             "gottabemobile.com": 1.0,
             "hotcars.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
@@ -1263,8 +1412,6 @@
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
-            "tennistonic.com": 1.0,
-            "thetalko.com": 1.0,
             "thethings.com": 1.0,
             "thisisanfield.com": 1.0,
             "walesonline.co.uk": 1.0,
@@ -1276,51 +1423,48 @@
     "rubicon": {
         "SA": {
             "default": 0.05,
-            "express.co.uk": 1.0,
-            "pocket-lint.com": 1.0
+            "express.co.uk": 1.0
         },
         "AF": {
             "default": 0.05,
             "express.co.uk": 1.0,
             "hotcars.com": 1.0,
-            "makeuseof.com": 1.0,
             "screenrant.com": 1.0,
             "ET": 1.0,
-            "TN": 1.0,
+            "MU": 1.0,
             "TZ": 1.0
         },
         "AS": {
             "default": 0.05,
-            "9to5google.com": 1.0,
             "benzinga.com": 1.0,
-            "collider.com": 1.0,
+            "electrek.co": 1.0,
             "express.co.uk": 1.0,
+            "f1i.com": 1.0,
+            "hotcars.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
-            "makeuseof.com": 1.0,
             "pocket-lint.com": 1.0,
-            "screenrant.com": 1.0,
             "tennistonic.com": 1.0,
-            "thesportster.com": 1.0,
+            "thetravel.com": 1.0,
+            "topspeed.com": 1.0,
             "venturebeat.com": 1.0,
+            "walesonline.co.uk": 1.0,
             "AE": 1.0,
+            "BD": 1.0,
             "BH": 1.0,
             "BN": 1.0,
             "HK": 1.0,
-            "IL": 1.0,
             "IN": 1.0,
             "JP": 1.0,
-            "KR": 1.0,
             "KW": 1.0,
-            "NP": 1.0,
-            "OM": 1.0,
-            "SG": 1.0
+            "SG": 1.0,
+            "TH": 1.0
         },
         "EU": {
             "default": 0.05,
             "9to5google.com": 1.0,
+            "9to5toys.com": 1.0,
             "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
-            "boingboing.net": 1.0,
             "collider.com": 1.0,
             "comedy.co.uk": 1.0,
             "dronedj.com": 1.0,
@@ -1339,14 +1483,16 @@
             "screenrant.com": 1.0,
             "stuff.tv": 1.0,
             "tennistonic.com": 1.0,
+            "therichest.com": 1.0,
             "thethings.com": 1.0,
             "thetravel.com": 1.0,
             "topspeed.com": 1.0,
             "venturebeat.com": 1.0,
             "walesonline.co.uk": 1.0,
             "xda-developers.com": 1.0,
+            "AL": 1.0,
             "AT": 1.0,
-            "BE": 1.0,
+            "BG": 1.0,
             "CH": 1.0,
             "CY": 1.0,
             "DE": 1.0,
@@ -1356,12 +1502,14 @@
             "GB": 1.0,
             "IE": 1.0,
             "IM": 1.0,
+            "IS": 1.0,
             "JE": 1.0,
             "LT": 1.0,
             "LU": 1.0,
             "LV": 1.0,
             "MK": 1.0,
             "MT": 1.0,
+            "NL": 1.0,
             "NO": 1.0,
             "RS": 1.0,
             "RU": 1.0
@@ -1421,21 +1569,21 @@
             "CA": 1.0,
             "CR": 1.0,
             "DO": 1.0,
-            "HN": 1.0,
+            "GT": 1.0,
             "JM": 1.0,
+            "NI": 1.0,
+            "PA": 1.0,
             "PR": 1.0,
+            "SV": 1.0,
+            "TT": 1.0,
             "US": 1.0
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
-            "9to5mac.com": 1.0,
-            "benzinga.com": 1.0,
-            "bleepingcomputer.com": 1.0,
             "boingboing.net": 1.0,
             "cbr.com": 1.0,
             "collider.com": 1.0,
-            "comedy.co.uk": 1.0,
             "electrek.co": 1.0,
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
@@ -1448,10 +1596,8 @@
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
-            "tennistonic.com": 1.0,
             "thegamer.com": 1.0,
             "thesportster.com": 1.0,
-            "thetalko.com": 1.0,
             "thethings.com": 1.0,
             "walesonline.co.uk": 1.0,
             "xda-developers.com": 1.0,
@@ -1463,7 +1609,8 @@
     "sharethrough": {
         "SA": {
             "default": 0.05,
-            "express.co.uk": 1.0
+            "express.co.uk": 1.0,
+            "screenrant.com": 1.0
         }
     },
     "smartadserver": {
@@ -1472,23 +1619,25 @@
             "gpblog.com": 1.0,
             "GB": 1.0
         },
+        "AF": 0.05,
         "AS": 0.05,
         "NA": {
             "default": 1,
-            "US": {
-                "default": 1,
-                "LA": {
-                    "default": 0.05,
-                    "gpblog.com": 1.0,
-                    "jpost.com": 1.0
-                },
-                "MO": 0.05
+            "CA": {
+                "default": 0.05,
+                "gpblog.com": 1.0,
+                "jpost.com": 1.0,
+                "BC": 1.0,
+                "MB": 1.0,
+                "NS": 1.0,
+                "ON": 1.0,
+                "QC": 1.0,
+                "SK": 1.0
             }
         },
         "OC": {
             "default": 0.05,
-            "gpblog.com": 1.0,
-            "AU": 1.0
+            "gpblog.com": 1.0
         }
     },
     "sovrn": {
@@ -1497,43 +1646,52 @@
         "AS": 0.05,
         "EU": {
             "default": 1,
+            "AL": 0.05,
             "AT": 0.05,
+            "BA": 0.05,
             "BE": 0.05,
-            "BG": 0.05,
             "BY": 0.05,
             "CH": 0.05,
-            "CY": 0.05,
-            "CZ": 0.05,
             "DE": {
                 "default": 0.05,
+                "cbr.com": 1.0,
+                "express.co.uk": 1.0,
                 "gamerant.com": 1.0,
                 "pocket-lint.com": 1.0,
-                "thegamer.com": 1.0,
-                "HH": 1.0,
+                "xda-developers.com": 1.0,
+                "BW": 1.0,
+                "BY": 1.0,
+                "NI": 1.0,
                 "NW": 1.0,
-                "ST": 1.0
+                "RP": 1.0,
+                "SN": 1.0
             },
             "DK": {
                 "default": 0.05,
                 "gamerant.com": 1.0,
-                "thegamer.com": 1.0,
-                "84": 1.0
+                "thegamer.com": 1.0
             },
-            "EE": 0.05,
             "ES": 0.05,
             "FR": 0.05,
             "GR": 0.05,
-            "HR": 0.05,
-            "IE": 0.05,
-            "IM": 0.05,
+            "HR": {
+                "default": 0.05,
+                "dw.com": 1.0
+            },
+            "HU": 0.05,
+            "IE": {
+                "default": 0.05,
+                "liverpoolecho.co.uk": 1.0
+            },
+            "IS": 0.05,
             "IT": {
                 "default": 0.05,
                 "thegamer.com": 1.0
             },
-            "JE": 0.05,
-            "LT": 0.05,
-            "LU": 0.05,
-            "ME": 0.05,
+            "LV": 0.05,
+            "MD": 0.05,
+            "MK": 0.05,
+            "MT": 0.05,
             "NL": {
                 "default": 0.05,
                 "thegamer.com": 1.0
@@ -1542,6 +1700,7 @@
             "PL": 0.05,
             "PT": {
                 "default": 0.05,
+                "express.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
                 "13": 1.0
             },
@@ -1549,15 +1708,17 @@
                 "default": 0.05,
                 "thegamer.com": 1.0
             },
+            "RS": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
             "RU": 0.05,
             "SE": {
                 "default": 0.05,
                 "pocket-lint.com": 1.0,
-                "thegamer.com": 1.0,
-                "M": 1.0,
-                "O": 1.0
+                "thegamer.com": 1.0
             },
-            "SK": 0.05,
+            "SI": 0.05,
             "UA": 0.05
         },
         "NA": {
@@ -1566,25 +1727,32 @@
             "9to5toys.com": 1.0,
             "androidpolice.com": 1.0,
             "benzinga.com": 1.0,
-            "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
             "collider.com": 1.0,
             "dw.com": 1.0,
             "electrek.co": 1.0,
             "f1i.com": 1.0,
+            "gottabemobile.com": 1.0,
             "hotcars.com": 1.0,
             "komando.com": 1.0,
+            "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
-            "moms.com": 1.0,
             "off.road.cc": 1.0,
             "pocket-lint.com": 1.0,
             "readersdigest.co.uk": 1.0,
             "road.cc": 1.0,
-            "screenrant.com": 1.0,
+            "thetalko.com": 1.0,
+            "thethings.com": 1.0,
             "thetravel.com": 1.0,
             "topspeed.com": 1.0,
-            "venturebeat.com": 1.0
+            "venturebeat.com": 1.0,
+            "walesonline.co.uk": 1.0
         },
-        "OC": 0.05
+        "OC": {
+            "default": 0.05,
+            "cbr.com": 1.0,
+            "express.co.uk": 1.0,
+            "gamerant.com": 1.0
+        }
     }
 }
