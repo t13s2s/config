@@ -242,7 +242,8 @@
             "yourtango.com": 1.0,
             "AU": 1.0,
             "NZ": 1.0
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "amx": {
         "SA": {
@@ -336,7 +337,8 @@
                 "screenrant.com": 1.0
             },
             "PG": 0.05
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "appnexus": {
         "SA": {
@@ -623,6 +625,7 @@
                 "express.co.uk": 1.0
             }
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "conversant": {
@@ -691,6 +694,7 @@
             "venturebeat.com": 1.0,
             "AU": 1.0
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "grid": {
@@ -898,6 +902,7 @@
             "AU": 1,
             "NZ": 0.05
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "ix": {
@@ -921,10 +926,12 @@
         "AF": 0.05,
         "AS": 0.05,
         "EU": 0.05,
-        "NA": 0.05
+        "NA": 0.05,
+        "chivaspasion.bolavip.com": 1.0
     },
     "onetag": {
         "OC": 0.05,
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "openx": {
@@ -1014,6 +1021,7 @@
             "venturebeat.com": 1.0,
             "AU": 1.0
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "pubmatic": {
@@ -1245,6 +1253,7 @@
                 "screenrant.com": 1.0
             }
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "rubicon": {
@@ -1552,6 +1561,7 @@
             "GU": 1.0,
             "NZ": 1.0
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "sharethrough": {
@@ -1559,7 +1569,8 @@
             "default": 0.05,
             "hotcars.com": 1.0,
             "AR": 1.0
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "smartadserver": {
         "EU": {
@@ -1587,7 +1598,8 @@
                     "jpost.com": 1.0
                 }
             }
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "sovrn": {
         "OC": {
@@ -1947,6 +1959,7 @@
                 }
             }
         },
-        "SA": 0.05
+        "SA": 0.05,
+        "chivaspasion.bolavip.com": 1.0
     }
 }
