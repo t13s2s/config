@@ -243,7 +243,8 @@
             "walesonline.co.uk": 1.0,
             "AU": 1.0,
             "NZ": 1.0
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "amx": {
         "SA": {
@@ -327,7 +328,8 @@
                 "screenrant.com": 1.0
             },
             "PG": 0.05
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "appnexus": {
         "SA": {
@@ -700,6 +702,7 @@
             },
             "PG": 0.05
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "grid": {
@@ -881,6 +884,7 @@
             "AU": 1,
             "NZ": 0.05
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "ix": {
@@ -901,11 +905,13 @@
         },
         "AS": 0.05,
         "EU": 0.05,
-        "NA": 0.05
+        "NA": 0.05,
+        "chivaspasion.bolavip.com": 1.0
     },
     "onetag": {
         "OC": 0.05,
         "AS": 0.05,
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "openx": {
@@ -1004,6 +1010,7 @@
             "venturebeat.com": 1.0,
             "AU": 1.0
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "pubmatic": {
@@ -1230,6 +1237,7 @@
             },
             "PG": 0.05
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "rubicon": {
@@ -1530,6 +1538,7 @@
             "NZ": 1.0,
             "PG": 1.0
         },
+        "chivaspasion.bolavip.com": 1.0,
         "usermatch": 1.0
     },
     "sharethrough": {
@@ -1538,7 +1547,8 @@
             "makeuseof.com": 1.0,
             "simpleflying.com": 1.0,
             "yourtango.com": 1.0
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "smartadserver": {
         "EU": {
@@ -1555,7 +1565,8 @@
                 "BC": 1.0,
                 "ON": 1.0
             }
-        }
+        },
+        "chivaspasion.bolavip.com": 1.0
     },
     "sovrn": {
         "OC": {
@@ -1737,6 +1748,7 @@
                 }
             }
         },
-        "SA": 0.05
+        "SA": 0.05,
+        "chivaspasion.bolavip.com": 1.0
     }
 }
