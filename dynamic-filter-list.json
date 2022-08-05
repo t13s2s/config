@@ -5,10 +5,8 @@
             "aljazeera.com": 1.0,
             "birminghammail.co.uk": 1.0,
             "bolavip.com": 1.0,
-            "chroniclelive.co.uk": 1.0,
-            "dailystar.co.uk": 1.0,
             "dualshockers.com": 1.0,
-            "essence.com": 1.0,
+            "dw.com": 1.0,
             "express.co.uk": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
@@ -23,22 +21,17 @@
             "sportskeeda.com": 1.0,
             "thethings.com": 1.0,
             "thisisanfield.com": 1.0,
-            "xda-developers.com": 1.0,
             "yourtango.com": 1.0,
             "GH": 1.0,
             "KE": 1.0,
             "NG": 1.0,
-            "RW": 1.0,
-            "SN": 1.0,
             "SS": 1.0,
             "UG": 1.0,
             "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
-            "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "9to5toys.com": 1.0,
             "aljazeera.com": 1.0,
             "aljazeera.net": 1.0,
             "amp.dw.com": 1.0,
@@ -57,7 +50,6 @@
             "gottabemobile.com": 1.0,
             "hindi.sportskeeda.com": 1.0,
             "investorsobserver.com": 1.0,
-            "irishmirror.ie": 1.0,
             "jpost.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
@@ -81,10 +73,15 @@
             "thetalko.com": 1.0,
             "thethings.com": 1.0,
             "thisisanfield.com": 1.0,
+            "upworthy.com": 1.0,
             "venturebeat.com": 1.0,
             "walesonline.co.uk": 1.0,
+            "wrestlingheadlines.com": 1.0,
             "xda-developers.com": 1.0,
             "yourtango.com": 1.0,
+            "AE": 1.0,
+            "AM": 1.0,
+            "BH": 1.0,
             "CN": 1.0,
             "HK": 1.0,
             "ID": 1.0,
@@ -93,12 +90,12 @@
             "JO": 1.0,
             "JP": 1.0,
             "KR": 1.0,
-            "LB": 1.0,
+            "KW": 1.0,
             "MM": 1.0,
             "MY": 1.0,
             "NP": 1.0,
             "PH": 1.0,
-            "PS": 1.0,
+            "PK": 1.0,
             "QA": 1.0,
             "SG": 1.0,
             "TH": 1.0,
@@ -113,13 +110,15 @@
             "aljazeera.net": 1.0,
             "androidpolice.com": 1.0,
             "bleepingcomputer.com": 1.0,
+            "blog.cheapism.com": 1.0,
             "boingboing.net": 1.0,
             "bolavip.com": 1.0,
             "brit.co": 1.0,
-            "comedy.co.uk": 1.0,
-            "diariocorreo.pe": 1.0,
+            "dailyrecord.co.uk": 1.0,
             "dualshockers.com": 1.0,
+            "elcomercio.pe": 1.0,
             "electrek.co": 1.0,
+            "ewrestlingnews.com": 1.0,
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
@@ -127,12 +126,12 @@
             "irishmirror.ie": 1.0,
             "kerrang.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
-            "mag.elcomercio.pe": 1.0,
             "maketecheasier.com": 1.0,
             "movieweb.com": 1.0,
             "nasdaq.com": 1.0,
             "news.itsfoss.com": 1.0,
             "off.road.cc": 1.0,
+            "ojo.pe": 1.0,
             "online-tech-tips.com": 1.0,
             "pinkvilla.com": 1.0,
             "pocket-lint.com": 1.0,
@@ -142,6 +141,7 @@
             "stuff.tv": 1.0,
             "tennistonic.com": 1.0,
             "thecollector.com": 1.0,
+            "therichest.com": 1.0,
             "thetalko.com": 1.0,
             "thisisanfield.com": 1.0,
             "trome.pe": 1.0,
@@ -151,7 +151,9 @@
             "wrestlingheadlines.com": 1.0,
             "xda-developers.com": 1.0,
             "AT": 1.0,
+            "BA": 1.0,
             "CH": 1.0,
+            "CZ": 1.0,
             "DE": 1.0,
             "DK": 1.0,
             "EE": 1.0,
@@ -160,17 +162,18 @@
             "HU": 1.0,
             "JE": 1.0,
             "LT": 1.0,
-            "LU": 1.0,
             "LV": 1.0,
+            "ME": 1.0,
+            "NL": 1.0,
             "NO": 1.0,
             "RU": 1.0,
-            "SE": 1.0
+            "SE": 1.0,
+            "UA": 1.0
         },
         "NA": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "9to5toys.com": 1.0,
             "aljazeera.com": 1.0,
             "aljazeera.net": 1.0,
             "androidpolice.com": 1.0,
@@ -182,6 +185,7 @@
             "boingboing.net": 1.0,
             "bolavip.com": 1.0,
             "brit.co": 1.0,
+            "chivaspasion.bolavip.com": 1.0,
             "chroniclelive.co.uk": 1.0,
             "comedy.co.uk": 1.0,
             "dailyrecord.co.uk": 1.0,
@@ -207,13 +211,12 @@
             "liverpoolecho.co.uk": 1.0,
             "mag.elcomercio.pe": 1.0,
             "maketecheasier.com": 1.0,
+            "manchestereveningnews.co.uk": 1.0,
             "mirror.co.uk": 1.0,
             "mixmag.net": 1.0,
             "movieweb.com": 1.0,
-            "nasdaq.com": 1.0,
             "news.itsfoss.com": 1.0,
             "newser.com": 1.0,
-            "nextshark.com": 1.0,
             "off.road.cc": 1.0,
             "ojo.pe": 1.0,
             "online-tech-tips.com": 1.0,
@@ -239,24 +242,25 @@
             "tvseriesfinale.com": 1.0,
             "upworthy.com": 1.0,
             "venturebeat.com": 1.0,
+            "walesonline.co.uk": 1.0,
             "wrestlingheadlines.com": 1.0,
             "xda-developers.com": 1.0,
             "yourtango.com": 1.0,
             "BS": 1.0,
             "CA": 1.0,
             "CR": 1.0,
-            "GT": 1.0,
+            "DO": 1.0,
             "HN": 1.0,
+            "MX": 1.0,
+            "NI": 1.0,
             "PA": 1.0,
             "TT": 1.0,
             "US": 1.0
         },
         "OC": {
             "default": 0.05,
-            "9to5mac.com": 1.0,
             "aljazeera.com": 1.0,
             "birminghammail.co.uk": 1.0,
-            "bleepingcomputer.com": 1.0,
             "boingboing.net": 1.0,
             "chroniclelive.co.uk": 1.0,
             "dailyrecord.co.uk": 1.0,
@@ -270,14 +274,13 @@
             "liverpoolecho.co.uk": 1.0,
             "manchestereveningnews.co.uk": 1.0,
             "mirror.co.uk": 1.0,
+            "movieweb.com": 1.0,
             "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
             "screenrant.com": 1.0,
             "simpleflying.com": 1.0,
             "sportskeeda.com": 1.0,
             "tennistonic.com": 1.0,
             "thethings.com": 1.0,
-            "thisisanfield.com": 1.0,
             "walesonline.co.uk": 1.0,
             "xda-developers.com": 1.0,
             "yourtango.com": 1.0,
@@ -290,6 +293,7 @@
     "amx": {
         "SA": {
             "default": 0.05,
+            "aljazeera.com": 1.0,
             "amp.dw.com": 1.0,
             "depor.com": 1.0,
             "diariocorreo.pe": 1.0,
@@ -299,14 +303,13 @@
             "express.co.uk": 1.0,
             "mag.elcomercio.pe": 1.0,
             "mirror.co.uk": 1.0,
+            "movieweb.com": 1.0,
             "ojo.pe": 1.0,
             "pocket-lint.com": 1.0,
             "screenrant.com": 1.0,
             "simpleflying.com": 1.0,
             "sportskeeda.com": 1.0,
             "trome.pe": 1.0,
-            "xda-developers.com": 1.0,
-            "AR": 1.0,
             "BR": 1.0,
             "CL": 1.0,
             "CO": 1.0,
@@ -314,30 +317,31 @@
         },
         "AF": {
             "default": 0.05,
-            "online-tech-tips.com": 1.0,
-            "GM": 1.0
+            "UG": 1.0
         },
         "AS": {
             "default": 0.05,
             "9to5mac.com": 1.0,
             "jpost.com": 1.0,
-            "pocketnow.com": 1.0,
-            "venturebeat.com": 1.0,
-            "BH": 1.0,
-            "IQ": 1.0,
-            "KH": 1.0
+            "IL": 1.0,
+            "KH": 1.0,
+            "KR": 1.0,
+            "KW": 1.0,
+            "NP": 1.0,
+            "PK": 1.0,
+            "TR": 1.0
         },
         "EU": {
             "default": 0.05,
+            "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "androidpolice.com": 1.0,
-            "bleepingcomputer.com": 1.0,
             "boingboing.net": 1.0,
             "bolavip.com": 1.0,
+            "brit.co": 1.0,
             "electrek.co": 1.0,
             "ewrestlingnews.com": 1.0,
-            "grimsbytelegraph.co.uk": 1.0,
-            "mylondon.news": 1.0,
+            "maketecheasier.com": 1.0,
             "nasdaq.com": 1.0,
             "online-tech-tips.com": 1.0,
             "pinkvilla.com": 1.0,
@@ -353,10 +357,7 @@
             "BB": 0.05,
             "BM": 0.05,
             "BS": 0.05,
-            "CR": {
-                "default": 0.05,
-                "dw.com": 1.0
-            },
+            "CR": 0.05,
             "CU": 0.05,
             "DO": 0.05,
             "GD": 0.05,
@@ -385,9 +386,9 @@
             "simpleflying.com": 1.0,
             "sportskeeda.com": 1.0,
             "tennistonic.com": 1.0,
-            "thisisanfield.com": 1.0,
             "xda-developers.com": 1.0,
-            "AU": 1.0
+            "AU": 1.0,
+            "GU": 1.0
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0
@@ -409,7 +410,6 @@
             "liverpoolecho.co.uk": 1.0,
             "road.cc": 1.0,
             "thisisanfield.com": 1.0,
-            "venturebeat.com": 1.0,
             "SG": 1.0
         },
         "EU": {
@@ -421,7 +421,10 @@
                 "pocket-lint.com": 1.0
             },
             "BA": 0.05,
-            "BE": 0.05,
+            "BE": {
+                "default": 0.05,
+                "express.co.uk": 1.0
+            },
             "BG": 0.05,
             "BY": 0.05,
             "CH": {
@@ -434,8 +437,8 @@
             "DE": {
                 "default": 0.05,
                 "express.co.uk": 1.0,
-                "road.cc": 1.0,
                 "simpleflying.com": 1.0,
+                "sportskeeda.com": 1.0,
                 "yourtango.com": 1.0
             },
             "DK": {
@@ -445,6 +448,7 @@
             "EE": 0.05,
             "ES": {
                 "default": 0.05,
+                "dailyrecord.co.uk": 1.0,
                 "dailystar.co.uk": 1.0,
                 "depor.com": 1.0,
                 "express.co.uk": 1.0,
@@ -466,7 +470,6 @@
             "HU": 0.05,
             "IE": {
                 "default": 0.05,
-                "buzz.ie": 1.0,
                 "corkbeo.ie": 1.0,
                 "dailyrecord.co.uk": 1.0,
                 "express.co.uk": 1.0,
@@ -475,7 +478,6 @@
                 "leeds-live.co.uk": 1.0,
                 "liverpool.com": 1.0,
                 "liverpoolecho.co.uk": 1.0,
-                "mylondon.news": 1.0,
                 "rsvplive.ie": 1.0,
                 "thisisanfield.com": 1.0
             },
@@ -486,7 +488,8 @@
                 "depor.com": 1.0,
                 "express.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
-                "simpleflying.com": 1.0
+                "simpleflying.com": 1.0,
+                "trome.pe": 1.0
             },
             "JE": 0.05,
             "LT": 0.05,
@@ -498,13 +501,18 @@
             "MT": 0.05,
             "NL": {
                 "default": 0.05,
-                "express.co.uk": 1.0
+                "express.co.uk": 1.0,
+                "pocket-lint.com": 1.0
             },
-            "NO": 0.05,
+            "NO": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            },
             "PL": 0.05,
             "PT": {
                 "default": 0.05,
-                "express.co.uk": 1.0
+                "express.co.uk": 1.0,
+                "yourtango.com": 1.0
             },
             "RO": 0.05,
             "RS": 0.05,
@@ -532,14 +540,12 @@
                 "depor.com": 1.0,
                 "express.co.uk": 1.0,
                 "f1i.com": 1.0,
+                "gottabemobile.com": 1.0,
                 "investorsobserver.com": 1.0,
                 "joblo.com": 1.0,
-                "liverpool.com": 1.0,
-                "maketecheasier.com": 1.0,
-                "online-tech-tips.com": 1.0,
                 "pinkvilla.com": 1.0,
-                "pocket-lint.com": 1.0,
                 "road.cc": 1.0,
+                "tennistonic.com": 1.0,
                 "thisisanfield.com": 1.0,
                 "upworthy.com": 1.0,
                 "yourtango.com": 1.0
@@ -547,26 +553,16 @@
             "CR": 0.05,
             "CU": 0.05,
             "DO": 0.05,
-            "GD": 0.05,
             "GT": 0.05,
             "HN": 0.05,
-            "JM": {
-                "default": 0.05,
-                "football.london": 1.0
-            },
+            "JM": 0.05,
             "LC": 0.05,
-            "MX": {
-                "default": 0.05,
-                "chivaspasion.bolavip.com": 1.0
-            },
+            "MX": 0.05,
             "NI": 0.05,
             "PA": 0.05,
             "PR": 0.05,
             "SV": 0.05,
-            "TT": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            }
+            "TT": 0.05
         },
         "OC": {
             "default": 1,
@@ -574,8 +570,7 @@
             "NZ": {
                 "default": 0.05,
                 "express.co.uk": 1.0
-            },
-            "PG": 0.05
+            }
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0,
@@ -586,12 +581,13 @@
             "default": 0.05,
             "diariocorreo.pe": 1.0,
             "simpleflying.com": 1.0,
-            "trome.pe": 1.0
+            "trome.pe": 1.0,
+            "PE": 1.0
         },
         "AF": {
             "default": 0.05,
             "essence.com": 1.0,
-            "oyster.com": 1.0,
+            "smartertravel.com": 1.0,
             "ZA": 1.0
         },
         "AS": {
@@ -602,8 +598,6 @@
             "smartertravel.com": 1.0,
             "stilltasty.com": 1.0,
             "IN": 1.0,
-            "JP": 1.0,
-            "MY": 1.0,
             "PH": 1.0,
             "SG": 1.0,
             "TH": 1.0
@@ -611,6 +605,13 @@
         "EU": {
             "default": 1,
             "RU": 0.05
+        },
+        "NA": {
+            "default": 1,
+            "MX": {
+                "default": 0.05,
+                "oyster.com": 1.0
+            }
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0
@@ -621,25 +622,30 @@
             "oyster.com": 1.0,
             "BR": 1.0
         },
-        "AF": 0.05,
+        "AF": {
+            "default": 0.05,
+            "GM": 1.0
+        },
         "AS": {
             "default": 0.05,
+            "investorsobserver.com": 1.0,
             "venturebeat.com": 1.0,
             "BN": 1.0
         },
         "EU": {
             "default": 0.05,
-            "9to5google.com": 1.0,
             "accountingweb.co.uk": 1.0,
             "aljazeera.net": 1.0,
-            "boingboing.net": 1.0,
-            "dailypost.co.uk": 1.0,
-            "dualshockers.com": 1.0,
+            "blog.cheapism.com": 1.0,
+            "brit.co": 1.0,
+            "comedy.co.uk": 1.0,
+            "dailyrecord.co.uk": 1.0,
             "ewrestlingnews.com": 1.0,
             "express.co.uk": 1.0,
             "gottabemobile.com": 1.0,
             "maketecheasier.com": 1.0,
             "off.road.cc": 1.0,
+            "ok.co.uk": 1.0,
             "online-tech-tips.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
@@ -658,7 +664,6 @@
             "CR": 0.05,
             "CU": 0.05,
             "DO": 0.05,
-            "GD": 0.05,
             "GT": 0.05,
             "HN": 0.05,
             "JM": 0.05,
@@ -671,25 +676,25 @@
                 "depor.com": 1.0
             },
             "SV": 0.05,
-            "TT": {
-                "default": 0.05,
-                "screenrant.com": 1.0
-            }
+            "TT": 0.05
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "aljazeera.com": 1.0,
             "bleepingcomputer.com": 1.0,
-            "brit.co": 1.0,
+            "boingboing.net": 1.0,
+            "electrek.co": 1.0,
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
             "gottabemobile.com": 1.0,
             "maketecheasier.com": 1.0,
             "online-tech-tips.com": 1.0,
+            "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
             "thisisanfield.com": 1.0,
+            "yourtango.com": 1.0,
             "AU": 1.0
         },
         "chivaspasion.bolavip.com": 1.0,
@@ -697,98 +702,88 @@
         "usermatch": 1.0
     },
     "ix": {
-        "SA": {
-            "default": 0.05,
-            "dualshockers.com": 1.0
-        },
+        "SA": 0.05,
         "AF": 0.05,
         "AS": {
             "default": 0.05,
             "road.cc": 1.0,
-            "thisisanfield.com": 1.0,
             "venturebeat.com": 1.0,
             "BN": 1.0,
-            "IL": 1.0,
-            "OM": 1.0
+            "KH": 1.0
         },
         "EU": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
-            "9to5mac.com": 1.0,
-            "accountingweb.co.uk": 1.0,
-            "aljazeera.com": 1.0,
-            "aljazeera.net": 1.0,
-            "belfastlive.co.uk": 1.0,
-            "birminghammail.co.uk": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "boingboing.net": 1.0,
-            "bristolpost.co.uk": 1.0,
-            "brit.co": 1.0,
-            "buckinghamshirelive.com": 1.0,
-            "cambridge-news.co.uk": 1.0,
-            "cheshire-live.co.uk": 1.0,
-            "chroniclelive.co.uk": 1.0,
-            "comedy.co.uk": 1.0,
-            "corkbeo.ie": 1.0,
-            "coventrytelegraph.net": 1.0,
-            "dailypost.co.uk": 1.0,
-            "dailyrecord.co.uk": 1.0,
-            "derbytelegraph.co.uk": 1.0,
-            "devonlive.com": 1.0,
-            "dualshockers.com": 1.0,
-            "edinburghlive.co.uk": 1.0,
-            "electrek.co": 1.0,
-            "essexlive.news": 1.0,
-            "ewrestlingnews.com": 1.0,
-            "examinerlive.co.uk": 1.0,
-            "express.co.uk": 1.0,
-            "f1i.com": 1.0,
-            "getreading.co.uk": 1.0,
-            "getsurrey.co.uk": 1.0,
-            "glasgowlive.co.uk": 1.0,
-            "gottabemobile.com": 1.0,
-            "grimsbytelegraph.co.uk": 1.0,
-            "hampshirelive.news": 1.0,
-            "hertfordshiremercury.co.uk": 1.0,
-            "hulldailymail.co.uk": 1.0,
-            "investorsobserver.com": 1.0,
-            "joblo.com": 1.0,
-            "kentlive.news": 1.0,
-            "kerrang.com": 1.0,
-            "lancs.live": 1.0,
-            "leeds-live.co.uk": 1.0,
-            "leicestermercury.co.uk": 1.0,
-            "lincolnshirelive.co.uk": 1.0,
-            "liverpoolecho.co.uk": 1.0,
-            "maketecheasier.com": 1.0,
-            "manchestereveningnews.co.uk": 1.0,
-            "mylondon.news": 1.0,
-            "nasdaq.com": 1.0,
-            "news.itsfoss.com": 1.0,
-            "nottinghampost.com": 1.0,
-            "online-tech-tips.com": 1.0,
-            "pinkvilla.com": 1.0,
-            "plymouthherald.co.uk": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "screenrant.com": 1.0,
-            "simpleflying.com": 1.0,
-            "sportskeeda.com": 1.0,
-            "stokesentinel.co.uk": 1.0,
-            "sussexlive.co.uk": 1.0,
-            "tennistonic.com": 1.0,
-            "thethings.com": 1.0,
-            "thisisanfield.com": 1.0,
-            "upworthy.com": 1.0,
-            "venturebeat.com": 1.0,
-            "walesonline.co.uk": 1.0,
-            "wrestlingheadlines.com": 1.0,
-            "xda-developers.com": 1.0,
-            "CH": 1.0,
-            "DE": 1.0,
-            "DK": 1.0,
-            "GB": 1.0,
-            "IM": 1.0
+            "default": 1,
+            "AL": 0.05,
+            "AT": {
+                "default": 0.05,
+                "express.co.uk": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "sportskeeda.com": 1.0
+            },
+            "BA": 0.05,
+            "BE": 0.05,
+            "BG": 0.05,
+            "BY": 0.05,
+            "CH": {
+                "default": 0.05,
+                "express.co.uk": 1.0,
+                "pocket-lint.com": 1.0,
+                "screenrant.com": 1.0,
+                "sportskeeda.com": 1.0
+            },
+            "CY": 0.05,
+            "CZ": 0.05,
+            "DK": {
+                "default": 0.05,
+                "express.co.uk": 1.0
+            },
+            "EE": 0.05,
+            "ES": 0.05,
+            "FI": {
+                "default": 0.05,
+                "sportskeeda.com": 1.0
+            },
+            "FR": {
+                "default": 0.05,
+                "ok.co.uk": 1.0
+            },
+            "GG": 0.05,
+            "GR": 0.05,
+            "HR": 0.05,
+            "HU": {
+                "default": 0.05,
+                "sportskeeda.com": 1.0
+            },
+            "IE": {
+                "default": 0.05,
+                "express.co.uk": 1.0,
+                "screenrant.com": 1.0,
+                "sportskeeda.com": 1.0,
+                "thisisanfield.com": 1.0
+            },
+            "IM": 0.05,
+            "IS": 0.05,
+            "IT": 0.05,
+            "JE": 0.05,
+            "LT": 0.05,
+            "LU": 0.05,
+            "LV": 0.05,
+            "MD": 0.05,
+            "ME": 0.05,
+            "MK": 0.05,
+            "MT": 0.05,
+            "NL": 0.05,
+            "NO": 0.05,
+            "PL": 0.05,
+            "PT": 0.05,
+            "RO": 0.05,
+            "RS": 0.05,
+            "RU": 0.05,
+            "SE": 0.05,
+            "SI": 0.05,
+            "SK": 0.05,
+            "UA": 0.05
         },
         "NA": {
             "default": 1,
@@ -798,7 +793,6 @@
             "CR": 0.05,
             "CU": 0.05,
             "DO": 0.05,
-            "GD": 0.05,
             "GT": 0.05,
             "HN": 0.05,
             "JM": 0.05,
@@ -813,26 +807,32 @@
         "OC": {
             "default": 1,
             "GU": 0.05,
-            "NZ": 0.05,
-            "PG": 0.05
+            "NZ": {
+                "default": 0.05,
+                "screenrant.com": 1.0
+            }
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0
     },
     "openx": {
-        "SA": 0.05,
+        "SA": {
+            "default": 0.05,
+            "GY": 1.0
+        },
         "AF": 0.05,
         "AS": {
             "default": 0.05,
-            "KH": 1.0
+            "venturebeat.com": 1.0
         },
         "EU": {
             "default": 0.05,
             "accountingweb.co.uk": 1.0,
             "androidpolice.com": 1.0,
-            "fr.lipsum.com": 1.0,
             "lipsum.com": 1.0,
-            "thegearloop.com": 1.0,
+            "maketecheasier.com": 1.0,
+            "online-tech-tips.com": 1.0,
+            "road.cc": 1.0,
             "venturebeat.com": 1.0
         },
         "NA": {
@@ -840,26 +840,27 @@
             "BB": 0.05,
             "BM": 0.05,
             "BS": 0.05,
-            "BZ": 0.05,
             "CA": {
                 "default": 0.05,
                 "9to5google.com": 1.0,
                 "androidpolice.com": 1.0,
                 "bleepingcomputer.com": 1.0,
+                "blog.cheapism.com": 1.0,
                 "depor.com": 1.0,
                 "investorsobserver.com": 1.0,
+                "lipsum.com": 1.0,
+                "maketecheasier.com": 1.0,
                 "online-tech-tips.com": 1.0,
                 "pinkvilla.com": 1.0,
-                "pocket-lint.com": 1.0,
                 "road.cc": 1.0,
                 "simpleflying.com": 1.0,
+                "tennistonic.com": 1.0,
                 "thisisanfield.com": 1.0,
                 "tigerdroppings.com": 1.0
             },
             "CR": 0.05,
             "CU": 0.05,
             "DO": 0.05,
-            "GD": 0.05,
             "GT": 0.05,
             "HN": 0.05,
             "JM": 0.05,
@@ -877,10 +878,8 @@
         },
         "OC": {
             "default": 0.05,
+            "birminghammail.co.uk": 1.0,
             "bleepingcomputer.com": 1.0,
-            "express.co.uk": 1.0,
-            "online-tech-tips.com": 1.0,
-            "road.cc": 1.0,
             "simpleflying.com": 1.0,
             "tigerdroppings.com": 1.0
         },
@@ -894,32 +893,12 @@
         "AS": 0.05,
         "EU": {
             "default": 1,
-            "ES": 0.05,
-            "FR": 0.05,
             "IE": {
                 "default": 0.05,
                 "yourtango.com": 1.0
             },
-            "IT": {
-                "default": 0.05,
-                "yourtango.com": 1.0
-            },
-            "NL": {
-                "default": 0.05,
-                "yourtango.com": 1.0
-            },
+            "NL": 0.05,
             "PT": {
-                "default": 0.05,
-                "yourtango.com": 1.0
-            },
-            "SE": {
-                "default": 0.05,
-                "yourtango.com": 1.0
-            }
-        },
-        "NA": {
-            "default": 1,
-            "MX": {
                 "default": 0.05,
                 "yourtango.com": 1.0
             }
@@ -939,13 +918,7 @@
             "default": 0.05,
             "yourtango.com": 1.0,
             "DE": 1.0,
-            "GB": 1.0,
-            "IT": 1.0,
-            "NL": 1.0
-        },
-        "NA": {
-            "default": 1,
-            "MX": 0.05
+            "GB": 1.0
         },
         "OC": {
             "default": 1,
@@ -955,7 +928,10 @@
         "bolavip.com": 1.0
     },
     "pub-rubicon": {
-        "SA": 0.05,
+        "SA": {
+            "default": 0.05,
+            "yourtango.com": 1.0
+        },
         "AF": {
             "default": 0.05,
             "yourtango.com": 1.0,
@@ -964,28 +940,17 @@
         },
         "AS": {
             "default": 0.05,
-            "MY": 1.0
+            "yourtango.com": 1.0,
+            "SG": 1.0
         },
         "EU": {
             "default": 0.05,
             "yourtango.com": 1.0,
             "DE": 1.0,
-            "FR": 1.0,
             "GB": 1.0,
             "IE": 1.0,
-            "IT": 1.0,
-            "NL": 1.0
-        },
-        "NA": {
-            "default": 1,
-            "CA": {
-                "default": 0.05,
-                "yourtango.com": 1.0
-            },
-            "MX": {
-                "default": 0.05,
-                "yourtango.com": 1.0
-            }
+            "NL": 1.0,
+            "PT": 1.0
         },
         "OC": {
             "default": 0.05,
@@ -1003,20 +968,20 @@
         },
         "AF": {
             "default": 0.05,
-            "bolavip.com": 1.0,
-            "lipsum.com": 1.0
+            "lipsum.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "AO": 1.0,
+            "KE": 1.0
         },
         "AS": {
             "default": 0.05,
-            "brit.co": 1.0,
             "lipsum.com": 1.0,
             "tennistonic.com": 1.0,
             "venturebeat.com": 1.0,
             "ID": 1.0,
             "KH": 1.0,
-            "LK": 1.0,
             "PH": 1.0,
-            "TH": 1.0
+            "VN": 1.0
         },
         "EU": {
             "default": 1,
@@ -1024,11 +989,15 @@
             "AT": {
                 "default": 0.05,
                 "express.co.uk": 1.0,
+                "pocket-lint.com": 1.0,
                 "screenrant.com": 1.0,
                 "sportskeeda.com": 1.0
             },
             "BA": 0.05,
-            "BE": 0.05,
+            "BE": {
+                "default": 0.05,
+                "express.co.uk": 1.0
+            },
             "BG": 0.05,
             "BY": 0.05,
             "CY": 0.05,
@@ -1037,10 +1006,9 @@
                 "default": 0.05,
                 "express.co.uk": 1.0,
                 "pocket-lint.com": 1.0,
-                "road.cc": 1.0,
-                "screenrant.com": 1.0,
                 "simpleflying.com": 1.0,
-                "sportskeeda.com": 1.0
+                "sportskeeda.com": 1.0,
+                "yourtango.com": 1.0
             },
             "DK": {
                 "default": 0.05,
@@ -1049,13 +1017,17 @@
             "EE": 0.05,
             "ES": {
                 "default": 0.05,
-                "express.co.uk": 1.0,
+                "dailyrecord.co.uk": 1.0,
                 "lipsum.com": 1.0
             },
-            "FI": 0.05,
+            "FI": {
+                "default": 0.05,
+                "sportskeeda.com": 1.0
+            },
             "FR": {
                 "default": 0.05,
-                "express.co.uk": 1.0
+                "express.co.uk": 1.0,
+                "lipsum.com": 1.0
             },
             "GG": 0.05,
             "GR": 0.05,
@@ -1069,9 +1041,9 @@
             "IS": 0.05,
             "IT": {
                 "default": 0.05,
-                "express.co.uk": 1.0,
                 "lipsum.com": 1.0,
-                "simpleflying.com": 1.0
+                "simpleflying.com": 1.0,
+                "trome.pe": 1.0
             },
             "JE": 0.05,
             "LT": 0.05,
@@ -1083,14 +1055,10 @@
             "MT": 0.05,
             "NL": {
                 "default": 0.05,
-                "lipsum.com": 1.0,
-                "yourtango.com": 1.0
-            },
-            "NO": {
-                "default": 0.05,
                 "express.co.uk": 1.0,
-                "ok.co.uk": 1.0
+                "lipsum.com": 1.0
             },
+            "NO": 0.05,
             "PL": 0.05,
             "PT": 0.05,
             "RO": 0.05,
@@ -1098,7 +1066,9 @@
             "RU": 0.05,
             "SE": {
                 "default": 0.05,
-                "pocket-lint.com": 1.0
+                "express.co.uk": 1.0,
+                "pocket-lint.com": 1.0,
+                "sportskeeda.com": 1.0
             },
             "SI": 0.05,
             "SK": 0.05,
@@ -1112,7 +1082,6 @@
             "CR": 0.05,
             "CU": 0.05,
             "DO": 0.05,
-            "GD": 0.05,
             "GT": 0.05,
             "HN": 0.05,
             "JM": 0.05,
@@ -1132,31 +1101,13 @@
             }
         },
         "OC": {
-            "default": 0.05,
-            "9to5google.com": 1.0,
-            "aljazeera.com": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "brit.co": 1.0,
-            "electrek.co": 1.0,
-            "express.co.uk": 1.0,
-            "f1i.com": 1.0,
-            "football.london": 1.0,
-            "gottabemobile.com": 1.0,
-            "lipsum.com": 1.0,
-            "liverpool.com": 1.0,
-            "liverpoolecho.co.uk": 1.0,
-            "maketecheasier.com": 1.0,
-            "online-tech-tips.com": 1.0,
-            "pocket-lint.com": 1.0,
-            "road.cc": 1.0,
-            "screenrant.com": 1.0,
-            "simpleflying.com": 1.0,
-            "sportskeeda.com": 1.0,
-            "tennistonic.com": 1.0,
-            "thisisanfield.com": 1.0,
-            "tigerdroppings.com": 1.0,
-            "yourtango.com": 1.0,
-            "AU": 1.0
+            "default": 1,
+            "GU": 0.05,
+            "NZ": {
+                "default": 0.05,
+                "express.co.uk": 1.0,
+                "sportskeeda.com": 1.0
+            }
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0,
@@ -1172,62 +1123,62 @@
             "aljazeera.net": 1.0,
             "bolavip.com": 1.0,
             "lipsum.com": 1.0,
-            "liverpoolecho.co.uk": 1.0,
-            "thethings.com": 1.0,
-            "EG": 1.0,
-            "ET": 1.0,
-            "LR": 1.0,
+            "maketecheasier.com": 1.0,
+            "pinkvilla.com": 1.0,
+            "pocket-lint.com": 1.0,
+            "screenrant.com": 1.0,
+            "simpleflying.com": 1.0,
             "MW": 1.0,
+            "MZ": 1.0,
             "SD": 1.0,
+            "SO": 1.0,
             "TN": 1.0,
-            "ZA": 1.0,
-            "ZM": 1.0
+            "ZA": 1.0
         },
         "AS": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
-            "androidpolice.com": 1.0,
             "bleepingcomputer.com": 1.0,
             "bolavip.com": 1.0,
-            "brit.co": 1.0,
             "electrek.co": 1.0,
             "express.co.uk": 1.0,
             "gottabemobile.com": 1.0,
+            "investorsobserver.com": 1.0,
             "lipsum.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
+            "manchestereveningnews.co.uk": 1.0,
             "nextshark.com": 1.0,
-            "online-tech-tips.com": 1.0,
             "pinkvilla.com": 1.0,
             "pocketnow.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
-            "simpleflying.com": 1.0,
-            "sportskeeda.com": 1.0,
             "tennistonic.com": 1.0,
             "therichest.com": 1.0,
-            "thethings.com": 1.0,
+            "thetalko.com": 1.0,
+            "thisisanfield.com": 1.0,
+            "upworthy.com": 1.0,
             "venturebeat.com": 1.0,
+            "wrestlingheadlines.com": 1.0,
+            "xda-developers.com": 1.0,
             "AE": 1.0,
-            "AZ": 1.0,
             "BD": 1.0,
+            "BH": 1.0,
+            "CN": 1.0,
             "HK": 1.0,
             "ID": 1.0,
             "IL": 1.0,
             "IN": 1.0,
-            "JP": 1.0,
             "KH": 1.0,
             "KR": 1.0,
             "KW": 1.0,
-            "LK": 1.0,
-            "MN": 1.0,
+            "LB": 1.0,
             "MV": 1.0,
             "MY": 1.0,
             "OM": 1.0,
             "PH": 1.0,
             "PS": 1.0,
-            "QA": 1.0,
             "SG": 1.0,
             "TH": 1.0,
             "TR": 1.0,
@@ -1238,13 +1189,14 @@
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
             "accountingweb.co.uk": 1.0,
-            "aljazeera.net": 1.0,
             "androidpolice.com": 1.0,
             "bleepingcomputer.com": 1.0,
-            "boingboing.net": 1.0,
+            "blog.cheapism.com": 1.0,
             "bolavip.com": 1.0,
+            "brit.co": 1.0,
+            "chroniclelive.co.uk": 1.0,
             "comedy.co.uk": 1.0,
-            "dailyrecord.co.uk": 1.0,
+            "diariocorreo.pe": 1.0,
             "dorset.live": 1.0,
             "dualshockers.com": 1.0,
             "electrek.co": 1.0,
@@ -1252,7 +1204,6 @@
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
             "fr.lipsum.com": 1.0,
-            "gottabemobile.com": 1.0,
             "investorsobserver.com": 1.0,
             "kerrang.com": 1.0,
             "lipsum.com": 1.0,
@@ -1262,7 +1213,9 @@
             "nasdaq.com": 1.0,
             "news.itsfoss.com": 1.0,
             "off.road.cc": 1.0,
+            "ojo.pe": 1.0,
             "online-tech-tips.com": 1.0,
+            "pajiba.com": 1.0,
             "pinkvilla.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
@@ -1271,35 +1224,42 @@
             "stuff.tv": 1.0,
             "tennistonic.com": 1.0,
             "thegearloop.com": 1.0,
+            "therichest.com": 1.0,
+            "thethings.com": 1.0,
             "thisisanfield.com": 1.0,
             "upworthy.com": 1.0,
             "venturebeat.com": 1.0,
             "walesonline.co.uk": 1.0,
+            "AL": 1.0,
             "AT": 1.0,
             "BE": 1.0,
             "BG": 1.0,
             "CH": 1.0,
-            "CZ": 1.0,
+            "CY": 1.0,
             "DE": 1.0,
             "DK": 1.0,
             "EE": 1.0,
+            "ES": 1.0,
             "FI": 1.0,
             "FR": 1.0,
             "GB": 1.0,
+            "GR": 1.0,
             "IE": 1.0,
             "IM": 1.0,
+            "IS": 1.0,
             "IT": 1.0,
-            "JE": 1.0,
             "LT": 1.0,
             "LU": 1.0,
             "LV": 1.0,
+            "ME": 1.0,
             "MT": 1.0,
             "NL": 1.0,
             "NO": 1.0,
             "PL": 1.0,
             "PT": 1.0,
-            "RS": 1.0,
+            "RO": 1.0,
             "SE": 1.0,
+            "SI": 1.0,
             "SK": 1.0
         },
         "NA": {
@@ -1319,7 +1279,6 @@
             "bolavip.com": 1.0,
             "brit.co": 1.0,
             "chivaspasion.bolavip.com": 1.0,
-            "chroniclelive.co.uk": 1.0,
             "comedy.co.uk": 1.0,
             "dailyrecord.co.uk": 1.0,
             "depor.com": 1.0,
@@ -1328,27 +1287,26 @@
             "dualshockers.com": 1.0,
             "dw.com": 1.0,
             "dyrdev.wpengine.com": 1.0,
+            "elcomercio.pe": 1.0,
             "electrek.co": 1.0,
             "essence.com": 1.0,
             "ewrestlingnews.com": 1.0,
-            "examinerlive.co.uk": 1.0,
             "express.co.uk": 1.0,
             "f1i.com": 1.0,
             "gamerant.com": 1.0,
-            "gloucestershirelive.co.uk": 1.0,
             "gottabemobile.com": 1.0,
             "investorsobserver.com": 1.0,
+            "jpost.com": 1.0,
             "kerrang.com": 1.0,
             "komando.com": 1.0,
-            "leeds-live.co.uk": 1.0,
             "lipsum.com": 1.0,
             "liverpool.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
-            "manchestereveningnews.co.uk": 1.0,
             "mixmag.net": 1.0,
             "moms.com": 1.0,
             "movieweb.com": 1.0,
+            "mylondon.news": 1.0,
             "nasdaq.com": 1.0,
             "news.itsfoss.com": 1.0,
             "newser.com": 1.0,
@@ -1364,7 +1322,6 @@
             "purewow.com": 1.0,
             "road.cc": 1.0,
             "rsvplive.ie": 1.0,
-            "scottishdailyexpress.co.uk": 1.0,
             "screenrant.com": 1.0,
             "simpleflying.com": 1.0,
             "spaceexplored.com": 1.0,
@@ -1386,28 +1343,32 @@
             "wrestlingheadlines.com": 1.0,
             "xda-developers.com": 1.0,
             "yourtango.com": 1.0,
+            "BB": 1.0,
+            "BS": 1.0,
             "CA": 1.0,
-            "GT": 1.0,
+            "CR": 1.0,
+            "HN": 1.0,
+            "LC": 1.0,
             "PA": 1.0,
+            "TT": 1.0,
             "US": 1.0
         },
         "OC": {
             "default": 0.05,
             "9to5google.com": 1.0,
             "9to5mac.com": 1.0,
+            "birminghammail.co.uk": 1.0,
             "bleepingcomputer.com": 1.0,
             "boingboing.net": 1.0,
-            "brit.co": 1.0,
-            "comedy.co.uk": 1.0,
             "dailystar.co.uk": 1.0,
             "dualshockers.com": 1.0,
             "electrek.co": 1.0,
             "express.co.uk": 1.0,
             "gottabemobile.com": 1.0,
+            "irishmirror.ie": 1.0,
             "lipsum.com": 1.0,
             "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
-            "online-tech-tips.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "screenrant.com": 1.0,
@@ -1421,8 +1382,7 @@
             "yourtango.com": 1.0,
             "AU": 1.0,
             "GU": 1.0,
-            "NZ": 1.0,
-            "PG": 1.0
+            "NZ": 1.0
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0,
@@ -1433,29 +1393,26 @@
             "default": 0.05,
             "br.lipsum.com": 1.0,
             "es.lipsum.com": 1.0,
+            "express.co.uk": 1.0,
             "lipsum.com": 1.0,
-            "BR": 1.0,
-            "EC": 1.0
+            "BO": 1.0,
+            "BR": 1.0
         },
         "AF": 0.05,
         "AS": {
             "default": 0.05,
             "lipsum.com": 1.0,
             "tigerdroppings.com": 1.0,
-            "BD": 1.0,
             "ID": 1.0,
             "IN": 1.0,
-            "JP": 1.0,
-            "KR": 1.0,
             "PH": 1.0,
-            "PK": 1.0,
             "SG": 1.0,
+            "TH": 1.0,
             "TR": 1.0,
             "VN": 1.0
         },
         "EU": {
             "default": 0.05,
-            "fr.lipsum.com": 1.0,
             "lipsum.com": 1.0,
             "ES": 1.0,
             "FR": 1.0,
@@ -1480,7 +1437,6 @@
         "OC": {
             "default": 0.05,
             "lipsum.com": 1.0,
-            "tigerdroppings.com": 1.0,
             "AU": 1.0
         },
         "chivaspasion.bolavip.com": 1.0,
@@ -1496,11 +1452,7 @@
             "CO": 1.0
         },
         "AF": 0.05,
-        "AS": {
-            "default": 0.05,
-            "jpost.com": 1.0,
-            "IL": 1.0
-        },
+        "AS": 0.05,
         "NA": {
             "default": 0.05,
             "jpost.com": 1.0,
@@ -1517,16 +1469,15 @@
             "bleepingcomputer.com": 1.0,
             "chroniclelive.co.uk": 1.0,
             "express.co.uk": 1.0,
-            "irishmirror.ie": 1.0,
+            "gottabemobile.com": 1.0,
             "lipsum.com": 1.0,
             "maketecheasier.com": 1.0,
-            "manchestereveningnews.co.uk": 1.0,
-            "mirror.co.uk": 1.0,
             "online-tech-tips.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
             "simpleflying.com": 1.0,
             "thisisanfield.com": 1.0,
+            "tigerdroppings.com": 1.0,
             "xda-developers.com": 1.0,
             "AU": 1.0,
             "NZ": 1.0
@@ -1538,31 +1489,24 @@
         "AS": {
             "default": 0.05,
             "aljazeera.com": 1.0,
-            "birminghammail.co.uk": 1.0,
             "express.co.uk": 1.0,
-            "gottabemobile.com": 1.0,
             "lipsum.com": 1.0,
-            "manchestereveningnews.co.uk": 1.0,
-            "venturebeat.com": 1.0,
-            "AE": 1.0,
+            "mirror.co.uk": 1.0,
+            "nextshark.com": 1.0,
             "ID": 1.0,
-            "IL": 1.0,
-            "KW": 1.0,
+            "KH": 1.0,
+            "KR": 1.0,
             "PH": 1.0,
             "SG": 1.0,
-            "TH": 1.0,
             "TR": 1.0
         },
         "EU": {
             "default": 0.05,
-            "accountingweb.co.uk": 1.0,
-            "aljazeera.com": 1.0,
             "aljazeera.net": 1.0,
             "androidpolice.com": 1.0,
-            "bleepingcomputer.com": 1.0,
-            "comedy.co.uk": 1.0,
             "dailyrecord.co.uk": 1.0,
             "dailystar.co.uk": 1.0,
+            "diariocorreo.pe": 1.0,
             "ewrestlingnews.com": 1.0,
             "examinerlive.co.uk": 1.0,
             "express.co.uk": 1.0,
@@ -1573,16 +1517,14 @@
             "gottabemobile.com": 1.0,
             "investorsobserver.com": 1.0,
             "kentlive.news": 1.0,
-            "kerrang.com": 1.0,
             "lancs.live": 1.0,
             "leeds-live.co.uk": 1.0,
             "leicestermercury.co.uk": 1.0,
             "lipsum.com": 1.0,
             "maketecheasier.com": 1.0,
             "mirror.co.uk": 1.0,
-            "mylondon.news": 1.0,
+            "movieweb.com": 1.0,
             "off.road.cc": 1.0,
-            "ok.co.uk": 1.0,
             "online-tech-tips.com": 1.0,
             "pocket-lint.com": 1.0,
             "road.cc": 1.0,
@@ -1594,17 +1536,20 @@
             "thisisanfield.com": 1.0,
             "upworthy.com": 1.0,
             "venturebeat.com": 1.0,
-            "xda-developers.com": 1.0,
+            "BE": 1.0,
             "CH": 1.0,
+            "DE": 1.0,
             "DK": 1.0,
+            "EE": 1.0,
             "FI": 1.0,
             "FR": 1.0,
             "GB": 1.0,
-            "IM": 1.0,
+            "GG": 1.0,
             "IS": 1.0,
             "NL": 1.0,
             "NO": 1.0,
-            "PL": 1.0
+            "PL": 1.0,
+            "SE": 1.0
         },
         "NA": {
             "default": 0.05,
@@ -1612,40 +1557,43 @@
             "9to5toys.com": 1.0,
             "aljazeera.com": 1.0,
             "aljazeera.net": 1.0,
+            "amp.dw.com": 1.0,
             "androidpolice.com": 1.0,
             "awfulannouncing.com": 1.0,
             "benzinga.com": 1.0,
+            "birminghammail.co.uk": 1.0,
             "bleepingcomputer.com": 1.0,
             "blog.cheapism.com": 1.0,
-            "boingboing.net": 1.0,
             "bolavip.com": 1.0,
             "chroniclelive.co.uk": 1.0,
-            "comedy.co.uk": 1.0,
             "connectthewatts.com": 1.0,
-            "diariocorreo.pe": 1.0,
+            "doyouremember.com": 1.0,
             "dualshockers.com": 1.0,
             "essence.com": 1.0,
             "express.co.uk": 1.0,
+            "f1i.com": 1.0,
+            "football.london": 1.0,
             "gamerant.com": 1.0,
             "gottabemobile.com": 1.0,
             "investorsobserver.com": 1.0,
             "joblo.com": 1.0,
             "komando.com": 1.0,
             "leeds-live.co.uk": 1.0,
-            "leicestermercury.co.uk": 1.0,
             "lipsum.com": 1.0,
-            "liverpoolecho.co.uk": 1.0,
             "maketecheasier.com": 1.0,
+            "manchestereveningnews.co.uk": 1.0,
+            "mixmag.net": 1.0,
             "moms.com": 1.0,
+            "mylondon.news": 1.0,
             "nasdaq.com": 1.0,
             "news.itsfoss.com": 1.0,
             "nextshark.com": 1.0,
+            "nottinghampost.com": 1.0,
             "off.road.cc": 1.0,
             "ojo.pe": 1.0,
             "ok.co.uk": 1.0,
             "online-tech-tips.com": 1.0,
             "pajiba.com": 1.0,
-            "pinkvilla.com": 1.0,
             "pocket-lint.com": 1.0,
             "pocketnow.com": 1.0,
             "pulse2.com": 1.0,
@@ -1656,12 +1604,12 @@
             "screenrant.com": 1.0,
             "secrant.com": 1.0,
             "simpleflying.com": 1.0,
-            "spaceexplored.com": 1.0,
+            "tennistonic.com": 1.0,
             "thecollector.com": 1.0,
+            "thegamehaus.com": 1.0,
             "thisisanfield.com": 1.0,
             "tigerdroppings.com": 1.0,
             "trome.pe": 1.0,
-            "tvseriesfinale.com": 1.0,
             "upworthy.com": 1.0,
             "venturebeat.com": 1.0,
             "wrestlingheadlines.com": 1.0,
@@ -1693,23 +1641,16 @@
     },
     "verizonmedia": {
         "SA": 0.05,
+        "AF": 0.05,
         "AS": 0.05,
         "EU": 0.05,
+        "NA": 0.05,
+        "OC": 0.05,
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0
     },
     "xandr": {
-        "NA": {
-            "default": 1,
-            "CA": {
-                "default": 0.05,
-                "lipsum.com": 1.0
-            },
-            "MX": {
-                "default": 0.05,
-                "lipsum.com": 1.0
-            }
-        },
+        "SA": 0.05,
         "AF": {
             "default": 0.05,
             "lipsum.com": 1.0,
@@ -1720,7 +1661,6 @@
             "lipsum.com": 1.0,
             "BD": 1.0,
             "ID": 1.0,
-            "KR": 1.0,
             "PH": 1.0,
             "PK": 1.0,
             "SG": 1.0,
@@ -1741,19 +1681,43 @@
             "PT": {
                 "default": 0.05,
                 "lipsum.com": 1.0
+            }
+        },
+        "NA": {
+            "default": 1,
+            "CA": {
+                "default": 0.05,
+                "lipsum.com": 1.0
             },
-            "RO": {
+            "MX": {
                 "default": 0.05,
                 "lipsum.com": 1.0
             }
+        },
+        "OC": {
+            "default": 0.05,
+            "lipsum.com": 1.0,
+            "AU": 1.0
         },
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0
     },
     "yahoossp": {
-        "SA": 0.05,
+        "SA": {
+            "default": 0.05,
+            "br.lipsum.com": 1.0,
+            "es.lipsum.com": 1.0,
+            "lipsum.com": 1.0,
+            "AR": 1.0,
+            "BR": 1.0,
+            "CL": 1.0,
+            "CO": 1.0
+        },
         "AS": 0.05,
-        "NA": 0.05,
+        "NA": {
+            "default": 0.05,
+            "MX": 1.0
+        },
         "OC": 0.05,
         "chivaspasion.bolavip.com": 1.0,
         "bolavip.com": 1.0
