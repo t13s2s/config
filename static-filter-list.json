@@ -58,5 +58,19 @@
                 "amp": 0
             }
         }
+    ],
+    "onemobile": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        },
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        }
     ]
 }
