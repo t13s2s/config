@@ -98,15 +98,12 @@
     ],
     "test": [
         {
-            "domains": {
-                "test.com": 0
-            },
+            "domains": {},
             "formats": {
                 "banner": 0
             },
             "geos": {
-                "GB": 0,
-                "US": 0
+                "GB": 0
             },
             "channels": {
                 "web": 0
