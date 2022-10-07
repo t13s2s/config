@@ -61,14 +61,16 @@
     ],
     "onemobile": [
         {
-            "domains": {},
+            "domains": {
+                "amobee.com": 0
+            },
             "formats": {},
             "geos": {},
             "channels": {}
         },
         {
             "domains": {
-                "amobee.com": 0,
+                "amobee.com": 1,
                 "non-verizon.com": 1
             },
             "formats": {},
