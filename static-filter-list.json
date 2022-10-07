@@ -67,7 +67,6 @@
             "formats": {},
             "geos": {},
             "channels": {
-                "app": 1,
                 "web": 1
             }
         },
