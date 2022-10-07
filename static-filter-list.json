@@ -86,13 +86,22 @@
             "channels": {}
         }
     ],
+    "slug": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {
+                "GB": 0
+            },
+            "channels": {}
+        }
+    ],
     "test": [
         {
             "domains": {
                 "test.com": 0
             },
             "formats": {
-                "2": 0,
                 "banner": 0
             },
             "geos": {
@@ -101,15 +110,11 @@
             "channels": {
                 "web": 0
             }
-        }
-    ],
-    "slug": [
+        },
         {
             "domains": {},
             "formats": {},
-            "geos": {
-                "GB": 0
-            },
+            "geos": {},
             "channels": {}
         }
     ]
