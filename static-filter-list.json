@@ -95,5 +95,27 @@
             },
             "channels": {}
         }
+    ],
+    "test": [
+        {
+            "domains": {
+                "test.com": 0
+            },
+            "formats": {
+                "banner": 0
+            },
+            "geos": {
+                "GB": 0
+            },
+            "channels": {
+                "web": 0
+            }
+        },
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        }
     ]
 }
