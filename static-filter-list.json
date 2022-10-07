@@ -67,7 +67,9 @@
             "channels": {}
         },
         {
-            "domains": {},
+            "domains": {
+                "non-verizon.com": 0
+            },
             "formats": {},
             "geos": {},
             "channels": {}
