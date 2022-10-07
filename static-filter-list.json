@@ -101,10 +101,7 @@
             "domains": {
                 "test.com": 0
             },
-            "formats": {
-                "1": 0,
-                "video": 0
-            },
+            "formats": {},
             "geos": {
                 "GB": 0
             },
