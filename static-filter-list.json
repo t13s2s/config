@@ -101,7 +101,10 @@
             "domains": {
                 "test.com": 0
             },
-            "formats": {},
+            "formats": {
+                "2": 0,
+                "banner": 0
+            },
             "geos": {
                 "GB": 0
             },
