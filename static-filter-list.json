@@ -86,6 +86,16 @@
             "channels": {}
         }
     ],
+    "slug": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {
+                "GB": 0
+            },
+            "channels": {}
+        }
+    ],
     "test": [
         {
             "domains": {
@@ -98,18 +108,13 @@
                 "GB": 0
             },
             "channels": {
-                "3": 0,
                 "web": 0
             }
-        }
-    ],
-    "slug": [
+        },
         {
             "domains": {},
             "formats": {},
-            "geos": {
-                "GB": 0
-            },
+            "geos": {},
             "channels": {}
         }
     ]
