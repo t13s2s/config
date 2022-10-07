@@ -98,10 +98,7 @@
     ],
     "test": [
         {
-            "domains": {
-                "test.com": 0,
-                "test1.com": 0
-            },
+            "domains": {},
             "formats": {
                 "banner": 0
             },
