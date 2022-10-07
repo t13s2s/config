@@ -99,8 +99,7 @@
     "test": [
         {
             "domains": {
-                "test.com": 0,
-                "test1.com": 0
+                "test.com": 0
             },
             "formats": {
                 "banner": 0
