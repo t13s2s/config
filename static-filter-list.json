@@ -102,11 +102,11 @@
                 "test.com": 0
             },
             "formats": {
-                "banner": 0
+                "1": 0,
+                "video": 0
             },
             "geos": {
-                "GB": 0,
-                "US": 0
+                "GB": 0
             },
             "channels": {
                 "web": 0
