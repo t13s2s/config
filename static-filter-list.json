@@ -62,11 +62,14 @@
     "onemobile": [
         {
             "domains": {
-                "amobee.com": 0
+                "amobee.com": 1
             },
             "formats": {},
             "geos": {},
-            "channels": {}
+            "channels": {
+                "1": 0,
+                "2": 0
+            }
         },
         {
             "domains": {
