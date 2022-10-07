@@ -68,15 +68,16 @@
         },
         {
             "domains": {
+                "amobee.com": 0,
                 "non-verizon.com": 1
             },
             "formats": {},
             "geos": {
-                "CU": 0,
-                "KP": 0,
-                "SY": 0,
-                "IR": 0,
-                "UA": 0
+                "CU": 1,
+                "KP": 1,
+                "SY": 1,
+                "IR": 1,
+                "UA": 1
             },
             "channels": {}
         }
