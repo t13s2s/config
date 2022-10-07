@@ -110,12 +110,6 @@
             "channels": {
                 "web": 0
             }
-        },
-        {
-            "domains": {},
-            "formats": {},
-            "geos": {},
-            "channels": {}
         }
     ]
 }
