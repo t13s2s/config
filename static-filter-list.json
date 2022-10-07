@@ -105,7 +105,8 @@
                 "banner": 0
             },
             "geos": {
-                "ZA": 0
+                "GB": 0,
+                "US": 0
             },
             "channels": {
                 "web": 0
