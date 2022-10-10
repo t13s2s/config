@@ -121,9 +121,7 @@
             "channels": {}
         },
         {
-            "domains": {
-                "testing.com": 0
-            },
+            "domains": {},
             "formats": {
                 "banner": 1,
                 "video": 1
