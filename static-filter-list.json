@@ -123,10 +123,12 @@
         {
             "domains": {},
             "formats": {
-                "1": 0
+                "banner": 1
             },
             "geos": {},
-            "channels": {}
+            "channels": {
+                "1": 0
+            }
         }
     ]
 }
