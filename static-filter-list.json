@@ -100,7 +100,8 @@
                 "mycooldomain.com": 1
             },
             "formats": {
-                "banner": 0
+                "banner": 1,
+                "video": 0
             },
             "geos": {
                 "BR": 1,
