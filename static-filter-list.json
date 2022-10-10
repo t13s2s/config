@@ -105,7 +105,8 @@
             "geos": {
                 "BR": 1,
                 "US": 1,
-                "CA": 1
+                "CA": 1,
+                "CR": 1
             },
             "channels": {
                 "app": 1,
