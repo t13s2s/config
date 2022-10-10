@@ -99,7 +99,9 @@
                 "badadvertiser.com": 1,
                 "mycooldomain.com": 1
             },
-            "formats": {},
+            "formats": {
+                "1": 0
+            },
             "geos": {
                 "BR": 1,
                 "US": 1,
