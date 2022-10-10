@@ -100,8 +100,9 @@
                 "mycooldomain.com": 1
             },
             "formats": {
-                "2": 0,
-                "native": 1
+                "1": 0,
+                "native": 1,
+                "video": 1
             },
             "geos": {
                 "BR": 1,
