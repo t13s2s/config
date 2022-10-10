@@ -119,6 +119,12 @@
             "formats": {},
             "geos": {},
             "channels": {}
+        },
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
         }
     ]
 }
