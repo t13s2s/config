@@ -121,13 +121,15 @@
             "channels": {}
         },
         {
-            "domains": {},
+            "domains": {
+                "testing.com": 0
+            },
             "formats": {
                 "banner": 1,
                 "video": 1
             },
             "geos": {
-                "ZA": 0
+                "ZA": 1
             },
             "channels": {
                 "web": 1
