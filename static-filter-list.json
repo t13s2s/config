@@ -112,5 +112,13 @@
                 "web": 0
             }
         }
+    ],
+    "testPbsDefault": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        }
     ]
 }
