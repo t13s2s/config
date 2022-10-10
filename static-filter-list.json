@@ -100,9 +100,7 @@
                 "mycooldomain.com": 1
             },
             "formats": {
-                "3": 0,
-                "banner": 1,
-                "video": 1
+                "native": 1
             },
             "geos": {
                 "BR": 1,
@@ -117,9 +115,7 @@
             "domains": {
                 "block-this-domain.com": 0
             },
-            "formats": {
-                "native": 0
-            },
+            "formats": {},
             "geos": {
                 "RU": 1,
                 "US": 1
