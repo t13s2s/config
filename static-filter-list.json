@@ -122,7 +122,9 @@
         },
         {
             "domains": {},
-            "formats": {},
+            "formats": {
+                "1": 0
+            },
             "geos": {},
             "channels": {}
         }
