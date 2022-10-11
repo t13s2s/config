@@ -136,7 +136,8 @@
         {
             "domains": {},
             "formats": {
-                "1": 0
+                "2": 0,
+                "banner": 0
             },
             "geos": {},
             "channels": {}
