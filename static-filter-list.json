@@ -149,8 +149,7 @@
                 "fake-news.com": 0,
                 "non-pg-13-site.com": 0,
                 "malicious-site.com": 0,
-                "alternative-facts.com": 0,
-                "legit-site.com": 0
+                "alternative-facts.com": 0
             },
             "formats": {},
             "geos": {},
