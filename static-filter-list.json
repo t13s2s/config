@@ -93,37 +93,6 @@
             "channels": {}
         }
     ],
-    "audienceNetwork": [
-        {
-            "domains": {
-                "badadvertiser.com": 1,
-                "mycooldomain.com": 1
-            },
-            "formats": {
-                "native": 1
-            },
-            "geos": {
-                "BR": 1,
-                "US": 1,
-                "CA": 1
-            },
-            "channels": {
-                "app": 1,
-                "web": 1
-            }
-        },
-        {
-            "domains": {
-                "block-this-domain.com": 0
-            },
-            "formats": {},
-            "geos": {
-                "RU": 1,
-                "US": 1
-            },
-            "channels": {}
-        }
-    ],
     "testingSegments": [
         {
             "domains": {},
@@ -162,6 +131,39 @@
                 "web": 1,
                 "amp": 1
             }
+        }
+    ],
+    "audienceNetwork": [
+        {
+            "domains": {
+                "badadvertiser.com": 1,
+                "mycooldomain.com": 1
+            },
+            "formats": {
+                "native": 1,
+                "banner": 1,
+                "video": 1
+            },
+            "geos": {
+                "BR": 1,
+                "US": 1,
+                "CA": 1
+            },
+            "channels": {
+                "app": 1,
+                "web": 1
+            }
+        },
+        {
+            "domains": {
+                "block-this-domain.com": 0
+            },
+            "formats": {},
+            "geos": {
+                "RU": 1,
+                "US": 1
+            },
+            "channels": {}
         }
     ]
 }
