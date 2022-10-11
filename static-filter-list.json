@@ -123,5 +123,13 @@
             },
             "channels": {}
         }
+    ],
+    "testingSegments": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        }
     ]
 }
