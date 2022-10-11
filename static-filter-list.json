@@ -167,6 +167,12 @@
                 "web": 1,
                 "amp": 1
             }
+        },
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
         }
     ]
 }
