@@ -154,6 +154,7 @@
                 "alternative-facts.com": 0
             },
             "formats": {
+                "native": 1,
                 "banner": 1,
                 "video": 1
             },
