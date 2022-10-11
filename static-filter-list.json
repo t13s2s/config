@@ -145,7 +145,10 @@
     ],
     "onedisplay": [
         {
-            "domains": {},
+            "domains": {
+                "non-pg-13-site.com": 0,
+                "malicious-site.com": 0
+            },
             "formats": {},
             "geos": {},
             "channels": {
