@@ -135,7 +135,9 @@
     "newtest2": [
         {
             "domains": {},
-            "formats": {},
+            "formats": {
+                "1": 0
+            },
             "geos": {},
             "channels": {}
         }
