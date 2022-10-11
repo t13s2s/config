@@ -142,5 +142,13 @@
             "geos": {},
             "channels": {}
         }
+    ],
+    "onedisplay": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        }
     ]
 }
