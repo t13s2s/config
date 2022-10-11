@@ -148,7 +148,9 @@
             "domains": {},
             "formats": {},
             "geos": {},
-            "channels": {}
+            "channels": {
+                "web": 1
+            }
         }
     ]
 }
