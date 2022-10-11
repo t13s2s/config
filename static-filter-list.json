@@ -149,7 +149,8 @@
             "formats": {},
             "geos": {},
             "channels": {
-                "web": 1
+                "web": 1,
+                "amp": 1
             }
         }
     ]
