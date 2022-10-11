@@ -152,7 +152,12 @@
                 "alternative-facts.com": 0
             },
             "formats": {},
-            "geos": {},
+            "geos": {
+                "CU": 0,
+                "RU": 0,
+                "IR": 0,
+                "UA": 0
+            },
             "channels": {
                 "web": 1,
                 "amp": 1
