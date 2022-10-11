@@ -112,27 +112,6 @@
             "channels": {}
         }
     ],
-    "onedisplay": [
-        {
-            "domains": {
-                "fake-news.com": 0,
-                "non-pg-13-site.com": 0,
-                "malicious-site.com": 0,
-                "alternative-facts.com": 0
-            },
-            "formats": {},
-            "geos": {
-                "CU": 0,
-                "RU": 0,
-                "IR": 0,
-                "UA": 0
-            },
-            "channels": {
-                "web": 1,
-                "amp": 1
-            }
-        }
-    ],
     "audienceNetwork": [
         {
             "domains": {
@@ -164,6 +143,30 @@
                 "US": 1
             },
             "channels": {}
+        }
+    ],
+    "onedisplay": [
+        {
+            "domains": {
+                "fake-news.com": 0,
+                "non-pg-13-site.com": 0,
+                "malicious-site.com": 0,
+                "alternative-facts.com": 0
+            },
+            "formats": {
+                "banner": 1,
+                "video": 1
+            },
+            "geos": {
+                "CU": 0,
+                "RU": 0,
+                "IR": 0,
+                "UA": 0
+            },
+            "channels": {
+                "web": 1,
+                "amp": 1
+            }
         }
     ]
 }
