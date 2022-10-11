@@ -149,6 +149,7 @@
             "formats": {},
             "geos": {},
             "channels": {
+                "app": 1,
                 "web": 1,
                 "amp": 1
             }
