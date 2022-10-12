@@ -132,7 +132,6 @@
     }],
     "testPbsDefault": [{
         "geos": {
-            "CA": 0,
             "ZA": 0,
             "GB": 0
         },
