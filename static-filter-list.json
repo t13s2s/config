@@ -136,7 +136,10 @@
             "native": 0,
             "video": 0
         },
-        "channels": {},
+        "channels": {
+            "app": 0,
+            "amp": 0
+        },
         "domains": {}
     }],
     "slug": [{
