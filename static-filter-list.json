@@ -208,8 +208,7 @@
         {
             "domains": {},
             "formats": {
-                "banner": 1,
-                "video": 1
+                "banner": 1
             },
             "geos": {},
             "channels": {}
