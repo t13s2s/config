@@ -167,7 +167,7 @@
         },
         {
             "geos": {},
-            "formats": {},
+            "formats": {"banner": 0},
             "channels": {},
             "domains": {}
         }
