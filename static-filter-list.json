@@ -132,8 +132,10 @@
     }],
     "testPbsDefault": [{
         "geos": {
-            "ZA": 0,
-            "GB": 0
+            "GB": 1,
+            "US": 1,
+            "ZA": 1,
+            "KR": 1
         },
         "formats": {
             "native": 0,
