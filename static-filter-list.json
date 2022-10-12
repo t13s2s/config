@@ -1,19 +1,31 @@
 {
-    "test": [{
-        "geos": {
-            "GB": 0,
-            "US": 0
-        },
-        "formats": {"banner": 0},
-        "channels": {"web": 0},
-        "domains": {"test.com": 0}
-    }],
+    "test": [
+        {
+            "geos": {
+                "GB": 0,
+                "US": 0
+            },
+            "formats": {
+                "banner": 0
+            },
+            "channels": {
+                "web": 0
+            },
+            "domains": {
+                "test.com": 0
+            }
+        }
+    ],
     "onemobile": [
         {
             "geos": {},
             "formats": {},
-            "channels": {"web": 1},
-            "domains": {"amobee.com": 1}
+            "channels": {
+                "web": 1
+            },
+            "domains": {
+                "amobee.com": 1
+            }
         },
         {
             "geos": {
@@ -31,12 +43,14 @@
             }
         }
     ],
-    "testingSegments": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
-        "domains": {}
-    }],
+    "testingSegments": [
+        {
+            "geos": {},
+            "formats": {},
+            "channels": {},
+            "domains": {}
+        }
+    ],
     "audienceNetwork": [
         {
             "geos": {
@@ -65,31 +79,35 @@
             },
             "formats": {},
             "channels": {},
-            "domains": {"block-this-domain.com": 0}
+            "domains": {
+                "block-this-domain.com": 0
+            }
         }
     ],
-    "33across": [{
-        "geos": {
-            "MX": 1,
-            "US": 1,
-            "CA": 1
-        },
-        "formats": {
-            "native": 0,
-            "banner": 1,
-            "video": 0
-        },
-        "channels": {
-            "app": 0,
-            "amp": 0,
-            "web": 1
-        },
-        "domains": {
-            "misleadingtimes.co.uk": 0,
-            "falsenews.au": 0,
-            "radicalthings.com": 0
+    "33across": [
+        {
+            "geos": {
+                "MX": 1,
+                "US": 1,
+                "CA": 1
+            },
+            "formats": {
+                "native": 0,
+                "banner": 1,
+                "video": 0
+            },
+            "channels": {
+                "app": 0,
+                "amp": 0,
+                "web": 1
+            },
+            "domains": {
+                "misleadingtimes.co.uk": 0,
+                "falsenews.au": 0,
+                "radicalthings.com": 0
+            }
         }
-    }],
+    ],
     "pubmatic": [
         {
             "geos": {
@@ -121,15 +139,17 @@
             "domains": {}
         }
     ],
-    "newtest2": [{
-        "geos": {},
-        "formats": {
-            "2": 0,
-            "banner": 0
-        },
-        "channels": {},
-        "domains": {}
-    }],
+    "newtest2": [
+        {
+            "geos": {},
+            "formats": {
+                "2": 0,
+                "banner": 0
+            },
+            "channels": {},
+            "domains": {}
+        }
+    ],
     "testPbsDefault": [
         {
             "geos": {
@@ -167,15 +187,29 @@
         },
         {
             "geos": {},
-            "formats": {"banner": 0},
+            "formats": {
+                "banner": 0
+            },
             "channels": {},
             "domains": {}
         }
     ],
-    "slug": [{
-        "geos": {"GB": 0},
-        "formats": {},
-        "channels": {},
-        "domains": {}
-    }]
+    "slug": [
+        {
+            "geos": {
+                "GB": 0
+            },
+            "formats": {},
+            "channels": {},
+            "domains": {}
+        }
+    ],
+    "ays": [
+        {
+            "domains": {},
+            "formats": {},
+            "geos": {},
+            "channels": {}
+        }
+    ]
 }
