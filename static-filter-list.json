@@ -145,7 +145,16 @@
             "app": 1,
             "web": 1
         },
-        "domains": {}
+        "domains": {
+            "some-domain.co.uk": 0,
+            "some-other-domain.com": 0,
+            "another-domain.com": 0,
+            "some-domain.com": 0,
+            "another-domain.co.uk": 0,
+            "some-extra-domain.com": 0,
+            "another-domain.co.za": 0,
+            "some-domain.co.za": 0
+        }
     }],
     "slug": [{
         "geos": {"GB": 0},
