@@ -212,8 +212,7 @@
             },
             "geos": {},
             "channels": {
-                "app": 0,
-                "web": 0
+                "app": 0
             }
         }
     ]
