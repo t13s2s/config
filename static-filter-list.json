@@ -132,7 +132,10 @@
     }],
     "testPbsDefault": [{
         "geos": {},
-        "formats": {},
+        "formats": {
+            "native": 0,
+            "video": 0
+        },
         "channels": {},
         "domains": {}
     }],
