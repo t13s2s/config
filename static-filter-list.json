@@ -211,7 +211,10 @@
                 "banner": 1
             },
             "geos": {},
-            "channels": {}
+            "channels": {
+                "app": 0,
+                "web": 0
+            }
         }
     ]
 }
