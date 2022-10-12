@@ -207,7 +207,10 @@
     "ays": [
         {
             "domains": {},
-            "formats": {},
+            "formats": {
+                "banner": 1,
+                "video": 1
+            },
             "geos": {},
             "channels": {}
         }
