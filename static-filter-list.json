@@ -1,226 +1,28 @@
 {
-	"test": [{
-		"geos": {
-			"GB": 0,
-			"US": 0
-		},
-		"formats": {
-			"banner": 0
-		},
-		"channels": {
-			"web": 0
-		},
-		"domains": {
-			"test.com": 0
-		}
-	}],
-	"onemobile": [{
-			"geos": {},
-			"formats": {},
-			"channels": {
-				"web": 1
-			},
-			"domains": {
-				"amobee.com": 1
-			}
-		},
-		{
-			"geos": {
-				"CU": 1,
-				"KP": 1,
-				"SY": 1,
-				"IR": 1,
-				"UA": 1
-			},
-			"formats": {},
-			"channels": {},
-			"domains": {
-				"amobee.com": 1,
-				"non-verizon.com": 1
-			}
-		}
-	],
-	"testingSegments": [{
-		"geos": {},
-		"formats": {},
-		"channels": {},
-		"domains": {}
-	}],
-	"audienceNetwork": [{
-			"geos": {
-				"BR": 1,
-				"US": 1,
-				"CA": 1
-			},
-			"formats": {
-				"native": 1,
-				"banner": 1,
-				"video": 1
-			},
-			"channels": {
-				"app": 1,
-				"web": 1
-			},
-			"domains": {
-				"badadvertiser.com": 1,
-				"mycooldomain.com": 1
-			}
-		},
-		{
-			"geos": {
-				"RU": 1,
-				"US": 1
-			},
-			"formats": {},
-			"channels": {},
-			"domains": {
-				"block-this-domain.com": 0
-			}
-		}
-	],
-	"33across": [{
-		"geos": {
-			"MX": 1,
-			"US": 1,
-			"CA": 1
-		},
-		"formats": {
-			"native": 0,
-			"banner": 1,
-			"video": 0
-		},
-		"channels": {
-			"app": 0,
-			"amp": 0,
-			"web": 1
-		},
-		"domains": {
-			"misleadingtimes.co.uk": 0,
-			"falsenews.au": 0,
-			"radicalthings.com": 0
-		}
-	}],
-	"pubmatic": [{
-			"geos": {
-				"CU": 0,
-				"RU": 0,
-				"IR": 0,
-				"UA": 0
-			},
-			"formats": {
-				"banner": 1,
-				"video": 1
-			},
-			"channels": {
-				"web": 1,
-				"amp": 1
-			},
-			"domains": {
-				"fake-news.com": 0,
-				"non-pg-13-site.com": 0,
-				"malicious-site.com": 0,
-				"headphonereview.com": 0,
-				"alternative-facts.com": 0
-			}
-		},
-		{
-			"geos": {},
-			"formats": {},
-			"channels": {},
-			"domains": {}
-		}
-	],
-	"newtest2": [{
-		"geos": {},
-		"formats": {
-			"2": 0,
-			"banner": 0
-		},
-		"channels": {},
-		"domains": {}
-	}],
-	"testPbsDefault": [{
-			"geos": {
-				"GB": 1,
-				"US": 1,
-				"ZA": 1,
-				"KR": 1
-			},
-			"formats": {
-				"native": 0,
-				"video": 0
-			},
-			"channels": {
-				"app": 1,
-				"web": 1
-			},
-			"domains": {
-				"new-domain-3.com": 1,
-				"new-domain-2.com": 1,
-				"new-domain-1.com": 1,
-				"some-domain.co.uk": 1,
-				"another-domain.co.uk": 1,
-				"new-domain-5.com": 1,
-				"another-domain.co.za": 1,
-				"some-domain.co.za": 1,
-				"new-domain-4.com": 1,
-				"new-domain-6.com": 1
-			}
-		},
-		{
-			"geos": {},
-			"formats": {},
-			"channels": {},
-			"domains": {}
-		},
-		{
-			"geos": {},
-			"formats": {
-				"banner": 0
-			},
-			"channels": {},
-			"domains": {}
-		}
-	],
-	"slug": [{
-		"geos": {
-			"GB": 0
-		},
-		"formats": {},
-		"channels": {},
-		"domains": {}
-	}],
-	"ays": [{
-		"domains": {},
-		"formats": {
-			"banner": 1
-		},
-		"geos": {},
-		"channels": {
-			"app": 1
-		}
-	}],
-	"quantcast": [{
-			"domains": {
-				"headphonereview.com": 0
-			}
-		},
-		{
-			"domains": {
-				"webdesignledger.com": 1
-			},
-			"channels": {
-				"amp": 0
-			}
-		},
-		{
-			"domains": {},
-			"channels": {
-				"amp": 1
-			},
-			"geos": {
-				"CA": 0
-			}
-		}
-	]
+	"quantcast": [
+        {
+            "domains": {
+                "headphonereview.com": 0
+            }
+        },
+        {
+            "domains": {
+                "webdesignledger.com": 1
+            },
+            "channels": {
+                "amp": 0
+            }
+        },
+        {
+            "domains": {
+            },
+            "channels": {
+                "amp": 1
+            },
+            "geos": {
+                "CA": 0
+            }
+        }
+
+    ]
 }
