@@ -1,45 +1,21 @@
 {
-    "33across": [
-        {
-            "channels": {
-                "amp": 0,
-                "web": 1,
-                "app": 0
-            },
-            "formats": {
-                "banner": 1,
-                "native": 0,
-                "video": 0
-            },
-            "geos": {
-                "US": 1,
-                "CA": 1,
-                "MX": 1
-            },
-            "domains": {
-                "falsenews.au": 0,
-                "radicalthings.com": 0,
-                "misleadingtimes.co.uk": 0
-            }
-        }
-    ],
+    "test": [{
+        "geos": {
+            "GB": 0,
+            "US": 0
+        },
+        "formats": {"banner": 0},
+        "channels": {"web": 0},
+        "domains": {"test.com": 0}
+    }],
     "onemobile": [
         {
-            "domains": {
-                "amobee.com": 1
-            },
-            "formats": {},
             "geos": {},
-            "channels": {
-                "web": 1
-            }
+            "formats": {},
+            "channels": {"web": 1},
+            "domains": {"amobee.com": 1}
         },
         {
-            "domains": {
-                "amobee.com": 1,
-                "non-verizon.com": 1
-            },
-            "formats": {},
             "geos": {
                 "CU": 1,
                 "KP": 1,
@@ -47,132 +23,131 @@
                 "IR": 1,
                 "UA": 1
             },
-            "channels": {}
-        }
-    ],
-    "slug": [
-        {
-            "domains": {},
             "formats": {},
-            "geos": {
-                "GB": 0
-            },
-            "channels": {}
-        }
-    ],
-    "test": [
-        {
+            "channels": {},
             "domains": {
-                "test.com": 0
-            },
-            "formats": {
-                "banner": 0
-            },
-            "geos": {
-                "GB": 0,
-                "US": 0
-            },
-            "channels": {
-                "web": 0
+                "amobee.com": 1,
+                "non-verizon.com": 1
             }
         }
     ],
-    "testPbsDefault": [
-        {
-            "domains": {},
-            "formats": {},
-            "geos": {},
-            "channels": {}
-        },
-        {
-            "domains": {},
-            "formats": {
-                "video": 1
-            },
-            "geos": {},
-            "channels": {}
-        }
-    ],
-    "testingSegments": [
-        {
-            "domains": {},
-            "formats": {},
-            "geos": {},
-            "channels": {}
-        }
-    ],
-    "newtest2": [
-        {
-            "domains": {},
-            "formats": {
-                "2": 0,
-                "banner": 0
-            },
-            "geos": {},
-            "channels": {}
-        }
-    ],
+    "testingSegments": [{
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
+    }],
     "audienceNetwork": [
         {
-            "domains": {
-                "badadvertiser.com": 1,
-                "mycooldomain.com": 1
+            "geos": {
+                "BR": 1,
+                "US": 1,
+                "CA": 1
             },
             "formats": {
                 "native": 1,
                 "banner": 1,
                 "video": 1
             },
-            "geos": {
-                "BR": 1,
-                "US": 1,
-                "CA": 1
-            },
             "channels": {
                 "app": 1,
                 "web": 1
+            },
+            "domains": {
+                "badadvertiser.com": 1,
+                "mycooldomain.com": 1
             }
         },
         {
-            "domains": {
-                "block-this-domain.com": 0
-            },
-            "formats": {},
             "geos": {
                 "RU": 1,
                 "US": 1
             },
-            "channels": {}
+            "formats": {},
+            "channels": {},
+            "domains": {"block-this-domain.com": 0}
         }
     ],
+    "33across": [{
+        "geos": {
+            "MX": 1,
+            "US": 1,
+            "CA": 1
+        },
+        "formats": {
+            "native": 0,
+            "banner": 1,
+            "video": 0
+        },
+        "channels": {
+            "app": 0,
+            "amp": 0,
+            "web": 1
+        },
+        "domains": {
+            "misleadingtimes.co.uk": 0,
+            "falsenews.au": 0,
+            "radicalthings.com": 0
+        }
+    }],
     "onedisplay": [
         {
-            "domains": {
-                "fake-news.com": 0,
-                "non-pg-13-site.com": 0,
-                "malicious-site.com": 0,
-                "alternative-facts.com": 0
+            "geos": {
+                "IR": 0,
+                "CU": 0,
+                "RU": 0,
+                "UA": 0
             },
             "formats": {
                 "banner": 1,
                 "video": 1
             },
-            "geos": {
-                "CU": 0,
-                "RU": 0,
-                "IR": 0,
-                "UA": 0
-            },
             "channels": {
                 "web": 1,
                 "amp": 1
+            },
+            "domains": {
+                "fake-news.com": 0,
+                "alternative-facts.com": 0,
+                "another-legit-site.com": 0,
+                "non-pg-13-site.com": 0,
+                "malicious-site.com": 0
             }
         },
         {
-            "domains": {},
-            "formats": {},
             "geos": {},
-            "channels": {}
+            "formats": {},
+            "channels": {},
+            "domains": {}
         }
-    ]
+    ],
+    "newtest2": [{
+        "geos": {},
+        "formats": {
+            "2": 0,
+            "banner": 0
+        },
+        "channels": {},
+        "domains": {}
+    }],
+    "testPbsDefault": [
+        {
+            "geos": {},
+            "formats": {},
+            "channels": {},
+            "domains": {}
+        },
+        {
+            "geos": {},
+            "formats": {"video": 1},
+            "channels": {},
+            "domains": {}
+        }
+    ],
+    "slug": [{
+        "geos": {"GB": 0},
+        "formats": {},
+        "channels": {},
+        "domains": {}
+    }]
 }
