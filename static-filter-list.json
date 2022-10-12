@@ -215,5 +215,31 @@
                 "app": 1
             }
         }
+    ],
+    "quantcast": [
+        {
+            "domains": {
+                "headphonereview.com": 0
+            }
+        },
+        {
+            "domains": {
+                "webdesignledger.com": 1
+            },
+            "channels": {
+                "amp": 0
+            }
+        },
+        {
+            "domains": {
+            },
+            "channels": {
+                "amp": 1
+            },
+            "geos": {
+                "CA": 0
+            }
+        }
+
     ]
 }
