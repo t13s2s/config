@@ -131,7 +131,11 @@
         "domains": {}
     }],
     "testPbsDefault": [{
-        "geos": {},
+        "geos": {
+            "CA": 0,
+            "ZA": 0,
+            "GB": 0
+        },
         "formats": {
             "native": 0,
             "video": 0
