@@ -132,7 +132,7 @@
     }],
     "testPbsDefault": [{
         "geos": {},
-        "formats": {"banner": 1},
+        "formats": {},
         "channels": {},
         "domains": {}
     }],
