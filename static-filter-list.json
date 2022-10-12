@@ -163,7 +163,13 @@
             "geos": {},
             "formats": {},
             "channels": {},
-            "domains": {}
+            "domains": {
+                "test.com": 0,
+                "google.com": 0,
+                "hey-some-site.com": 0,
+                "hello.com": 0,
+                "xyz.com": 0
+            }
         }
     ],
     "slug": [{
