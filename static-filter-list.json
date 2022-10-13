@@ -10,5 +10,11 @@
         "formats": {"banner": 1},
         "channels": {"amp": 0},
         "domains": {"lostandtaken.com": 1}
+    },
+    {
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
     }
 ]}
