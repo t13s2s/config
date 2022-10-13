@@ -134,7 +134,11 @@
         }
     ],
     "oftmedia": [{
-        "geos": {},
+        "geos": {
+            "CA": 0,
+            "MX": 0,
+            "CR": 0
+        },
         "formats": {
             "native": 0,
             "banner": 0
