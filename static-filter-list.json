@@ -135,7 +135,10 @@
     ],
     "oftmedia": [{
         "geos": {},
-        "formats": {},
+        "formats": {
+            "native": 0,
+            "banner": 0
+        },
         "channels": {},
         "domains": {}
     }],
