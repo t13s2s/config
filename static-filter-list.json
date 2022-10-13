@@ -26,7 +26,10 @@
             "banner": 1,
             "video": 1
         },
-        "channels": {},
+        "channels": {
+            "web": 1,
+            "amp": 1
+        },
         "domains": {
             "test3.com": 0,
             "test2.com": 0,
