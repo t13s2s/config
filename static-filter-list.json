@@ -30,7 +30,11 @@
             }
         },
         {
-            "geos": {},
+            "geos": {
+                "AF": 1,
+                "DZ": 1,
+                "AL": 1
+            },
             "formats": {
                 "banner": 1,
                 "video": 1
