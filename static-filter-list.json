@@ -7,7 +7,7 @@
     },
     {
         "geos": {},
-        "formats": {},
+        "formats": {"banner": 1},
         "channels": {},
         "domains": {}
     }
