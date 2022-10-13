@@ -40,7 +40,11 @@
                 "video": 1
             },
             "channels": {"app": 0},
-            "domains": {}
+            "domains": {
+                "test3.com": 0,
+                "test2.com": 0,
+                "test1.com": 0
+            }
         }
     ]
 }
