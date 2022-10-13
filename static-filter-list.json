@@ -139,7 +139,7 @@
             "native": 0,
             "banner": 0
         },
-        "channels": {},
+        "channels": {"web": 1},
         "domains": {}
     }],
     "newtest2": [{
