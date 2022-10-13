@@ -1,6 +1,14 @@
-{"adobe": [{
-    "geos": {},
-    "formats": {},
-    "channels": {"web": 1},
-    "domains": {"lostandtaken.com": 0}
-}]}
+{"adobe": [
+    {
+        "geos": {},
+        "formats": {},
+        "channels": {"web": 1},
+        "domains": {"lostandtaken.com": 0}
+    },
+    {
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
+    }
+]}
