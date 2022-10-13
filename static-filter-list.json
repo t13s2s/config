@@ -8,7 +8,7 @@
     {
         "geos": {},
         "formats": {"banner": 1},
-        "channels": {},
+        "channels": {"amp": 0},
         "domains": {}
     }
 ]}
