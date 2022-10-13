@@ -31,7 +31,10 @@
         },
         {
             "geos": {},
-            "formats": {},
+            "formats": {
+                "banner": 1,
+                "video": 1
+            },
             "channels": {},
             "domains": {}
         }
