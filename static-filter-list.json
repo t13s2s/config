@@ -1,28 +1,20 @@
 {
-  "quantcast": [
+    "quantcast": [
+        {"domains": {"headphonereview.com": 0}},
         {
-            "domains": {
-                "headphonereview.com": 0
-            }
+            "channels": {"amp": 0},
+            "domains": {"webdesignledger.com": 1}
         },
         {
-            "domains": {
-                "webdesignledger.com": 1
-            },
-            "channels": {
-                "amp": 0
-            }
-        },
-        {
-            "domains": {
-            },
-            "channels": {
-                "amp": 1
-            },
-            "geos": {
-                "CA": 0
-            }
+            "geos": {"CA": 0},
+            "channels": {"amp": 1},
+            "domains": {}
         }
-
-    ]
+    ],
+    "adobe": [{
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
+    }]
 }
