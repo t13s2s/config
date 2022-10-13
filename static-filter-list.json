@@ -11,21 +11,29 @@
             "domains": {}
         }
     ],
-    "oftmedia": [{
-        "geos": {
-            "CA": 0,
-            "MX": 0,
-            "CR": 0
+    "oftmedia": [
+        {
+            "geos": {
+                "CA": 0,
+                "MX": 0,
+                "CR": 0
+            },
+            "formats": {
+                "native": 0,
+                "banner": 0
+            },
+            "channels": {"web": 1},
+            "domains": {
+                "google.co.kr": 1,
+                "google.com": 1,
+                "google.co.uk": 1
+            }
         },
-        "formats": {
-            "native": 0,
-            "banner": 0
-        },
-        "channels": {"web": 1},
-        "domains": {
-            "google.co.kr": 1,
-            "google.com": 1,
-            "google.co.uk": 1
+        {
+            "geos": {},
+            "formats": {},
+            "channels": {},
+            "domains": {}
         }
-    }]
+    ]
 }
