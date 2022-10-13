@@ -14,7 +14,7 @@
     {
         "geos": {},
         "formats": {},
-        "channels": {"amp": 0},
+        "channels": {"amp": 1},
         "domains": {}
     }
 ]}
