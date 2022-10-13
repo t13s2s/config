@@ -1,16 +1,4 @@
 {
-    "quantcast": [
-        {"domains": {"headphonereview.com": 0}},
-        {
-            "channels": {"amp": 0},
-            "domains": {"webdesignledger.com": 1}
-        },
-        {
-            "geos": {"CA": 0},
-            "channels": {"amp": 1},
-            "domains": {}
-        }
-    ],
     "oftmedia": [
         {
             "geos": {
