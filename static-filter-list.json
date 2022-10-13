@@ -12,7 +12,7 @@
         "domains": {"lostandtaken.com": 1}
     },
     {
-        "geos": {},
+        "geos": {"CA": 0},
         "formats": {},
         "channels": {"amp": 1},
         "domains": {}
