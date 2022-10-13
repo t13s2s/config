@@ -1,8 +1,6 @@
-{
-    "adobe": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
-        "domains": {"headphonereview.com": 0}
-    }]
-}
+{"adobe": [{
+    "geos": {},
+    "formats": {},
+    "channels": {},
+    "domains": {"headphonereview.com": 1}
+}]}
