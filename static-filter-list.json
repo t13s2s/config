@@ -1,39 +1,77 @@
-{"oftmedia": [
-    {
-        "geos": {
-            "CA": 0,
-            "MX": 0,
-            "CR": 0
+{
+    "onedisplay": [
+        {
+            "geos": {
+                "IR": 0,
+                "CU": 0,
+                "default": 1,
+                "RU": 0,
+                "UA": 0
+            },
+            "formats": {
+                "banner": 1,
+                "default": 0,
+                "video": 1
+            },
+            "channels": {
+                "web": 1,
+                "amp": 1,
+                "default": 0
+            },
+            "domains": {
+                "fake-news.com": 0,
+                "another-legit-site.com": 0,
+                "default": 1,
+                "non-pg-13-site.com": 0,
+                "malicious-site.com": 0,
+                "alternative-facts.com": 0,
+                "another-legit-site-2.com": 0
+            }
         },
-        "formats": {
-            "native": 0,
-            "banner": 0
-        },
-        "channels": {"web": 1},
-        "domains": {
-            "google.co.kr": 1,
-            "google.com": 1,
-            "google.co.uk": 1
+        {
+            "geos": {},
+            "formats": {},
+            "channels": {},
+            "domains": {}
         }
-    },
-    {
-        "geos": {
-            "AF": 1,
-            "DZ": 1,
-            "AL": 1
+    ],
+    "oftmedia": [
+        {
+            "geos": {
+                "MX": 0,
+                "CA": 0,
+                "CR": 0
+            },
+            "formats": {
+                "native": 0,
+                "banner": 0
+            },
+            "channels": {"web": 1},
+            "domains": {
+                "google.com": 1,
+                "google.co.kr": 1,
+                "google.co.uk": 1
+            }
         },
-        "formats": {
-            "banner": 1,
-            "video": 1
-        },
-        "channels": {
-            "web": 1,
-            "amp": 1
-        },
-        "domains": {
-            "test3.com": 0,
-            "test2.com": 0,
-            "test1.com": 0
+        {
+            "geos": {
+                "AF": 1,
+                "DZ": 1,
+                "AL": 1
+            },
+            "formats": {
+                "banner": 1,
+                "video": 1
+            },
+            "channels": {
+                "web": 1,
+                "amp": 1
+            },
+            "domains": {
+                "test1.com": 0,
+                "test3.com": 0,
+                "test2.com": 0
+            }
         }
-    }
-]}
+    ]
+}
