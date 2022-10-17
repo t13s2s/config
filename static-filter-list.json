@@ -88,6 +88,9 @@
         "geos": {},
         "formats": {},
         "channels": {},
-        "domains": {}
+        "domains": {
+            "default": 1,
+            "changed1231.com": 0
+        }
     }]
 }
