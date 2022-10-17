@@ -7,7 +7,10 @@
         },
         "formats": {},
         "channels": {"web": 0},
-        "domains": {}
+        "domains": {
+            "daysoftheyear.com": 1,
+            "headphonereview.com": 1
+        }
     }],
     "adobe": [
         {
