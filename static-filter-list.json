@@ -2,7 +2,7 @@
     "amobee": [{
         "geos": {},
         "formats": {},
-        "channels": {},
+        "channels": {"web": 0},
         "domains": {}
     }],
     "adobe": [
