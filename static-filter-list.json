@@ -1,6 +1,10 @@
 {
     "amobee": [{
-        "geos": {},
+        "geos": {
+            "US": 1,
+            "CA": 1,
+            "GB": 1
+        },
         "formats": {},
         "channels": {"web": 0},
         "domains": {}
