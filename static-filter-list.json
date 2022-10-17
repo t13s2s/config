@@ -2,21 +2,21 @@
     "onedisplay": [
         {
             "geos": {
-                "IR": 0,
                 "CU": 0,
                 "default": 1,
                 "RU": 0,
+                "IR": 0,
                 "UA": 0
             },
             "formats": {
-                "banner": 1,
                 "default": 0,
+                "banner": 1,
                 "video": 1
             },
             "channels": {
+                "default": 0,
                 "web": 1,
-                "amp": 1,
-                "default": 0
+                "amp": 1
             },
             "domains": {
                 "fake-news.com": 0,
@@ -50,7 +50,8 @@
             },
             "channels": {
                 "default": 0,
-                "web": 1},
+                "web": 1
+            },
             "domains": {
                 "default": 0,
                 "google.com": 1,
@@ -82,5 +83,11 @@
                 "test2.com": 0
             }
         }
-    ]
+    ],
+    "newtest2": [{
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
+    }]
 }
