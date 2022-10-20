@@ -3,11 +3,7 @@
         "geos": {},
         "formats": {},
         "channels": {},
-        "domains": {
-            "daysoftheyear.com": 1,
-            "default": 0,
-            "headphonereview.com": 1
-        }
+        "domains": {}
     }],
     "adobe": [
         {
