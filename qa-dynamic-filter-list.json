@@ -19,9 +19,7 @@
             "pupperish.com": 1.0,
             "AU": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "adform": {
         "SA": {
@@ -311,9 +309,7 @@
             "yourtango.com": 1.0,
             "AU": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "adobe": {
         "SA": {
@@ -543,10 +539,8 @@
             "unfollowed.me": 1.0,
             "watchdocumentaries.com": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "amobee": {
         "SA": {
@@ -866,10 +860,8 @@
             "US": 1.0
         },
         "OC": 0.05,
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "amx": {
         "SA": 0.05,
@@ -963,9 +955,7 @@
             "thisisanfield.com": 1.0,
             "AU": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "amxfsx": {
         "SA": {
@@ -1646,9 +1636,7 @@
             "AU": 1.0,
             "NZ": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "appnexus": {
         "SA": {
@@ -1929,10 +1917,8 @@
                 "parade.com": 1.0
             }
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "basis": {
         "SA": {
@@ -3172,10 +3158,8 @@
             "GU": 1.0,
             "NZ": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "bidswitch": {
         "SA": {
@@ -3393,10 +3377,8 @@
             "techjunkie.com": 1.0,
             "uproxx.com": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "bidtellect": {
         "SA": {
@@ -3697,22 +3679,18 @@
             "AU": 1.0,
             "NZ": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "emx_digital": {
-        "SA": 0.05,
-        "AF": 0.05,
-        "AS": 0.05,
-        "EU": 0.05,
-        "NA": 0.05,
-        "OC": 0.05,
-        "chivaspasion.bolavip.com": 0.05,
-        "bolavip.com": 0.05,
-        "webdesignledger.com": 0.05,
-        "AN": 0.05
+        "SA": 0.2,
+        "AF": 0.2,
+        "AS": 0.2,
+        "EU": 0.2,
+        "NA": 0.2,
+        "OC": 0.2,
+        "webdesignledger.com": 1,
+        "AN": 0.2
     },
     "gourmetads": {
         "SA": {
@@ -3757,9 +3735,7 @@
             "default": 1,
             "CH": 0.05
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "grid": {
         "OC": {
@@ -3880,10 +3856,8 @@
             },
             "TT": 0.05
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "ix": {
         "SA": {
@@ -4099,9 +4073,7 @@
                 "yourtango.com": 1.0
             }
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "medianet": {
         "SA": {
@@ -4604,9 +4576,7 @@
             "worldpopulationreview.com": 1.0,
             "yaytext.com": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "openx": {
         "SA": {
@@ -4707,10 +4677,8 @@
             "thestreet.com": 1.0,
             "GU": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "pub-appnexus": {
         "SA": {
@@ -4738,9 +4706,7 @@
             "default": 1,
             "NZ": 0.05
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "pub-pubmatic": {
         "SA": {
@@ -4765,9 +4731,7 @@
             "default": 1,
             "NZ": 0.05
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "pub-rubicon": {
         "SA": 0.05,
@@ -4798,9 +4762,7 @@
             "yourtango.com": 1.0,
             "AU": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "pubmatic": {
         "SA": {
@@ -4964,10 +4926,8 @@
                 "express.co.uk": 1.0
             }
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "quantcastfsx": {
         "SA": {
@@ -5567,10 +5527,8 @@
             "AU": 1.0,
             "NZ": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "rubicon": {
         "SA": {
@@ -5890,10 +5848,8 @@
             "GU": 1.0,
             "NZ": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
-        "usermatch": 1.0
+        "webdesignledger.com": 1,
+        "usermatch": 1
     },
     "sharethrough": {
         "SA": {
@@ -5936,9 +5892,7 @@
             "default": 0.05,
             "AU": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "smartadserver": {
         "SA": {
@@ -5960,9 +5914,7 @@
                 "jpost.com": 1.0
             }
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "sovrn": {
         "OC": {
@@ -6062,9 +6014,7 @@
             "SV": 0.05,
             "TT": 0.05
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "triplelift": {
         "SA": {
@@ -6315,9 +6265,7 @@
                 "yourtango.com": 1.0
             }
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "verizonmedia": {
         "SA": {
@@ -6361,9 +6309,7 @@
             "CA": 1.0
         },
         "OC": 0.05,
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "xandr": {
         "SA": 0.05,
@@ -6378,9 +6324,7 @@
             "ID": 1.0,
             "IN": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "yahoossp": {
         "EU": {
@@ -6397,9 +6341,7 @@
             "secrant.com": 1.0,
             "US": 1.0
         },
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     },
     "yieldmo": {
         "OC": 0.05,
@@ -6408,8 +6350,6 @@
             "1001freefonts.com": 1.0
         },
         "EU": 0.05,
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0
+        "webdesignledger.com": 1
     }
 }
