@@ -3709,9 +3709,9 @@
         "EU": 0.05,
         "NA": 0.05,
         "OC": 0.05,
-        "chivaspasion.bolavip.com": 1.0,
-        "bolavip.com": 1.0,
-        "webdesignledger.com": 1.0,
+        "chivaspasion.bolavip.com": 0.05,
+        "bolavip.com": 0.05,
+        "webdesignledger.com": 0.05,
         "AN": 0.05
     },
     "gourmetads": {
