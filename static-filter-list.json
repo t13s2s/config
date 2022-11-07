@@ -13,7 +13,19 @@
             "geos": {},
             "formats": {},
             "channels": {},
-            "domains": {}
+            "domains": {
+                "1001freefonts.com": 1,
+                "default": 0,
+                "scorestream.com": 1,
+                "reason.com": 1,
+                "tennistonic.com": 1,
+                "ino.com": 1,
+                "ultrabookreview.com": 1,
+                "calcxml.com": 1,
+                "thebiologynotes.com": 1,
+                "aftvnews.com": 1,
+                "freetetris.org": 1
+            }
         }
     ],
     "amobee": [{
