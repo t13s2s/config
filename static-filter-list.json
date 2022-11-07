@@ -1,13 +1,21 @@
 {
-    "ttdfsx": [{
-        "geos": {
-            "default": 0,
-            "US": 1
+    "ttdfsx": [
+        {
+            "geos": {
+                "default": 0,
+                "US": 1
+            },
+            "formats": {},
+            "channels": {},
+            "domains": {}
         },
-        "formats": {},
-        "channels": {},
-        "domains": {}
-    }],
+        {
+            "geos": {},
+            "formats": {},
+            "channels": {},
+            "domains": {}
+        }
+    ],
     "amobee": [{
         "geos": {},
         "formats": {},
