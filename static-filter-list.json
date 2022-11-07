@@ -1,6 +1,9 @@
 {
     "ttdfsx": [{
-        "geos": {},
+        "geos": {
+            "default": 0,
+            "US": 1
+        },
         "formats": {},
         "channels": {},
         "domains": {}
