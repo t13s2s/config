@@ -29,7 +29,10 @@
         },
         {
             "geos": {},
-            "formats": {},
+            "formats": {
+                "banner": 1,
+                "default": 0
+            },
             "channels": {},
             "domains": {}
         }
