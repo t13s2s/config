@@ -39,7 +39,10 @@
         {
             "geos": {},
             "formats": {},
-            "channels": {},
+            "channels": {
+                "web": 1,
+                "default": 0
+            },
             "domains": {}
         }
     ],
