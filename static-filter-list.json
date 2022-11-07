@@ -35,6 +35,12 @@
             },
             "channels": {},
             "domains": {}
+        },
+        {
+            "geos": {},
+            "formats": {},
+            "channels": {},
+            "domains": {}
         }
     ],
     "amobee": [{
