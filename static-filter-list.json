@@ -323,8 +323,8 @@
             },
             "formats": {},
             "channels": {
-                "amp": 1,
-                "default": 0
+                "amp": 0,
+                "default": 1
             },
             "domains": {}
         }
