@@ -30,8 +30,8 @@
         {
             "geos": {},
             "formats": {
-                "banner": 1,
-                "default": 0
+                "default": 0,
+                "banner": 1
             },
             "channels": {},
             "domains": {}
@@ -40,8 +40,8 @@
             "geos": {},
             "formats": {},
             "channels": {
-                "web": 1,
-                "default": 0
+                "default": 0,
+                "web": 1
             },
             "domains": {}
         }
@@ -304,16 +304,16 @@
         {
             "geos": {},
             "formats": {
-                "default": 0,
-                "banner": 1
+                "banner": 1,
+                "default": 0
             },
             "channels": {
-                "default": 1,
-                "amp": 0
+                "amp": 0,
+                "default": 1
             },
             "domains": {
-                "default": 0,
-                "lostandtaken.com": 1
+                "lostandtaken.com": 1,
+                "default": 0
             }
         },
         {
@@ -323,8 +323,8 @@
             },
             "formats": {},
             "channels": {
-                "default": 0,
-                "amp": 1
+                "amp": 1,
+                "default": 0
             },
             "domains": {}
         }
