@@ -318,8 +318,8 @@
         },
         {
             "geos": {
-                "default": 1,
-                "CA": 0
+                "default": 0,
+                "CA": 1
             },
             "formats": {},
             "channels": {
