@@ -15,7 +15,10 @@
                 "US": 1
             },
             "formats": {},
-            "channels": {},
+            "channels": {
+                "web": 1,
+                "default": 0
+            },
             "domains": {
                 "1001freefonts.com": 1,
                 "default": 0,
