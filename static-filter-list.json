@@ -6,15 +6,6 @@
                 "US": 1
             },
             "formats": {},
-            "channels": {},
-            "domains": {}
-        },
-        {
-            "geos": {
-                "default": 0,
-                "US": 1
-            },
-            "formats": {},
             "channels": {
                 "web": 1,
                 "default": 0
@@ -32,32 +23,8 @@
                 "aftvnews.com": 1,
                 "freetetris.org": 1
             }
-        },
-        {
-            "geos": {},
-            "formats": {
-                "banner": 1,
-                "default": 0
-            },
-            "channels": {},
-            "domains": {}
-        },
-        {
-            "geos": {},
-            "formats": {},
-            "channels": {
-                "web": 1,
-                "default": 0
-            },
-            "domains": {}
         }
     ],
-    "amobee": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
-        "domains": {}
-    }],
     "adobe": [
         {
             "geos": {},
@@ -306,33 +273,6 @@
                 "forbes.cl": 1,
                 "forbes.co": 1
             }
-        },
-        {
-            "geos": {},
-            "formats": {
-                "default": 0,
-                "banner": 1
-            },
-            "channels": {
-                "default": 1,
-                "amp": 0
-            },
-            "domains": {
-                "default": 0,
-                "headphonereview.com": 1
-            }
-        },
-        {
-            "geos": {
-                "default": 0,
-                "CA": 1
-            },
-            "formats": {},
-            "channels": {
-                "default": 1,
-                "amp": 0
-            },
-            "domains": {}
         }
     ]
 }
