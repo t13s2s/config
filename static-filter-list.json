@@ -311,7 +311,10 @@
                 "amp": 0,
                 "default": 1
             },
-            "domains": {}
+            "domains": {
+                "default": 0,
+                "headphonereview.com": 1
+            }
         },
         {
             "geos": {
