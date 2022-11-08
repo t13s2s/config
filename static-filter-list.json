@@ -30,8 +30,8 @@
         {
             "geos": {},
             "formats": {
-                "default": 0,
-                "banner": 1
+                "banner": 1,
+                "default": 0
             },
             "channels": {},
             "domains": {}
@@ -40,8 +40,8 @@
             "geos": {},
             "formats": {},
             "channels": {
-                "default": 0,
-                "web": 1
+                "web": 1,
+                "default": 0
             },
             "domains": {}
         }
@@ -304,12 +304,12 @@
         {
             "geos": {},
             "formats": {
-                "banner": 1,
-                "default": 0
+                "default": 0,
+                "banner": 1
             },
             "channels": {
-                "amp": 0,
-                "default": 1
+                "default": 1,
+                "amp": 0
             },
             "domains": {
                 "default": 0,
@@ -323,8 +323,8 @@
             },
             "formats": {},
             "channels": {
-                "amp": 0,
-                "default": 1
+                "default": 1,
+                "amp": 0
             },
             "domains": {}
         }
