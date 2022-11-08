@@ -311,10 +311,7 @@
                 "amp": 0,
                 "default": 1
             },
-            "domains": {
-                "lostandtaken.com": 1,
-                "default": 0
-            }
+            "domains": {}
         },
         {
             "geos": {
