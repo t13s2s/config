@@ -319,8 +319,7 @@
         {
             "geos": {
                 "default": 0,
-                "CA": 1,
-                "US": 1
+                "CA": 1
             },
             "formats": {},
             "channels": {
