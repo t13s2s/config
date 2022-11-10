@@ -7561,16 +7561,7 @@
         "EU": 0.05,
         "NA": {
             "default": 0.05,
-            "1001freefonts.com": 1.0,
-            "calcxml.com": 1.0,
-            "freetetris.org": 1.0,
-            "ino.com": 1.0,
-            "reason.com": 1.0,
-            "scorestream.com": 1.0,
-            "tennistonic.com": 1.0,
-            "thebiologynotes.com": 1.0,
-            "ultrabookreview.com": 1.0,
-            "US": 1.0
+            "US": 1
         },
         "OC": 0.05,
         "webdesignledger.com": 1
