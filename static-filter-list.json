@@ -6,15 +6,6 @@
                 "US": 1
             },
             "formats": {},
-            "channels": {},
-            "domains": {}
-        },
-        {
-            "geos": {
-                "default": 0,
-                "US": 1
-            },
-            "formats": {},
             "channels": {
                 "web": 1,
                 "default": 0
@@ -370,24 +361,6 @@
                 "dlisted.com": 1,
                 "doogal.co.uk": 1
             }
-        },
-        {
-            "geos": {},
-            "formats": {
-                "banner": 1,
-                "default": 0
-            },
-            "channels": {},
-            "domains": {}
-        },
-        {
-            "geos": {},
-            "formats": {},
-            "channels": {
-                "web": 1,
-                "default": 0
-            },
-            "domains": {}
         }
     ],
     "adobe": [{
