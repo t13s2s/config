@@ -1,43 +1,28 @@
 {
-    "audienceNetwork": [
-        {
-            "geos": {
-                "BR": 1,
-                "default": 0,
-                "US": 1,
-                "CA": 1
-            },
-            "formats": {
-                "banner": 1,
-                "default": 0,
-                "video": 1,
-                "native": 1
-            },
-            "channels": {
-                "app": 1,
-                "web": 1,
-                "default": 0
-            },
-            "domains": {
-                "badadvertiser.com": 1,
-                "mycooldomain.com": 1,
-                "default": 0
-            }
+    "audienceNetwork": [{
+        "geos": {
+            "BR": 1,
+            "default": 0,
+            "US": 1,
+            "CA": 1
         },
-        {
-            "geos": {
-                "default": 0,
-                "US": 1,
-                "RU": 1
-            },
-            "formats": {},
-            "channels": {},
-            "domains": {
-                "default": 1,
-                "block-this-domain.com": 0
-            }
+        "formats": {
+            "banner": 1,
+            "default": 0,
+            "video": 1,
+            "native": 1
+        },
+        "channels": {
+            "app": 1,
+            "web": 1,
+            "default": 0
+        },
+        "domains": {
+            "badadvertiser.com": 1,
+            "mycooldomain.com": 1,
+            "default": 0
         }
-    ],
+    }],
     "onedisplay": [
         {
             "geos": {
