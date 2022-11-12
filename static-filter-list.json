@@ -115,12 +115,7 @@
             }
         }
     ],
-    "pubmatic": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
-        "domains": {}
-    }],
+    "pubmatic": [],
     "newtest2": [{
         "geos": {},
         "formats": {},
