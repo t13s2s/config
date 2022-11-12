@@ -1,4 +1,10 @@
 {
+    "66across": [{
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
+    }],
     "audienceNetwork": [{
         "geos": {
             "BR": 1,
@@ -7,20 +13,20 @@
             "CA": 1
         },
         "formats": {
-            "banner": 1,
             "default": 0,
-            "video": 1,
-            "native": 1
+            "native": 1,
+            "banner": 1,
+            "video": 1
         },
         "channels": {
             "app": 1,
-            "web": 1,
-            "default": 0
+            "default": 0,
+            "web": 1
         },
         "domains": {
+            "default": 0,
             "badadvertiser.com": 1,
-            "mycooldomain.com": 1,
-            "default": 0
+            "mycooldomain.com": 1
         }
     }],
     "onedisplay": [
