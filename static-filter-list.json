@@ -16,8 +16,8 @@
             },
             "formats": {},
             "channels": {
-                "web": 1,
-                "default": 0
+                "default": 0,
+                "web": 1
             },
             "domains": {
                 "minehut.com": 1,
@@ -722,8 +722,8 @@
         {
             "geos": {},
             "formats": {
-                "banner": 1,
-                "default": 0
+                "default": 0,
+                "banner": 1
             },
             "channels": {},
             "domains": {}
@@ -732,8 +732,8 @@
             "geos": {},
             "formats": {},
             "channels": {
-                "web": 1,
-                "default": 0
+                "default": 0,
+                "web": 1
             },
             "domains": {}
         }
@@ -985,5 +985,11 @@
             "forbes.cl": 1,
             "forbes.co": 1
         }
+    }],
+    "ix": [{
+        "geos": {},
+        "formats": {},
+        "channels": {},
+        "domains": {}
     }]
 }
