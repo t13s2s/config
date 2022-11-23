@@ -987,7 +987,20 @@
         }
     }],
     "ix": [{
-        "geos": {},
+        "geos": {
+            "default": 1,
+            "HK": 0,
+            "AU": 0,
+            "SG": 0,
+            "IN": 0,
+            "KP": 0,
+            "JP": 0,
+            "KR": 0,
+            "PH": 0,
+            "CN": 0,
+            "ID": 0,
+            "NZ": 0
+        },
         "formats": {},
         "channels": {},
         "domains": {}
