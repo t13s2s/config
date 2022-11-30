@@ -3,14 +3,17 @@
         "geos": {
             "default": 0,
             "US": 1
-        },
+        }
+    },{
         "formats": {
             "default": 1
-        },
+        }
+    }, {
         "channels": {
             "web": 1,
             "default": 0
-        },
+        }
+    }, {
         "domains": {
             "minehut.com": 1,
             "mmanews.com": 1,
