@@ -66,25 +66,56 @@
         }
     ],
     "pubmatic": [],
-    "oftmedia": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
-        "domains": {
-            "default": 0,
-            "testing9.com": 1,
-            "xn--vg1b14l6tk.xn--3e0b707e": 1,
-            "testing.com": 1,
-            "testing10.com": 1,
-            "testing2.com": 1,
-            "testing7.com": 1,
-            "testing8.com": 1,
-            "testing3.com": 1,
-            "testing6.com": 1,
-            "testing5.com": 1,
-            "testing4.com": 1
+    "oftmedia": [
+        {
+            "geos": {
+                "IR": 0,
+                "default": 1,
+                "MX": 0,
+                "CA": 0,
+                "CR": 0
+            },
+            "formats": {
+                "native": 0,
+                "banner": 0,
+                "default": 1
+            },
+            "channels": {
+                "web": 1,
+                "default": 0
+            },
+            "domains": {
+                "google.co.kr": 1,
+                "google.com": 1,
+                "default": 0,
+                "google.co.uk": 1
+            }
+        },
+        {
+            "geos": {
+                "default": 0,
+                "AL": 1,
+                "AF": 1,
+                "DZ": 1
+            },
+            "formats": {
+                "banner": 1,
+                "default": 0,
+                "video": 1
+            },
+            "channels": {
+                "web": 1,
+                "amp": 1,
+                "default": 0
+            },
+            "domains": {
+                "test3.com": 0,
+                "test1.com": 0,
+                "default": 1,
+                "test2.com": 0
+            }
         }
-    }],
+    ],
     "newtest2": [{
         "geos": {},
         "formats": {},
