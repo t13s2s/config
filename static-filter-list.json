@@ -65,53 +65,59 @@
             "domains": {}
         }
     ],
+    "33across": [{
+        "geos": {"default": 1},
+        "formats": {"default": 1},
+        "channels": {"default": 1},
+        "domains": {"default": 1}
+    }],
     "pubmatic": [],
     "oftmedia": [
         {
             "geos": {
-                "IR": 0,
                 "default": 1,
+                "IR": 0,
                 "MX": 0,
                 "CA": 0,
                 "CR": 0
             },
             "formats": {
+                "default": 1,
                 "native": 0,
-                "banner": 0,
-                "default": 1
+                "banner": 0
             },
             "channels": {
-                "web": 1,
-                "default": 0
+                "default": 0,
+                "web": 1
             },
             "domains": {
-                "google.co.kr": 1,
                 "google.com": 1,
                 "default": 0,
+                "google.co.kr": 1,
                 "google.co.uk": 1
             }
         },
         {
             "geos": {
                 "default": 0,
-                "AL": 1,
                 "AF": 1,
-                "DZ": 1
+                "DZ": 1,
+                "AL": 1
             },
             "formats": {
-                "banner": 1,
                 "default": 0,
+                "banner": 1,
                 "video": 1
             },
             "channels": {
+                "default": 0,
                 "web": 1,
-                "amp": 1,
-                "default": 0
+                "amp": 1
             },
             "domains": {
-                "test3.com": 0,
                 "test1.com": 0,
                 "default": 1,
+                "test3.com": 0,
                 "test2.com": 0
             }
         }
