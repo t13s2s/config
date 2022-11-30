@@ -4,7 +4,9 @@
             "default": 0,
             "US": 1
         },
-        "formats": {},
+        "formats": {
+            "default": 1
+        },
         "channels": {
             "web": 1,
             "default": 0
@@ -936,9 +938,15 @@
         }
     }],
     "adobe": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
+        "geos": {
+            "default": 1
+        },
+        "formats": {
+            "default": 1
+        },
+        "channels": {
+            "default": 1
+        },
         "domains": {
             "acidigital.com": 1,
             "0x50.org": 1,
@@ -1198,8 +1206,14 @@
             "ID": 0,
             "NZ": 0
         },
-        "formats": {},
-        "channels": {},
-        "domains": {}
+        "formats": {
+            "default": 1
+        },
+        "channels": {
+            "default": 1
+        },
+        "domains": {
+            "default": 1
+        }
     }]
 }
