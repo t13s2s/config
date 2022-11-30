@@ -70,7 +70,20 @@
         "geos": {},
         "formats": {},
         "channels": {},
-        "domains": {}
+        "domains": {
+            "default": 0,
+            "testing9.com": 1,
+            "xn--vg1b14l6tk.xn--3e0b707e": 1,
+            "testing.com": 1,
+            "testing10.com": 1,
+            "testing2.com": 1,
+            "testing7.com": 1,
+            "testing8.com": 1,
+            "testing3.com": 1,
+            "testing6.com": 1,
+            "testing5.com": 1,
+            "testing4.com": 1
+        }
     }],
     "newtest2": [{
         "geos": {},
