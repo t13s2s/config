@@ -1,20 +1,15 @@
 {
-    "ttdfsx": [{
-        "geos": {
+    "ttdfsx": [
+        {"geos": {
             "default": 0,
             "US": 1
-        }
-    },{
-        "formats": {
-            "default": 1
-        }
-    }, {
-        "channels": {
-            "web": 1,
-            "default": 0
-        }
-    }, {
-        "domains": {
+        }},
+        {"formats": {"default": 1}},
+        {"channels": {
+            "default": 0,
+            "web": 1
+        }},
+        {"domains": {
             "minehut.com": 1,
             "mmanews.com": 1,
             "drstone.online": 1,
@@ -938,18 +933,12 @@
             "manuals.co.uk": 1,
             "totaljerkface.com": 1,
             "nofilmschool.com": 1
-        }
-    }],
+        }}
+    ],
     "adobe": [{
-        "geos": {
-            "default": 1
-        },
-        "formats": {
-            "default": 1
-        },
-        "channels": {
-            "default": 1
-        },
+        "geos": {"default": 1},
+        "formats": {"default": 1},
+        "channels": {"default": 1},
         "domains": {
             "acidigital.com": 1,
             "0x50.org": 1,
@@ -1194,29 +1183,5 @@
             "forbes.co": 1
         }
     }],
-    "ix": [{
-        "geos": {
-            "default": 1,
-            "HK": 0,
-            "AU": 0,
-            "SG": 0,
-            "IN": 0,
-            "KP": 0,
-            "JP": 0,
-            "KR": 0,
-            "PH": 0,
-            "CN": 0,
-            "ID": 0,
-            "NZ": 0
-        },
-        "formats": {
-            "default": 1
-        },
-        "channels": {
-            "default": 1
-        },
-        "domains": {
-            "default": 1
-        }
-    }]
+    "ix": []
 }
