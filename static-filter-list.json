@@ -1,6 +1,27 @@
 {
     "yahoossp": [{
-        "geos": {"default": 1},
+        "geos": {
+            "TT": 0,
+            "BB": 0,
+            "JM": 0,
+            "SV": 0,
+            "UY": 0,
+            "HN": 0,
+            "DO": 0,
+            "GT": 0,
+            "VE": 0,
+            "CR": 0,
+            "PA": 0,
+            "BS": 0,
+            "default": 1,
+            "PE": 0,
+            "CZ": 0,
+            "SK": 0,
+            "VN": 0,
+            "KE": 0,
+            "PL": 0,
+            "EC": 0
+        },
         "formats": {"default": 1},
         "channels": {"default": 1},
         "domains": {"default": 1}
