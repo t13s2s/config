@@ -27,10 +27,7 @@
         "domains": {"default": 1}
     }],
     "ttdfsx": [{
-        "geos": {
-            "default": 0,
-            "US": 1
-        },
+        "geos": {"default": 1},
         "formats": {"default": 1},
         "channels": {"default": 1},
         "domains": {
