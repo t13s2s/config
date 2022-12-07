@@ -969,7 +969,10 @@
         {
             "geos": {"default": 1},
             "formats": {"default": 1},
-            "channels": {"default": 1},
+            "channels": {
+                "web": 1,
+                "default": 0
+            },
             "domains": {"default": 1}
         }
     ],
