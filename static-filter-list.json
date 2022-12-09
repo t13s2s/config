@@ -21,16 +21,10 @@
             "KE": 0,
             "PL": 0,
             "EC": 0
-        },
-        "formats": {"default": 1},
-        "channels": {"default": 1},
-        "domains": {"default": 1}
+        }
     }],
     "ttdfsx": [
         {
-            "geos": {"default": 1},
-            "formats": {"default": 1},
-            "channels": {"default": 1},
             "domains": {
                 "minehut.com": 1,
                 "mmanews.com": 1,
@@ -961,25 +955,16 @@
             "geos": {
                 "default": 0,
                 "US": 1
-            },
-            "formats": {"default": 1},
-            "channels": {"default": 1},
-            "domains": {"default": 1}
+            }
         },
         {
-            "geos": {"default": 1},
-            "formats": {"default": 1},
             "channels": {
                 "web": 1,
                 "default": 0
-            },
-            "domains": {"default": 1}
+            }
         }
     ],
     "adobe": [{
-        "geos": {"default": 1},
-        "formats": {"default": 1},
-        "channels": {"default": 1},
         "domains": {
             "acidigital.com": 1,
             "0x50.org": 1,
