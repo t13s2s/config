@@ -71,7 +71,6 @@
         "channels": {"default": 1},
         "domains": {"default": 1}
     }],
-    "pubmatic": [],
     "oftmedia": [
         {
             "geos": {
@@ -122,6 +121,7 @@
             }
         }
     ],
+    "pubmatic": [],
     "newtest2": [{
         "geos": {},
         "formats": {},
