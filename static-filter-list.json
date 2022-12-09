@@ -121,7 +121,10 @@
             }
         }
     ],
-    "pubmatic": [],
+    "pubmatic": [{"domains": {
+        "another-legit-site.com": 0,
+        "default": 1
+    }}],
     "newtest2": [{
         "geos": {},
         "formats": {},
