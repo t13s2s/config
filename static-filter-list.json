@@ -980,6 +980,12 @@
             "aftvnews.com": 1
         }
     }],
+    "minutemediaoo": [{
+        "geos": {"default": 1},
+        "formats": {"default": 1},
+        "channels": {"default": 1},
+        "domains": {"default": 1}
+    }],
     "adobe": [{"domains": {
         "acidigital.com": 1,
         "0x50.org": 1,
