@@ -984,7 +984,11 @@
         "geos": {"default": 1},
         "formats": {"default": 1},
         "channels": {"default": 1},
-        "domains": {"default": 1}
+        "domains": {
+            "thebiglead.com": 1,
+            "default": 0,
+            "aroundthefoghorn.com": 1
+        }
     }],
     "adobe": [{"domains": {
         "acidigital.com": 1,
