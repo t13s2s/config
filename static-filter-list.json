@@ -985,9 +985,9 @@
         "formats": {"default": 1},
         "channels": {"default": 1},
         "domains": {
-            "thebiglead.com": 1,
             "default": 0,
-            "aroundthefoghorn.com": 1
+            "aroundthefoghorn.com": 1,
+            "thebiglead.com": 1
         }
     }],
     "adobe": [{"domains": {
@@ -1115,6 +1115,7 @@
         "gmap-pedometer.com": 1,
         "citizensvoice.com": 1,
         "freekong.org": 1,
+        "testdomain.com": 1,
         "amarokforum.com": 1,
         "jagran.com": 1,
         "ninja400riders.com": 1,
