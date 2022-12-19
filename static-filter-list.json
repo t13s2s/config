@@ -991,11 +991,14 @@
             "ES": 1
         }}
     ],
-    "minutemediaoo": [{"domains": {
-        "default": 0,
-        "aroundthefoghorn.com": 1,
-        "thebiglead.com": 1
-    }}],
+    "minutemediaoo": [
+        {"domains": {
+            "thebiglead.com": 1,
+            "default": 0,
+            "aroundthefoghorn.com": 1
+        }},
+        {}
+    ],
     "adobe": [{"domains": {
         "acidigital.com": 1,
         "0x50.org": 1,
