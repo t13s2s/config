@@ -992,11 +992,7 @@
         }}
     ],
     "minutemediaoo": [
-        {"domains": {
-            "thebiglead.com": 1,
-            "default": 0,
-            "aroundthefoghorn.com": 1
-        }},
+        {},
         {"geos": {
             "BR": 1,
             "DE": 1,
