@@ -551,13 +551,13 @@
         "domain": "carfolio.com",
         "name": "Carfolio"
     },
-    "1020": {
-        "domain": "meetup.com",
-        "name": "Meetup LLC"
-    },
     "1262": {
         "domain": "10faq.com",
         "name": "Atomiq Technologies Inc"
+    },
+    "1020": {
+        "domain": "meetup.com",
+        "name": "Meetup LLC"
     },
     "1261": {
         "domain": "babymed.com",
