@@ -1248,9 +1248,10 @@
         "forbes.cl": 1,
         "forbes.co": 1
     }}],
+    "basis": [{}],
     "bidtellect": [{"formats": {
-        "banner": 1,
-        "default": 0
+        "default": 0,
+        "banner": 1
     }}],
     "ix": []
 }
