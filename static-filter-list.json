@@ -960,12 +960,12 @@
             "US": 1
         }},
         {"domains": {
-            "web": 1,
-            "default": 0
+            "default": 0,
+            "web": 1
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }}
     ],
     "amobee": [
@@ -1008,7 +1008,8 @@
             "US": 1,
             "CA": 1,
             "ES": 1
-        }}
+        }},
+        {}
     ],
     "minutemediaoo": [{"geos": {
         "BR": 1,
