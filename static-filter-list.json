@@ -960,7 +960,10 @@
             "web": 1
         }}
     ],
-    "quantcastfsx": [{}],
+    "quantcastfsx": [{"formats": {
+        "banner": 1,
+        "default": 0
+    }}],
     "amobee": [
         {},
         {"formats": {
