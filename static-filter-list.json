@@ -1,5 +1,6 @@
 {
     "adaptmx": [],
+    "amxfsx": [{}],
     "yahoossp": [{"geos": {
         "TT": 0,
         "BB": 0,
@@ -1007,20 +1008,6 @@
             "banner": 1
         }}
     ],
-    "minutemediaoo": [{"geos": {
-        "BR": 1,
-        "DE": 1,
-        "default": 0,
-        "AU": 1,
-        "GB": 1,
-        "MX": 1,
-        "IT": 1,
-        "FR": 1,
-        "NZ": 1,
-        "CA": 1,
-        "US": 1,
-        "ES": 1
-    }}],
     "adobe": [
         {"domains": {
             "acidigital.com": 1,
@@ -1278,9 +1265,23 @@
         "default": 0,
         "banner": 1
     }}],
+    "ix": [],
+    "minutemediaoo": [{"geos": {
+        "BR": 1,
+        "DE": 1,
+        "default": 0,
+        "AU": 1,
+        "GB": 1,
+        "MX": 1,
+        "IT": 1,
+        "FR": 1,
+        "NZ": 1,
+        "CA": 1,
+        "US": 1,
+        "ES": 1
+    }}],
     "bidtellect": [{"formats": {
         "default": 0,
         "banner": 1
-    }}],
-    "ix": []
+    }}]
 }
