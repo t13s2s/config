@@ -963,8 +963,8 @@
     "amobee": [
         {},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }}
     ],
     "minutemediafsx": [
@@ -1265,6 +1265,7 @@
             "banner": 1
         }}
     ],
+    "bidswitch": [{}],
     "basis": [{"formats": {
         "default": 0,
         "banner": 1
