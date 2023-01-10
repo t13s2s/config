@@ -1,8 +1,8 @@
 {
     "adaptmx": [],
     "amxfsx": [{"formats": {
-        "banner": 1,
-        "default": 0
+        "default": 0,
+        "banner": 1
     }}],
     "yahoossp": [{"geos": {
         "TT": 0,
@@ -961,9 +961,10 @@
             "US": 1
         }},
         {"channels": {
-            "default": 0,
-            "web": 1
-        }}
+            "web": 1,
+            "default": 0
+        }},
+        {}
     ],
     "amobee": [
         {},
