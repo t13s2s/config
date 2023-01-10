@@ -1,5 +1,8 @@
 {
-    "adaptmx": [{}],
+    "adaptmx": [{"formats": {
+        "banner": 1,
+        "default": 0
+    }}],
     "yahoossp": [{"geos": {
         "TT": 0,
         "BB": 0,
