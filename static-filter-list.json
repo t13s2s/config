@@ -1009,7 +1009,10 @@
             "CA": 1,
             "ES": 1
         }},
-        {}
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }}
     ],
     "minutemediaoo": [{"geos": {
         "BR": 1,
