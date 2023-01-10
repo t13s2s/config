@@ -1265,7 +1265,10 @@
             "banner": 1
         }}
     ],
-    "bidswitch": [{}],
+    "bidswitch": [{"formats": {
+        "banner": 1,
+        "default": 0
+    }}],
     "basis": [{"formats": {
         "default": 0,
         "banner": 1
