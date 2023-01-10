@@ -959,7 +959,7 @@
             "default": 0,
             "US": 1
         }},
-        {"domains": {
+        {"channels": {
             "web": 1,
             "default": 0
         }}
