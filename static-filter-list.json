@@ -1,4 +1,5 @@
 {
+    "adaptmx": [{}],
     "yahoossp": [{"geos": {
         "TT": 0,
         "BB": 0,
@@ -1249,8 +1250,8 @@
         "forbes.co": 1
     }}],
     "basis": [{"formats": {
-        "banner": 1,
-        "default": 0
+        "default": 0,
+        "banner": 1
     }}],
     "bidtellect": [{"formats": {
         "default": 0,
