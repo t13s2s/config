@@ -962,7 +962,10 @@
     ],
     "amobee": [
         {},
-        {}
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }}
     ],
     "minutemediafsx": [
         {"domains": {
