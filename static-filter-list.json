@@ -1,8 +1,5 @@
 {
-    "adaptmx": [{"formats": {
-        "default": 0,
-        "banner": 1
-    }}],
+    "adaptmx": [],
     "yahoossp": [{"geos": {
         "TT": 0,
         "BB": 0,
@@ -960,8 +957,8 @@
             "US": 1
         }},
         {"channels": {
-            "web": 1,
-            "default": 0
+            "default": 0,
+            "web": 1
         }}
     ],
     "amobee": [
