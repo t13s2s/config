@@ -1253,7 +1253,10 @@
             "forbes.cl": 1,
             "forbes.co": 1
         }},
-        {}
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }}
     ],
     "basis": [{"formats": {
         "default": 0,
