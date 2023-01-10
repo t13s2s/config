@@ -25,6 +25,10 @@
         "PL": 0,
         "EC": 0
     }}],
+    "quantcastfsx": [{"formats": {
+        "default": 0,
+        "banner": 1
+    }}],
     "ttdfsx": [
         {"domains": {
             "minehut.com": 1,
@@ -955,15 +959,12 @@
             "default": 0,
             "US": 1
         }},
-        {"channels": {
-            "default": 0,
-            "web": 1
-        }}
+        {"domains": {
+            "web": 1,
+            "default": 0
+        }},
+        {}
     ],
-    "quantcastfsx": [{"formats": {
-        "banner": 1,
-        "default": 0
-    }}],
     "amobee": [
         {},
         {"formats": {
