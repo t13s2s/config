@@ -31,10 +31,6 @@
         "banner": 1
     }}],
     "ttdfsx": [
-        {"domains": {
-            "default": 0,
-            "puzzlefactory.pl": 1
-        }},
         {"channels": {
             "web": 1,
             "default": 0
