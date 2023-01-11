@@ -956,10 +956,6 @@
             "totaljerkface.com": 1,
             "nofilmschool.com": 1
         }},
-        {"geos": {
-            "default": 0,
-            "US": 1
-        }},
         {"channels": {
             "web": 1,
             "default": 0
