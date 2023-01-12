@@ -406,6 +406,7 @@
         }}
     ],
     "ix": [],
+    "appnexus": [{}],
     "minutemediaoo": [{"geos": {
         "BR": 1,
         "DE": 1,
@@ -422,8 +423,8 @@
     }}],
     "bidtellect": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
