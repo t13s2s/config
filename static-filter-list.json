@@ -2,8 +2,8 @@
     "adaptmx": [],
     "amxfsx": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
@@ -420,8 +420,11 @@
         "US": 1,
         "ES": 1
     }}],
-    "bidtellect": [{"formats": {
-        "default": 0,
-        "banner": 1
-    }}]
+    "bidtellect": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {}
+    ]
 }
