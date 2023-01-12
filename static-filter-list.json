@@ -428,6 +428,7 @@
         "US": 1,
         "ES": 1
     }}],
+    "rubicon": [{}],
     "bidtellect": [
         {"formats": {
             "default": 0,
