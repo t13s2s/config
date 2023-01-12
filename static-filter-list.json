@@ -406,7 +406,10 @@
         }}
     ],
     "ix": [],
-    "appnexus": [{}],
+    "appnexus": [{"geos": {
+        "default": 1,
+        "RU": 0
+    }}],
     "minutemediaoo": [{"geos": {
         "BR": 1,
         "DE": 1,
