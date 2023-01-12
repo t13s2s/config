@@ -26,10 +26,6 @@
         "PL": 0,
         "EC": 0
     }}],
-    "quantcastfsx": [{"formats": {
-        "default": 0,
-        "banner": 1
-    }}],
     "ttdfsx": [
         {"channels": {
             "default": 0,
@@ -77,6 +73,13 @@
             "braceletbook.com": 0,
             "fv2freegifts.org": 0
         }}
+    ],
+    "quantcastfsx": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {}
     ],
     "amobee": [
         {},
@@ -379,8 +382,8 @@
     }}],
     "basis": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
