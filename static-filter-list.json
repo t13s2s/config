@@ -428,7 +428,10 @@
         "US": 1,
         "ES": 1
     }}],
-    "rubicon": [{}],
+    "rubicon": [{"geos": {
+        "default": 1,
+        "RU": 0
+    }}],
     "bidtellect": [
         {"formats": {
             "default": 0,
