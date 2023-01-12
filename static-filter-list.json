@@ -32,14 +32,24 @@
         "PL": 0,
         "EC": 0
     }}],
-    "ttdfsx": [
-        {"channels": {
-            "default": 0,
-            "web": 1
-        }},
+    "quantcastfsx": [
         {"formats": {
             "default": 0,
             "banner": 1
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }}
+    ],
+    "ttdfsx": [
+        {"channels": {
+            "web": 1,
+            "default": 0
+        }},
+        {"formats": {
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "quizfactory.com": 0,
@@ -78,17 +88,8 @@
             "thesuntimes.com": 0,
             "braceletbook.com": 0,
             "fv2freegifts.org": 0
-        }}
-    ],
-    "quantcastfsx": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
         }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }}
+        {}
     ],
     "amobee": [
         {},
