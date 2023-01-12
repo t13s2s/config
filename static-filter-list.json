@@ -89,7 +89,10 @@
             "braceletbook.com": 0,
             "fv2freegifts.org": 0
         }},
-        {}
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }}
     ],
     "amobee": [
         {},
