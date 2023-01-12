@@ -1,9 +1,12 @@
 {
     "adaptmx": [],
-    "amxfsx": [{"formats": {
-        "default": 0,
-        "banner": 1
-    }}],
+    "amxfsx": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {}
+    ],
     "yahoossp": [{"geos": {
         "TT": 0,
         "BB": 0,
@@ -381,8 +384,8 @@
     ],
     "bidswitch": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
