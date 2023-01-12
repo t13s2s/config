@@ -382,7 +382,10 @@
             "banner": 1,
             "default": 0
         }},
-        {}
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }}
     ],
     "ix": [],
     "minutemediaoo": [{"geos": {
