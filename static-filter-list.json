@@ -410,6 +410,7 @@
         "default": 1,
         "RU": 0
     }}],
+    "medianet": [{}],
     "minutemediaoo": [{"geos": {
         "BR": 1,
         "DE": 1,
