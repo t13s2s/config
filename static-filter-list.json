@@ -406,6 +406,7 @@
         }}
     ],
     "ix": [],
+    "yieldmo": [{}],
     "appnexus": [{"geos": {
         "default": 1,
         "RU": 0
