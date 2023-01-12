@@ -32,12 +32,12 @@
     }}],
     "ttdfsx": [
         {"channels": {
-            "web": 1,
-            "default": 0
+            "default": 0,
+            "web": 1
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "quizfactory.com": 0,
@@ -377,10 +377,13 @@
         "default": 0,
         "banner": 1
     }}],
-    "basis": [{"formats": {
-        "default": 0,
-        "banner": 1
-    }}],
+    "basis": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {}
+    ],
     "ix": [],
     "minutemediaoo": [{"geos": {
         "BR": 1,
