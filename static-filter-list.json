@@ -44,12 +44,12 @@
     ],
     "ttdfsx": [
         {"channels": {
-            "web": 1,
-            "default": 0
+            "default": 0,
+            "web": 1
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "quizfactory.com": 0,
@@ -94,13 +94,10 @@
             "RU": 0
         }}
     ],
-    "amobee": [
-        {},
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }}
-    ],
+    "amobee": [{"formats": {
+        "banner": 1,
+        "default": 0
+    }}],
     "minutemediafsx": [
         {"domains": {
             "fontget.com": 1,
