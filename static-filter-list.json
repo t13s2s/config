@@ -75,12 +75,20 @@
         "another-legit-site.com": 0,
         "default": 1
     }}],
-    "oftmedia": [{"formats": {
-        "banner": 0,
-        "default": 1,
-        "video": 0,
-        "native": 0
-    }}],
+    "oftmedia": [{
+        "formats": {
+            "banner": 0,
+            "default": 1,
+            "video": 0,
+            "native": 0
+        },
+        "channels": {
+            "app": 1,
+            "default": 0,
+            "web": 1,
+            "amp": 1
+        }
+    }],
     "newtest2": [{
         "geos": {},
         "formats": {},
