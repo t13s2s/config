@@ -94,6 +94,10 @@
             "default": 0,
             "web": 1,
             "amp": 1
+        },
+        "domains": {
+            "asdasdasd.com": 1,
+            "default": 0
         }
     }],
     "newtest2": [{
