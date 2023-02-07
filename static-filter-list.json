@@ -76,6 +76,13 @@
         "default": 1
     }}],
     "oftmedia": [{
+        "geos": {
+            "default": 0,
+            "AS": 1,
+            "AD": 1,
+            "AF": 1,
+            "AX": 1
+        },
         "formats": {
             "banner": 0,
             "default": 1,
