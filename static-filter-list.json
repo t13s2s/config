@@ -52,6 +52,8 @@
             "default": 0
         }},
         {"domains": {
+            "mmanews.com": 0,
+            "planetabj.com": 0,
             "quizfactory.com": 0,
             "secrant.com": 0,
             "netronline.com": 0,
@@ -61,6 +63,7 @@
             "geeky-gadgets.com": 0,
             "windingroad.com": 0,
             "watchdocumentaries.com": 0,
+            "atozsports.com": 0,
             "basketball-gm.com": 0,
             "default": 1,
             "smartertravel.com": 0,
@@ -71,6 +74,7 @@
             "aftvnews.com": 0,
             "collegefootballnews.com": 0,
             "nbafullhd.com": 0,
+            "sescoops.com": 0,
             "zengm.com": 0,
             "vegasinsider.com": 0,
             "dobberhockey.com": 0,
