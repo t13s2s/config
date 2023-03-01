@@ -444,10 +444,7 @@
         "RU": 0
     }}],
     "bidtellect": [
-        {"formats": {
-            "banner": 1,
-            "default": 0
-        }},
+        {},
         {"geos": {
             "default": 1,
             "RU": 0
