@@ -462,6 +462,9 @@
                 "headphonereview.com": 1
             }
         },
-        {}
+        {"formats": {
+            "banner": 0,
+            "default": 1
+        }}
     ]
 }
