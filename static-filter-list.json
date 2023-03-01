@@ -461,16 +461,6 @@
                 "default": 0,
                 "headphonereview.com": 1
             }
-        },
-        {
-            "formats": {
-                "banner": 0,
-                "default": 1
-            },
-            "domains": {
-                "default": 1,
-                "headphonereview.com": 0
-            }
         }
     ]
 }
