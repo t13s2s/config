@@ -452,6 +452,9 @@
             "default": 1,
             "RU": 0
         }},
-        {}
+        {"formats": {
+            "native": 0,
+            "default": 1
+        }}
     ]
 }
