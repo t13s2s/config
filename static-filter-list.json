@@ -44,12 +44,12 @@
     ],
     "ttdfsx": [
         {"channels": {
-            "default": 0,
-            "web": 1
+            "web": 1,
+            "default": 0
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -60,6 +60,7 @@
             "thekrazycouponlady.com": 0,
             "unitedstateszipcodes.org": 0,
             "epuzzle.info": 0,
+            "lazona.basketballnetwork.net": 0,
             "geeky-gadgets.com": 0,
             "windingroad.com": 0,
             "watchdocumentaries.com": 0,
@@ -75,6 +76,7 @@
             "collegefootballnews.com": 0,
             "nbafullhd.com": 0,
             "sescoops.com": 0,
+            "skateboarding.com": 0,
             "zengm.com": 0,
             "vegasinsider.com": 0,
             "dobberhockey.com": 0,
@@ -454,8 +456,8 @@
         }},
         {
             "formats": {
-                "native": 0,
-                "default": 1
+                "default": 1,
+                "native": 0
             },
             "domains": {
                 "default": 0,
