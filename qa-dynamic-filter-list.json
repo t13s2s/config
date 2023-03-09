@@ -5418,7 +5418,11 @@
             "RU": 0.0,
             "SGP": 1.0,
             "THA": 1.0,
-            "TWN": 1.0
+            "TWN": 1.0,
+            "IDN": {
+                "default": 0.05,
+                "co.brainly": 1.0
+            }
         },
         "EU": {
             "default": 0.05,
@@ -7503,7 +7507,11 @@
             "SAU": 1.0,
             "SGP": 1.0,
             "THA": 1.0,
-            "TW": 1.0
+            "TW": 1.0,
+            "IDN": {
+                "default": 0.05,
+                "co.brainly": 1.0
+            }
         },
         "EU": {
             "default": 0.05,
