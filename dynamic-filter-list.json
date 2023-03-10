@@ -5251,13 +5251,13 @@
     "inmobi": {
         "SA": {
             "default": 0.05,
-            "90min.com": 1.0,
             "actitudfem.com": 1.0,
             "antenadosnofutebol.com.br": 1.0,
             "bolavip.com": 1.0,
             "bolsamania.com": 1.0,
             "br.bolavip.com": 1.0,
             "dalealbo.cl": 1.0,
+            "deepai.org": 1.0,
             "depor.com": 1.0,
             "diariocorreo.pe": 1.0,
             "dw.com": 1.0,
@@ -5265,23 +5265,20 @@
             "express.co.uk": 1.0,
             "fansided.com": 1.0,
             "lapaginamillonaria.com": 1.0,
-            "looperman.com": 1.0,
             "mag.elcomercio.pe": 1.0,
-            "matadornetwork.com": 1.0,
             "ojo.pe": 1.0,
             "peru21.pe": 1.0,
             "redgol.cl": 1.0,
             "si.com": 1.0,
-            "sneakernews.com": 1.0,
             "somosfanaticos.fans": 1.0,
             "spoiler.bolavip.com": 1.0,
             "sportskeeda.com": 1.0,
             "swimsuit.si.com": 1.0,
             "trome.pe": 1.0,
             "yourtango.com": 1.0,
-            "BRA": 1.0,
+            "BR": 1.0,
+            "CHL": 1.0,
             "CL": 1.0,
-            "CO": 1.0,
             "UY": 1.0
         },
         "AF": {
@@ -5292,20 +5289,14 @@
         "AS": {
             "default": 0.05,
             "332116103": 1.0,
-            "404181268": 1.0,
             "com.thomsonreuters.reuters": 1.0,
             "org.stocktwits.android.activity": 1.0,
             "HKG": 1.0,
+            "IND": 1.0,
             "JPN": 1.0,
             "MYS": 1.0,
             "RU": 0.0,
-            "SGP": 1.0,
-            "THA": 1.0,
-            "TWN": 1.0,
-            "ID": {
-                "default": 0.05,
-                "co.brainly": 1.0
-            }
+            "TWN": 1.0
         },
         "EU": {
             "default": 0.05,
@@ -5320,13 +5311,15 @@
             },
             "CAN": {
                 "default": 0.05,
+                "332116103": 1.0,
                 "404181268": 1.0,
+                "com.thomsonreuters.reuters": 1.0,
                 "org.stocktwits.android.activity": 1.0,
                 "unknown": 1.0
             },
-            "DO": 0.05,
             "MEX": {
                 "default": 0.05,
+                "389157776": 1.0,
                 "org.stocktwits.android.activity": 1.0
             },
             "MX": 0.05,
@@ -5335,12 +5328,10 @@
         "OC": {
             "default": 0.05,
             "332116103": 1.0,
-            "404181268": 1.0,
             "org.stocktwits.android.activity": 1.0,
             "AUS": 1.0,
             "NZL": 1.0
-        },
-        "webdesignledger.com": 1
+        }
     },
     "ix": {
         "SA": 0.05,
@@ -7459,10 +7450,7 @@
             "SGP": 1.0,
             "THA": 1.0,
             "TW": 1.0,
-            "ID": {
-                "default": 0.05,
-                "co.brainly": 1.0
-            }
+            "ID": 1.0
         },
         "EU": {
             "default": 0.05,
