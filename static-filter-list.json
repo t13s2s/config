@@ -32,24 +32,14 @@
         "PL": 0,
         "EC": 0
     }}],
-    "quantcastfsx": [
+    "ttdfsx": [
+        {"channels": {
+            "default": 0,
+            "web": 1
+        }},
         {"formats": {
             "default": 0,
             "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }}
-    ],
-    "ttdfsx": [
-        {"channels": {
-            "web": 1,
-            "default": 0
-        }},
-        {"formats": {
-            "banner": 1,
-            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -101,6 +91,17 @@
             "default": 1,
             "RU": 0
         }}
+    ],
+    "quantcastfsx": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {}
     ],
     "amobee": [{"formats": {
         "default": 0,
