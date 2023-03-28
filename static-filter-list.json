@@ -157,7 +157,11 @@
             "NL": 1,
             "BA": 1
         }},
-        {}
+        {"formats": {
+            "native": 0,
+            "default": 1,
+            "video": 0
+        }}
     ],
     "amobee": [{"formats": {
         "default": 0,
