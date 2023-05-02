@@ -264,7 +264,7 @@
     },
     "adobe": {
         "SA": {
-            "default": 0.05,
+            "default": 0.01,
             "actitudfem.com": 1.0,
             "antenadosnofutebol.com.br": 1.0,
             "bolavip.com": 1.0,
@@ -300,22 +300,22 @@
             "PY": 1.0,
             "VE": 1.0
         },
-        "AF": 0.05,
+        "AF": 0.01,
         "AS": {
-            "default": 0.05,
+            "default": 0.01,
             "JP": 1.0,
             "MY": 1.0,
             "RU": 0.0
         },
         "EU": {
-            "default": 0.05,
+            "default": 0.01,
             "RU": 0.0
         },
         "NA": {
-            "default": 0.05,
+            "default": 0.01,
             "parlemag.com": 1.0
         },
-        "OC": 0.05
+        "OC": 0.01
     },
     "amobee": {
         "SA": 0.05,
