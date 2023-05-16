@@ -1203,6 +1203,10 @@
             "totaljerkface.com": 1,
             "pdfmanualer.dk": 1
         }},
-        {}
+        {"geos": {
+            "default": 0,
+            "CA": 1,
+            "US": 1
+        }}
     ]
 }
