@@ -1050,6 +1050,9 @@
             "CA": 1,
             "US": 1
         }},
-        {}
+        {"domains": {
+            "default": 1,
+            "collectionsetc.com": 0
+        }}
     ]
 }
