@@ -9,7 +9,10 @@
             "default": 1,
             "RU": 0
         }},
-        {}
+        {"domains": {
+            "horseracingnation.com": 0,
+            "default": 1
+        }}
     ],
     "yahoossp": [{"geos": {
         "TT": 0,
