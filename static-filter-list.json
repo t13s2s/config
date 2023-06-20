@@ -2,13 +2,14 @@
     "adaptmx": [],
     "amxfsx": [
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"geos": {
             "default": 1,
             "RU": 0
-        }}
+        }},
+        {}
     ],
     "yahoossp": [{"geos": {
         "TT": 0,
@@ -161,8 +162,8 @@
             "BA": 1
         }},
         {"formats": {
-            "native": 0,
             "default": 1,
+            "native": 0,
             "video": 0
         }},
         {"domains": {
