@@ -100,9 +100,5 @@
             "asdasdasd.com": 1
         }
     }],
-    "newtest2": [{"geos": {
-        "AF": 0,
-        "default": 1,
-        "AX": 0
-    }}]
+    "newtest2": [{}]
 }
