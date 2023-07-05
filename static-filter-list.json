@@ -84,10 +84,10 @@
             "AX": 1
         },
         "formats": {
-            "banner": 0,
             "default": 1,
-            "video": 0,
-            "native": 0
+            "native": 0,
+            "banner": 0,
+            "video": 0
         },
         "channels": {
             "app": 1,
@@ -96,17 +96,9 @@
             "amp": 1
         },
         "domains": {
-            "asdasdasd.com": 1,
-            "default": 0
+            "default": 0,
+            "asdasdasd.com": 1
         }
     }],
-    "newtest2": [{
-        "geos": {},
-        "formats": {},
-        "channels": {},
-        "domains": {
-            "default": 1,
-            "changed1231.com": 0
-        }
-    }]
+    "newtest2": [{}]
 }
