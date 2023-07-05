@@ -100,8 +100,5 @@
             "asdasdasd.com": 1
         }
     }],
-    "newtest2": [{"formats": {
-        "default": 1,
-        "video": 0
-    }}]
+    "newtest2": [{}]
 }
