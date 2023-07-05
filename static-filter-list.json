@@ -100,9 +100,5 @@
             "asdasdasd.com": 1
         }
     }],
-    "newtest2": [{"channels": {
-        "app": 0,
-        "web": 0,
-        "default": 1
-    }}]
+    "newtest2": [{}]
 }
