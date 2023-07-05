@@ -100,5 +100,8 @@
             "asdasdasd.com": 1
         }
     }],
-    "newtest2": [{}]
+    "newtest2": [{"domains": {
+        "default": 1,
+        "changed1231.com": 0
+    }}]
 }
