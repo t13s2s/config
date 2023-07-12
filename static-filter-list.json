@@ -1025,7 +1025,10 @@
         "default": 1,
         "RU": 0
     }}],
-    "resetdigital": [{}],
+    "resetdigital": [{"geos": {
+        "default": 0,
+        "US": 1
+    }}],
     "bidtellect": [
         {"formats": {
             "default": 1,
