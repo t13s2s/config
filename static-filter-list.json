@@ -114,6 +114,10 @@
         "channels": {
             "web": 1,
             "default": 0
+        },
+        "domains": {
+            "test.com": 1,
+            "default": 0
         }
     }]
 }
