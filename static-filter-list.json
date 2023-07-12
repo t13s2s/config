@@ -2,16 +2,16 @@
     "adaptmx": [],
     "amxfsx": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
             "RU": 0
         }},
         {"domains": {
-            "horseracingnation.com": 0,
             "default": 1,
+            "horseracingnation.com": 0,
             "collectionsetc.com": 0
         }}
     ],
@@ -1025,6 +1025,7 @@
         "default": 1,
         "RU": 0
     }}],
+    "resetdigital": [{}],
     "bidtellect": [
         {"formats": {
             "default": 1,
