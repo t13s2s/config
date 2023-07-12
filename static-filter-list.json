@@ -101,8 +101,14 @@
         }
     }],
     "newtest2": [{}],
-    "testPbsDefault": [{"formats": {
-        "banner": 1,
-        "default": 0
-    }}]
+    "testPbsDefault": [{
+        "formats": {
+            "banner": 1,
+            "default": 0
+        },
+        "channels": {
+            "web": 1,
+            "default": 0
+        }
+    }]
 }
