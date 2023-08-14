@@ -5372,12 +5372,14 @@
             "www.gsmarena.com": 1.0,
             "www.hola.com": 1.0,
             "www.sportskeeda.com": 1.0,
-            "com.dillydallygames.mexicantrain": 0.0
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "AF": {
             "default": 0.05,
             "com.thomsonreuters.reuters": 1.0,
-            "com.dillydallygames.mexicantrain": 0.0
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "AS": {
             "default": 0.05,
@@ -5391,7 +5393,8 @@
             "MY": 1.0,
             "RU": 0.0,
             "SG": 1.0,
-            "com.dillydallygames.mexicantrain": 0.0
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "EU": {
             "default": 0.05,
@@ -5411,7 +5414,8 @@
             "PT": 1.0,
             "RU": 0.0,
             "SE": 1.0,
-            "com.dillydallygames.mexicantrain": 0.0
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "NA": {
             "default": 0.05,
@@ -5428,7 +5432,8 @@
             "com.thomsonreuters.reuters": 1.0,
             "CA": 1.0,
             "US": 1.0,
-            "com.dillydallygames.mexicantrain": 0.0
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "OC": {
             "default": 0.05,
@@ -5436,7 +5441,8 @@
             "602660809": 1.0,
             "com.thomsonreuters.reuters": 1.0,
             "NZ": 1.0,
-            "com.dillydallygames.mexicantrain": 0.0
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         }
     },
     "ix": {
