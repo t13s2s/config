@@ -284,58 +284,68 @@
     },
     "adobe": {
         "SA": {
-            "default": 0.01,
-            "actitudfem.com": 1.0,
-            "antenadosnofutebol.com.br": 1.0,
+            "default": 0.05,
+            "amp.dw.com": 1.0,
             "bolavip.com": 1.0,
             "br.bolavip.com": 1.0,
             "dalealbo.cl": 1.0,
             "depor.com": 1.0,
             "diariocorreo.pe": 1.0,
-            "dw.com": 1.0,
             "elcomercio.pe": 1.0,
-            "express.co.uk": 1.0,
             "gestion.pe": 1.0,
-            "gsmarena.com": 1.0,
-            "lapaginamillonaria.com": 1.0,
+            "juanfutbol.com": 1.0,
             "mag.elcomercio.pe": 1.0,
-            "mirror.co.uk": 1.0,
             "ojo.pe": 1.0,
             "peru21.pe": 1.0,
             "planetabj.com": 1.0,
-            "si.com": 1.0,
+            "redgol.cl": 1.0,
+            "sneakernews.com": 1.0,
             "somosfanaticos.fans": 1.0,
             "spoiler.bolavip.com": 1.0,
-            "sportskeeda.com": 1.0,
-            "swimsuit.si.com": 1.0,
             "trome.com": 1.0,
-            "yourtango.com": 1.0,
+            "vamoscruzazul.bolavip.com": 1.0,
+            "www.actitudfem.com": 1.0,
+            "www.aljazeera.com": 1.0,
+            "www.antenadosnofutebol.com.br": 1.0,
+            "www.dailystar.co.uk": 1.0,
+            "www.dw.com": 1.0,
+            "www.express.co.uk": 1.0,
+            "www.goconqr.com": 1.0,
+            "www.gsmarena.com": 1.0,
+            "www.liverpoolecho.co.uk": 1.0,
+            "www.mirror.co.uk": 1.0,
+            "www.si.com": 1.0,
+            "www.sportskeeda.com": 1.0,
             "AR": 1.0,
             "BO": 1.0,
             "BR": 1.0,
+            "CL": 1.0,
             "CO": 1.0,
             "EC": 1.0,
-            "GY": 1.0,
             "PE": 1.0,
             "PY": 1.0,
+            "UY": 1.0,
             "VE": 1.0
         },
-        "AF": 0.01,
+        "AF": 0.05,
         "AS": {
-            "default": 0.01,
-            "JP": 1.0,
-            "MY": 1.0,
+            "default": 0.05,
+            "capfriendly.com": 1.0,
+            "cpu-monkey.com": 1.0,
+            "naturallycurly.com": 1.0,
+            "weegy.com": 1.0,
+            "IL": 1.0,
             "RU": 0.0
         },
         "EU": {
-            "default": 0.01,
+            "default": 0.05,
             "RU": 0.0
         },
         "NA": {
-            "default": 0.01,
-            "parlemag.com": 1.0
+            "default": 0.05,
+            "freekong.org": 1.0
         },
-        "OC": 0.01
+        "OC": 0.05
     },
     "amx": {
         "SA": 0.05,
@@ -5361,11 +5371,13 @@
             "www.dw.com": 1.0,
             "www.gsmarena.com": 1.0,
             "www.hola.com": 1.0,
-            "www.sportskeeda.com": 1.0
+            "www.sportskeeda.com": 1.0,
+            "com.dillydallygames.mexicantrain": 0.0
         },
         "AF": {
             "default": 0.05,
-            "com.thomsonreuters.reuters": 1.0
+            "com.thomsonreuters.reuters": 1.0,
+            "com.dillydallygames.mexicantrain": 0.0
         },
         "AS": {
             "default": 0.05,
@@ -5378,7 +5390,8 @@
             "IN": 1.0,
             "MY": 1.0,
             "RU": 0.0,
-            "SG": 1.0
+            "SG": 1.0,
+            "com.dillydallygames.mexicantrain": 0.0
         },
         "EU": {
             "default": 0.05,
@@ -5397,7 +5410,8 @@
             "PL": 1.0,
             "PT": 1.0,
             "RU": 0.0,
-            "SE": 1.0
+            "SE": 1.0,
+            "com.dillydallygames.mexicantrain": 0.0
         },
         "NA": {
             "default": 0.05,
@@ -5413,14 +5427,16 @@
             "com.pinkfroot.planefinderfree": 1.0,
             "com.thomsonreuters.reuters": 1.0,
             "CA": 1.0,
-            "US": 1.0
+            "US": 1.0,
+            "com.dillydallygames.mexicantrain": 0.0
         },
         "OC": {
             "default": 0.05,
             "332116103": 1.0,
             "602660809": 1.0,
             "com.thomsonreuters.reuters": 1.0,
-            "NZ": 1.0
+            "NZ": 1.0,
+            "com.dillydallygames.mexicantrain": 0.0
         }
     },
     "ix": {
