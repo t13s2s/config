@@ -1204,7 +1204,9 @@
             "itsfoss.com": 1.0,
             "publicholidays.co": 1.0,
             "tecmint.com": 1.0,
-            "PY": 1.0
+            "PY": 1.0,
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "AF": {
             "default": 0.05,
@@ -1216,7 +1218,9 @@
             "somosfanaticos.fans": 1.0,
             "CG": 1.0,
             "MZ": 1.0,
-            "ZW": 1.0
+            "ZW": 1.0,
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "AS": {
             "default": 0.05,
@@ -1275,7 +1279,9 @@
             "wforum.com": 1.0,
             "HK": 1.0,
             "RU": 0.0,
-            "SG": 1.0
+            "SG": 1.0,
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "EU": {
             "default": 0.05,
@@ -1370,7 +1376,9 @@
             "EE": 1.0,
             "LU": 1.0,
             "NL": 1.0,
-            "RU": 0.0
+            "RU": 0.0,
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "NA": {
             "default": 1,
@@ -1499,7 +1507,9 @@
             "VI": {
                 "default": 0.05,
                 "flightaware.com": 1.0
-            }
+            },
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         },
         "OC": {
             "default": 0.05,
@@ -1784,7 +1794,9 @@
             "zmescience.com": 1.0,
             "AU": 1.0,
             "NZ": 1.0,
-            "TO": 1.0
+            "TO": 1.0,
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0
         }
     },
     "axonix": {
@@ -5383,56 +5395,29 @@
     "inmobi": {
         "SA": {
             "default": 0.05,
-            "beebom.com": 1.0,
-            "bolavip.com": 1.0,
-            "br.bolavip.com": 1.0,
+            "baeldung.com": 1.0,
             "craiyon.com": 1.0,
-            "dalealbo.cl": 1.0,
-            "deepai.org": 1.0,
-            "depor.com": 1.0,
-            "elcomercio.pe": 1.0,
-            "gestion.pe": 1.0,
-            "gurushots.com": 1.0,
-            "juanfutbol.com": 1.0,
-            "lapaginamillonaria.com": 1.0,
+            "emojipedia.org": 1.0,
+            "gamerjournalist.com": 1.0,
             "lipsum.com": 1.0,
-            "mag.elcomercio.pe": 1.0,
-            "pcinvasion.com": 1.0,
-            "peru21.pe": 1.0,
-            "redgol.cl": 1.0,
-            "seatmaps.com": 1.0,
-            "somosfanaticos.fans": 1.0,
-            "spoiler.bolavip.com": 1.0,
-            "trome.com": 1.0,
-            "www.antenadosnofutebol.com.br": 1.0,
-            "www.bolsamania.com": 1.0,
-            "www.dw.com": 1.0,
-            "www.gsmarena.com": 1.0,
-            "www.hola.com": 1.0,
-            "www.sportskeeda.com": 1.0,
-            "com.dillydallygames.mexicantrain": 1.0,
-            "com.dillydallygames.mextraindeluxe": 1.0
+            "somosfanaticos.fans": 1.0
         },
         "AF": {
             "default": 0.05,
-            "com.thomsonreuters.reuters": 1.0,
-            "com.dillydallygames.mexicantrain": 1.0,
-            "com.dillydallygames.mextraindeluxe": 1.0
+            "602660809": 1.0
         },
         "AS": {
             "default": 0.05,
             "602660809": 1.0,
-            "com.meetup": 1.0,
             "com.pinkfroot.planefinderfree": 1.0,
             "com.thomsonreuters.reuters": 1.0,
             "CN": 1.0,
-            "HK": 1.0,
+            "IL": 1.0,
             "IN": 1.0,
+            "JP": 1.0,
+            "KR": 1.0,
             "MY": 1.0,
-            "RU": 0.0,
-            "SG": 1.0,
-            "com.dillydallygames.mexicantrain": 1.0,
-            "com.dillydallygames.mextraindeluxe": 1.0
+            "RU": 0.0
         },
         "EU": {
             "default": 0.05,
@@ -5442,8 +5427,6 @@
             "com.thomsonreuters.reuters": 1.0,
             "AT": 1.0,
             "DE": 1.0,
-            "DK": 1.0,
-            "ES": 1.0,
             "GB": 1.0,
             "IE": 1.0,
             "IT": 1.0,
@@ -5451,15 +5434,12 @@
             "PL": 1.0,
             "PT": 1.0,
             "RU": 0.0,
-            "SE": 1.0,
-            "com.dillydallygames.mexicantrain": 1.0,
-            "com.dillydallygames.mextraindeluxe": 1.0
+            "SE": 1.0
         },
         "NA": {
             "default": 0.05,
             "332116103": 1.0,
             "506512797": 1.0,
-            "521633042": 1.0,
             "602660809": 1.0,
             "com.breakingnewsbrief.app": 1.0,
             "com.com.titantvinc": 1.0,
@@ -5468,19 +5448,13 @@
             "com.meetup": 1.0,
             "com.pinkfroot.planefinderfree": 1.0,
             "com.thomsonreuters.reuters": 1.0,
-            "CA": 1.0,
-            "US": 1.0,
-            "com.dillydallygames.mexicantrain": 1.0,
-            "com.dillydallygames.mextraindeluxe": 1.0
+            "US": 1.0
         },
         "OC": {
             "default": 0.05,
-            "332116103": 1.0,
             "602660809": 1.0,
             "com.thomsonreuters.reuters": 1.0,
-            "NZ": 1.0,
-            "com.dillydallygames.mexicantrain": 1.0,
-            "com.dillydallygames.mextraindeluxe": 1.0
+            "NZ": 1.0
         }
     },
     "ix": {
