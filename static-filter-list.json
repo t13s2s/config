@@ -2,18 +2,16 @@
     "adaptmx": [],
     "amxfsx": [
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"geos": {
             "default": 1,
             "RU": 0
         }},
         {"domains": {
-            "default": 1,
             "horseracingnation.com": 0,
-            "sears.com": 0,
-            "collectionsetc.com": 0
+            "default": 1
         }}
     ],
     "yahoossp": [{"geos": {
@@ -1058,8 +1056,8 @@
         }},
         {"domains": {
             "default": 1,
-            "collectionsetc.com": 0,
-            "sears.com": 0
+            "sears.com": 0,
+            "collectionsetc.com": 0
         }}
     ]
 }
