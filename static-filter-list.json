@@ -982,7 +982,10 @@
             "default": 1,
             "RU": 0
         }},
-        {}
+        {"domains": {
+            "default": 1,
+            "coindesk.com": 0
+        }}
     ],
     "basis": [
         {"formats": {
