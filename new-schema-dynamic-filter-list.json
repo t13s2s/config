@@ -874,6 +874,8 @@
     "axonix": {
         "SA": {
             "default": 0.05,
+            "com.dillydallygames.mexicantrain": 1.0,
+            "com.dillydallygames.mextraindeluxe": 1.0,
             "aljazeera.com": 1.0,
             "diariocorreo.pe": 1.0,
             "flightsim.to": 1.0,
