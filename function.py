@@ -3,7 +3,7 @@
 import json
 import time
 import dynamicfilter
-
+import base64
 from google.cloud import bigquery
 from github import Github
 
@@ -27,19 +27,7 @@ def dynamic_filter_config_generate(event, context):
 
     logging.info("Received query request from {0}".format(context.resource))
 
-    # query_request = json.loads(base64.b64decode(event['data']).decode('utf-8'))
-    # minBidRate = "0.1"
-    # minAverageBid = "0.1"
-    # minCombinedBidRate = "0.3"
-    # minCombinedAverageBid = "0.2"
-    # if ("minBidRate" in query_request):
-    #     minBidRate = query_request['minBidRate']
-    # if ("minAverageBid" in query_request):
-    #     minAverageBid = query_request['minAverageBid']
-    # if ("minCombinedBidRate" in query_request):
-    #     minCombinedBidRate = query_request['minCombinedBidRate']
-    # if ("minCombinedAverageBid" in query_request):
-    #     minCombinedAverageBid = query_request['minCombinedAverageBid']
+    query_request = json.loads(base64.b64decode(event['data']).decode('utf-8'))
 
     sql = """
 DECLARE from_date_ext timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 5 DAY) AS timestamp);
@@ -194,20 +182,22 @@ select bidder, continent,country,host, filter from finalized
             sql)  # API request - starts the query
 
         results = query_job.result()
-
         logging.info("Job {0} is currently in state {1}".format(query_job.job_id, query_job.state))
 
-        # override = {}
-        # if "override" in query_request:
-        #     override = query_request["override"]
+        override = None
+        if "override" in query_request:
+            override = query_request["override"]
 
         mapped_json = dynamicfilter.map_query_results(results)
 
-        filename = "new-traffic-shaping-dynamic-filter-list.json"
-        # if "filename" in query_request:
-        #     filename = query_request['filename']
+        if override:
+            mapped_json |= override
 
-        g = Github("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")
+        filename = "new-traffic-shaping-dynamic-filter-list.json"
+        if "filename" in query_request:
+            filename = query_request["filename"]
+
+        g = Github(query_request["githubToken"])
         repo = g.get_repo("t13s2s/config")
         contents = repo.get_contents(filename, ref="main")
         git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(mapped_json, indent=4),

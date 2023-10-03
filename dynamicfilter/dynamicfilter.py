@@ -10,22 +10,22 @@ def map_query_results(query_results):
 
         _check_row_format(row)
 
-        if _is_bidder_empty(final_json, row):
+        if _is_new_bidder(final_json, row.bidder):
             if _is_continent_default_row(row):
-                final_json = _build_bidder_continent_default(row)
+                final_json = _build_new_bidder_continent_default(row)
             else:
-                final_json |= _build_bidder_continent(row)
-        elif _is_continent_empty(final_json, row):
+                final_json |= _build_new_bidder_continent(row)
+        elif _is_new_bidder_continent(final_json, row.bidder, row.continent):
             if _is_continent_default_row(row):
-                final_json[row.bidder] |= _build_continent_2(row)
+                final_json[row.bidder] |= _build_new_continent_default(row)
             else:
-                final_json[row.bidder] |= _build_continent(row)
+                final_json[row.bidder] |= _build_new_continent(row)
         elif _is_continent_default_row(row):
-            final_json[row.bidder][row.continent] |= _build_continent_default(row)
-        elif _is_country_empty(final_json, row):
-            final_json[row.bidder][row.continent] |= _build_country(row)
+            final_json[row.bidder][row.continent] |= _build_default(row)
+        elif _is_new_country(final_json, row):
+            final_json[row.bidder][row.continent] |= _build_new_country(row)
         else:
-            final_json[row.bidder][row.continent][row.country] |= _update_country_host(row)
+            final_json[row.bidder][row.continent][row.country] |= _build_host(row)
 
     if len(final_json) == 0:
         raise Exception("Failed to map results: empty query result list")
@@ -33,12 +33,12 @@ def map_query_results(query_results):
     return final_json
 
 
-def _is_continent_empty(final_json, row):
-    return final_json.get(row.bidder).get(row.continent) is None
+def _is_new_bidder_continent(final_json, bidder, continent):
+    return final_json.get(bidder).get(continent) is None
 
 
-def _is_bidder_empty(final_json, row):
-    return final_json.get(row.bidder) is None
+def _is_new_bidder(final_json, bidder):
+    return final_json.get(bidder) is None
 
 
 def _check_row_format(row):
@@ -52,17 +52,17 @@ def _is_continent_default_row(row):
     return row.country == DEFAULT
 
 
-def _is_country_empty(final_json, row):
+def _is_new_country(final_json, row):
     return final_json.get(row.bidder).get(row.continent).get(row.country) is None
 
 
-def _update_country_host(row):
+def _build_host(row):
     return {
         row.host: float(row.filter)
     }
 
 
-def _build_country(row):
+def _build_new_country(row):
     return {
         row.country: {
             row.host: float(row.filter)
@@ -70,13 +70,13 @@ def _build_country(row):
     }
 
 
-def _build_continent_default(row):
+def _build_default(row):
     return {
         DEFAULT: float(row.filter)
     }
 
 
-def _build_continent(row):
+def _build_new_continent(row):
     return {
         row.continent: {
             row.country: {
@@ -86,7 +86,7 @@ def _build_continent(row):
     }
 
 
-def _build_continent_2(row):
+def _build_new_continent_default(row):
     return {
         row.continent: {
             DEFAULT: float(row.filter)
@@ -94,7 +94,7 @@ def _build_continent_2(row):
     }
 
 
-def _build_bidder_continent_default(row):
+def _build_new_bidder_continent_default(row):
     return {
         row.bidder: {
             row.continent: {
@@ -104,7 +104,7 @@ def _build_bidder_continent_default(row):
     }
 
 
-def _build_bidder_continent(row):
+def _build_new_bidder_continent(row):
     return {
         row.bidder: {
             row.continent: {

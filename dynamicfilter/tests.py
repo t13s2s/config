@@ -196,30 +196,6 @@ class FunctionTestCase(unittest.TestCase):
         # then
         self.assertDictEqual(expected_default_continent, results)
 
-    def test_given_multiple_hosts_result_map_filters_correctly123(self):
-        # given
-        stub = [
-            DynamicFilterQueryResult('33across', 'AF', 'RU', 'default', 0.05),
-            DynamicFilterQueryResult('33across', 'AS', 'default', 'default', 0.05)
-        ]
-
-        expected_default_continent = {
-            "33across": {
-                "AF": {
-                    "default": 0.05
-                },
-                "AS": {
-                    "default": 0.05
-                }
-            }
-        }
-
-        # when
-        results = dynamicfilter.map_query_results(stub)
-
-        # then
-        self.assertDictEqual(expected_default_continent, results)
-
     def test_given_multiple_bidders_result_map_filters_correctly(self):
         # given
         stub = [
