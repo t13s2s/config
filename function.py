@@ -2,13 +2,11 @@
 
 import json
 import os
-import re
 import uuid
 import base64
 import time
-import datetime
 import dateutil.parser
-import pytz
+import dynamicfilter
 
 from google.cloud import bigquery
 from google.cloud import logging
@@ -40,6 +38,7 @@ logger = log_client.logger(log_name.format(GCP_PROJECT))
 # create bigquery client
 client = bigquery.Client()
 
+
 def dynamic_filter_config_generate(event, context):
     """Background Cloud Function to be triggered by Pub/Sub (pub sub message is sent by cloud scheduler).
         Args:
@@ -57,170 +56,166 @@ def dynamic_filter_config_generate(event, context):
     job_config = bigquery.QueryJobConfig()
     target_time = dateutil.parser.parse(context.timestamp)
 
-    query_request = json.loads(base64.b64decode(event['data']).decode('utf-8'))
-    minBidRate = "0.1"
-    minAverageBid = "0.1"
-    minCombinedBidRate = "0.3"
-    minCombinedAverageBid = "0.2"
-    if ("minBidRate" in query_request):
-        minBidRate = query_request['minBidRate']
-    if ("minAverageBid" in query_request):
-        minAverageBid = query_request['minAverageBid']
-    if ("minCombinedBidRate" in query_request):
-        minCombinedBidRate = query_request['minCombinedBidRate']
-    if ("minCombinedAverageBid" in query_request):
-        minCombinedAverageBid = query_request['minCombinedAverageBid']
+    # query_request = json.loads(base64.b64decode(event['data']).decode('utf-8'))
+    # minBidRate = "0.1"
+    # minAverageBid = "0.1"
+    # minCombinedBidRate = "0.3"
+    # minCombinedAverageBid = "0.2"
+    # if ("minBidRate" in query_request):
+    #     minBidRate = query_request['minBidRate']
+    # if ("minAverageBid" in query_request):
+    #     minAverageBid = query_request['minAverageBid']
+    # if ("minCombinedBidRate" in query_request):
+    #     minCombinedBidRate = query_request['minCombinedBidRate']
+    # if ("minCombinedAverageBid" in query_request):
+    #     minCombinedAverageBid = query_request['minCombinedAverageBid']
 
     sql = """
-DECLARE fromDate timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) AS timestamp);
-DECLARE toDate timestamp DEFAULT CAST(CURRENT_DATE() AS timestamp);
-DECLARE defaultFilter numeric DEFAULT 0.05;
-DECLARE minRequests int64 DEFAULT 5000;
-DECLARE minBidRate numeric DEFAULT 0.25;
-DECLARE minAverageBid numeric DEFAULT 0.2;
-DECLARE minCombinedBidRate numeric DEFAULT 0.4;
-DECLARE minCombinedAverageBid numeric DEFAULT 0.3;
+DECLARE from_date_ext timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 5 DAY) AS timestamp);
+DECLARE from_date timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) AS timestamp);
+DECLARE to_date timestamp DEFAULT CAST(CURRENT_DATE() AS timestamp);
+DECLARE default_filter numeric DEFAULT 0.05;
+DECLARE min_requests int64 DEFAULT 5000;
 
-WITH continentEntries AS (
+with all_country_entries as(
+  SELECT bidder_id bidder, geo_continent continent,geo_country country,
+  sum(ifnull(bids,0)) bids,
+  sum(ifnull(bid_requests,0)) total_bids,
+  sum(ifnull(case when error_code is null then total_top_bids end,0)) total_top_bids,
+  round(safe_divide(sum(ifnull(case when error_code is null then total_top_bids end,0)),sum(ifnull(case when error_code is null then bid_requests end,0)))*100,2) top_bid_rate,
+  case when sum(ifnull(bid_requests,0))>min_requests then 'high' else 'low' end request_volume,
+  FROM `freestar-prod.prebid_server_raw.unified_events_daily`
+  where record_date >= from_date AND record_date < to_date
+  AND geo_continent IS NOT NULL
+  AND geo_country IS NOT NULL
+  AND geo_continent != 'nan'
+  AND geo_country != 'nan'
+  AND bidder_id IS NOT NULL
+  AND (error_code IS NULL or error_code ='500')
+  group by 1,2,3
+  ),
 
-SELECT bidder_id Bidder, geo_continent Continent,
-Sum(bids) Bids,
-Sum(bids) + Sum(no_bids) Total,
-COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-FROM `freestar-prod.prebid_server_raw.unified_events_daily`
-where error_code IS NULL
-AND geo_continent IS NOT NULL
-AND geo_continent != 'unknown'
-AND bidder_id IS NOT NULL
-AND record_date >= fromDate AND record_date < toDate
-GROUP BY bidder_id, geo_continent
-HAVING (
-    (Bids/Total < minCombinedBidRate AND Average_Bid < minCombinedAverageBid)
-    OR Bids/Total < minBidRate
-    OR Average_Bid < minAverageBid
-)
-AND Total > minRequests
 
+
+country_entries_treated as (
+  select bidder, continent,
+  CASE WHEN total_bids<=min_requests and country!='RU' THEN 'default' ELSE country END country,
+  sum(ifnull(a.bids,0)) bids, 
+  sum(ifnull(a.bid_requests,0)) total_bids,
+  sum(ifnull(case when error_code is null then a.total_top_bids end,0)) total_top_bids,
+  round(safe_divide(sum(ifnull(case when error_code is null then a.total_top_bids end,0)),sum(ifnull(case when error_code is null then a.bid_requests end,0)))*100,2) top_bid_rate,
+   from `freestar-prod.prebid_server_raw.unified_events_daily` a
+  join all_country_entries b on a.bidder_id=b.bidder and a.geo_continent=b.continent and a.geo_country=b.country
+  where request_volume='low' and (error_code IS NULL or error_code ='500')
+  and record_date >= from_date_ext AND record_date < to_date
+  group by 1,2,3
+
+  union all
+
+  select * except(request_volume) from all_country_entries where request_volume='high'
+  ),
+
+
+threshold_type as(
+
+  select continent,country,
+  round(max(top_bid_rate) - min(top_bid_rate),1) range_,
+  count(distinct(bidder)) bidders_above_5,
+  case when round(max(top_bid_rate) - min(top_bid_rate),1)>10 then 'variable_threshold' else 'fixed_threshold' end method 
+  from country_entries_treated
+  where top_bid_rate>5 
+  group by 1,2
+  ),
+
+
+countries_thr_cal as(
+  select bidder, continent,country,range_,bidders_above_5, method,
+  sum(c.total_bids) over(partition by continent,country,bidder) total_bids,
+  avg(c.top_bid_rate) over(partition by continent,country,bidder) top_bid_rate,
+  case when method='variable_threshold' then round((avg(top_bid_rate) over (partition by continent,country))*0.9,0) else 5 end thr
+  from country_entries_treated c
+  left join threshold_type using (continent,country)
+  ),
+
+
+country_level_results as(select bidder,continent,country, range_,bidders_above_5,method,total_bids,top_bid_rate,thr,
+case 
+when country='RU' then 0
+when method is null then default_filter 
+when top_bid_rate<5 then default_filter
+when top_bid_rate<thr then default_filter
+else 1.0 end filter
+from countries_thr_cal
+order by continent,country,top_bid_rate desc, bidder
 ),
 
-allCountries AS (
 
-SELECT bidder_id Bidder, geo_continent Continent, geo_country Country,
-Sum(bids) Bids,
-Sum(bids) + Sum(no_bids) Total,
-COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-FROM `freestar-prod.prebid_server_raw.unified_events_daily`
-where error_code IS NULL
-AND geo_continent IS NOT NULL
-AND geo_country IS NOT NULL
-AND geo_continent != 'unknown'
-AND geo_country != 'unknown'
-AND bidder_id IS NOT NULL
-AND record_date >= fromDate AND record_date < toDate
-GROUP BY bidder_id, geo_continent, geo_country
 
+
+host_entries as(SELECT bidder_id bidder, geo_continent continent,geo_country country,host,
+  sum(ifnull(bids,0)) bids,
+  sum(ifnull(bid_requests,0)) total_bids,
+  sum(ifnull(case when error_code is null then total_top_bids end,0)) total_top_bids,
+  round(safe_divide(sum(ifnull(case when error_code is null then total_top_bids end,0)),sum(ifnull(case when error_code is null then bid_requests end,0)))*100,2) top_bid_rate,
+  -- case when sum(ifnull(bid_requests,0))>min_requests then 'high' else 'low' end request_volume,
+  FROM `freestar-prod.prebid_server_raw.unified_events_daily`
+  where (error_code IS NULL or error_code ='500')
+  and record_date >= from_date AND record_date < to_date
+  AND geo_continent IS NOT NULL
+  AND geo_country IS NOT NULL
+  AND bidder_id IS NOT NULL
+  group by 1,2,3,4
+  having sum(ifnull(bid_requests,0))>min_requests
+  ),
+
+host_thr_type as(select continent, country,host,
+round(max(top_bid_rate) - min(top_bid_rate),1) range_,
+count(distinct(bidder)) bidders_above_5,
+case when round(max(top_bid_rate) - min(top_bid_rate),1)>10 then 'variable_threshold' else 'fixed_threshold' end method ,
+from host_entries
+where top_bid_rate>5 
+group by 1,2,3),
+
+host_thr_cal as(
+  select bidder, continent,country,host,range_,bidders_above_5, method,
+  sum(h.total_bids) over(partition by continent,country,host,bidder) total_bids,
+  avg(h.top_bid_rate) over(partition by continent,country,host,bidder) top_bid_rate,
+  case when method='variable_threshold' then round((avg(top_bid_rate) over (partition by continent,country,host))*0.9,0) else 5 end thr
+  from host_entries h
+  left join host_thr_type using (continent,country,host)
+  ),
+
+host_level_results as(
+  select bidder,continent,country,host, range_,bidders_above_5,method,total_bids,top_bid_rate,thr,
+case 
+when country='RU' then 0
+when method is null then default_filter
+when top_bid_rate<5 then default_filter
+when top_bid_rate<thr then default_filter
+else 1.0 end filter
+from host_thr_cal
+order by continent,country,top_bid_rate desc, bidder),
+
+
+unioned as(
+select bidder,continent,country,'default' host,total_bids,top_bid_rate,thr,filter
+from country_level_results
+
+union all
+
+select bidder,continent,country,host,total_bids,top_bid_rate,thr,filter
+from host_level_results 
 ),
 
-countryEntries AS (
+finalized as(select out.* from unioned out 
+left join unioned in_ on in_.bidder=out.bidder and in_.continent=out.continent and in_.country=out.country and in_.host='default'
+where out.host='default' or out.filter!=in_.filter
+order by 1,2,3,4)
 
-SELECT Bidder, Continent, Country, Bids, Total, Average_Bid
-FROM allCountries
-WHERE Continent NOT IN (SELECT Continent FROM continentEntries WHERE continentEntries.Bidder = allCountries.Bidder)
-AND (
-    (Bids/Total < minCombinedBidRate AND Average_Bid < minCombinedAverageBid)
-    OR Bids/Total < minBidRate
-    OR Average_Bid < minAverageBid
-    OR Country='RU'
-)
-AND Total > minRequests
+select bidder, continent,country,host, filter from finalized
+    """
 
-)
-
-SELECT Bidder, Continent, Country, Region, Host, Filter
-FROM (
-
-SELECT Bidder, Continent, null AS Country, null AS Region, null AS Host, Bids, Total, Average_Bid, defaultFilter AS Filter
-FROM continentEntries
-
-UNION ALL
-
-SELECT Bidder, Continent, 'RU' AS Country, null AS Region, null AS Host, Bids, Total, Average_Bid, 0 AS Filter
-FROM continentEntries WHERE Continent IN ('EU', 'AS')
-
-UNION ALL
-
-SELECT Bidder, Continent, null AS Country, null AS Region, Host, Bids, Total, Average_Bid, 1 AS Filter
-FROM
-(
-SELECT bidder_id Bidder, geo_continent Continent, host AS Host,
-Sum(bids) Bids,
-Sum(bids) + Sum(no_bids) Total,
-COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-FROM `freestar-prod.prebid_server_raw.unified_events_daily` AS auctions
-where error_code IS NULL
-AND geo_continent IS NOT NULL
-AND geo_continent != 'unknown'
-AND bidder_id IS NOT NULL
-AND record_date >= fromDate AND record_date < toDate
-AND geo_continent IN (SELECT Continent FROM continentEntries WHERE continentEntries.Bidder = auctions.bidder_id)
-GROUP BY bidder_id, geo_continent, host
-HAVING (
-    Bids/Total >= minCombinedBidRate OR Average_Bid >= minCombinedAverageBid
-    OR (Bids/Total >= minBidRate AND Average_Bid >= minAverageBid)
-)
-AND Total > minRequests
-)
-
-UNION ALL
-
-SELECT Bidder, Continent, Country, null AS Region, null AS Host, Bids, Total, Average_Bid,
-CASE WHEN Country='RU' THEN 0 ELSE defaultFilter END AS Filter
-FROM countryEntries
-
-UNION ALL
-
-SELECT Bidder, Continent, Country, null AS Region, null AS Host, Bids, Total, Average_Bid, 1 AS Filter
-FROM allCountries
-WHERE Continent IN (SELECT Continent FROM continentEntries WHERE continentEntries.Bidder = allCountries.Bidder)
-AND (
-    Bids/Total >= minCombinedBidRate OR Average_Bid >= minCombinedAverageBid
-    OR (Bids/Total >= minBidRate AND Average_Bid >= minAverageBid)
-)
-AND Total > minRequests
-AND NOT Country = 'RU'
-
-UNION ALL
-
-SELECT Bidder, Continent, Country, null AS Region, Host, Bids, Total, Average_Bid, 1 AS Filter
-FROM
-(
-SELECT bidder_id Bidder, geo_continent Continent, geo_country Country, host AS Host,
-Sum(bids) Bids,
-Sum(bids) + Sum(no_bids) Total,
-COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-FROM `freestar-prod.prebid_server_raw.unified_events_daily` AS auctions
-where error_code IS NULL
-AND geo_continent IS NOT NULL
-AND geo_country IS NOT NULL
-AND geo_continent != 'unknown'
-AND geo_country != 'unknown'
-AND bidder_id IS NOT NULL
-AND record_date >= fromDate AND record_date < toDate
-AND geo_country IN (SELECT Country FROM countryEntries WHERE countryEntries.Bidder = auctions.bidder_id)
-GROUP BY bidder_id, geo_continent, geo_country, host
-HAVING (
-    Bids/Total >= minCombinedBidRate OR Average_Bid >= minCombinedAverageBid
-    OR (Bids/Total >= minBidRate AND Average_Bid >= minAverageBid)
-)
-AND Total > minRequests
-AND NOT geo_country = 'RU'
-)
-
-)
-ORDER BY Bidder, Continent, Country, Region, Host
-    """.format(minBidRate, minAverageBid, minCombinedBidRate, minCombinedAverageBid)
-
-    #Run query
+    # Run query
     log(INFO, "Executing query", uuidstr)
     try:
         # Start the query
@@ -231,134 +226,38 @@ ORDER BY Bidder, Continent, Country, Region, Host
 
         log(INFO, "Job {0} is currently in state {1}".format(query_job.job_id, query_job.state), uuidstr)
 
-        override = {}
-        if ("override" in query_request):
-            override = query_request["override"]
+        # override = {}
+        # if "override" in query_request:
+        #     override = query_request["override"]
 
-        jsn = {}
-        current_bidder = ''
-        current_continent = ''
-        current_country = ''
-        current_region = ''
-        filter_list = {}
-        continent_entry = {}
-        country_entry = {}
-        region_entry = {}
+        mapped_json = dynamicfilter.map_query_results(results)
 
-        for row in results:
-            if (row.Bidder != current_bidder):
-                #add override data
-                for key in override:
-                    filter_list[key] = override[key]
-                if (current_bidder in query_request):
-                    for key in query_request[current_bidder]:
-                        filter_list[key] = query_request[current_bidder][key]
-                if (current_bidder != ''):
-                    jsn[current_bidder] = filter_list.copy()
-                filter_list = {}
-                current_bidder = row.Bidder
-            if (current_continent != row.Continent):
-                if (current_country != ''):
-                    if (len(country_entry) == 1):
-                        continent_entry[current_country] = country_entry["default"]
-                    else:
-                        continent_entry[current_country] = country_entry.copy()
-                if (current_continent != ''):
-                    if (len(continent_entry) == 1):
-                        filter_list[current_continent] = continent_entry["default"]
-                    else:
-                        filter_list[current_continent] = continent_entry.copy()
-                continent_entry = {}
-                current_continent = row.Continent
-                country_entry = {}
-                region_entry = {}
-                current_country = ''
-                current_region = ''
-                if (row.Country == None and row.Host == None):
-                    continent_entry["default"] = float(row.Filter)
-                else:
-                    continent_entry["default"] = 1
-            if (row.Country != None):
-                if (current_country != row.Country):
-                    if (current_country != ''):
-                        if (len(country_entry) == 1):
-                            continent_entry[current_country] = country_entry["default"]
-                        else:
-                            continent_entry[current_country] = country_entry.copy()
-                    country_entry = {}
-                    current_country = row.Country
-                    region_entry = {}
-                    current_region = ''
-                    if (row.Region == None and row.Host == None):
-                        country_entry["default"] = float(row.Filter)
-                    else:
-                        country_entry["default"] = 1
-                if (row.Region != None):
-                    if (current_region != row.Region):
-                        if (current_region != ''):
-                            if (len(region_entry) == 1):
-                                country_entry[row.Region] = region_entry["default"]
-                            else:
-                                country_entry[row.Region] = region_entry.copy()
-                        region_entry = {}
-                        current_region = row.Region
-                        if (row.Host == None):
-                            region_entry["default"] = float(row.Filter)
-                        else:
-                            region_entry["default"] = 1
-                    if (row.Host != None):
-                        region_entry[row.Host] = float(row.Filter)
-                elif (row.Host != None):
-                    country_entry[row.Host] = float(row.Filter)
-            elif (row.Host != None):
-                continent_entry[row.Host] = float(row.Filter)
-        if (current_region != ''):
-            if (len(region_entry) == 1):
-                country_entry[current_region] = region_entry["default"]
-            else:
-                country_entry[current_region] = region_entry.copy()
-        if (current_country != ''):
-            if (len(country_entry) == 1):
-                continent_entry[current_country] = country_entry["default"]
-            else:
-                continent_entry[current_country] = country_entry.copy()
-        if (len(continent_entry) == 1):
-            filter_list[current_continent] = continent_entry["default"]
-        else:
-            filter_list[current_continent] = continent_entry.copy()
-        #add override data
-        for key in override:
-            filter_list[key] = override[key]
-        if (current_bidder in query_request):
-            for key in query_request[current_bidder]:
-                filter_list[key] = query_request[current_bidder][key]
-        jsn[current_bidder] = filter_list.copy()
+        filename = "new-traffic-shaping-dynamic-filter-list.json"
+        # if "filename" in query_request:
+        #     filename = query_request['filename']
 
-        filename = "new-schema-dynamic-filter-list.json"
-        if ("filename" in query_request):
-            filename = query_request['filename']
-
-        g = Github(query_request['githubKey'])
+        g = Github("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")
         repo = g.get_repo("t13s2s/config")
         contents = repo.get_contents(filename, ref="main")
-        git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(jsn, indent = 4), contents.sha, branch="main")
+        git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(mapped_json, indent=4),
+                                        contents.sha, branch="main")
 
         log(INFO, "Commit to Github: {}".format(str(git_response)), uuidstr)
-
-        print(jsn)
 
     except Exception as e:
         log(ERROR, ('Failed to run query job. Retrying, error: {0}'.format(e)), uuidstr)
         raise
 
-    if(query_job.errors):
+    if query_job.errors:
         log(ERROR, ('Query job request with error(s): {0}'.format(str(query_job.errors))), uuidstr)
+
 
 def log(severity, msg, uuid, op='dynamic_filter_config_generate'):
     data = {'op': op, 'msg': ("'{0}'".format(msg)), 'uuid': uuid}
 
     logger.log_struct(
         {"message": json.dumps(data)}, resource=res, severity=severity)
+
 
 def current_time():
     return int(round(time.time() * 1000))
