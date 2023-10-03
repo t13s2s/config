@@ -58,21 +58,21 @@ def _is_country_empty(final_json, row):
 
 def _update_country_host(row):
     return {
-        row.host: row.filter
+        row.host: float(row.filter)
     }
 
 
 def _build_country(row):
     return {
         row.country: {
-            row.host: row.filter
+            row.host: float(row.filter)
         }
     }
 
 
 def _build_continent_default(row):
     return {
-        DEFAULT: row.filter
+        DEFAULT: float(row.filter)
     }
 
 
@@ -80,7 +80,7 @@ def _build_continent(row):
     return {
         row.continent: {
             row.country: {
-                row.host: row.filter
+                row.host: float(row.filter)
             }
         }
     }
@@ -89,7 +89,7 @@ def _build_continent(row):
 def _build_continent_2(row):
     return {
         row.continent: {
-            DEFAULT: row.filter
+            DEFAULT: float(row.filter)
         }
     }
 
@@ -98,7 +98,7 @@ def _build_bidder_continent_default(row):
     return {
         row.bidder: {
             row.continent: {
-                DEFAULT: row.filter
+                DEFAULT: float(row.filter)
             }
         }
     }
@@ -109,7 +109,7 @@ def _build_bidder_continent(row):
         row.bidder: {
             row.continent: {
                 row.country: {
-                    row.host: row.filter
+                    row.host: float(row.filter)
                 }
             }
         }
