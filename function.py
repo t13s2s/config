@@ -1,39 +1,17 @@
 """Run BQ query and write results"""
 
 import json
-import os
-import uuid
-import base64
 import time
-import dateutil.parser
 import dynamicfilter
 
 from google.cloud import bigquery
-from google.cloud import logging
-from google.cloud.logging import Resource
 from github import Github
 
-GCP_PROJECT = os.environ.get('GCP_PROJECT')
+import google.cloud.logging
+import logging
 
-# logging
-ERROR = 'ERROR'
-WARNING = 'WARNING'
-INFO = 'INFO'
-
-GCP_FUNCTION_NAME = os.environ.get('FUNCTION_NAME')
-GCP_FUNCTION_REGION = os.environ.get('FUNCTION_REGION')
-
-log_client = logging.Client()
-log_name = 'cloudfunctions.googleapis.com%2Fcloud-functions'
-
-# Inside the resource, nest the required labels specific to the resource type
-res = Resource(type="cloud_function",
-               labels={
-                   "function_name": GCP_FUNCTION_NAME,
-                   "region": GCP_FUNCTION_REGION
-               })
-
-logger = log_client.logger(log_name.format(GCP_PROJECT))
+client = google.cloud.logging.Client()
+client.setup_logging()
 
 # create bigquery client
 client = bigquery.Client()
@@ -47,14 +25,7 @@ def dynamic_filter_config_generate(event, context):
             metadata.
     """
 
-    uuidstr = str(uuid.uuid4())
-
-    log(INFO, ("Received query request from {0}".format(context.resource)), uuidstr)
-
-    start = current_time()
-
-    job_config = bigquery.QueryJobConfig()
-    target_time = dateutil.parser.parse(context.timestamp)
+    logging.info("Received query request from {0}".format(context.resource))
 
     # query_request = json.loads(base64.b64decode(event['data']).decode('utf-8'))
     # minBidRate = "0.1"
@@ -216,7 +187,7 @@ select bidder, continent,country,host, filter from finalized
     """
 
     # Run query
-    log(INFO, "Executing query", uuidstr)
+    logging.info("Executing query")
     try:
         # Start the query
         query_job = client.query(
@@ -224,7 +195,7 @@ select bidder, continent,country,host, filter from finalized
 
         results = query_job.result()
 
-        log(INFO, "Job {0} is currently in state {1}".format(query_job.job_id, query_job.state), uuidstr)
+        logging.info("Job {0} is currently in state {1}".format(query_job.job_id, query_job.state))
 
         # override = {}
         # if "override" in query_request:
@@ -242,21 +213,14 @@ select bidder, continent,country,host, filter from finalized
         git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(mapped_json, indent=4),
                                         contents.sha, branch="main")
 
-        log(INFO, "Commit to Github: {}".format(str(git_response)), uuidstr)
+        logging.info("Commit to Github: {}".format(str(git_response)))
 
     except Exception as e:
-        log(ERROR, ('Failed to run query job. Retrying, error: {0}'.format(e)), uuidstr)
+        logging.error('Failed to run query job. Retrying, error: {0}'.format(str(e)))
         raise
 
     if query_job.errors:
-        log(ERROR, ('Query job request with error(s): {0}'.format(str(query_job.errors))), uuidstr)
-
-
-def log(severity, msg, uuid, op='dynamic_filter_config_generate'):
-    data = {'op': op, 'msg': ("'{0}'".format(msg)), 'uuid': uuid}
-
-    logger.log_struct(
-        {"message": json.dumps(data)}, resource=res, severity=severity)
+        logging.error('Query job request with error(s): {0}'.format(str(query_job.errors)))
 
 
 def current_time():

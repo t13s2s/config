@@ -1,6 +1,6 @@
 import unittest
 
-import function
+import dynamicfilter
 
 
 class FunctionTestCase(unittest.TestCase):
@@ -13,7 +13,7 @@ class FunctionTestCase(unittest.TestCase):
 
         # when-then
         with self.assertRaises(Exception) as e:
-            function.map_query_results(stub)
+            dynamicfilter.map_query_results(stub)
 
         self.assertTrue("Failed to map results: empty query result list" in str(e.exception))
 
@@ -25,7 +25,7 @@ class FunctionTestCase(unittest.TestCase):
 
         # when-then
         with self.assertRaises(Exception) as e:
-            print(function.map_query_results(stub))
+            print(dynamicfilter.map_query_results(stub))
 
         self.assertTrue("Invalid row format: default country and non default host isn't allowed: "
                         "www.testing.com" in str(e.exception))
@@ -38,7 +38,7 @@ class FunctionTestCase(unittest.TestCase):
 
         # when-then
         with self.assertRaises(Exception) as e:
-            print(function.map_query_results(stub))
+            print(dynamicfilter.map_query_results(stub))
 
         self.assertTrue("Invalid row format: empty column value is now allowed")
 
@@ -50,7 +50,7 @@ class FunctionTestCase(unittest.TestCase):
 
         # when-then
         with self.assertRaises(Exception) as e:
-            print(function.map_query_results(stub))
+            print(dynamicfilter.map_query_results(stub))
 
         self.assertTrue("Invalid row format: empty column value is now allowed")
 
@@ -73,7 +73,7 @@ class FunctionTestCase(unittest.TestCase):
         }
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertDictEqual(expected_default_continent, results)
@@ -93,7 +93,7 @@ class FunctionTestCase(unittest.TestCase):
         }
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertDictEqual(expected_default_continent, results)
@@ -115,7 +115,7 @@ class FunctionTestCase(unittest.TestCase):
         }
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertDictEqual(expected_default_continent, results)
@@ -139,7 +139,7 @@ class FunctionTestCase(unittest.TestCase):
         }
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertDictEqual(expected_default_continent, results)
@@ -161,7 +161,7 @@ class FunctionTestCase(unittest.TestCase):
         }}
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertEqual(expected_results, results)
@@ -191,7 +191,31 @@ class FunctionTestCase(unittest.TestCase):
         }
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
+
+        # then
+        self.assertDictEqual(expected_default_continent, results)
+
+    def test_given_multiple_hosts_result_map_filters_correctly123(self):
+        # given
+        stub = [
+            DynamicFilterQueryResult('33across', 'AF', 'RU', 'default', 0.05),
+            DynamicFilterQueryResult('33across', 'AS', 'default', 'default', 0.05)
+        ]
+
+        expected_default_continent = {
+            "33across": {
+                "AF": {
+                    "default": 0.05
+                },
+                "AS": {
+                    "default": 0.05
+                }
+            }
+        }
+
+        # when
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertDictEqual(expected_default_continent, results)
@@ -257,7 +281,7 @@ class FunctionTestCase(unittest.TestCase):
         }
 
         # when
-        results = function.map_query_results(stub)
+        results = dynamicfilter.map_query_results(stub)
 
         # then
         self.assertDictEqual(expected_default_continent, results)
@@ -265,11 +289,11 @@ class FunctionTestCase(unittest.TestCase):
 
 class DynamicFilterQueryResult:
     def __init__(self, bidder, continent, country, host, filter):
-        self.Bidder = bidder
-        self.Continent = continent
-        self.Country = country
-        self.Host = host
-        self.Filter = filter
+        self.bidder = bidder
+        self.continent = continent
+        self.country = country
+        self.host = host
+        self.filter = filter
 
 
 if __name__ == '__main__':
