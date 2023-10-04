@@ -178,20 +178,16 @@ select bidder, continent,country,host, filter from finalized
     logging.info("Executing query")
     try:
         # Start the query
-        query_job = client.query(
-            sql)  # API request - starts the query
+        query_job = client.query(sql)  # API request - starts the query
 
         results = query_job.result()
         logging.info("Job {0} is currently in state {1}".format(query_job.job_id, query_job.state))
 
-        override = None
+        dynamic_filters = dynamicfilter.map_query_results(results)
+
         if "override" in query_request:
             override = query_request["override"]
-
-        mapped_json = dynamicfilter.map_query_results(results)
-
-        if override:
-            mapped_json |= override
+            dynamic_filters |= override
 
         filename = "new-traffic-shaping-dynamic-filter-list.json"
         if "filename" in query_request:
@@ -200,7 +196,7 @@ select bidder, continent,country,host, filter from finalized
         g = Github(query_request["githubToken"])
         repo = g.get_repo("t13s2s/config")
         contents = repo.get_contents(filename, ref="main")
-        git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(mapped_json, indent=4),
+        git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(dynamic_filters, indent=4),
                                         contents.sha, branch="main")
 
         logging.info("Commit to Github: {}".format(str(git_response)))
@@ -211,7 +207,3 @@ select bidder, continent,country,host, filter from finalized
 
     if query_job.errors:
         logging.error('Query job request with error(s): {0}'.format(str(query_job.errors)))
-
-
-def current_time():
-    return int(round(time.time() * 1000))
