@@ -96,7 +96,6 @@ countries_thr_cal as(
   left join threshold_type using (continent,country)
   ),
 
-
 country_level_results as(select bidder,continent,country, range_,bidders_above_5,method,total_bids,top_bid_rate,thr,
 case 
 when country='RU' then 0
@@ -107,9 +106,6 @@ else 1.0 end filter
 from countries_thr_cal
 order by continent,country,top_bid_rate desc, bidder
 ),
-
-
-
 
 host_entries as(SELECT bidder_id bidder, geo_continent continent,geo_country country,host,
   sum(ifnull(bids,0)) bids,
@@ -166,12 +162,14 @@ select bidder,continent,country,host,total_bids,top_bid_rate,thr,filter
 from host_level_results 
 ),
 
-finalized as(select out.* from unioned out 
+finalized as(select out.* 
+from unioned out 
 left join unioned in_ on in_.bidder=out.bidder and in_.continent=out.continent and in_.country=out.country and in_.host='default'
-where out.host='default' or out.filter!=in_.filter
-order by 1,2,3,4)
+left join unioned in_2 on in_2.bidder=out.bidder and in_2.continent=out.continent and in_2.country='default'
+where (out.host='default'  or out.filter!=in_.filter) and (out.country='default' or out.filter!=in_2.filter)
+)
 
-select bidder, continent,country,host, filter from finalized
+select bidder, continent,country,host, filter from finalized order by 1,2,3,4
     """
 
     # Run query
