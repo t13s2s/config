@@ -4,8 +4,10 @@ import json
 import time
 import dynamicfilter
 import base64
+import tempfile
+import os
 from google.cloud import bigquery
-from github import Github
+from google.cloud import storage
 
 import google.cloud.logging
 import logging
@@ -15,6 +17,9 @@ client.setup_logging()
 
 # create bigquery client
 client = bigquery.Client()
+
+# create gcs client
+gcs_client = storage.Client(project="t13s2s")
 
 
 def dynamic_filter_config_generate(event, context):
@@ -191,13 +196,15 @@ select bidder, continent,country,host, filter from finalized order by 1,2,3,4
         if "filename" in query_request:
             filename = query_request["filename"]
 
-        g = Github(query_request["githubToken"])
-        repo = g.get_repo("t13s2s/config")
-        contents = repo.get_contents(filename, ref="main")
-        git_response = repo.update_file(contents.path, "Cloud Function Commit", json.dumps(dynamic_filters, indent=4),
-                                        contents.sha, branch="main")
+        bucket = gcs_client.bucket("pbs-dynamic-filter")
+        dynamic_filter_file = tempfile.NamedTemporaryFile(suffix='.json', delete=False)
+        with open(dynamic_filter_file.name, 'w') as outfile:
+            outfile.write(json.dumps(dynamic_filters, indent=4))
+        blob = bucket.blob(filename)
+        blob.upload_from_filename(dynamic_filter_file.name)
+        delete_temporary_file(dynamic_filter_file.name)
 
-        logging.info("Commit to Github: {}".format(str(git_response)))
+        logging.info("Wrote file [{}] to GCS".format(filename))
 
     except Exception as e:
         logging.error('Failed to run query job. Retrying, error: {0}'.format(str(e)))
@@ -205,3 +212,10 @@ select bidder, continent,country,host, filter from finalized order by 1,2,3,4
 
     if query_job.errors:
         logging.error('Query job request with error(s): {0}'.format(str(query_job.errors)))
+
+
+def delete_temporary_file(filename):
+    if os.path.exists(filename):
+        os.remove(filename)
+    else:
+        print('File does not exist: {}'.format(filename))
