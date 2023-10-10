@@ -2,18 +2,12 @@
     "xandr": {
         "AS": {
             "default": 0.05
-        },
-        "NA": {
-            "default": 1.0
         }
     },
     "yahoossp": {
         "AF": {
             "KE": {
                 "default": 1.0
-            },
-            "ZW": {
-                "www.sportskeeda.com": 1.0
             },
             "default": 0.05
         },
@@ -22,27 +16,24 @@
                 "www.aljazeera.net": 1.0,
                 "www.gsmarena.com": 1.0
             },
-            "BH": {
-                "www.aljazeera.net": 1.0
-            },
             "CN": {
                 "default": 1.0
             },
             "IR": {
                 "default": 1.0
             },
-            "KW": {
-                "default": 1.0
+            "KR": {
+                "www.aljazeera.com": 1.0
             },
-            "MM": {
-                "freeip.me": 1.0
+            "KW": {
+                "www.aljazeera.net": 1.0
+            },
+            "SG": {
+                "www.gsmarena.com": 1.0
             },
             "default": 0.05
         },
         "EU": {
-            "GB": {
-                "accuradio.com": 1.0
-            },
             "RU": {
                 "default": 0.0
             },
@@ -51,56 +42,67 @@
         "NA": {
             "CA": {
                 "accuradio.com": 1.0,
+                "bismanonline.com": 1.0,
                 "calcxml.com": 1.0,
-                "cricket.com.au": 1.0,
+                "enewstree.com": 1.0,
                 "fantrax.com": 1.0,
+                "forums.dobbersports.com": 1.0,
                 "gaiaonline.com": 1.0,
                 "garden.org": 1.0,
-                "geeksaresexy.net": 1.0,
+                "halopedia.org": 1.0,
                 "horseracingnation.com": 1.0,
                 "hostednovel.com": 1.0,
-                "lifestyle.si.com": 1.0,
+                "innerstrength.zone": 1.0,
+                "latribuna.hn": 1.0,
                 "live365.com": 1.0,
-                "meetup.com": 1.0,
+                "lse.co.uk": 1.0,
+                "microbenotes.com": 1.0,
                 "myabandonware.com": 1.0,
-                "phoronix.com": 1.0,
+                "myforecast.com": 1.0,
+                "newworldencyclopedia.org": 1.0,
+                "publicholidays.net": 1.0,
+                "pwtorch.com": 1.0,
+                "razzball.com": 1.0,
                 "reason.com": 1.0,
-                "riddles.com": 1.0,
+                "thecomeback.com": 1.0,
                 "thenation.com": 1.0,
                 "tinyurl.com": 1.0,
-                "wforum.com": 1.0,
-                "www.gsmarena.com": 1.0
+                "tvseriesfinale.com": 1.0,
+                "upworthy.com": 1.0,
+                "uscreditcardguide.com": 1.0,
+                "www.si.com": 1.0,
+                "www.the-express.com": 1.0,
+                "www.upworthy.com": 1.0
             },
             "CR": {
-                "gestion.pe": 1.0,
-                "spoiler.bolavip.com": 1.0,
-                "www.dw.com": 1.0,
-                "www.sportskeeda.com": 1.0
+                "default": 1.0
             },
             "GT": {
-                "elcomercio.pe": 1.0,
-                "mag.elcomercio.pe": 1.0,
-                "spoiler.bolavip.com": 1.0
+                "mag.elcomercio.pe": 1.0
             },
             "HN": {
-                "mag.elcomercio.pe": 1.0,
-                "spoiler.bolavip.com": 1.0
+                "elcomercio.pe": 1.0,
+                "futbolcentroamerica.com": 1.0
+            },
+            "JM": {
+                "default": 1.0
             },
             "MX": {
-                "basketball-reference.com": 1.0,
-                "gaiaonline.com": 1.0,
+                "heygames.club": 1.0,
                 "jcpenney.com": 1.0,
-                "lotteryusa.com": 1.0,
-                "pupperish.com": 1.0,
-                "textnow.com": 1.0,
                 "www.sportskeeda.com": 1.0
             },
             "PA": {
-                "gestion.pe": 1.0
+                "gestion.pe": 1.0,
+                "mag.elcomercio.pe": 1.0,
+                "spoiler.bolavip.com": 1.0
             },
             "SV": {
                 "gestion.pe": 1.0,
                 "www.dw.com": 1.0
+            },
+            "TT": {
+                "default": 1.0
             },
             "US": {
                 "10fastfingers.com": 1.0,
@@ -108,8 +110,6 @@
                 "21usdeal.com": 1.0,
                 "270towin.com": 1.0,
                 "365chess.com": 1.0,
-                "7media.xyz": 1.0,
-                "9and10news.com": 1.0,
                 "accuradio.com": 1.0,
                 "adsbexchange.com": 1.0,
                 "allacronyms.com": 1.0,
@@ -132,14 +132,16 @@
                 "bodybuilding.com": 1.0,
                 "boingboing.net": 1.0,
                 "bookingbuddy.com": 1.0,
+                "boxrec.com": 1.0,
                 "braceletbook.com": 1.0,
                 "bradsdeals.com": 1.0,
                 "caffeineinformer.com": 1.0,
-                "calcxml.com": 1.0,
                 "calibre-ebook.com": 1.0,
                 "capfriendly.com": 1.0,
                 "cesarsway.com": 1.0,
                 "cheatography.com": 1.0,
+                "chesspuzzle.net": 1.0,
+                "chinesenewyear.net": 1.0,
                 "chordtela.com": 1.0,
                 "chosic.com": 1.0,
                 "chronicle-tribune.com": 1.0,
@@ -150,19 +152,19 @@
                 "cordcuttersnews.com": 1.0,
                 "countrymusicnation.com": 1.0,
                 "couriernews.com": 1.0,
-                "craiyon.com": 1.0,
                 "cram.com": 1.0,
                 "creativeuncut.com": 1.0,
                 "cricket.com.au": 1.0,
                 "dailysquared.com": 1.0,
                 "daysoftheyear.com": 1.0,
                 "deepai.org": 1.0,
+                "dlisted.com": 1.0,
                 "dnschecker.org": 1.0,
                 "dobberhockey.com": 1.0,
                 "droid-life.com": 1.0,
+                "duboiscountyherald.com": 1.0,
                 "eastcarolina.sportswar.com": 1.0,
                 "eclipserpg.com": 1.0,
-                "elcomercio.pe": 1.0,
                 "elkharttruth.com": 1.0,
                 "enewstree.com": 1.0,
                 "estatesales.org": 1.0,
@@ -173,11 +175,9 @@
                 "fantraxhq.com": 1.0,
                 "fbref.com": 1.0,
                 "firstshowing.net": 1.0,
+                "flightsim.to": 1.0,
                 "flightview.com": 1.0,
-                "font-generator.com": 1.0,
-                "food52.com": 1.0,
-                "footballwebpages.co.uk": 1.0,
-                "footyroom.co": 1.0,
+                "foldnfly.com": 1.0,
                 "forces.net": 1.0,
                 "fordbarn.com": 1.0,
                 "freeip.me": 1.0,
@@ -187,30 +187,35 @@
                 "french-property.com": 1.0,
                 "frozenpool.dobbersports.com": 1.0,
                 "fstoppers.com": 1.0,
+                "ftimes.com": 1.0,
                 "fujirumors.com": 1.0,
                 "gaiaonline.com": 1.0,
-                "garagesalefinder.com": 1.0,
-                "garden.org": 1.0,
+                "geekprank.com": 1.0,
                 "geeksaresexy.net": 1.0,
                 "gestion.pe": 1.0,
                 "getsongkey.com": 1.0,
                 "globalsecurity.org": 1.0,
+                "gmap-pedometer.com": 1.0,
                 "gocomics.com": 1.0,
                 "gottabemobile.com": 1.0,
                 "greatschools.org": 1.0,
+                "guardonline.com": 1.0,
                 "guessthe.game": 1.0,
                 "guru99.com": 1.0,
+                "hammondstar.com": 1.0,
+                "hendersondispatch.com": 1.0,
                 "heraldpalladium.com": 1.0,
                 "historicaerials.com": 1.0,
+                "horseracingnation.com": 1.0,
                 "hostednovel.com": 1.0,
                 "hpenews.com": 1.0,
-                "hymnary.org": 1.0,
                 "igfonts.io": 1.0,
                 "iheartcats.com": 1.0,
                 "iheartdogs.com": 1.0,
                 "innerstrength.zone": 1.0,
                 "ino.com": 1.0,
                 "insauga.com": 1.0,
+                "k95country.com": 1.0,
                 "kentuckynewera.com": 1.0,
                 "keybr.com": 1.0,
                 "komando.com": 1.0,
@@ -218,47 +223,53 @@
                 "kuai.media": 1.0,
                 "latest-hairstyles.com": 1.0,
                 "latribuna.hn": 1.0,
+                "laxnumbers.com": 1.0,
                 "leagueofcomicgeeks.com": 1.0,
+                "lebanondemocrat.com": 1.0,
                 "lifestyle.si.com": 1.0,
                 "lipsum.com": 1.0,
                 "live365.com": 1.0,
+                "livenewschat.eu": 1.0,
                 "logodix.com": 1.0,
                 "looperman.com": 1.0,
                 "lotterycorner.com": 1.0,
                 "lpheralddispatch.com": 1.0,
-                "lse.co.uk": 1.0,
                 "madisoncourier.com": 1.0,
                 "mag.elcomercio.pe": 1.0,
+                "majortests.com": 1.0,
                 "matadornetwork.com": 1.0,
                 "meetup.com": 1.0,
                 "mexicantrain.com": 1.0,
                 "microbenotes.com": 1.0,
                 "mingle2.com": 1.0,
                 "mkyong.com": 1.0,
+                "mob.co.uk": 1.0,
+                "monografias.com": 1.0,
                 "motortrend.com": 1.0,
                 "mwcboard.com": 1.0,
                 "myabandonware.com": 1.0,
+                "myfamilytree.io": 1.0,
                 "myfantasyleague.com": 1.0,
                 "myforecast.co": 1.0,
                 "myforecast.com": 1.0,
                 "mythopedia.com": 1.0,
                 "neatorama.com": 1.0,
-                "neowin.net": 1.0,
                 "newengland.com": 1.0,
                 "newsargus.com": 1.0,
-                "newstopicnews.com": 1.0,
+                "newsexaminer.com": 1.0,
+                "newworldencyclopedia.org": 1.0,
                 "nflmockdraftdatabase.com": 1.0,
                 "notepad.pw": 1.0,
+                "off.road.cc": 1.0,
                 "officeholidays.com": 1.0,
                 "oilprice.com": 1.0,
                 "online-solitaire.com": 1.0,
+                "online-tech-tips.com": 1.0,
                 "onlinejigsawpuzzles.net": 1.0,
+                "onlinepianist.com": 1.0,
                 "opereviews.com": 1.0,
                 "paducahsun.com": 1.0,
-                "pajiba.com": 1.0,
-                "papergames.io": 1.0,
                 "paradepets.com": 1.0,
-                "pdclarion.com": 1.0,
                 "pennantchase.com": 1.0,
                 "peru21.pe": 1.0,
                 "petapixel.com": 1.0,
@@ -266,39 +277,42 @@
                 "photographylife.com": 1.0,
                 "playerassist.com": 1.0,
                 "playoffpredictors.com": 1.0,
-                "popdust.com": 1.0,
+                "podbay.fm": 1.0,
                 "powerball.com": 1.0,
-                "practicalclinicalskills.com": 1.0,
-                "psychologies.co.uk": 1.0,
                 "pupperish.com": 1.0,
                 "purewow.com": 1.0,
+                "pwtorch.com": 1.0,
                 "racingdudes.com": 1.0,
-                "racingnews.co": 1.0,
                 "rave.dj": 1.0,
                 "rave.io": 1.0,
                 "razzball.com": 1.0,
                 "rhymeswithsnitch.com": 1.0,
                 "road.cc": 1.0,
+                "rochsent.com": 1.0,
                 "rokuguide.com": 1.0,
                 "rotowire.com": 1.0,
                 "router-network.com": 1.0,
                 "royaleapi.com": 1.0,
+                "rrdailyherald.com": 1.0,
                 "ruwix.com": 1.0,
                 "sanfordherald.com": 1.0,
                 "saucenao.com": 1.0,
                 "savett.cc": 1.0,
                 "sciencenews.org": 1.0,
                 "scratchstakes.com": 1.0,
+                "se7ensins.com": 1.0,
                 "shelbynews.com": 1.0,
                 "sidelineswap.com": 1.0,
                 "signup.com": 1.0,
+                "signupgenius.com": 1.0,
                 "skyscraperpage.com": 1.0,
                 "slantmagazine.com": 1.0,
                 "slrlounge.com": 1.0,
                 "smartertravel.com": 1.0,
                 "smithsonianmag.com": 1.0,
                 "sneakerbardetroit.com": 1.0,
-                "sonichits.com": 1.0,
+                "softwaretestinghelp.com": 1.0,
+                "sonyalpharumors.com": 1.0,
                 "southernsavers.com": 1.0,
                 "soxmachine.com": 1.0,
                 "speedcheck.org": 1.0,
@@ -306,20 +320,20 @@
                 "stampworld.com": 1.0,
                 "stilltasty.com": 1.0,
                 "stockcharts.com": 1.0,
+                "storenvy.com": 1.0,
                 "strategypage.com": 1.0,
                 "stuff.tv": 1.0,
                 "styleforum.net": 1.0,
                 "suncommercial.com": 1.0,
                 "surfchex.com": 1.0,
-                "swimswam.com": 1.0,
-                "swingbyswing.com": 1.0,
                 "symbaloo.com": 1.0,
                 "tankathon.com": 1.0,
                 "teamrankings.com": 1.0,
-                "techjunkie.com": 1.0,
                 "techlicious.com": 1.0,
                 "tecmint.com": 1.0,
                 "tennistonic.com": 1.0,
+                "terezowens.com": 1.0,
+                "textnow.com": 1.0,
                 "thecabin.net": 1.0,
                 "thecouriertimes.com": 1.0,
                 "thedailyhoosier.com": 1.0,
@@ -334,14 +348,17 @@
                 "thereisadayforthat.com": 1.0,
                 "thespun.com": 1.0,
                 "thetechgame.com": 1.0,
-                "times-georgian.com": 1.0,
-                "timesleader.net": 1.0,
+                "thetypingcat.com": 1.0,
+                "thisisanfield.com": 1.0,
+                "time.is": 1.0,
                 "tinyurl.com": 1.0,
-                "titantv.com": 1.0,
+                "tntradioempire.com": 1.0,
                 "townhall.sportswar.com": 1.0,
+                "trailersusa.com": 1.0,
                 "tvseriesfinale.com": 1.0,
+                "uexpress.com": 1.0,
+                "ultrabookreview.com": 1.0,
                 "ultracontest.com": 1.0,
-                "unitedstateszipcodes.org": 1.0,
                 "upgradedpoints.com": 1.0,
                 "uploadvr.com": 1.0,
                 "upworthy.com": 1.0,
@@ -355,23 +372,21 @@
                 "watchdocumentaries.com": 1.0,
                 "watchtv24.com": 1.0,
                 "wearethepit.com": 1.0,
+                "websudoku.com": 1.0,
                 "weegy.com": 1.0,
                 "wegotthiscovered.com": 1.0,
                 "wforum.com": 1.0,
                 "whatifsports.com": 1.0,
-                "whatismyip.com": 1.0,
-                "whatismyipaddress.com": 1.0,
                 "wired2fish.com": 1.0,
+                "wordgamehelper.com": 1.0,
+                "worldofcardgames.com": 1.0,
                 "worldometers.info": 1.0,
-                "wpsdlocal6.com": 1.0,
-                "www.aljazeera.net": 1.0,
-                "www.androidheadlines.com": 1.0,
+                "wow-professions.com": 1.0,
                 "www.basketballnetwork.net": 1.0,
                 "www.benzinga.com": 1.0,
                 "www.birminghammail.co.uk": 1.0,
-                "www.dw.com": 1.0,
+                "www.comedy.co.uk": 1.0,
                 "www.ewrestlingnews.com": 1.0,
-                "www.gpfans.com": 1.0,
                 "www.gsmarena.com": 1.0,
                 "www.komando.com": 1.0,
                 "www.online-tech-tips.com": 1.0,
@@ -381,16 +396,17 @@
                 "www.the-express.com": 1.0,
                 "www.thenation.com": 1.0,
                 "www.upworthy.com": 1.0,
+                "wzzk.com": 1.0,
                 "xda-developers.com": 1.0,
-                "yardsalesearch.com": 1.0,
                 "yaytext.com": 1.0,
+                "z92.com": 1.0,
                 "zmescience.com": 1.0
             },
             "default": 0.05
         },
         "OC": {
             "AU": {
-                "lifestyle.si.com": 1.0
+                "www.si.com": 1.0
             },
             "default": 0.05
         },
@@ -399,17 +415,13 @@
                 "accuradio.com": 1.0,
                 "heygames.club": 1.0
             },
-            "EC": {
-                "spoiler.bolavip.com": 1.0,
-                "www.dw.com": 1.0
-            },
             "PE": {
-                "bolavip.com": 1.0,
-                "ojo.pe": 1.0,
-                "www.sportskeeda.com": 1.0
+                "bolavip.com": 1.0
             },
             "UY": {
-                "default": 1.0
+                "depor.com": 1.0,
+                "mag.elcomercio.pe": 1.0,
+                "spoiler.bolavip.com": 1.0
             },
             "VE": {
                 "default": 1.0
@@ -423,7 +435,6 @@
                 "flightaware.com": 1.0,
                 "gobankingrates.com": 1.0,
                 "hadviser.com": 1.0,
-                "latest-hairstyles.com": 1.0,
                 "publicholidays.co.za": 1.0,
                 "reuters.com": 1.0
             },
@@ -431,46 +442,45 @@
         },
         "AS": {
             "AE": {
-                "deepai.org": 1.0
-            },
-            "HK": {
                 "deepai.org": 1.0,
                 "onlinepianist.com": 1.0
             },
-            "IL": {
+            "HK": {
+                "deepai.org": 1.0,
                 "flightaware.com": 1.0
+            },
+            "IL": {
+                "flightaware.com": 1.0,
+                "flightconnections.com": 1.0
+            },
+            "IN": {
+                "flightconnections.com": 1.0,
+                "geekprank.com": 1.0
             },
             "JO": {
                 "aljazeera.com": 1.0
             },
             "JP": {
-                "adsbexchange.com": 1.0,
-                "anyconv.com": 1.0,
                 "flightaware.com": 1.0,
-                "flightsim.to": 1.0,
-                "petapixel.com": 1.0,
-                "primagames.com": 1.0,
                 "slideshare.net": 1.0,
                 "xda-developers.com": 1.0
             },
+            "QA": {
+                "signupgenius.com": 1.0
+            },
             "SA": {
-                "flightaware.com": 1.0
+                "Stocktwits-389157776": 1.0
             },
             "SG": {
-                "BibleGateway-506512797": 1.0,
-                "Reuters-com.thomsonreuters.reuters": 1.0,
                 "Stocktwits-389157776": 1.0,
-                "backchina.com": 1.0,
-                "deepai.org": 1.0,
-                "destructoid.com": 1.0,
+                "Stocktwits-org.stocktwits.android.activity": 1.0,
+                "bleepingcomputer.com": 1.0,
                 "dmtalkies.com": 1.0,
                 "flightaware.com": 1.0,
-                "fugitives.com": 1.0,
+                "hadviser.com": 1.0,
                 "petapixel.com": 1.0,
                 "publicholidays.sg": 1.0,
-                "runningshoesguru.com": 1.0,
-                "soundguys.com": 1.0,
-                "worldpopulationreview.com": 1.0
+                "soundguys.com": 1.0
             },
             "default": 0.05
         },
@@ -482,39 +492,16 @@
                 "default": 1.0
             },
             "DK": {
-                "boredpanda.com": 1.0,
-                "deepai.org": 1.0,
-                "emojipedia.org": 1.0,
-                "fantrax.com": 1.0,
-                "looperman.com": 1.0,
-                "time.is": 1.0,
-                "wow-professions.com": 1.0
+                "default": 1.0
             },
             "ES": {
-                "10fastfingers.com": 1.0,
-                "baeldung.com": 1.0,
-                "basketball-gm.com": 1.0,
-                "beebom.com": 1.0,
-                "boredpanda.com": 1.0,
-                "calibre-ebook.com": 1.0,
-                "cpu-monkey.com": 1.0,
                 "craiyon.com": 1.0,
                 "deepai.org": 1.0,
-                "fantrax.com": 1.0,
-                "fbref.com": 1.0,
                 "flightaware.com": 1.0,
                 "flightconnections.com": 1.0,
-                "flightsim.to": 1.0,
                 "htmlcolorcodes.com": 1.0,
-                "neurochispas.com": 1.0,
-                "petapixel.com": 1.0,
-                "road.cc": 1.0,
-                "royaleapi.com": 1.0,
-                "time.is": 1.0,
-                "ukutabs.com": 1.0,
-                "watchdocumentaries.com": 1.0,
-                "whatismyipaddress.com": 1.0,
-                "worldofsolitaire.com": 1.0
+                "thisisanfield.com": 1.0,
+                "whatismyipaddress.com": 1.0
             },
             "FR": {
                 "default": 1.0
@@ -523,100 +510,81 @@
                 "1001freefonts.com": 1.0,
                 "10fastfingers.com": 1.0,
                 "adsbexchange.com": 1.0,
-                "automobile-catalog.com": 1.0,
-                "babypips.com": 1.0,
+                "babynames.com": 1.0,
                 "beebom.com": 1.0,
                 "bleepingcomputer.com": 1.0,
                 "boxrec.com": 1.0,
                 "brainfall.com": 1.0,
                 "camelcamelcamel.com": 1.0,
-                "capfriendly.com": 1.0,
+                "cartalk.com": 1.0,
                 "chesspuzzle.net": 1.0,
-                "cpu-monkey.com": 1.0,
+                "cordcuttersnews.com": 1.0,
                 "craiyon.com": 1.0,
                 "crossovergrid.com": 1.0,
                 "daysoftheyear.com": 1.0,
                 "deepai.org": 1.0,
-                "destinypedia.com": 1.0,
-                "dezgo.com": 1.0,
-                "dimensions.com": 1.0,
                 "dnschecker.org": 1.0,
                 "ebiketips.road.cc": 1.0,
                 "emojipedia.org": 1.0,
-                "fbref.com": 1.0,
+                "factrepublic.com": 1.0,
                 "fictiondb.com": 1.0,
                 "flightaware.com": 1.0,
                 "flightconnections.com": 1.0,
-                "font-generator.com": 1.0,
-                "freemahjong.org": 1.0,
+                "french-property.com": 1.0,
+                "fselite.net": 1.0,
                 "fstoppers.com": 1.0,
                 "fujirumors.com": 1.0,
                 "gameranx.com": 1.0,
                 "garagejournal.com": 1.0,
                 "geeky-gadgets.com": 1.0,
-                "getemoji.com": 1.0,
-                "goconqr.com": 1.0,
-                "gottabemobile.com": 1.0,
                 "guessthe.game": 1.0,
                 "guru99.com": 1.0,
-                "hadviser.com": 1.0,
                 "hikersbay.com": 1.0,
                 "howlongagogo.com": 1.0,
                 "htmlcolorcodes.com": 1.0,
                 "immaculatefooty.com": 1.0,
                 "immaculategrid.com": 1.0,
                 "instazoom.cc": 1.0,
-                "instrukcjaobslugipdf.pl": 1.0,
-                "itsfoss.com": 1.0,
-                "jimpix.co.uk": 1.0,
                 "keeptradecut.com": 1.0,
-                "kitchenstories.com": 1.0,
                 "latest-hairstyles.com": 1.0,
-                "lingojam.com": 1.0,
-                "livecharts.co.uk": 1.0,
                 "mapsofworld.com": 1.0,
                 "mariowiki.com": 1.0,
-                "moviemistakes.com": 1.0,
                 "neowin.net": 1.0,
-                "online-tech-tips.com": 1.0,
-                "onlinejigsawpuzzles.net": 1.0,
+                "off.road.cc": 1.0,
+                "officeholidays.com": 1.0,
                 "onlinepianist.com": 1.0,
                 "ontvtonight.com": 1.0,
                 "operationsports.com": 1.0,
                 "oyster.com": 1.0,
                 "pajiba.com": 1.0,
                 "petapixel.com": 1.0,
+                "phoronix.com": 1.0,
                 "photographylife.com": 1.0,
-                "pikminwiki.com": 1.0,
-                "pissedconsumer.com": 1.0,
                 "planefinder.net": 1.0,
                 "podbay.fm": 1.0,
+                "practicalclinicalskills.com": 1.0,
                 "protoolreviews.com": 1.0,
                 "prowrestling.net": 1.0,
                 "publicholidays.co.uk": 1.0,
                 "quizwise.com": 1.0,
                 "riddles.com": 1.0,
-                "rubiks-cube-solver.com": 1.0,
                 "runningshoesguru.com": 1.0,
-                "seatmaps.com": 1.0,
                 "smithsonianmag.com": 1.0,
                 "softwaretestinghelp.com": 1.0,
                 "sonyalpharumors.com": 1.0,
                 "soundguys.com": 1.0,
-                "ssbwiki.com": 1.0,
-                "stockcharts.com": 1.0,
                 "techjunkie.com": 1.0,
                 "the-gadgeteer.com": 1.0,
                 "thegreatoutdoorsmag.com": 1.0,
                 "time.is": 1.0,
                 "tinybeans.com": 1.0,
-                "tinyurl.com": 1.0,
                 "ukutabs.com": 1.0,
                 "veganfoodandliving.com": 1.0,
                 "vladtv.com": 1.0,
                 "watchdocumentaries.com": 1.0,
                 "weareteachers.com": 1.0,
                 "womensrunning.co.uk": 1.0,
+                "worldofsolitaire.com": 1.0,
                 "worldpopulationreview.com": 1.0,
                 "wow-professions.com": 1.0,
                 "wrestlezone.com": 1.0,
@@ -626,7 +594,30 @@
                 "default": 1.0
             },
             "IT": {
-                "default": 1.0
+                "adsoftheworld.com": 1.0,
+                "backchina.com": 1.0,
+                "boredpanda.com": 1.0,
+                "boxrec.com": 1.0,
+                "camelcamelcamel.com": 1.0,
+                "cardgames.io": 1.0,
+                "concerty.com": 1.0,
+                "craiyon.com": 1.0,
+                "dnschecker.org": 1.0,
+                "flightaware.com": 1.0,
+                "flightconnections.com": 1.0,
+                "hikersbay.com": 1.0,
+                "lse.co.uk": 1.0,
+                "oilprice.com": 1.0,
+                "petapixel.com": 1.0,
+                "road.cc": 1.0,
+                "signupgenius.com": 1.0,
+                "sonyalpharumors.com": 1.0,
+                "soundguys.com": 1.0,
+                "swimswam.com": 1.0,
+                "tecmint.com": 1.0,
+                "tinyurl.com": 1.0,
+                "ukutabs.com": 1.0,
+                "yaytext.com": 1.0
             },
             "NL": {
                 "default": 1.0
@@ -637,7 +628,7 @@
             "SE": {
                 "craiyon.com": 1.0,
                 "deepai.org": 1.0,
-                "flightsim.to": 1.0,
+                "onlinepianist.com": 1.0,
                 "wow-professions.com": 1.0
             },
             "default": 0.05
@@ -649,8 +640,16 @@
             "MX": {
                 "default": 1.0
             },
+            "PR": {
+                "flightaware.com": 1.0,
+                "sears.com": 1.0,
+                "signupgenius.com": 1.0
+            },
             "US": {
                 "default": 1.0
+            },
+            "VI": {
+                "flightaware.com": 1.0
             },
             "default": 0.05
         },
@@ -660,18 +659,16 @@
             },
             "NZ": {
                 "blabbermouth.net": 1.0,
-                "cardgames.io": 1.0,
+                "bleepingcomputer.com": 1.0,
                 "flightaware.com": 1.0,
-                "latest-hairstyles.com": 1.0,
-                "petapixel.com": 1.0,
-                "reuters.com": 1.0
+                "reuters.com": 1.0,
+                "soundguys.com": 1.0,
+                "ukutabs.com": 1.0,
+                "upworthy.com": 1.0
             },
             "default": 0.05
         },
         "SA": {
-            "EC": {
-                "flightaware.com": 1.0
-            },
             "default": 0.05
         }
     }
