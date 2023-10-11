@@ -12,7 +12,7 @@ def map_query_results(query_results):
 
         if _is_new_bidder(final_json, row.bidder):
             if _is_continent_default_row(row):
-                final_json = _build_new_bidder_continent_default(row)
+                final_json |= _build_new_bidder_continent_default(row)
             else:
                 final_json |= _build_new_bidder_continent(row)
         elif _is_new_bidder_continent(final_json, row.bidder, row.continent):

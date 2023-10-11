@@ -262,6 +262,78 @@ class FunctionTestCase(unittest.TestCase):
         # then
         self.assertDictEqual(expected_default_continent, results)
 
+    def test_given_multiple_bidders_result_with_new_bidder_default_continent_and_map_filters_correctly(self):
+        # given
+        stub = [
+            DynamicFilterQueryResult("adform", "AF", "ZA", "default", 1.0),
+            DynamicFilterQueryResult("adform", "AF", "default", "default", 0.2),
+            DynamicFilterQueryResult("adform", "AF", "ZA", "www.testing.com", 0.8),
+            DynamicFilterQueryResult("adform", "AF", "SA", "www.another-test.com", 1),
+            DynamicFilterQueryResult("adform", "SA", "BR", "www.another-test.com", 1),
+            DynamicFilterQueryResult("adform", "SA", "BR", "default", 0.5),
+            DynamicFilterQueryResult("another-bidder", "SA", "BR", "www.testing123.com", 0.2),
+            DynamicFilterQueryResult("another-bidder", "AF", "ZA", "default", 1.0),
+            DynamicFilterQueryResult("another-bidder", "AF", "default", "default", 0.2),
+            DynamicFilterQueryResult("another-bidder", "AF", "ZA", "www.testing.com", 0.8),
+            DynamicFilterQueryResult("another-bidder", "AF", "SA", "www.another-test.com", 1),
+            DynamicFilterQueryResult("another-bidder", "SA", "default", "default", 0.9),
+            DynamicFilterQueryResult("another-bidder", "SA", "BR", "www.another-test.com", 1),
+            DynamicFilterQueryResult("another-bidder", "SA", "BR", "default", 0.5),
+            DynamicFilterQueryResult("another-bidder-2", "SA", "default", "default", 0.3),
+        ]
+
+        expected_default_continent = {
+            "adform": {
+                "AF": {
+                    "default": 0.2,
+                    "ZA": {
+                        "default": 1.0,
+                        "www.testing.com": 0.8
+                    },
+                    "SA": {
+                        "www.another-test.com": 1.0
+                    }
+                },
+                "SA": {
+                    "BR": {
+                        "default": 0.5,
+                        "www.another-test.com": 1.0
+                    }
+                }
+            },
+            "another-bidder": {
+                "AF": {
+                    "default": 0.2,
+                    "ZA": {
+                        "default": 1.0,
+                        "www.testing.com": 0.8
+                    },
+                    "SA": {
+                        "www.another-test.com": 1.0
+                    }
+                },
+                "SA": {
+                    "default": 0.9,
+                    "BR": {
+                        "default": 0.5,
+                        "www.another-test.com": 1.0,
+                        "www.testing123.com": 0.2
+                    }
+                }
+            },
+            "another-bidder-2": {
+                "SA": {
+                    "default": 0.3
+                }
+            }
+        }
+
+        # when
+        results = dynamicfilter.map_query_results(stub)
+
+        # then
+        self.assertDictEqual(expected_default_continent, results)
+
 
 class DynamicFilterQueryResult:
     def __init__(self, bidder, continent, country, host, filter):
