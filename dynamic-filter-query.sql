@@ -1,146 +1,139 @@
-DECLARE fromDate timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) AS timestamp);
-DECLARE toDate timestamp DEFAULT CAST(CURRENT_DATE() AS timestamp);
-DECLARE defaultFilter numeric DEFAULT 0.05;
-DECLARE minRequests int64 DEFAULT 5000;
-DECLARE minBidRate numeric DEFAULT 0.25;
-DECLARE minAverageBid numeric DEFAULT 0.2;
-DECLARE minCombinedBidRate numeric DEFAULT 0.4;
-DECLARE minCombinedAverageBid numeric DEFAULT 0.3;
+DECLARE from_date_ext timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 5 DAY) AS timestamp);
+DECLARE from_date timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) AS timestamp);
+DECLARE to_date timestamp DEFAULT CAST(CURRENT_DATE() AS timestamp);
+DECLARE default_filter numeric DEFAULT 0.05;
+DECLARE min_requests int64 DEFAULT 5000;
 
-WITH continentEntries AS (
-
-    SELECT bidder_id Bidder, geo_continent Continent,
-           Sum(bids) Bids,
-           Sum(bids) + Sum(no_bids) Total,
-           COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-    FROM `freestar-prod.prebid_server_raw.unified_events_daily`
-    where error_code IS NULL
-      AND geo_continent IS NOT NULL
-      AND geo_continent != 'unknown'
-    AND bidder_id IS NOT NULL
-    AND record_date >= fromDate AND record_date < toDate
-GROUP BY bidder_id, geo_continent
-HAVING (
-     (Bids/Total < minCombinedBidRate AND Average_Bid < minCombinedAverageBid)
-    OR Bids/Total < minBidRate
-    OR Average_Bid < minAverageBid
-    )
-   AND Total > minRequests
-
-    ),
-
-    allCountries AS (
-
-SELECT bidder_id Bidder, geo_continent Continent, geo_country Country,
-    Sum(bids) Bids,
-    Sum(bids) + Sum(no_bids) Total,
-    COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-FROM `freestar-prod.prebid_server_raw.unified_events_daily`
-where error_code IS NULL
+with all_country_entries as(
+  SELECT bidder_id bidder, geo_continent continent,geo_country country,
+  sum(ifnull(bids,0)) bids,
+  sum(ifnull(bid_requests,0)) total_bids,
+  sum(ifnull(case when error_code is null then total_top_bids end,0)) total_top_bids,
+  round(safe_divide(sum(ifnull(case when error_code is null then total_top_bids end,0)),sum(ifnull(case when error_code is null then bid_requests end,0)))*100,2) top_bid_rate,
+  case when sum(ifnull(bid_requests,0))>min_requests then 'high' else 'low' end request_volume,
+  FROM `freestar-prod.prebid_server_raw.unified_events_daily`
+  where record_date >= from_date AND record_date < to_date
   AND geo_continent IS NOT NULL
   AND geo_country IS NOT NULL
-  AND geo_continent != 'unknown'
-  AND geo_country != 'unknown'
+  AND geo_continent != 'nan'
+  AND geo_country != 'nan'
   AND bidder_id IS NOT NULL
-  AND record_date >= fromDate AND record_date < toDate
-GROUP BY bidder_id, geo_continent, geo_country
+  AND (error_code IS NULL or error_code ='500')
+  group by 1,2,3
+  ),
 
-    ),
 
-    countryEntries AS (
 
-SELECT Bidder, Continent, Country, Bids, Total, Average_Bid
-FROM allCountries
-WHERE Continent NOT IN (SELECT Continent FROM continentEntries WHERE continentEntries.Bidder = allCountries.Bidder)
-  AND (
-    (Bids/Total < minCombinedBidRate AND Average_Bid < minCombinedAverageBid)
-   OR Bids/Total < minBidRate
-   OR Average_Bid < minAverageBid
-   OR Country='RU'
-    )
-  AND Total > minRequests
+country_entries_treated as (
+  select bidder, continent,
+  CASE WHEN total_bids<=min_requests and country!='RU' THEN 'default' ELSE country END country,
+  sum(ifnull(a.bids,0)) bids,
+  sum(ifnull(a.bid_requests,0)) total_bids,
+  sum(ifnull(case when error_code is null then a.total_top_bids end,0)) total_top_bids,
+  round(safe_divide(sum(ifnull(case when error_code is null then a.total_top_bids end,0)),sum(ifnull(case when error_code is null then a.bid_requests end,0)))*100,2) top_bid_rate,
+   from `freestar-prod.prebid_server_raw.unified_events_daily` a
+  join all_country_entries b on a.bidder_id=b.bidder and a.geo_continent=b.continent and a.geo_country=b.country
+  where request_volume='low' and (error_code IS NULL or error_code ='500')
+  and record_date >= from_date_ext AND record_date < to_date
+  group by 1,2,3
 
-    )
+  union all
 
-SELECT Bidder, Continent, Country, Region, Host, Filter
-FROM (
+  select * except(request_volume) from all_country_entries where request_volume='high'
+  ),
 
-         SELECT Bidder, Continent, null AS Country, null AS Region, null AS Host, Bids, Total, Average_Bid, defaultFilter AS Filter
-         FROM continentEntries
 
-         UNION ALL
+threshold_type as(
 
-         SELECT Bidder, Continent, 'RU' AS Country, null AS Region, null AS Host, Bids, Total, Average_Bid, 0 AS Filter
-         FROM continentEntries WHERE Continent IN ('EU', 'AS')
+  select continent,country,
+  round(max(top_bid_rate) - min(top_bid_rate),1) range_,
+  count(distinct(bidder)) bidders_above_5,
+  case when round(max(top_bid_rate) - min(top_bid_rate),1)>10 then 'variable_threshold' else 'fixed_threshold' end method
+  from country_entries_treated
+  where top_bid_rate>5
+  group by 1,2
+  ),
 
-         UNION ALL
 
-         SELECT Bidder, Continent, null AS Country, null AS Region, Host, Bids, Total, Average_Bid, 1 AS Filter
-         FROM
-             (
-                 SELECT bidder_id Bidder, geo_continent Continent, host AS Host,
-                        Sum(bids) Bids,
-                        Sum(bids) + Sum(no_bids) Total,
-                        COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-                 FROM `freestar-prod.prebid_server_raw.unified_events_daily` AS auctions
-                 where error_code IS NULL
-                   AND geo_continent IS NOT NULL
-                   AND geo_continent != 'unknown'
-AND bidder_id IS NOT NULL
-AND record_date >= fromDate AND record_date < toDate
-AND geo_continent IN (SELECT Continent FROM continentEntries WHERE continentEntries.Bidder = auctions.bidder_id)
-                 GROUP BY bidder_id, geo_continent, host
-                 HAVING (
-                     Bids/Total >= minCombinedBidRate OR Average_Bid >= minCombinedAverageBid
-                     OR (Bids/Total >= minBidRate AND Average_Bid >= minAverageBid)
-                     )
-                    AND Total > minRequests
-             )
+countries_thr_cal as(
+  select bidder, continent,country,range_,bidders_above_5, method,
+  sum(c.total_bids) over(partition by continent,country,bidder) total_bids,
+  avg(c.top_bid_rate) over(partition by continent,country,bidder) top_bid_rate,
+  case when method='variable_threshold' then round((avg(top_bid_rate) over (partition by continent,country))*0.9,0) else 5 end thr
+  from country_entries_treated c
+  left join threshold_type using (continent,country)
+  ),
 
-         UNION ALL
+country_level_results as(select bidder,continent,country, range_,bidders_above_5,method,total_bids,top_bid_rate,thr,
+case
+when country='RU' then 0
+when method is null then default_filter
+when top_bid_rate<5 then default_filter
+when top_bid_rate<thr then default_filter
+else 1.0 end filter
+from countries_thr_cal
+order by continent,country,top_bid_rate desc, bidder
+),
 
-         SELECT Bidder, Continent, Country, null AS Region, null AS Host, Bids, Total, Average_Bid,
-                CASE WHEN Country='RU' THEN 0 ELSE defaultFilter END AS Filter
-         FROM countryEntries
+host_entries as(SELECT bidder_id bidder, geo_continent continent,geo_country country,host,
+  sum(ifnull(bids,0)) bids,
+  sum(ifnull(bid_requests,0)) total_bids,
+  sum(ifnull(case when error_code is null then total_top_bids end,0)) total_top_bids,
+  round(safe_divide(sum(ifnull(case when error_code is null then total_top_bids end,0)),sum(ifnull(case when error_code is null then bid_requests end,0)))*100,2) top_bid_rate,
+  -- case when sum(ifnull(bid_requests,0))>min_requests then 'high' else 'low' end request_volume,
+  FROM `freestar-prod.prebid_server_raw.unified_events_daily`
+  where (error_code IS NULL or error_code ='500')
+  and record_date >= from_date AND record_date < to_date
+  AND geo_continent IS NOT NULL
+  AND geo_country IS NOT NULL
+  AND bidder_id IS NOT NULL
+  group by 1,2,3,4
+  having sum(ifnull(bid_requests,0))>min_requests
+  ),
 
-         UNION ALL
+host_thr_type as(select continent, country,host,
+round(max(top_bid_rate) - min(top_bid_rate),1) range_,
+count(distinct(bidder)) bidders_above_5,
+case when round(max(top_bid_rate) - min(top_bid_rate),1)>10 then 'variable_threshold' else 'fixed_threshold' end method ,
+from host_entries
+where top_bid_rate>5
+group by 1,2,3),
 
-         SELECT Bidder, Continent, Country, null AS Region, null AS Host, Bids, Total, Average_Bid, 1 AS Filter
-         FROM allCountries
-         WHERE Continent IN (SELECT Continent FROM continentEntries WHERE continentEntries.Bidder = allCountries.Bidder)
-           AND (
-                         Bids/Total >= minCombinedBidRate OR Average_Bid >= minCombinedAverageBid
-                 OR (Bids/Total >= minBidRate AND Average_Bid >= minAverageBid)
-             )
-           AND Total > minRequests
-           AND NOT Country = 'RU'
+host_thr_cal as(
+  select bidder, continent,country,host,range_,bidders_above_5, method,
+  sum(h.total_bids) over(partition by continent,country,host,bidder) total_bids,
+  avg(h.top_bid_rate) over(partition by continent,country,host,bidder) top_bid_rate,
+  case when method='variable_threshold' then round((avg(top_bid_rate) over (partition by continent,country,host))*0.9,0) else 5 end thr
+  from host_entries h
+  left join host_thr_type using (continent,country,host)
+  ),
 
-         UNION ALL
+host_level_results as(
+  select bidder,continent,country,host, range_,bidders_above_5,method,total_bids,top_bid_rate,thr,
+case
+when country='RU' then 0
+when method is null then default_filter
+when top_bid_rate<5 then default_filter
+when top_bid_rate<thr then default_filter
+else 1.0 end filter
+from host_thr_cal
+order by continent,country,top_bid_rate desc, bidder),
 
-         SELECT Bidder, Continent, Country, null AS Region, Host, Bids, Total, Average_Bid, 1 AS Filter
-         FROM
-             (
-                 SELECT bidder_id Bidder, geo_continent Continent, geo_country Country, host AS Host,
-                        Sum(bids) Bids,
-                        Sum(bids) + Sum(no_bids) Total,
-                        COALESCE(SAFE_DIVIDE(SUM(avg_adjusted_cpm*bids), SUM(bids)), 0) Average_Bid
-                 FROM `freestar-prod.prebid_server_raw.unified_events_daily` AS auctions
-                 where error_code IS NULL
-                   AND geo_continent IS NOT NULL
-                   AND geo_country IS NOT NULL
-                   AND geo_continent != 'unknown'
-AND geo_country != 'unknown'
-AND bidder_id IS NOT NULL
-AND record_date >= fromDate AND record_date < toDate
-AND geo_country IN (SELECT Country FROM countryEntries WHERE countryEntries.Bidder = auctions.bidder_id)
-                 GROUP BY bidder_id, geo_continent, geo_country, host
-                 HAVING (
-                     Bids/Total >= minCombinedBidRate OR Average_Bid >= minCombinedAverageBid
-                     OR (Bids/Total >= minBidRate AND Average_Bid >= minAverageBid)
-                     )
-                    AND Total > minRequests
-                    AND NOT geo_country = 'RU'
-             )
 
-     )
-ORDER BY Bidder, Continent, Country, Region, Host
+unioned as(
+select bidder,continent,country,'default' host,total_bids,top_bid_rate,thr,filter
+from country_level_results
+
+union all
+
+select bidder,continent,country,host,total_bids,top_bid_rate,thr,filter
+from host_level_results
+),
+
+finalized as(select out.*
+from unioned out
+left join unioned in_ on in_.bidder=out.bidder and in_.continent=out.continent and in_.country=out.country and in_.host='default'
+where (out.host='default'  or out.filter!=in_.filter)
+)
+
+select bidder, continent,country,host, filter from finalized order by 1,2,3,4

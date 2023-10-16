@@ -170,8 +170,7 @@ from host_level_results
 finalized as(select out.* 
 from unioned out 
 left join unioned in_ on in_.bidder=out.bidder and in_.continent=out.continent and in_.country=out.country and in_.host='default'
-left join unioned in_2 on in_2.bidder=out.bidder and in_2.continent=out.continent and in_2.country='default'
-where (out.host='default'  or out.filter!=in_.filter) and (out.country='default' or out.filter!=in_2.filter)
+where (out.host='default'  or out.filter!=in_.filter)
 )
 
 select bidder, continent,country,host, filter from finalized order by 1,2,3,4
