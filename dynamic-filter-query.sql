@@ -1,6 +1,5 @@
 DECLARE from_date_ext timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 6 DAY) AS timestamp);
 DECLARE from_date timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) AS timestamp);
--- DECLARE to_date timestamp DEFAULT CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) AS timestamp);
 DECLARE to_date timestamp DEFAULT CAST(CURRENT_DATE() AS timestamp);
 DECLARE default_filter numeric DEFAULT 0.05;
 DECLARE min_requests int64 DEFAULT 5000;
@@ -108,8 +107,9 @@ where (error_code IS NULL or error_code ='500')
   AND geo_country IS NOT NULL
   AND bidder_id IS NOT NULL
 group by 1,2,3,4
-having sum(ifnull(bid_requests,0))>min_requests
+having sum(ifnull(bid_requests,0))>=min_requests
     ),
+
 
     host_thr_type as(select continent, country,host,
     round(max(top_bid_rate) - min(top_bid_rate),1) range_,
@@ -135,14 +135,15 @@ from host_entries h
 select bidder,continent,country,host, range_,bidders_above_5,method,requests,rev,top_bid_rate,thr,bid_rate,rpr,
     case
     when country='RU' then 0
+    when bidder='unrulyfsx' and bid_rate>=bid_rate_thr_4 and (rpr>=min_rpr) then 1
     when method is null then default_filter
     when top_bid_rate is null then default_filter
     when top_bid_rate<5 then default_filter
     when top_bid_rate<thr then default_filter
+
     else 1.0 end filter
 from host_thr_cal
 order by continent,country,top_bid_rate desc, bidder),
-
 
     unioned as (
 select bidder,continent,country,'default' host,requests,rev,top_bid_rate,thr,bid_rate,rpr,filter
@@ -155,7 +156,8 @@ from host_level_results
     ),
 
     refinement as (SELECT *,
-    case when filter=default_filter and (bid_rate>=bid_rate_thr_1) and (rpr>min_rpr) then 1
+    case
+    when filter=default_filter and (bid_rate>=bid_rate_thr_1) and (rpr>min_rpr) then 1
     when filter=default_filter and (bid_rate < bid_rate_thr_1 and bid_rate >= bid_rate_thr_2) and (rpr>min_rpr) then 0.75
     when filter=default_filter and (bid_rate < bid_rate_thr_2 and bid_rate >= bid_rate_thr_3) and (rpr>min_rpr) then 0.50
     when filter=default_filter and (bid_rate < bid_rate_thr_3 and bid_rate >= bid_rate_thr_4) and (rpr>min_rpr) then 0.25
@@ -165,9 +167,11 @@ from host_level_results
 from unioned
     ),
 
+
     finalized as (select out.* from refinement out
     left join refinement in_ on in_.bidder=out.bidder and in_.continent=out.continent and in_.country=out.country and in_.host='default'
 where out.host='default' or out.filter_adj!=in_.filter_adj
 order by 1,2,3,4)
 
-select bidder, continent,country,host, filter_adj filter from finalized order by 1,2,3,4
+
+select bidder, continent,country,host, filter_adj filter from finalized
