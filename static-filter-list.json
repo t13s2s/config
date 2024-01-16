@@ -1269,6 +1269,7 @@
             "US": 1
         }},
         {"domains": {
+            "getpocket.com": 0,
             "default": 1,
             "collectionsetc.com": 0,
             "sears.com": 0
