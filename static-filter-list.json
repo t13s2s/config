@@ -1211,7 +1211,12 @@
         "default": 1,
         "RU": 0
     }}],
-    "pulsepointfsx": [{}],
+    "pulsepointfsx": [{"domains": {
+        "ino.com": 0,
+        "default": 1,
+        "freetetris.org": 0,
+        "virtualglobetrotting.com": 0
+    }}],
     "appnexus": [{"geos": {
         "default": 1,
         "RU": 0
