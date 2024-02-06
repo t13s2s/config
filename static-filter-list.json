@@ -1305,9 +1305,15 @@
                 "domain4.com": 0
             }
         },
-        {"formats": {
-            "default": 0,
-            "video": 1
-        }}
+        {
+            "formats": {
+                "default": 0,
+                "video": 1
+            },
+            "domains": {
+                "default": 0,
+                "domain1.com": 1
+            }
+        }
     ]
 }
