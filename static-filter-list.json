@@ -1294,9 +1294,9 @@
                 "video": 1
             },
             "domains": {
-                "domain3.com": 0,
-                "default": 1,
-                "domain4.com": 0
+                "domain3.com": 1,
+                "default": 0,
+                "domain4.com": 1
             }
         },
         {
