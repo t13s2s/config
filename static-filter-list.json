@@ -1290,8 +1290,8 @@
         }},
         {
             "formats": {
-                "default": 0,
-                "video": 1
+                "default": 1,
+                "video": 0
             },
             "domains": {
                 "domain3.com": 1,
