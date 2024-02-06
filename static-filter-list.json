@@ -1294,9 +1294,16 @@
                 "domain1.com": 0
             }
         },
-        {"formats": {
-            "default": 0,
-            "video": 1
-        }}
+        {
+            "formats": {
+                "default": 0,
+                "video": 1
+            },
+            "domains": {
+                "domain3.com": 0,
+                "default": 1,
+                "domain4.com": 0
+            }
+        }
     ]
 }
