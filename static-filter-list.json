@@ -889,7 +889,20 @@
             "default": 1,
             "RU": 0
         }},
-        {}
+        {"domains": {
+            "online-tech-tips.com": 0,
+            "default": 1,
+            "bookingbuddy.com": 0,
+            "scorestream.com": 0,
+            "tennistonic.com": 0,
+            "ino.com": 0,
+            "calcxml.com": 0,
+            "wordgamehelper.com": 0,
+            "270towin.com": 0,
+            "eliteprospects.com": 0,
+            "myabandonware.com": 0,
+            "virtualglobetrotting.com": 0
+        }}
     ],
     "amobee": [{"formats": {
         "default": 0,
