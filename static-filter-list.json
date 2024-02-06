@@ -1288,17 +1288,10 @@
             "default": 0,
             "video": 1
         }},
-        {
-            "formats": {
-                "default": 1,
-                "video": 0
-            },
-            "domains": {
-                "domain3.com": 1,
-                "default": 0,
-                "domain4.com": 1
-            }
-        },
+        {"formats": {
+            "default": 1,
+            "video": 0
+        }},
         {
             "formats": {
                 "banner": 0,
