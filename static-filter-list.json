@@ -259,69 +259,6 @@
             "aljazeera.net": 0
         }}
     ],
-    "ttdfsx": [
-        {"channels": {
-            "default": 0,
-            "web": 1
-        }},
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"domains": {
-            "mmanews.com": 0,
-            "planetabj.com": 0,
-            "quizfactory.com": 0,
-            "secrant.com": 0,
-            "spanishdict.com": 0,
-            "netronline.com": 0,
-            "thekrazycouponlady.com": 0,
-            "unitedstateszipcodes.org": 0,
-            "epuzzle.info": 0,
-            "lazona.basketballnetwork.net": 0,
-            "geeky-gadgets.com": 0,
-            "windingroad.com": 0,
-            "ingles.com": 0,
-            "watchdocumentaries.com": 0,
-            "atozsports.com": 0,
-            "basketball-gm.com": 0,
-            "default": 1,
-            "smartertravel.com": 0,
-            "profootballnetwork.com": 0,
-            "nbareplay.net": 0,
-            "realgm.com": 0,
-            "keybr.com": 0,
-            "newworldencyclopedia.org": 0,
-            "aftvnews.com": 0,
-            "collegefootballnews.com": 0,
-            "nbafullhd.com": 0,
-            "sescoops.com": 0,
-            "skateboarding.com": 0,
-            "zengm.com": 0,
-            "vegasinsider.com": 0,
-            "dobberhockey.com": 0,
-            "football-gm.com": 0,
-            "zacks.com": 0,
-            "tigerdroppings.com": 0,
-            "ageful.com": 0,
-            "kuai.media": 0,
-            "panzoid.com": 0,
-            "slamonline.com": 0,
-            "neatorama.com": 0,
-            "symbaloo.com": 0,
-            "healthday.com": 0,
-            "puzzlefactory.pl": 0,
-            "rokuguide.com": 0,
-            "thesuntimes.com": 0,
-            "braceletbook.com": 0,
-            "testonboardingtoday.com": 0,
-            "fv2freegifts.org": 0
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }}
-    ],
     "baidufsx": [
         {"geos": {
             "DE": 1,
@@ -890,6 +827,70 @@
             "pdfmanualer.dk": 1
         }}
     ],
+    "ttdfsx": [
+        {"channels": {
+            "web": 1,
+            "default": 0
+        }},
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {"domains": {
+            "mmanews.com": 0,
+            "planetabj.com": 0,
+            "quizfactory.com": 0,
+            "secrant.com": 0,
+            "spanishdict.com": 0,
+            "netronline.com": 0,
+            "thekrazycouponlady.com": 0,
+            "unitedstateszipcodes.org": 0,
+            "epuzzle.info": 0,
+            "lazona.basketballnetwork.net": 0,
+            "geeky-gadgets.com": 0,
+            "windingroad.com": 0,
+            "ingles.com": 0,
+            "watchdocumentaries.com": 0,
+            "atozsports.com": 0,
+            "basketball-gm.com": 0,
+            "default": 1,
+            "smartertravel.com": 0,
+            "profootballnetwork.com": 0,
+            "nbareplay.net": 0,
+            "realgm.com": 0,
+            "keybr.com": 0,
+            "newworldencyclopedia.org": 0,
+            "aftvnews.com": 0,
+            "collegefootballnews.com": 0,
+            "nbafullhd.com": 0,
+            "sescoops.com": 0,
+            "skateboarding.com": 0,
+            "zengm.com": 0,
+            "vegasinsider.com": 0,
+            "dobberhockey.com": 0,
+            "football-gm.com": 0,
+            "zacks.com": 0,
+            "tigerdroppings.com": 0,
+            "ageful.com": 0,
+            "kuai.media": 0,
+            "panzoid.com": 0,
+            "slamonline.com": 0,
+            "neatorama.com": 0,
+            "symbaloo.com": 0,
+            "healthday.com": 0,
+            "puzzlefactory.pl": 0,
+            "rokuguide.com": 0,
+            "thesuntimes.com": 0,
+            "braceletbook.com": 0,
+            "testonboardingtoday.com": 0,
+            "fv2freegifts.org": 0
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {}
+    ],
     "amobee": [{"formats": {
         "default": 0,
         "banner": 1
@@ -1212,8 +1213,8 @@
         "RU": 0
     }}],
     "pulsepointfsx": [{"domains": {
-        "ino.com": 0,
         "default": 1,
+        "ino.com": 0,
         "freetetris.org": 0,
         "virtualglobetrotting.com": 0
     }}],
