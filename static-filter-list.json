@@ -829,12 +829,12 @@
     ],
     "ttdfsx": [
         {"channels": {
-            "default": 0,
-            "web": 1
+            "web": 1,
+            "default": 0
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -888,8 +888,7 @@
         {"geos": {
             "default": 1,
             "RU": 0
-        }},
-        {}
+        }}
     ],
     "amobee": [{"formats": {
         "default": 0,
@@ -1284,8 +1283,8 @@
     ],
     "aol": [
         {"formats": {
-            "banner": 1,
             "default": 0,
+            "banner": 1,
             "video": 1
         }},
         {
@@ -1300,12 +1299,12 @@
         },
         {
             "formats": {
-                "banner": 0,
-                "default": 1
+                "default": 1,
+                "banner": 0
             },
             "domains": {
-                "domain2.com": 0,
                 "default": 1,
+                "domain2.com": 0,
                 "domain1.com": 0
             }
         }
