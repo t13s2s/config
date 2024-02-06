@@ -1294,6 +1294,9 @@
                 "domain1.com": 0
             }
         },
-        {}
+        {"formats": {
+            "default": 0,
+            "video": 1
+        }}
     ]
 }
