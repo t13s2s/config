@@ -889,10 +889,17 @@
             "default": 1,
             "RU": 0
         }},
-        {"formats": {
-            "default": 1,
-            "video": 0
-        }}
+        {
+            "formats": {
+                "default": 1,
+                "video": 0
+            },
+            "domains": {
+                "default": 0,
+                "deepai.org": 1,
+                "ssbwiki.com": 1
+            }
+        }
     ],
     "amobee": [{"formats": {
         "default": 0,
