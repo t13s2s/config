@@ -828,7 +828,11 @@
         }}
     ],
     "ttdfsx": [
-        {},
+        {"channels": {
+            "app": 0,
+            "amp": 0,
+            "default": 1
+        }},
         {"formats": {
             "banner": 1,
             "default": 0,
