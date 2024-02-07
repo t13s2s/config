@@ -834,7 +834,8 @@
         }},
         {"formats": {
             "banner": 1,
-            "default": 0
+            "default": 0,
+            "video": 1
         }},
         {"domains": {
             "mmanews.com": 0,
