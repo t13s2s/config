@@ -888,7 +888,8 @@
         {"geos": {
             "default": 1,
             "RU": 0
-        }}
+        }},
+        {}
     ],
     "amobee": [{"formats": {
         "default": 0,
