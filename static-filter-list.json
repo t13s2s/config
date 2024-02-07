@@ -889,7 +889,10 @@
             "default": 1,
             "RU": 0
         }},
-        {}
+        {"formats": {
+            "default": 1,
+            "video": 0
+        }}
     ],
     "amobee": [{"formats": {
         "default": 0,
