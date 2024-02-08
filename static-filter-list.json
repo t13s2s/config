@@ -830,12 +830,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
             "default": 0,
+            "banner": 1,
             "video": 1
         }},
         {"domains": {
@@ -1290,9 +1290,10 @@
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
-            "sears.com": 0,
-            "collectionsetc.com": 0
-        }}
+            "collectionsetc.com": 0,
+            "sears.com": 0
+        }},
+        {}
     ],
     "aol": [
         {"formats": {
