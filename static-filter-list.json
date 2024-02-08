@@ -1293,10 +1293,17 @@
             "collectionsetc.com": 0,
             "sears.com": 0
         }},
-        {"formats": {
-            "default": 1,
-            "video": 0
-        }}
+        {
+            "formats": {
+                "default": 1,
+                "video": 0
+            },
+            "domains": {
+                "default": 0,
+                "deepai.org": 1,
+                "ssbwiki.com": 1
+            }
+        }
     ],
     "aol": [
         {"formats": {
