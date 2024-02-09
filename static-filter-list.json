@@ -1290,8 +1290,8 @@
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
-            "collectionsetc.com": 0,
-            "sears.com": 0
+            "sears.com": 0,
+            "collectionsetc.com": 0
         }},
         {
             "formats": {
@@ -1307,8 +1307,8 @@
     ],
     "aol": [
         {"formats": {
-            "default": 0,
             "banner": 1,
+            "default": 0,
             "video": 1
         }},
         {
@@ -1323,14 +1323,15 @@
         },
         {
             "formats": {
-                "default": 1,
-                "banner": 0
+                "banner": 0,
+                "default": 1
             },
             "domains": {
-                "default": 1,
                 "domain2.com": 0,
+                "default": 1,
                 "domain1.com": 0
             }
-        }
+        },
+        {}
     ]
 }
