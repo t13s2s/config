@@ -833,7 +833,10 @@
             "amp": 0,
             "default": 1
         }},
-        {},
+        {"formats": {
+            "native": 0,
+            "default": 1
+        }},
         {"domains": {
             "mmanews.com": 0,
             "planetabj.com": 0,
