@@ -830,14 +830,10 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
-        {"formats": {
-            "default": 0,
-            "banner": 1,
-            "video": 1
-        }},
+        {},
         {"domains": {
             "mmanews.com": 0,
             "planetabj.com": 0,
@@ -1307,8 +1303,8 @@
     ],
     "aol": [
         {"formats": {
-            "banner": 1,
             "default": 0,
+            "banner": 1,
             "video": 1
         }},
         {
@@ -1323,12 +1319,12 @@
         },
         {
             "formats": {
-                "banner": 0,
-                "default": 1
+                "default": 1,
+                "banner": 0
             },
             "domains": {
-                "domain2.com": 0,
                 "default": 1,
+                "domain2.com": 0,
                 "domain1.com": 0
             }
         },
