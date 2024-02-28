@@ -1304,17 +1304,11 @@
         }
     ],
     "aol": [
-        {
-            "formats": {
-                "banner": 1,
-                "default": 0,
-                "video": 1
-            },
-            "channels": {
-                "web": 1,
-                "default": 0
-            }
-        },
+        {"formats": {
+            "banner": 1,
+            "default": 0,
+            "video": 1
+        }},
         {
             "formats": {
                 "default": 1,
