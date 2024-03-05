@@ -101,23 +101,34 @@
         }
     }],
     "newtest2": [{}],
-    "testPbsDefault": [{
-        "geos": {
-            "AF": 1,
-            "default": 0,
-            "AX": 1
-        },
-        "formats": {
-            "banner": 1,
-            "default": 0
-        },
-        "channels": {
-            "web": 1,
-            "default": 0
-        },
-        "domains": {
-            "test.com": 1,
-            "default": 0
+    "testPbsDefault": [
+        {"formats": {
+            "banner": 0,
+            "default": 1
+        }},
+        {
+            "geos": {
+                "default": 1,
+                "AL": 0,
+                "AF": 0,
+                "AX": 0
+            },
+            "formats": {
+                "banner": 0,
+                "default": 1,
+                "video": 0,
+                "native": 0
+            },
+            "channels": {
+                "app": 0,
+                "default": 1,
+                "web": 0,
+                "amp": 0
+            },
+            "domains": {
+                "test.com": 0,
+                "default": 1
+            }
         }
-    }]
+    ]
 }
