@@ -101,5 +101,30 @@
         }
     }],
     "newtest2": [{}],
-    "testPbsDefault": []
+    "testPbsDefault": [
+        {
+            "geos": {
+                "AF": 1,
+                "default": 0,
+                "AX": 1
+            },
+            "formats": {
+                "banner": 1,
+                "default": 0
+            },
+            "channels": {
+                "web": 1,
+                "default": 0
+            },
+            "domains": {
+                "test.com": 1,
+                "default": 0
+            }
+        },
+        {"formats": {
+            "banner": 0,
+            "default": 1,
+            "video": 0
+        }}
+    ]
 }
