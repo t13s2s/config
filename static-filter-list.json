@@ -121,10 +121,20 @@
                 "default": 0
             }
         },
-        {"formats": {
-            "banner": 0,
-            "default": 1,
-            "video": 0
-        }}
+        {
+            "formats": {
+                "banner": 0,
+                "default": 1,
+                "video": 0
+            },
+            "channels": {
+                "app": 1,
+                "default": 0
+            },
+            "domains": {
+                "test.com": 0,
+                "default": 1
+            }
+        }
     ]
 }
