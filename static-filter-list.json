@@ -128,7 +128,8 @@
                 "video": 0
             },
             "channels": {
-                "app": 1,
+                "web": 1,
+                "amp": 1,
                 "default": 0
             },
             "domains": {
