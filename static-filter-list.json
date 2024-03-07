@@ -1330,7 +1330,6 @@
                 "domain1.com": 0
             }
         },
-        {},
         {
             "geos": {
                 "default": 1,
