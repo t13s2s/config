@@ -137,10 +137,17 @@
                 "default": 1
             }
         },
-        {"formats": {
-            "banner": 0,
-            "default": 1,
-            "video": 0
-        }}
+        {
+            "formats": {
+                "banner": 0,
+                "default": 1,
+                "video": 0
+            },
+            "channels": {
+                "app": 0,
+                "web": 0,
+                "default": 1
+            }
+        }
     ]
 }
