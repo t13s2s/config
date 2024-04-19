@@ -828,11 +828,17 @@
         }}
     ],
     "ttdfsx": [
-        {"channels": {
-            "app": 0,
-            "amp": 0,
-            "default": 1
-        }},
+        {
+            "channels": {
+                "app": 0,
+                "amp": 0,
+                "default": 1
+            },
+            "domains": {
+                "interestingengineering.com": 0,
+                "default": 1
+            }
+        },
         {"formats": {
             "native": 0,
             "default": 1
