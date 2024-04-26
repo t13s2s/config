@@ -830,12 +830,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "native": 0,
-            "default": 1
+            "default": 1,
+            "native": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -896,8 +896,8 @@
                 "video": 0
             },
             "domains": {
-                "webdesignledger.com": 1,
-                "default": 0
+                "default": 0,
+                "webdesignledger.com": 1
             }
         }
     ],
@@ -1303,6 +1303,12 @@
             }
         }
     ],
+    "sovrn": [{"formats": {
+        "banner": 0,
+        "default": 1,
+        "video": 0,
+        "native": 0
+    }}],
     "aol": [
         {"formats": {
             "default": 0,
