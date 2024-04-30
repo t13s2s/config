@@ -830,12 +830,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 1,
-            "native": 0
+            "native": 0,
+            "default": 1
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -897,7 +897,11 @@
             },
             "domains": {
                 "default": 0,
-                "webdesignledger.com": 1
+                "bobistheoilguy.com": 1,
+                "eliteprospects.com": 1,
+                "270towin.com": 1,
+                "webdesignledger.com": 1,
+                "adsoftheworld.com": 1
             }
         }
     ],
@@ -1304,10 +1308,10 @@
         }
     ],
     "sovrn": [{"formats": {
-        "banner": 0,
         "default": 1,
-        "video": 0,
-        "native": 0
+        "native": 0,
+        "banner": 0,
+        "video": 0
     }}],
     "aol": [
         {"formats": {
