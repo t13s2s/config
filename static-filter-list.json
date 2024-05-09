@@ -890,21 +890,7 @@
         {"geos": {
             "default": 1,
             "RU": 0
-        }},
-        {
-            "formats": {
-                "default": 1,
-                "video": 0
-            },
-            "domains": {
-                "default": 0,
-                "bobistheoilguy.com": 1,
-                "eliteprospects.com": 1,
-                "270towin.com": 1,
-                "webdesignledger.com": 1,
-                "adsoftheworld.com": 1
-            }
-        }
+        }}
     ],
     "amobee": [{"formats": {
         "default": 0,
