@@ -1216,8 +1216,9 @@
         "RU": 0
     }}],
     "pulsepointfsx": [{"domains": {
-        "default": 1,
         "ino.com": 0,
+        "default": 1,
+        "reason.com": 0,
         "freetetris.org": 0,
         "virtualglobetrotting.com": 0
     }}],
@@ -1281,9 +1282,9 @@
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
+            "sears.com": 0,
             "pupperish.com": 0,
-            "collectionsetc.com": 0,
-            "sears.com": 0
+            "collectionsetc.com": 0
         }},
         {
             "formats": {
