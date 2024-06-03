@@ -1214,38 +1214,29 @@
         "default": 1,
         "RU": 0
     }}],
-    "pulsepointfsx": [
-        {"domains": {
-            "ino.com": 0,
-            "default": 1,
-            "reason.com": 0,
-            "freetetris.org": 0,
-            "virtualglobetrotting.com": 0
-        }},
-        {"domains": {
-            "uexpress.com": 1,
-            "emojipedia.org": 1,
-            "smithsonianmag.com": 1,
-            "worldofsolitaire.com": 1,
-            "time.is": 1,
-            "uscreditcardguide.com": 1,
-            "dnschecker.org": 1,
-            "basketball-reference.com": 1,
-            "gocomics.com": 1,
-            "online-solitaire.com": 1,
-            "physicsclassroom.com": 1,
-            "reuters.com": 1,
-            "greatschools.org": 1,
-            "basketball-gm.com": 1,
-            "default": 0,
-            "doodle.com": 1,
-            "signup.com": 1,
-            "boredpanda.com": 1,
-            "baseball-reference.com": 1,
-            "lingojam.com": 1,
-            "zerogpt.com": 1
-        }}
-    ],
+    "pulsepointfsx": [{"domains": {
+        "uexpress.com": 1,
+        "emojipedia.org": 1,
+        "smithsonianmag.com": 1,
+        "worldofsolitaire.com": 1,
+        "time.is": 1,
+        "uscreditcardguide.com": 1,
+        "dnschecker.org": 1,
+        "basketball-reference.com": 1,
+        "gocomics.com": 1,
+        "online-solitaire.com": 1,
+        "physicsclassroom.com": 1,
+        "reuters.com": 1,
+        "greatschools.org": 1,
+        "basketball-gm.com": 1,
+        "default": 0,
+        "doodle.com": 1,
+        "signup.com": 1,
+        "boredpanda.com": 1,
+        "baseball-reference.com": 1,
+        "lingojam.com": 1,
+        "zerogpt.com": 1
+    }}],
     "appnexus": [{"geos": {
         "default": 1,
         "RU": 0
