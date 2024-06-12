@@ -67,6 +67,10 @@
         "domain": "test82.com",
         "name": "dashboard testing company"
     },
+    "757": {
+        "domain": "applicationintegrationtest13company.com",
+        "name": "applicationintegrationtest13"
+    },
     "747": {
         "domain": "qa.app.test",
         "name": "Anurag_Test_QA"
