@@ -8,8 +8,7 @@
         {"geos": {
             "default": 1,
             "RU": 0
-        }},
-        {}
+        }}
     ],
     "yahoossp": [{"geos": {
         "TT": 0,
