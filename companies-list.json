@@ -1,12 +1,4 @@
 {
-    "79": {
-        "domain": "freestar.com",
-        "name": "Freestar"
-    },
-    "1073": {
-        "domain": "freestarweatherapp_ios.com",
-        "name": "App Testing Company"
-    },
     "296": {
         "domain": "quotefancy.com",
         "name": "122 Milisekundes MB"
@@ -15,17 +7,9 @@
         "domain": "varna-towers.bg",
         "name": "VarnaTowers"
     },
-    "841": {
-        "domain": "130point.com",
-        "name": "130 Point Pty Ltd"
-    },
     "753": {
         "domain": "applicationintegrationtest8company.com",
         "name": "applicationintegrationtest8"
-    },
-    "743": {
-        "domain": "com.anurag.apps",
-        "name": "Anurag_App_Test"
     },
     "215": {
         "domain": "mp3fiber.com",
@@ -35,10 +19,6 @@
         "domain": "applicationintegrationtest9company.com",
         "name": "applicationintegrationtest9"
     },
-    "744": {
-        "domain": "ynapmoc.io",
-        "name": "Ynapmoc Guaynamera LLC"
-    },
     "359": {
         "domain": "moomoo.io",
         "name": " FRVR Limited"
@@ -47,21 +27,9 @@
         "domain": "creatingnewtest1.com",
         "name": "creatingnewtest1"
     },
-    "525": {
-        "domain": "stockcharts.com",
-        "name": "StockCharts.com"
-    },
-    "745": {
-        "domain": "skyroth.com",
-        "name": "Sky Roth"
-    },
     "756": {
         "domain": "sinan.com",
         "name": "SinanTest"
-    },
-    "746": {
-        "domain": "testingstuffinc.com",
-        "name": "testingstuffinc"
     },
     "658": {
         "domain": "test82.com",
@@ -71,13 +39,53 @@
         "domain": "applicationintegrationtest13company.com",
         "name": "applicationintegrationtest13"
     },
-    "747": {
-        "domain": "qa.app.test",
-        "name": "Anurag_Test_QA"
-    },
     "758": {
         "domain": "",
         "name": "applicationintegrationtest14"
+    },
+    "759": {
+        "domain": "",
+        "name": "applicationintegrationtest15"
+    },
+    "79": {
+        "domain": "freestar.com",
+        "name": "Freestar"
+    },
+    "1073": {
+        "domain": "freestarweatherapp_ios.com",
+        "name": "App Testing Company"
+    },
+    "760": {
+        "domain": "",
+        "name": "applicationintegrationtest16"
+    },
+    "841": {
+        "domain": "130point.com",
+        "name": "130 Point Pty Ltd"
+    },
+    "743": {
+        "domain": "com.anurag.apps",
+        "name": "Anurag_App_Test"
+    },
+    "744": {
+        "domain": "ynapmoc.io",
+        "name": "Ynapmoc Guaynamera LLC"
+    },
+    "525": {
+        "domain": "stockcharts.com",
+        "name": "StockCharts.com"
+    },
+    "745": {
+        "domain": "skyroth.com",
+        "name": "Sky Roth"
+    },
+    "746": {
+        "domain": "testingstuffinc.com",
+        "name": "testingstuffinc"
+    },
+    "747": {
+        "domain": "qa.app.test",
+        "name": "Anurag_Test_QA"
     },
     "825": {
         "domain": "365chess.com",
@@ -86,10 +94,6 @@
     "748": {
         "domain": "andrii.com",
         "name": "AndriiA Company"
-    },
-    "759": {
-        "domain": "",
-        "name": "applicationintegrationtest15"
     },
     "749": {
         "domain": "testcompany.net",
