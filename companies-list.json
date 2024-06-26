@@ -362,5 +362,9 @@
     "749": {
         "domain": "testcompany.net",
         "name": "Test company"
+    },
+    "826": {
+        "domain": "testingnewcompany3.com",
+        "name": "testingnewcompany3"
     }
 }
