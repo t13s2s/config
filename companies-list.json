@@ -1,55 +1,15 @@
 {
-    "790": {
-        "domain": "sinan-june-1719302310455.com",
-        "name": "SinanJune1719302310455"
-    },
-    "791": {
-        "domain": "sinan-july.com",
-        "name": "SinanJuly"
-    },
-    "792": {
-        "domain": "SinanMay",
-        "name": "SinanMay"
-    },
-    "793": {
-        "domain": "sinan-1719316049657.com",
-        "name": "Sinan1719316049657"
-    },
-    "794": {
-        "domain": "sinan-1719316552296.com",
-        "name": "Sinan1719316552296"
-    },
-    "795": {
-        "domain": "sinan-1719316593870.com",
-        "name": "Sinan1719316593870"
-    },
     "752": {
         "domain": "varna-towers.bg",
         "name": "VarnaTowers"
-    },
-    "796": {
-        "domain": "sinan-1719316637506.com",
-        "name": "Sinan1719316637506"
     },
     "753": {
         "domain": "applicationintegrationtest8company.com",
         "name": "applicationintegrationtest8"
     },
-    "797": {
-        "domain": "sinan-1719316719449.com",
-        "name": "Sinan1719316719449"
-    },
-    "830": {
-        "domain": "",
-        "name": "Test 06-21-2024-2"
-    },
     "754": {
         "domain": "applicationintegrationtest9company.com",
         "name": "applicationintegrationtest9"
-    },
-    "798": {
-        "domain": "sinan-1719316828443.com",
-        "name": "Sinan1719316828443"
     },
     "755": {
         "domain": "creatingnewtest1.com",
@@ -58,10 +18,6 @@
     "359": {
         "domain": "moomoo.io",
         "name": " FRVR Limited"
-    },
-    "799": {
-        "domain": "sinan-1719316965963.com",
-        "name": "Sinan1719316965963"
     },
     "756": {
         "domain": "sinan.com",
@@ -102,10 +58,6 @@
     "763": {
         "domain": "genshin-builds.com",
         "name": "AIPurrjectsOlivier"
-    },
-    "841": {
-        "domain": "130point.com",
-        "name": "130 Point Pty Ltd"
     },
     "764": {
         "domain": "www.9and10news.com",
@@ -175,10 +127,6 @@
         "domain": "sinan-1719322203727.com",
         "name": "Sinan1719322203727"
     },
-    "296": {
-        "domain": "quotefancy.com",
-        "name": "122 Milisekundes MB"
-    },
     "770": {
         "domain": "sinan-1718623536274.com",
         "name": "Sinan1718623536274"
@@ -202,10 +150,6 @@
     "775": {
         "domain": "testWizard2",
         "name": "testWizard2"
-    },
-    "215": {
-        "domain": "mp3fiber.com",
-        "name": "Whirl Click Inc."
     },
     "776": {
         "domain": "testWizard3",
@@ -271,10 +215,6 @@
         "domain": "sinan-1719329934090.com",
         "name": "Sinan1719329934090"
     },
-    "79": {
-        "domain": "freestar.com",
-        "name": "Freestar"
-    },
     "780": {
         "domain": "sinan-1719223235719.com",
         "name": "Sinan1719223235719"
@@ -303,10 +243,6 @@
         "domain": "www.9and10news.com",
         "name": "Lake Effect Digital Test 5"
     },
-    "743": {
-        "domain": "com.anurag.apps",
-        "name": "Anurag_App_Test"
-    },
     "787": {
         "domain": "www.9and10news.com",
         "name": "Lake Effect Digital Test 6"
@@ -314,10 +250,6 @@
     "820": {
         "domain": "sinan1-1719330209901.com",
         "name": "Sinan11719330209901"
-    },
-    "744": {
-        "domain": "ynapmoc.io",
-        "name": "Ynapmoc Guaynamera LLC"
     },
     "821": {
         "domain": "sinan1-1719375719426.com",
@@ -327,10 +259,6 @@
         "domain": "www.9and10news.com",
         "name": "Lake Effect Digital Test 7"
     },
-    "745": {
-        "domain": "skyroth.com",
-        "name": "Sky Roth"
-    },
     "789": {
         "domain": "sinan-june-1.com",
         "name": "SinanJune1"
@@ -339,33 +267,17 @@
         "domain": "sinan-1719376062879.com",
         "name": "Sinan1719376062879"
     },
-    "746": {
-        "domain": "testingstuffinc.com",
-        "name": "testingstuffinc"
-    },
     "823": {
         "domain": "sinan-1719378087177.com",
         "name": "Sinan1719378087176"
-    },
-    "747": {
-        "domain": "qa.app.test",
-        "name": "Anurag_Test_QA"
     },
     "824": {
         "domain": "sinan-1719378402570.com",
         "name": "Sinan1719378402570"
     },
-    "748": {
-        "domain": "andrii.com",
-        "name": "AndriiA Company"
-    },
     "825": {
         "domain": "www.9and10news.com",
         "name": "Lake Effect Digital Test 8"
-    },
-    "749": {
-        "domain": "testcompany.net",
-        "name": "Test company"
     },
     "826": {
         "domain": "testingnewcompany3.com",
@@ -382,5 +294,97 @@
     "829": {
         "domain": "",
         "name": "Julia Test 2 App"
+    },
+    "790": {
+        "domain": "sinan-june-1719302310455.com",
+        "name": "SinanJune1719302310455"
+    },
+    "791": {
+        "domain": "sinan-july.com",
+        "name": "SinanJuly"
+    },
+    "792": {
+        "domain": "SinanMay",
+        "name": "SinanMay"
+    },
+    "793": {
+        "domain": "sinan-1719316049657.com",
+        "name": "Sinan1719316049657"
+    },
+    "794": {
+        "domain": "sinan-1719316552296.com",
+        "name": "Sinan1719316552296"
+    },
+    "795": {
+        "domain": "sinan-1719316593870.com",
+        "name": "Sinan1719316593870"
+    },
+    "796": {
+        "domain": "sinan-1719316637506.com",
+        "name": "Sinan1719316637506"
+    },
+    "797": {
+        "domain": "sinan-1719316719449.com",
+        "name": "Sinan1719316719449"
+    },
+    "830": {
+        "domain": "",
+        "name": "Test 06-21-2024-2"
+    },
+    "798": {
+        "domain": "sinan-1719316828443.com",
+        "name": "Sinan1719316828443"
+    },
+    "831": {
+        "domain": "",
+        "name": "Test 06-26-2024-733pm"
+    },
+    "799": {
+        "domain": "sinan-1719316965963.com",
+        "name": "Sinan1719316965963"
+    },
+    "841": {
+        "domain": "130point.com",
+        "name": "130 Point Pty Ltd"
+    },
+    "296": {
+        "domain": "quotefancy.com",
+        "name": "122 Milisekundes MB"
+    },
+    "215": {
+        "domain": "mp3fiber.com",
+        "name": "Whirl Click Inc."
+    },
+    "79": {
+        "domain": "freestar.com",
+        "name": "Freestar"
+    },
+    "743": {
+        "domain": "com.anurag.apps",
+        "name": "Anurag_App_Test"
+    },
+    "744": {
+        "domain": "ynapmoc.io",
+        "name": "Ynapmoc Guaynamera LLC"
+    },
+    "745": {
+        "domain": "skyroth.com",
+        "name": "Sky Roth"
+    },
+    "746": {
+        "domain": "testingstuffinc.com",
+        "name": "testingstuffinc"
+    },
+    "747": {
+        "domain": "qa.app.test",
+        "name": "Anurag_Test_QA"
+    },
+    "748": {
+        "domain": "andrii.com",
+        "name": "AndriiA Company"
+    },
+    "749": {
+        "domain": "testcompany.net",
+        "name": "Test company"
     }
 }
