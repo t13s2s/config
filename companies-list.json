@@ -662,5 +662,9 @@
     "749": {
         "domain": "testcompany.net",
         "name": "Test company"
+    },
+    "903": {
+        "domain": "SinanNewVarna.com",
+        "name": "SinanNewVarna"
     }
 }
