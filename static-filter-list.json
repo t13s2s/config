@@ -32,20 +32,6 @@
         "PL": 0,
         "EC": 0
     }}],
-    "quantcastfsx": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {"domains": {
-            "default": 1,
-            "aljazeera.net": 0
-        }}
-    ],
     "baidufsx": [
         {"geos": {
             "DE": 1,
@@ -617,12 +603,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
             "default": 0,
+            "banner": 1,
             "video": 1
         }},
         {"domains": {
@@ -681,6 +667,21 @@
         {"geos": {
             "default": 1,
             "RU": 0
+        }}
+    ],
+    "quantcastfsx": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "studylight.org": 0,
+            "default": 1,
+            "aljazeera.net": 0
         }}
     ],
     "amobee": [{"formats": {
