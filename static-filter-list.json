@@ -988,10 +988,6 @@
         {"formats": {
             "banner": 1,
             "default": 0
-        }},
-        {"domains": {
-            "studylight.org": 0,
-            "default": 1
         }}
     ],
     "basis": [
