@@ -671,16 +671,16 @@
     ],
     "quantcastfsx": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
             "RU": 0
         }},
         {"domains": {
-            "studylight.org": 0,
             "default": 1,
+            "studylight.org": 0,
             "aljazeera.net": 0
         }}
     ],
@@ -725,6 +725,20 @@
         {"formats": {
             "default": 0,
             "banner": 1
+        }}
+    ],
+    "bidswitch": [
+        {"formats": {
+            "default": 0,
+            "banner": 1
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "default": 1,
+            "coindesk.com": 0
         }}
     ],
     "adobe": [
@@ -972,22 +986,12 @@
             "forbes.co": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
-        }}
-    ],
-    "bidswitch": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
-            "default": 1,
-            "coindesk.com": 0
+            "studylight.org": 0,
+            "default": 1
         }}
     ],
     "basis": [
