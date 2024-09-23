@@ -407,6 +407,10 @@
         "domain": "quotefancy.com",
         "name": "122 Milisekundes MB"
     },
+    "970": {
+        "domain": "agtypefieldtest4.com",
+        "name": "testAddTagTypeField4"
+    },
     "850": {
         "domain": "itt-test-1720083962710.com",
         "name": "ITT-test1720083962710"
