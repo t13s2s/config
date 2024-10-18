@@ -671,17 +671,18 @@
     ],
     "quantcastfsx": [
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"geos": {
             "default": 1,
             "RU": 0
         }},
         {"domains": {
-            "default": 1,
             "studylight.org": 0,
-            "aljazeera.net": 0
+            "default": 1,
+            "aljazeera.net": 0,
+            "mejoress.com": 0
         }}
     ],
     "amobee": [{"formats": {
@@ -986,8 +987,8 @@
             "forbes.co": 1
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }}
     ],
     "basis": [
