@@ -1008,19 +1008,17 @@
     }}],
     "pulsepointfsx": [
         {"domains": {
+            "default": 0,
             "uexpress.com": 1,
             "emojipedia.org": 1,
             "smithsonianmag.com": 1,
-            "time.is": 1,
-            "uscreditcardguide.com": 1,
-            "gocomics.com": 1,
-            "physicsclassroom.com": 1,
-            "reuters.com": 1,
-            "greatschools.org": 1,
-            "default": 0,
             "signup.com": 1,
+            "uscreditcardguide.com": 1,
             "lingojam.com": 1,
-            "zerogpt.com": 1
+            "zerogpt.com": 1,
+            "gocomics.com": 1,
+            "reuters.com": 1,
+            "greatschools.org": 1
         }},
         {"geos": {
             "DE": 0,
