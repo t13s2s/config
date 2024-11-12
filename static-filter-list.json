@@ -671,18 +671,18 @@
     ],
     "quantcastfsx": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
             "RU": 0
         }},
         {"domains": {
-            "studylight.org": 0,
             "default": 1,
-            "aljazeera.net": 0,
-            "mejoress.com": 0
+            "mejoress.com": 0,
+            "studylight.org": 0,
+            "aljazeera.net": 0
         }}
     ],
     "amobee": [{"formats": {
@@ -1025,7 +1025,6 @@
             "default": 0,
             "doodle.com": 1,
             "signup.com": 1,
-            "baseball-reference.com": 1,
             "lingojam.com": 1,
             "zerogpt.com": 1
         }},
