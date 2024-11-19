@@ -600,15 +600,31 @@
             "pdfmanualer.dk": 1
         }}
     ],
+    "quantcastfsx": [
+        {"formats": {
+            "default": 0,
+            "banner": 1
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "default": 1,
+            "mejoress.com": 0,
+            "studylight.org": 0,
+            "aljazeera.net": 0
+        }}
+    ],
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
             "banner": 1,
+            "default": 0,
             "video": 1
         }},
         {"domains": {
@@ -653,6 +669,7 @@
             "skateboarding.com": 0,
             "zengm.com": 0,
             "vegasinsider.com": 0,
+            "thestudentroom.co.uk": 0,
             "zacks.com": 0,
             "kuai.media": 0,
             "panzoid.com": 0,
@@ -667,22 +684,6 @@
         {"geos": {
             "default": 1,
             "RU": 0
-        }}
-    ],
-    "quantcastfsx": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {"domains": {
-            "default": 1,
-            "mejoress.com": 0,
-            "studylight.org": 0,
-            "aljazeera.net": 0
         }}
     ],
     "amobee": [{"formats": {
