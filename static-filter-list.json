@@ -729,20 +729,6 @@
             "banner": 1
         }}
     ],
-    "bidswitch": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {"domains": {
-            "default": 1,
-            "coindesk.com": 0
-        }}
-    ],
     "adobe": [
         {"domains": {
             "acidigital.com": 1,
@@ -992,6 +978,21 @@
             "banner": 1
         }}
     ],
+    "bidswitch": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "default": 1,
+            "reuters.com": 0,
+            "coindesk.com": 0
+        }}
+    ],
     "basis": [
         {"formats": {
             "default": 0,
@@ -1111,10 +1112,10 @@
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
-            "pupperish.com": 0,
             "food52.com": 0,
-            "collectionsetc.com": 0,
-            "sears.com": 0
+            "sears.com": 0,
+            "pupperish.com": 0,
+            "collectionsetc.com": 0
         }}
     ],
     "sovrn": [{"formats": {
