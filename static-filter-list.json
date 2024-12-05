@@ -600,22 +600,6 @@
             "pdfmanualer.dk": 1
         }}
     ],
-    "quantcastfsx": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {"domains": {
-            "default": 1,
-            "mejoress.com": 0,
-            "studylight.org": 0,
-            "aljazeera.net": 0
-        }}
-    ],
     "ttdfsx": [
         {"channels": {
             "app": 0,
@@ -684,6 +668,23 @@
         {"geos": {
             "default": 1,
             "RU": 0
+        }}
+    ],
+    "quantcastfsx": [
+        {"formats": {
+            "banner": 1,
+            "default": 0
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "studylight.org": 0,
+            "default": 1,
+            "aljazeera.net": 0,
+            "mejoress.com": 0,
+            "reuters.com": 0
         }}
     ],
     "amobee": [{"formats": {
@@ -980,8 +981,8 @@
     ],
     "bidswitch": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
@@ -989,8 +990,8 @@
         }},
         {"domains": {
             "default": 1,
-            "reuters.com": 0,
-            "coindesk.com": 0
+            "coindesk.com": 0,
+            "reuters.com": 0
         }}
     ],
     "basis": [
