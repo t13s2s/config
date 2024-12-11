@@ -620,12 +620,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -1118,12 +1118,7 @@
             "collectionsetc.com": 0
         }}
     ],
-    "sovrn": [{"formats": {
-        "default": 1,
-        "native": 0,
-        "banner": 0,
-        "video": 0
-    }}],
+    "sovrn": [],
     "aol": [
         {"formats": {
             "default": 0,
