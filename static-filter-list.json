@@ -620,12 +620,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -664,6 +664,7 @@
             "smartertravel.com": 0,
             "profootballnetwork.com": 0,
             "keybr.com": 0,
+            "manualeduso.it": 0,
             "nbafullhd.com": 0,
             "sescoops.com": 0,
             "skateboarding.com": 0,
@@ -678,6 +679,8 @@
             "healthday.com": 0,
             "puzzlefactory.pl": 0,
             "smartsaversunite.com": 0,
+            "handleini.ng": 0,
+            "bruksanvisni.ng": 0,
             "interestingengineering.com": 0,
             "testonboardingtoday.com": 0
         }},
