@@ -674,8 +674,8 @@
     ],
     "quantcastfsx": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
@@ -1120,7 +1120,10 @@
             "default": 1,
             "food52.com": 0,
             "sears.com": 0,
+            "handleini.ng": 0,
+            "bruksanvisni.ng": 0,
             "pupperish.com": 0,
+            "manualeduso.it": 0,
             "collectionsetc.com": 0
         }}
     ],
