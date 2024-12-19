@@ -600,15 +600,32 @@
             "pdfmanualer.dk": 1
         }}
     ],
-    "ttdfsx": [
-        {"channels": {
-            "app": 0,
-            "default": 1,
-            "amp": 0
-        }},
+    "quantcastfsx": [
         {"formats": {
             "default": 0,
             "banner": 1
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "default": 1,
+            "mejoress.com": 0,
+            "studylight.org": 0,
+            "aljazeera.net": 0,
+            "reuters.com": 0
+        }}
+    ],
+    "ttdfsx": [
+        {"channels": {
+            "app": 0,
+            "amp": 0,
+            "default": 1
+        }},
+        {"formats": {
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -647,7 +664,6 @@
             "smartertravel.com": 0,
             "profootballnetwork.com": 0,
             "keybr.com": 0,
-            "manualeduso.it": 0,
             "nbafullhd.com": 0,
             "sescoops.com": 0,
             "skateboarding.com": 0,
@@ -662,31 +678,12 @@
             "healthday.com": 0,
             "puzzlefactory.pl": 0,
             "smartsaversunite.com": 0,
-            "handleini.ng": 0,
-            "bruksanvisni.ng": 0,
             "interestingengineering.com": 0,
             "testonboardingtoday.com": 0
         }},
         {"geos": {
             "default": 1,
             "RU": 0
-        }}
-    ],
-    "quantcastfsx": [
-        {"formats": {
-            "banner": 1,
-            "default": 0
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {"domains": {
-            "studylight.org": 0,
-            "default": 1,
-            "aljazeera.net": 0,
-            "mejoress.com": 0,
-            "reuters.com": 0
         }}
     ],
     "amobee": [{"formats": {
