@@ -980,8 +980,8 @@
     ],
     "bidswitch": [
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"geos": {
             "default": 1,
@@ -989,8 +989,14 @@
         }},
         {"domains": {
             "default": 1,
-            "coindesk.com": 0,
-            "reuters.com": 0
+            "reuters.com": 0,
+            "coindesk.com": 0
+        }},
+        {"formats": {
+            "banner": 0,
+            "default": 1,
+            "video": 0,
+            "native": 0
         }}
     ],
     "basis": [
@@ -1112,10 +1118,10 @@
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
-            "pupperish.com": 0,
             "food52.com": 0,
-            "collectionsetc.com": 0,
-            "sears.com": 0
+            "sears.com": 0,
+            "pupperish.com": 0,
+            "collectionsetc.com": 0
         }}
     ],
     "sovrn": [],
