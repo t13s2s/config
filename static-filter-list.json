@@ -980,8 +980,8 @@
     ],
     "bidswitch": [
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"geos": {
             "default": 1,
@@ -989,14 +989,14 @@
         }},
         {"domains": {
             "default": 1,
-            "reuters.com": 0,
-            "coindesk.com": 0
+            "coindesk.com": 0,
+            "reuters.com": 0
         }},
         {"formats": {
-            "banner": 0,
             "default": 1,
-            "video": 0,
-            "native": 0
+            "native": 0,
+            "banner": 0,
+            "video": 0
         }}
     ],
     "basis": [
@@ -1058,6 +1058,15 @@
             "NL": 0
         }}
     ],
+    "illuminfsx": [{"geos": {
+        "default": 1,
+        "TW": 0,
+        "IN": 0,
+        "PH": 0,
+        "VN": 0,
+        "ID": 0,
+        "MY": 0
+    }}],
     "appnexus": [{"geos": {
         "default": 1,
         "RU": 0
