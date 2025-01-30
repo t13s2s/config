@@ -1120,17 +1120,19 @@
     "unrulyfsx": [
         {"geos": {
             "default": 0,
+            "GB": 1,
             "AU": 1,
+            "IE": 1,
             "CA": 1,
             "US": 1
         }},
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
-            "food52.com": 0,
-            "sears.com": 0,
             "pupperish.com": 0,
-            "collectionsetc.com": 0
+            "food52.com": 0,
+            "collectionsetc.com": 0,
+            "sears.com": 0
         }}
     ],
     "sovrn": [],
