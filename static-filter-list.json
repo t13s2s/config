@@ -620,17 +620,18 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
             "planetabj.com": 0,
             "quizfactory.com": 0,
+            "thecinemaholic.com": 0,
             "unitedstateszipcodes.org": 0,
             "personality-database.com": 0,
             "epuzzle.info": 0,
@@ -648,6 +649,8 @@
             "football-gm.com": 0,
             "tigerdroppings.com": 0,
             "ageful.com": 0,
+            "crimegrade.org": 0,
+            "worldometers.info": 0,
             "rokuguide.com": 0,
             "thesuntimes.com": 0,
             "braceletbook.com": 0,
@@ -664,9 +667,11 @@
             "smartertravel.com": 0,
             "profootballnetwork.com": 0,
             "keybr.com": 0,
+            "pc-builds.com": 0,
             "nbafullhd.com": 0,
             "sescoops.com": 0,
             "skateboarding.com": 0,
+            "uni-watch.com": 0,
             "zengm.com": 0,
             "vegasinsider.com": 0,
             "thestudentroom.co.uk": 0,
@@ -1120,18 +1125,18 @@
     "unrulyfsx": [
         {"geos": {
             "default": 0,
-            "GB": 1,
             "AU": 1,
+            "GB": 1,
             "CA": 1,
             "US": 1
         }},
         {"domains": {
             "getpocket.com": 0,
             "default": 1,
-            "pupperish.com": 0,
             "food52.com": 0,
-            "collectionsetc.com": 0,
-            "sears.com": 0
+            "sears.com": 0,
+            "pupperish.com": 0,
+            "collectionsetc.com": 0
         }}
     ],
     "sovrn": [],
