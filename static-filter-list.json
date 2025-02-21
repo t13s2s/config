@@ -620,12 +620,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -1071,15 +1071,22 @@
             "NL": 0
         }}
     ],
-    "illuminfsx": [{"geos": {
-        "default": 1,
-        "TW": 0,
-        "IN": 0,
-        "PH": 0,
-        "VN": 0,
-        "ID": 0,
-        "MY": 0
-    }}],
+    "illuminfsx": [
+        {"geos": {
+            "default": 1,
+            "TW": 0,
+            "IN": 0,
+            "PH": 0,
+            "VN": 0,
+            "ID": 0,
+            "MY": 0
+        }},
+        {"domains": {
+            "aljazeera.com": 0,
+            "default": 1,
+            "aljazeera.net": 0
+        }}
+    ],
     "appnexus": [{"geos": {
         "default": 1,
         "RU": 0
