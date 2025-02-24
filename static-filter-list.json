@@ -620,12 +620,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -673,6 +673,7 @@
             "profootballnetwork.com": 0,
             "keybr.com": 0,
             "pc-builds.com": 0,
+            "calculat.io": 0,
             "nbafullhd.com": 0,
             "sescoops.com": 0,
             "skateboarding.com": 0,
