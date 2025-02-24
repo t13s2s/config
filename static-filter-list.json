@@ -620,12 +620,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -1085,6 +1085,7 @@
         {"domains": {
             "aljazeera.com": 0,
             "default": 1,
+            "wow-professions.com": 0,
             "aljazeera.net": 0
         }}
     ],
