@@ -1,5 +1,4 @@
 {
-    "adaptmx": [],
     "amxfsx": [
         {"formats": {
             "default": 0,
@@ -10,28 +9,6 @@
             "RU": 0
         }}
     ],
-    "yahoossp": [{"geos": {
-        "TT": 0,
-        "BB": 0,
-        "JM": 0,
-        "SV": 0,
-        "UY": 0,
-        "HN": 0,
-        "DO": 0,
-        "GT": 0,
-        "VE": 0,
-        "CR": 0,
-        "PA": 0,
-        "BS": 0,
-        "default": 1,
-        "PE": 0,
-        "CZ": 0,
-        "SK": 0,
-        "VN": 0,
-        "KE": 0,
-        "PL": 0,
-        "EC": 0
-    }}],
     "baidufsx": [
         {"geos": {
             "DE": 1,
@@ -617,15 +594,182 @@
             "reuters.com": 0
         }}
     ],
+    "bidswitch": [
+        {"formats": {
+            "default": 0,
+            "banner": 1
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {"domains": {
+            "default": 1,
+            "coindesk.com": 0,
+            "reuters.com": 0
+        }},
+        {"formats": {
+            "default": 1,
+            "native": 0,
+            "banner": 0,
+            "video": 0
+        }}
+    ],
+    "pulsepointfsx": [
+        {"domains": {
+            "default": 0,
+            "uexpress.com": 1,
+            "emojipedia.org": 1,
+            "smithsonianmag.com": 1,
+            "signup.com": 1,
+            "lingojam.com": 1,
+            "gocomics.com": 1,
+            "reuters.com": 1
+        }},
+        {"geos": {
+            "DE": 0,
+            "BE": 0,
+            "FI": 0,
+            "PT": 0,
+            "BG": 0,
+            "DK": 0,
+            "LT": 0,
+            "LU": 0,
+            "HR": 0,
+            "LV": 0,
+            "FR": 0,
+            "HU": 0,
+            "default": 1,
+            "SE": 0,
+            "SI": 0,
+            "SK": 0,
+            "GB": 0,
+            "IE": 0,
+            "EE": 0,
+            "CH": 0,
+            "MT": 0,
+            "GR": 0,
+            "IT": 0,
+            "ES": 0,
+            "AT": 0,
+            "CY": 0,
+            "CZ": 0,
+            "PL": 0,
+            "RO": 0,
+            "NL": 0
+        }}
+    ],
+    "vidazoo": [{"formats": {
+        "banner": 0,
+        "default": 1,
+        "video": 0,
+        "native": 0
+    }}],
+    "illuminfsx": [
+        {"geos": {
+            "default": 1,
+            "TW": 0,
+            "IN": 0,
+            "PH": 0,
+            "VN": 0,
+            "ID": 0,
+            "MY": 0
+        }},
+        {"domains": {
+            "aljazeera.com": 0,
+            "default": 1,
+            "wow-professions.com": 0,
+            "aljazeera.net": 0
+        }}
+    ],
+    "appnexus": [{"geos": {
+        "default": 1,
+        "RU": 0
+    }}],
+    "minutemediaoo": [{"geos": {
+        "BR": 1,
+        "DE": 1,
+        "default": 0,
+        "AU": 1,
+        "GB": 1,
+        "MX": 1,
+        "IT": 1,
+        "FR": 1,
+        "NZ": 1,
+        "CA": 1,
+        "US": 1,
+        "ES": 1
+    }}],
+    "bidtellect": [
+        {"formats": {
+            "default": 1,
+            "video": 0
+        }},
+        {"geos": {
+            "default": 1,
+            "RU": 0
+        }},
+        {
+            "formats": {
+                "default": 1,
+                "native": 0
+            },
+            "domains": {
+                "default": 0,
+                "headphonereview.com": 1
+            }
+        }
+    ],
+    "unrulyfsx": [
+        {"geos": {
+            "default": 0,
+            "AU": 1,
+            "GB": 1,
+            "CA": 1,
+            "US": 1
+        }},
+        {"domains": {
+            "getpocket.com": 0,
+            "default": 1,
+            "food52.com": 0,
+            "sears.com": 0,
+            "pupperish.com": 0,
+            "collectionsetc.com": 0
+        }}
+    ],
+    "sovrn": [],
+    "adaptmx": [],
+    "yahoossp": [{"geos": {
+        "TT": 0,
+        "BB": 0,
+        "JM": 0,
+        "SV": 0,
+        "UY": 0,
+        "HN": 0,
+        "DO": 0,
+        "GT": 0,
+        "VE": 0,
+        "CR": 0,
+        "PA": 0,
+        "BS": 0,
+        "default": 1,
+        "PE": 0,
+        "CZ": 0,
+        "SK": 0,
+        "VN": 0,
+        "KE": 0,
+        "PL": 0,
+        "EC": 0
+    }}],
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -994,27 +1138,6 @@
             "banner": 1
         }}
     ],
-    "bidswitch": [
-        {"formats": {
-            "default": 0,
-            "banner": 1
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {"domains": {
-            "default": 1,
-            "coindesk.com": 0,
-            "reuters.com": 0
-        }},
-        {"formats": {
-            "default": 1,
-            "native": 0,
-            "banner": 0,
-            "video": 0
-        }}
-    ],
     "basis": [
         {"formats": {
             "default": 0,
@@ -1030,88 +1153,9 @@
         "default": 1,
         "RU": 0
     }}],
-    "pulsepointfsx": [
-        {"domains": {
-            "default": 0,
-            "uexpress.com": 1,
-            "emojipedia.org": 1,
-            "smithsonianmag.com": 1,
-            "signup.com": 1,
-            "lingojam.com": 1,
-            "gocomics.com": 1,
-            "reuters.com": 1
-        }},
-        {"geos": {
-            "DE": 0,
-            "BE": 0,
-            "FI": 0,
-            "PT": 0,
-            "BG": 0,
-            "DK": 0,
-            "LT": 0,
-            "LU": 0,
-            "HR": 0,
-            "LV": 0,
-            "FR": 0,
-            "HU": 0,
-            "default": 1,
-            "SE": 0,
-            "SI": 0,
-            "SK": 0,
-            "GB": 0,
-            "IE": 0,
-            "EE": 0,
-            "CH": 0,
-            "MT": 0,
-            "GR": 0,
-            "IT": 0,
-            "ES": 0,
-            "AT": 0,
-            "CY": 0,
-            "CZ": 0,
-            "PL": 0,
-            "RO": 0,
-            "NL": 0
-        }}
-    ],
-    "illuminfsx": [
-        {"geos": {
-            "default": 1,
-            "TW": 0,
-            "IN": 0,
-            "PH": 0,
-            "VN": 0,
-            "ID": 0,
-            "MY": 0
-        }},
-        {"domains": {
-            "aljazeera.com": 0,
-            "default": 1,
-            "wow-professions.com": 0,
-            "aljazeera.net": 0
-        }}
-    ],
-    "appnexus": [{"geos": {
-        "default": 1,
-        "RU": 0
-    }}],
     "medianet": [{"geos": {
         "default": 1,
         "RU": 0
-    }}],
-    "minutemediaoo": [{"geos": {
-        "BR": 1,
-        "DE": 1,
-        "default": 0,
-        "AU": 1,
-        "GB": 1,
-        "MX": 1,
-        "IT": 1,
-        "FR": 1,
-        "NZ": 1,
-        "CA": 1,
-        "US": 1,
-        "ES": 1
     }}],
     "rubicon": [{"geos": {
         "default": 1,
@@ -1121,44 +1165,6 @@
         "default": 0,
         "US": 1
     }}],
-    "bidtellect": [
-        {"formats": {
-            "default": 1,
-            "video": 0
-        }},
-        {"geos": {
-            "default": 1,
-            "RU": 0
-        }},
-        {
-            "formats": {
-                "default": 1,
-                "native": 0
-            },
-            "domains": {
-                "default": 0,
-                "headphonereview.com": 1
-            }
-        }
-    ],
-    "unrulyfsx": [
-        {"geos": {
-            "default": 0,
-            "AU": 1,
-            "GB": 1,
-            "CA": 1,
-            "US": 1
-        }},
-        {"domains": {
-            "getpocket.com": 0,
-            "default": 1,
-            "food52.com": 0,
-            "sears.com": 0,
-            "pupperish.com": 0,
-            "collectionsetc.com": 0
-        }}
-    ],
-    "sovrn": [],
     "aol": [
         {"formats": {
             "default": 0,
