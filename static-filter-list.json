@@ -660,10 +660,10 @@
         }}
     ],
     "vidazoo": [{"formats": {
-        "banner": 0,
         "default": 1,
-        "video": 0,
-        "native": 0
+        "native": 0,
+        "banner": 0,
+        "video": 0
     }}],
     "illuminfsx": [
         {"geos": {
@@ -764,12 +764,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "mmanews.com": 0,
@@ -807,6 +807,7 @@
             "oilprice.com": 0,
             "secrant.com": 0,
             "spanishdict.com": 0,
+            "time.is": 0,
             "netronline.com": 0,
             "thekrazycouponlady.com": 0,
             "geeky-gadgets.com": 0,
