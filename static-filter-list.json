@@ -772,6 +772,7 @@
             "default": 0
         }},
         {"domains": {
+            "sudoku.com": 0,
             "mmanews.com": 0,
             "planetabj.com": 0,
             "quizfactory.com": 0,
@@ -808,6 +809,7 @@
             "costcoinsider.com": 0,
             "fv2freegifts.org": 0,
             "dailysignal.com": 0,
+            "oilprice.com": 0,
             "secrant.com": 0,
             "spanishdict.com": 0,
             "time.is": 0,
