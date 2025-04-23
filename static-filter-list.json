@@ -769,12 +769,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "sudoku.com": 0,
@@ -822,6 +822,7 @@
             "thekrazycouponlady.com": 0,
             "geeky-gadgets.com": 0,
             "windingroad.com": 0,
+            "reuters.com": 0,
             "whatfontis.com": 0,
             "watchdocumentaries.com": 0,
             "basketball-gm.com": 0,
