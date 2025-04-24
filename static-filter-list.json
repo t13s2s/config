@@ -679,6 +679,7 @@
             "aljazeera.com": 0,
             "default": 1,
             "wow-professions.com": 0,
+            "apnews.com": 0,
             "boredpanda.com": 0,
             "flightaware.com": 0,
             "aljazeera.net": 0,
@@ -769,12 +770,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "sudoku.com": 0,
