@@ -729,8 +729,8 @@
     "unrulyfsx": [
         {"geos": {
             "default": 0,
-            "AU": 1,
             "GB": 1,
+            "AU": 1,
             "CA": 1,
             "US": 1
         }},
@@ -740,7 +740,8 @@
             "food52.com": 0,
             "sears.com": 0,
             "pupperish.com": 0,
-            "collectionsetc.com": 0
+            "collectionsetc.com": 0,
+            "newser.com": 0
         }}
     ],
     "sovrn": [],
@@ -770,12 +771,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "sudoku.com": 0,
