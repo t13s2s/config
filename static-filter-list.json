@@ -729,8 +729,8 @@
     "unrulyfsx": [
         {"geos": {
             "default": 0,
-            "GB": 1,
             "AU": 1,
+            "GB": 1,
             "CA": 1,
             "US": 1
         }},
@@ -771,12 +771,12 @@
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "default": 1,
-            "amp": 0
+            "amp": 0,
+            "default": 1
         }},
         {"formats": {
-            "default": 0,
-            "banner": 1
+            "banner": 1,
+            "default": 0
         }},
         {"domains": {
             "sudoku.com": 0,
@@ -848,7 +848,6 @@
             "sescoops.com": 0,
             "skateboarding.com": 0,
             "uni-watch.com": 0,
-            "zengm.com": 0,
             "scribd.com": 0,
             "uscreditcardguide.com": 0,
             "vegasinsider.com": 0,
