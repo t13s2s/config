@@ -747,36 +747,23 @@
     "sovrn": [],
     "adaptmx": [],
     "yahoossp": [{"geos": {
-        "TT": 0,
-        "BB": 0,
-        "JM": 0,
-        "SV": 0,
-        "UY": 0,
-        "HN": 0,
-        "DO": 0,
-        "GT": 0,
-        "VE": 0,
-        "CR": 0,
-        "PA": 0,
-        "BS": 0,
-        "default": 1,
-        "PE": 0,
-        "CZ": 0,
-        "SK": 0,
-        "VN": 0,
-        "KE": 0,
-        "PL": 0,
-        "EC": 0
+        "default": 0,
+        "AU": 1,
+        "SG": 1,
+        "MX": 1,
+        "GB": 1,
+        "CA": 1,
+        "US": 1
     }}],
     "ttdfsx": [
         {"channels": {
             "app": 0,
-            "amp": 0,
-            "default": 1
+            "default": 1,
+            "amp": 0
         }},
         {"formats": {
-            "banner": 1,
-            "default": 0
+            "default": 0,
+            "banner": 1
         }},
         {"domains": {
             "sudoku.com": 0,
