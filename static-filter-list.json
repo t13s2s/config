@@ -748,11 +748,6 @@
     "adaptmx": [],
     "yahoossp": [{"geos": {
         "default": 0,
-        "AU": 1,
-        "SG": 1,
-        "MX": 1,
-        "GB": 1,
-        "CA": 1,
         "US": 1
     }}],
     "ttdfsx": [
