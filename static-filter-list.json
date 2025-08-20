@@ -1161,6 +1161,11 @@
         "default": 1,
         "RU": 0
     }}],
+    "flipp": [{"geos": {
+        "default": 0,
+        "CA": 1,
+        "US": 1
+    }}],
     "medianet": [{"geos": {
         "default": 1,
         "RU": 0
