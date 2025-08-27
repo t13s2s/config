@@ -1170,6 +1170,13 @@
         "default": 1,
         "RU": 0
     }}],
+    "33across": [{"geos": {
+        "default": 0,
+        "AU": 1,
+        "NZ": 1,
+        "US": 1,
+        "CA": 1
+    }}],
     "rubicon": [{"geos": {
         "default": 1,
         "RU": 0
