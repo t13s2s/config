@@ -594,6 +594,11 @@
             "reuters.com": 0
         }}
     ],
+    "undertone": [{"geos": {
+        "default": 0,
+        "US": 1,
+        "CA": 1
+    }}],
     "bidswitch": [
         {"formats": {
             "default": 0,
