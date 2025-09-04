@@ -711,6 +711,18 @@
         "US": 1,
         "ES": 1
     }}],
+    "sharethrough": [{"geos": {
+        "default": 0,
+        "BE": 1,
+        "FI": 1,
+        "AE": 1,
+        "CH": 1,
+        "JP": 1,
+        "DK": 1,
+        "IT": 1,
+        "FR": 1,
+        "NZ": 1
+    }}],
     "bidtellect": [
         {"formats": {
             "default": 1,
